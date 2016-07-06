@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[${1:<?php }\$${2:query_args} = array(
+	${0:// Because of the many possibilities use wp-query-args to display arguments snippets}
+);
+\$${3:query} = new WP_Query( \$$2 );${4: ?>}
+
+]]></content>
+	<description>WP Template: WP_Query</description>
+	<tabTrigger>wp-query</tabTrigger>
+	<scope>embedding.php - source.php meta</scope>
+</snippet>

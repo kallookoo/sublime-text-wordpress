@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[${1:<?php}
+${2:namespace ${3:NAMESPACE};}
+
+defined( 'ABSPATH' ) or exit;
+
+trait ${4:Prefix_}Singleton \{
+
+	private static $_instance = null;
+
+	final public static function instance() \{
+		if ( ! isset( self::$_instance ) )
+			self::$_instance = new self;
+
+		return self::$_instance;
+	\}
+
+	final public function __wakeup() \{\}
+
+	final public function __clone() \{\}
+\}
+
+]]></content>
+	<description>WP Template: Plugin Trait Singleton</description>
+	<tabTrigger>wp-plugin-trait-singleton</tabTrigger>
+	<scope>embedding.php - source</scope>
+</snippet>
