@@ -106,7 +106,7 @@ to:
 
 ### Install
 
-- Remove or Disabled original package
+- Via Packages Control, Comming Soon...
 - Add repository via Package Control: Add Repository: https://github.com/23r9i0/sublime-text-wordpress.git
 
 
