@@ -107,9 +107,13 @@ to:
 ### Install
 
 - Via Packages Control, Comming Soon...
-- Add repository via Package Control: Add Repository: https://github.com/23r9i0/sublime-text-wordpress.git
-
+- Add repository via Package Control: Add Repository: `https://github.com/23r9i0/sublime-text-wordpress.git`
+- Clone inside Packages Folder: `https://github.com/23r9i0/sublime-text-wordpress.git WordPress-Completions`
 
 ### Issues
 
 You found some issue, please create an issue to solve it.
+
+### Donate
+
+You are welcome support this project using [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VXY7T7VKL78VA)
