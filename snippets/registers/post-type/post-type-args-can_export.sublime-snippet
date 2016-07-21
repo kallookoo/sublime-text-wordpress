@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['can_export' => ${1:true},
+]]></content>
+	<description>WP Template: Can Export Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-can_export</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

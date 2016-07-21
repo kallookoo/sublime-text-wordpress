@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['description' => __( '${3:Post Type Description}', ${1:'${2:Text Domain}'} ),
+]]></content>
+	<description>WP Template: Description Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-description</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

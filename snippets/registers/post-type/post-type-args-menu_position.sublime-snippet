@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['menu_position' => ${1:null},
+]]></content>
+	<description>WP Template: Menu Position Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-menu_position</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

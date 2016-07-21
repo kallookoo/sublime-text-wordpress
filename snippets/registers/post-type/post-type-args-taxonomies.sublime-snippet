@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['taxonomies' => ${1:array( '${2:taxonomy_name}' )},
+]]></content>
+	<description>WP Template: Taxonomies Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-taxonomies</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

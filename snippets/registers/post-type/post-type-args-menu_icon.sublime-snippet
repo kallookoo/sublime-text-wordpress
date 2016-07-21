@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['menu_icon' => ${1:null},
+]]></content>
+	<description>WP Template: Menu Icon Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-menu_icon</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

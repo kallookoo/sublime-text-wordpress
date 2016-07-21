@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['exclude_from_search' => ${1:false},
+]]></content>
+	<description>WP Template: Exclude From Search Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-exclude_from_search</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>
