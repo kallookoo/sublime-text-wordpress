@@ -95,5 +95,5 @@ add_action( 'widgets_init', function() \{
 ]]></content>
     <description>WP Template: Register New Widget</description>
 	<tabTrigger>wp-widget</tabTrigger>
-	<scope>embedding.php - source</scope>
+	<scope>embedding.php - comment - string</scope>
 </snippet>

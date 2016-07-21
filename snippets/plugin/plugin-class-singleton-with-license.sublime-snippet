@@ -81,5 +81,5 @@ ${20:register_uninstall_hook( __FILE__, '$18::do_uninstall' );}
 ]]></content>
 	<description>WP Template: Plugin Class Singleton with license</description>
 	<tabTrigger>wp-plugin-class-singleton-license</tabTrigger>
-	<scope>embedding.php - source</scope>
+	<scope>embedding.php - comment - string</scope>
 </snippet>

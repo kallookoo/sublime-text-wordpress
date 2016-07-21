@@ -14,5 +14,5 @@ ${0:?>}
 ]]></content>
     <description>WP Template: PHPDoc Header</description>
 	<tabTrigger>wp-phpdoc</tabTrigger>
-	<scope>embedding.php - source</scope>
+	<scope>embedding.php - comment - string</scope>
 </snippet>

@@ -69,5 +69,5 @@ add_filter( 'post_updated_messages', '$2_updated_messages' );}
 ]]></content>
 	<description>WP Template: Post Type - Function - Updated Messages</description>
 	<tabTrigger>wp-post-type-messages</tabTrigger>
-	<scope>embedding.php - source.php meta</scope>
+	<scope>embedding.php - comment - string</scope>
 </snippet>

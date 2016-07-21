@@ -8,5 +8,5 @@ if ( ! post_type_exists( ${1:post_type} ) )
 ]]></content>
 	<description>WP Template: Register Post Type</description>
 	<tabTrigger>wp-post-type</tabTrigger>
-	<scope>source.php</scope>
+	<scope>source.php - comment - string</scope>
 </snippet>

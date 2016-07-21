@@ -33,5 +33,5 @@ defined( 'ABSPATH' ) or exit;
 ]]></content>
 	<description>WP Template: Plugin Header with license</description>
 	<tabTrigger>wp-plugin-header-license</tabTrigger>
-	<scope>embedding.php - source</scope>
+	<scope>embedding.php - comment - string</scope>
 </snippet>

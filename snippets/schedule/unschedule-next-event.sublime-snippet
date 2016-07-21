@@ -12,5 +12,5 @@
 ]]></content>
 	<description>WP Template: Unscheduled Next Event if exists</description>
 	<tabTrigger>wp-unscheduled</tabTrigger>
-	<scope>embedding.php - source.php meta</scope>
+	<scope>source.php - comment - string</scope>
 </snippet>

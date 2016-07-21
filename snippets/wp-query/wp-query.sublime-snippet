@@ -7,5 +7,5 @@
 ]]></content>
 	<description>WP Template: WP_Query</description>
 	<tabTrigger>wp-query</tabTrigger>
-	<scope>embedding.php - source.php meta</scope>
+	<scope>embedding.php - comment - string</scope>
 </snippet>

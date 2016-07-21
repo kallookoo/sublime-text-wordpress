@@ -3,5 +3,5 @@
 ]]></content>
     <description>WP Template: Prevent Direct Access to files</description>
 	<tabTrigger>wp-secure-file</tabTrigger>
-	<scope>embedding.php</scope>
+	<scope>embedding.php - comment - string</scope>
 </snippet>

@@ -23,5 +23,5 @@ trait ${4:Prefix_}Singleton \{
 ]]></content>
 	<description>WP Template: Plugin Trait Singleton</description>
 	<tabTrigger>wp-plugin-trait-singleton</tabTrigger>
-	<scope>embedding.php - source</scope>
+	<scope>embedding.php - comment - string</scope>
 </snippet>

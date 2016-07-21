@@ -73,5 +73,5 @@ ${21:register_uninstall_hook( __FILE__, '$18::do_uninstall' );}
 ]]></content>
 	<description>WP Template: Plugin Class Static with license</description>
 	<tabTrigger>wp-plugin-class-static-license</tabTrigger>
-	<scope>embedding.php - source</scope>
+	<scope>embedding.php - comment - string</scope>
 </snippet>

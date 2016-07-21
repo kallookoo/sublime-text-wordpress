@@ -22,5 +22,5 @@
 ]]></content>
 	<description>WP Template: Contextual Help Tabs</description>
 	<tabTrigger>wp-help-tabs</tabTrigger>
-	<scope>embedding.php - source.php meta</scope>
+    <scope>embedding.php - comment - string</scope>
 </snippet>
