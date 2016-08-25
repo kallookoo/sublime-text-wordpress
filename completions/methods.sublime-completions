@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2909 WordPress Classes Methods",
+    "comment": "3092 WordPress Classes Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -3483,6 +3483,506 @@
             "contents": "${1:POP3}->user(${2: ${3:\"\"} });"
         },
         {
+            "trigger": "Requests_Auth_Basic-__construct\tWP Class Method",
+            "contents": "${1:Requests_Auth_Basic}->__construct(${2: ${3:null} });"
+        },
+        {
+            "trigger": "Requests_Auth_Basic-curl_before_send\tWP Class Method",
+            "contents": "${1:Requests_Auth_Basic}->curl_before_send( ${2:\\$handle} );"
+        },
+        {
+            "trigger": "Requests_Auth_Basic-fsockopen_header\tWP Class Method",
+            "contents": "${1:Requests_Auth_Basic}->fsockopen_header( ${2:\\$out} );"
+        },
+        {
+            "trigger": "Requests_Auth_Basic-getAuthString\tWP Class Method",
+            "contents": "${1:Requests_Auth_Basic}->getAuthString();"
+        },
+        {
+            "trigger": "Requests_Auth_Basic-register\tWP Class Method",
+            "contents": "${1:Requests_Auth_Basic}->register( ${2:\\$hooks} );"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-__construct\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->__construct(${2: ${3:array()} });"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-before_redirect_check\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->before_redirect_check( ${2:\\$return} );"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-before_request\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->before_request( ${2:\\$url}, ${3:\\$headers}, ${4:\\$data}, ${5:\\$type}, ${6:\\$options} );"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-getIterator\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->getIterator();"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-normalize_cookie\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->normalize_cookie( ${2:\\$cookie}${3:, ${4:null}} );"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-offsetExists\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->offsetExists( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-offsetGet\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->offsetGet( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-offsetSet\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->offsetSet( ${2:\\$key}, ${3:\\$value} );"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-offsetUnset\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->offsetUnset( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar-register\tWP Class Method",
+            "contents": "${1:Requests_Cookie_Jar}->register( ${2:\\$hooks} );"
+        },
+        {
+            "trigger": "Requests_Cookie-__construct\tWP Class Method",
+            "contents": "${1:Requests_Cookie}->__construct( ${2:\\$name}, ${3:\\$value}${4:, ${5:array()}${6:, ${7:array()}${8:, ${9:null}}}} );"
+        },
+        {
+            "trigger": "Requests_Cookie-__toString\tWP Class Method",
+            "contents": "${1:Requests_Cookie}->__toString();"
+        },
+        {
+            "trigger": "Requests_Cookie-domain_matches\tWP Class Method",
+            "contents": "${1:Requests_Cookie}->domain_matches( ${2:\\$string} );"
+        },
+        {
+            "trigger": "Requests_Cookie-format_for_header\tWP Class Method",
+            "contents": "${1:Requests_Cookie}->format_for_header();"
+        },
+        {
+            "trigger": "Requests_Cookie-format_for_set_cookie\tWP Class Method",
+            "contents": "${1:Requests_Cookie}->format_for_set_cookie();"
+        },
+        {
+            "trigger": "Requests_Cookie-is_expired\tWP Class Method",
+            "contents": "${1:Requests_Cookie}->is_expired();"
+        },
+        {
+            "trigger": "Requests_Cookie-normalize\tWP Class Method",
+            "contents": "${1:Requests_Cookie}->normalize();"
+        },
+        {
+            "trigger": "Requests_Cookie-parse\tWP Class Method",
+            "contents": "${1:Requests_Cookie}::parse( ${2:\\$string}${3:, ${4:''}${5:, ${6:null}}} );"
+        },
+        {
+            "trigger": "Requests_Cookie-parse_from_headers\tWP Class Method",
+            "contents": "${1:Requests_Cookie}::parse_from_headers( ${2:\\$headers}${3:, ${4:null}${5:, ${6:null}}} );"
+        },
+        {
+            "trigger": "Requests_Cookie-path_matches\tWP Class Method",
+            "contents": "${1:Requests_Cookie}->path_matches( ${2:\\$request_path} );"
+        },
+        {
+            "trigger": "Requests_Cookie-uri_matches\tWP Class Method",
+            "contents": "${1:Requests_Cookie}->uri_matches( ${2:\\$uri} );"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_Unknown-__construct\tWP Class Method",
+            "contents": "${1:Requests_Exception_HTTP_Unknown}->__construct(${2: ${3:null}${4:, ${5:null}} });"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP-__construct\tWP Class Method",
+            "contents": "${1:Requests_Exception_HTTP}->__construct(${2: ${3:null}${4:, ${5:null}} });"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP-get_class\tWP Class Method",
+            "contents": "${1:Requests_Exception_HTTP}::get_class( ${2:\\$code} );"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP-getReason\tWP Class Method",
+            "contents": "${1:Requests_Exception_HTTP}->getReason();"
+        },
+        {
+            "trigger": "Requests_Exception_Transport_cURL-__construct\tWP Class Method",
+            "contents": "${1:Requests_Exception_Transport_cURL}->__construct( ${2:\\$message}, ${3:\\$type}${4:, ${5:null}${6:, ${7:0}}} );"
+        },
+        {
+            "trigger": "Requests_Exception_Transport_cURL-getReason\tWP Class Method",
+            "contents": "${1:Requests_Exception_Transport_cURL}->getReason();"
+        },
+        {
+            "trigger": "Requests_Exception-__construct\tWP Class Method",
+            "contents": "${1:Requests_Exception}->__construct( ${2:\\$message}, ${3:\\$type}${4:, ${5:null}${6:, ${7:0}}} );"
+        },
+        {
+            "trigger": "Requests_Exception-getData\tWP Class Method",
+            "contents": "${1:Requests_Exception}->getData();"
+        },
+        {
+            "trigger": "Requests_Exception-getType\tWP Class Method",
+            "contents": "${1:Requests_Exception}->getType();"
+        },
+        {
+            "trigger": "Requests_Hooks-__construct\tWP Class Method",
+            "contents": "${1:Requests_Hooks}->__construct();"
+        },
+        {
+            "trigger": "Requests_Hooks-dispatch\tWP Class Method",
+            "contents": "${1:Requests_Hooks}->dispatch( ${2:\\$hook}${3:, ${4:array()}} );"
+        },
+        {
+            "trigger": "Requests_Hooks-register\tWP Class Method",
+            "contents": "${1:Requests_Hooks}->register( ${2:\\$hook}, ${3:\\$callback}${4:, ${5:0}} );"
+        },
+        {
+            "trigger": "Requests_IDNAEncoder-encode\tWP Class Method",
+            "contents": "${1:Requests_IDNAEncoder}::encode( ${2:\\$string} );"
+        },
+        {
+            "trigger": "Requests_IDNAEncoder-punycode_encode\tWP Class Method",
+            "contents": "${1:Requests_IDNAEncoder}::punycode_encode( ${2:\\$input} );"
+        },
+        {
+            "trigger": "Requests_IDNAEncoder-to_ascii\tWP Class Method",
+            "contents": "${1:Requests_IDNAEncoder}::to_ascii( ${2:\\$string} );"
+        },
+        {
+            "trigger": "Requests_IPv6-check_ipv6\tWP Class Method",
+            "contents": "${1:Requests_IPv6}::check_ipv6( ${2:\\$ip} );"
+        },
+        {
+            "trigger": "Requests_IPv6-compress\tWP Class Method",
+            "contents": "${1:Requests_IPv6}::compress( ${2:\\$ip} );"
+        },
+        {
+            "trigger": "Requests_IPv6-uncompress\tWP Class Method",
+            "contents": "${1:Requests_IPv6}::uncompress( ${2:\\$ip} );"
+        },
+        {
+            "trigger": "Requests_IRI-__construct\tWP Class Method",
+            "contents": "${1:Requests_IRI}->__construct(${2: ${3:null} });"
+        },
+        {
+            "trigger": "Requests_IRI-__get\tWP Class Method",
+            "contents": "${1:Requests_IRI}->__get( ${2:\\$name} );"
+        },
+        {
+            "trigger": "Requests_IRI-__isset\tWP Class Method",
+            "contents": "${1:Requests_IRI}->__isset( ${2:\\$name} );"
+        },
+        {
+            "trigger": "Requests_IRI-__set\tWP Class Method",
+            "contents": "${1:Requests_IRI}->__set( ${2:\\$name}, ${3:\\$value} );"
+        },
+        {
+            "trigger": "Requests_IRI-__toString\tWP Class Method",
+            "contents": "${1:Requests_IRI}->__toString();"
+        },
+        {
+            "trigger": "Requests_IRI-__unset\tWP Class Method",
+            "contents": "${1:Requests_IRI}->__unset( ${2:\\$name} );"
+        },
+        {
+            "trigger": "Requests_IRI-absolutize\tWP Class Method",
+            "contents": "${1:Requests_IRI}::absolutize( ${2:\\$base}, ${3:\\$relative} );"
+        },
+        {
+            "trigger": "Requests_IRI-is_valid\tWP Class Method",
+            "contents": "${1:Requests_IRI}->is_valid();"
+        },
+        {
+            "trigger": "Requests_Proxy_HTTP-__construct\tWP Class Method",
+            "contents": "${1:Requests_Proxy_HTTP}->__construct(${2: ${3:null} });"
+        },
+        {
+            "trigger": "Requests_Proxy_HTTP-curl_before_send\tWP Class Method",
+            "contents": "${1:Requests_Proxy_HTTP}->curl_before_send( ${2:\\$handle} );"
+        },
+        {
+            "trigger": "Requests_Proxy_HTTP-fsockopen_header\tWP Class Method",
+            "contents": "${1:Requests_Proxy_HTTP}->fsockopen_header( ${2:\\$out} );"
+        },
+        {
+            "trigger": "Requests_Proxy_HTTP-fsockopen_remote_host_path\tWP Class Method",
+            "contents": "${1:Requests_Proxy_HTTP}->fsockopen_remote_host_path( ${2:\\$path}, ${3:\\$url} );"
+        },
+        {
+            "trigger": "Requests_Proxy_HTTP-fsockopen_remote_socket\tWP Class Method",
+            "contents": "${1:Requests_Proxy_HTTP}->fsockopen_remote_socket( ${2:\\$remote_socket} );"
+        },
+        {
+            "trigger": "Requests_Proxy_HTTP-get_auth_string\tWP Class Method",
+            "contents": "${1:Requests_Proxy_HTTP}->get_auth_string();"
+        },
+        {
+            "trigger": "Requests_Proxy_HTTP-register\tWP Class Method",
+            "contents": "${1:Requests_Proxy_HTTP}->register( ${2:\\$hooks} );"
+        },
+        {
+            "trigger": "Requests_Response_Headers-flatten\tWP Class Method",
+            "contents": "${1:Requests_Response_Headers}->flatten( ${2:\\$value} );"
+        },
+        {
+            "trigger": "Requests_Response_Headers-getIterator\tWP Class Method",
+            "contents": "${1:Requests_Response_Headers}->getIterator();"
+        },
+        {
+            "trigger": "Requests_Response_Headers-getValues\tWP Class Method",
+            "contents": "${1:Requests_Response_Headers}->getValues( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Response_Headers-offsetGet\tWP Class Method",
+            "contents": "${1:Requests_Response_Headers}->offsetGet( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Response_Headers-offsetSet\tWP Class Method",
+            "contents": "${1:Requests_Response_Headers}->offsetSet( ${2:\\$key}, ${3:\\$value} );"
+        },
+        {
+            "trigger": "Requests_Response-__construct\tWP Class Method",
+            "contents": "${1:Requests_Response}->__construct();"
+        },
+        {
+            "trigger": "Requests_Response-is_redirect\tWP Class Method",
+            "contents": "${1:Requests_Response}->is_redirect();"
+        },
+        {
+            "trigger": "Requests_Response-throw_for_status\tWP Class Method",
+            "contents": "${1:Requests_Response}->throw_for_status(${2: ${3:true} });"
+        },
+        {
+            "trigger": "Requests_Session-__construct\tWP Class Method",
+            "contents": "${1:Requests_Session}->__construct(${2: ${3:null}${4:, ${5:array()}${6:, ${7:array()}${8:, ${9:array()}}}} });"
+        },
+        {
+            "trigger": "Requests_Session-__get\tWP Class Method",
+            "contents": "${1:Requests_Session}->__get( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Session-__isset\tWP Class Method",
+            "contents": "${1:Requests_Session}->__isset( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Session-__set\tWP Class Method",
+            "contents": "${1:Requests_Session}->__set( ${2:\\$key}, ${3:\\$value} );"
+        },
+        {
+            "trigger": "Requests_Session-__unset\tWP Class Method",
+            "contents": "${1:Requests_Session}->__unset( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Session-delete\tWP Class Method",
+            "contents": "${1:Requests_Session}->delete( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}}} );"
+        },
+        {
+            "trigger": "Requests_Session-get\tWP Class Method",
+            "contents": "${1:Requests_Session}->get( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}}} );"
+        },
+        {
+            "trigger": "Requests_Session-head\tWP Class Method",
+            "contents": "${1:Requests_Session}->head( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}}} );"
+        },
+        {
+            "trigger": "Requests_Session-patch\tWP Class Method",
+            "contents": "${1:Requests_Session}->patch( ${2:\\$url}, ${3:\\$headers}${4:, ${5:array()}${6:, ${7:array()}}} );"
+        },
+        {
+            "trigger": "Requests_Session-post\tWP Class Method",
+            "contents": "${1:Requests_Session}->post( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}${7:, ${8:array()}}}} );"
+        },
+        {
+            "trigger": "Requests_Session-put\tWP Class Method",
+            "contents": "${1:Requests_Session}->put( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}${7:, ${8:array()}}}} );"
+        },
+        {
+            "trigger": "Requests_Session-request\tWP Class Method",
+            "contents": "${1:Requests_Session}->request( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}${7:, ${8:Requests::GET}${9:, ${10:array()}}}}} );"
+        },
+        {
+            "trigger": "Requests_Session-request_multiple\tWP Class Method",
+            "contents": "${1:Requests_Session}->request_multiple( ${2:\\$requests}${3:, ${4:array()}} );"
+        },
+        {
+            "trigger": "Requests_SSL-match_domain\tWP Class Method",
+            "contents": "${1:Requests_SSL}::match_domain( ${2:\\$host}, ${3:\\$reference} );"
+        },
+        {
+            "trigger": "Requests_SSL-verify_certificate\tWP Class Method",
+            "contents": "${1:Requests_SSL}::verify_certificate( ${2:\\$host}, ${3:\\$cert} );"
+        },
+        {
+            "trigger": "Requests_SSL-verify_reference_name\tWP Class Method",
+            "contents": "${1:Requests_SSL}::verify_reference_name( ${2:\\$reference} );"
+        },
+        {
+            "trigger": "Requests_Transport_cURL-__construct\tWP Class Method",
+            "contents": "${1:Requests_Transport_cURL}->__construct();"
+        },
+        {
+            "trigger": "Requests_Transport_cURL-__destruct\tWP Class Method",
+            "contents": "${1:Requests_Transport_cURL}->__destruct();"
+        },
+        {
+            "trigger": "Requests_Transport_cURL-get_subrequest_handle\tWP Class Method",
+            "contents": "${1:Requests_Transport_cURL}->get_subrequest_handle( ${2:\\$url}, ${3:\\$headers}, ${4:\\$data}, ${5:\\$options} );"
+        },
+        {
+            "trigger": "Requests_Transport_cURL-process_response\tWP Class Method",
+            "contents": "${1:Requests_Transport_cURL}->process_response( ${2:\\$response}, ${3:\\$options} );"
+        },
+        {
+            "trigger": "Requests_Transport_cURL-request\tWP Class Method",
+            "contents": "${1:Requests_Transport_cURL}->request( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}${7:, ${8:array()}}}} );"
+        },
+        {
+            "trigger": "Requests_Transport_cURL-request_multiple\tWP Class Method",
+            "contents": "${1:Requests_Transport_cURL}->request_multiple( ${2:\\$requests}, ${3:\\$options} );"
+        },
+        {
+            "trigger": "Requests_Transport_cURL-stream_headers\tWP Class Method",
+            "contents": "${1:Requests_Transport_cURL}->stream_headers( ${2:\\$handle}, ${3:\\$headers} );"
+        },
+        {
+            "trigger": "Requests_Transport_cURL-test\tWP Class Method",
+            "contents": "${1:Requests_Transport_cURL}::test(${2: ${3:array()} });"
+        },
+        {
+            "trigger": "Requests_Transport_fsockopen-connect_error_handler\tWP Class Method",
+            "contents": "${1:Requests_Transport_fsockopen}->connect_error_handler( ${2:\\$errno}, ${3:\\$errstr} );"
+        },
+        {
+            "trigger": "Requests_Transport_fsockopen-request\tWP Class Method",
+            "contents": "${1:Requests_Transport_fsockopen}->request( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}${7:, ${8:array()}}}} );"
+        },
+        {
+            "trigger": "Requests_Transport_fsockopen-request_multiple\tWP Class Method",
+            "contents": "${1:Requests_Transport_fsockopen}->request_multiple( ${2:\\$requests}, ${3:\\$options} );"
+        },
+        {
+            "trigger": "Requests_Transport_fsockopen-test\tWP Class Method",
+            "contents": "${1:Requests_Transport_fsockopen}::test(${2: ${3:array()} });"
+        },
+        {
+            "trigger": "Requests_Transport_fsockopen-verify_certificate_from_context\tWP Class Method",
+            "contents": "${1:Requests_Transport_fsockopen}->verify_certificate_from_context( ${2:\\$host}, ${3:\\$context} );"
+        },
+        {
+            "trigger": "Requests_Utility_CaseInsensitiveDictionary-__construct\tWP Class Method",
+            "contents": "${1:Requests_Utility_CaseInsensitiveDictionary}->__construct(${2: ${3:array()} });"
+        },
+        {
+            "trigger": "Requests_Utility_CaseInsensitiveDictionary-getAll\tWP Class Method",
+            "contents": "${1:Requests_Utility_CaseInsensitiveDictionary}->getAll();"
+        },
+        {
+            "trigger": "Requests_Utility_CaseInsensitiveDictionary-getIterator\tWP Class Method",
+            "contents": "${1:Requests_Utility_CaseInsensitiveDictionary}->getIterator();"
+        },
+        {
+            "trigger": "Requests_Utility_CaseInsensitiveDictionary-offsetExists\tWP Class Method",
+            "contents": "${1:Requests_Utility_CaseInsensitiveDictionary}->offsetExists( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Utility_CaseInsensitiveDictionary-offsetGet\tWP Class Method",
+            "contents": "${1:Requests_Utility_CaseInsensitiveDictionary}->offsetGet( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Utility_CaseInsensitiveDictionary-offsetSet\tWP Class Method",
+            "contents": "${1:Requests_Utility_CaseInsensitiveDictionary}->offsetSet( ${2:\\$key}, ${3:\\$value} );"
+        },
+        {
+            "trigger": "Requests_Utility_CaseInsensitiveDictionary-offsetUnset\tWP Class Method",
+            "contents": "${1:Requests_Utility_CaseInsensitiveDictionary}->offsetUnset( ${2:\\$key} );"
+        },
+        {
+            "trigger": "Requests_Utility_FilteredIterator-__construct\tWP Class Method",
+            "contents": "${1:Requests_Utility_FilteredIterator}->__construct( ${2:\\$data}, ${3:\\$callback} );"
+        },
+        {
+            "trigger": "Requests_Utility_FilteredIterator-current\tWP Class Method",
+            "contents": "${1:Requests_Utility_FilteredIterator}->current();"
+        },
+        {
+            "trigger": "Requests-add_transport\tWP Class Method",
+            "contents": "${1:Requests}::add_transport( ${2:\\$transport} );"
+        },
+        {
+            "trigger": "Requests-autoloader\tWP Class Method",
+            "contents": "${1:Requests}::autoloader( ${2:\\$class} );"
+        },
+        {
+            "trigger": "Requests-compatible_gzinflate\tWP Class Method",
+            "contents": "${1:Requests}::compatible_gzinflate( ${2:\\$gzData} );"
+        },
+        {
+            "trigger": "Requests-decompress\tWP Class Method",
+            "contents": "${1:Requests}::decompress( ${2:\\$data} );"
+        },
+        {
+            "trigger": "Requests-delete\tWP Class Method",
+            "contents": "${1:Requests}::delete( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}}} );"
+        },
+        {
+            "trigger": "Requests-flatten\tWP Class Method",
+            "contents": "${1:Requests}::flatten( ${2:\\$array} );"
+        },
+        {
+            "trigger": "Requests-get\tWP Class Method",
+            "contents": "${1:Requests}::get( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}}} );"
+        },
+        {
+            "trigger": "Requests-get_certificate_path\tWP Class Method",
+            "contents": "${1:Requests}::get_certificate_path();"
+        },
+        {
+            "trigger": "Requests-head\tWP Class Method",
+            "contents": "${1:Requests}::head( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}}} );"
+        },
+        {
+            "trigger": "Requests-match_domain\tWP Class Method",
+            "contents": "${1:Requests}::match_domain( ${2:\\$host}, ${3:\\$reference} );"
+        },
+        {
+            "trigger": "Requests-options\tWP Class Method",
+            "contents": "${1:Requests}::options( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}${7:, ${8:array()}}}} );"
+        },
+        {
+            "trigger": "Requests-parse_multiple\tWP Class Method",
+            "contents": "${1:Requests}::parse_multiple( ${2:\\$response}, ${3:\\$request} );"
+        },
+        {
+            "trigger": "Requests-patch\tWP Class Method",
+            "contents": "${1:Requests}::patch( ${2:\\$url}, ${3:\\$headers}${4:, ${5:array()}${6:, ${7:array()}}} );"
+        },
+        {
+            "trigger": "Requests-post\tWP Class Method",
+            "contents": "${1:Requests}::post( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}${7:, ${8:array()}}}} );"
+        },
+        {
+            "trigger": "Requests-put\tWP Class Method",
+            "contents": "${1:Requests}::put( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}${7:, ${8:array()}}}} );"
+        },
+        {
+            "trigger": "Requests-register_autoloader\tWP Class Method",
+            "contents": "${1:Requests}::register_autoloader();"
+        },
+        {
+            "trigger": "Requests-request\tWP Class Method",
+            "contents": "${1:Requests}::request( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}${7:, ${8:self::GET}${9:, ${10:array()}}}}} );"
+        },
+        {
+            "trigger": "Requests-request_multiple\tWP Class Method",
+            "contents": "${1:Requests}::request_multiple( ${2:\\$requests}${3:, ${4:array()}} );"
+        },
+        {
+            "trigger": "Requests-set_certificate_path\tWP Class Method",
+            "contents": "${1:Requests}::set_certificate_path( ${2:\\$path} );"
+        },
+        {
+            "trigger": "Requests-trace\tWP Class Method",
+            "contents": "${1:Requests}::trace( ${2:\\$url}${3:, ${4:array()}${5:, ${6:array()}}} );"
+        },
+        {
             "trigger": "Services_JSON_Error-__construct\tWP Class Method",
             "contents": "${1:Services_JSON_Error}->__construct(${2: ${3:'unknown error'}${4:, ${5:null}${6:, ${7:null}${8:, ${9:null}${10:, ${11:null}}}}} });"
         },
@@ -5767,6 +6267,26 @@
             "contents": "${1:WP_Ajax_Response}->send();"
         },
         {
+            "trigger": "WP_Ajax_Upgrader_Skin-__construct\tWP Class Method",
+            "contents": "${1:WP_Ajax_Upgrader_Skin}->__construct(${2: ${3:array()} });"
+        },
+        {
+            "trigger": "WP_Ajax_Upgrader_Skin-error\tWP Class Method",
+            "contents": "${1:WP_Ajax_Upgrader_Skin}->error( ${2:\\$errors} );"
+        },
+        {
+            "trigger": "WP_Ajax_Upgrader_Skin-feedback\tWP Class Method",
+            "contents": "${1:WP_Ajax_Upgrader_Skin}->feedback( ${2:\\$data} );"
+        },
+        {
+            "trigger": "WP_Ajax_Upgrader_Skin-get_error_messages\tWP Class Method",
+            "contents": "${1:WP_Ajax_Upgrader_Skin}->get_error_messages();"
+        },
+        {
+            "trigger": "WP_Ajax_Upgrader_Skin-get_errors\tWP Class Method",
+            "contents": "${1:WP_Ajax_Upgrader_Skin}->get_errors();"
+        },
+        {
             "trigger": "wp_atom_server-__call\tWP Class Method",
             "contents": "${1:wp_atom_server}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
@@ -6215,6 +6735,10 @@
             "contents": "${1:WP_Customize_Manager}->prepare_controls();"
         },
         {
+            "trigger": "WP_Customize_Manager-prepare_setting_validity_for_js\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->prepare_setting_validity_for_js( ${2:\\$validity} );"
+        },
+        {
             "trigger": "WP_Customize_Manager-refresh_nonces\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->refresh_nonces();"
         },
@@ -6317,6 +6841,10 @@
         {
             "trigger": "WP_Customize_Manager-unsanitized_post_values\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->unsanitized_post_values();"
+        },
+        {
+            "trigger": "WP_Customize_Manager-validate_setting_values\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->validate_setting_values( ${2:\\$setting_values} );"
         },
         {
             "trigger": "WP_Customize_Manager-wp_die_handler\tWP Class Method",
@@ -6727,6 +7255,10 @@
             "contents": "${1:WP_Customize_Setting}->js_value();"
         },
         {
+            "trigger": "WP_Customize_Setting-json\tWP Class Method",
+            "contents": "${1:WP_Customize_Setting}->json();"
+        },
+        {
             "trigger": "WP_Customize_Setting-post_value\tWP Class Method",
             "contents": "${1:WP_Customize_Setting}->post_value(${2: ${3:null} });"
         },
@@ -6741,6 +7273,10 @@
         {
             "trigger": "WP_Customize_Setting-save\tWP Class Method",
             "contents": "${1:WP_Customize_Setting}->save();"
+        },
+        {
+            "trigger": "WP_Customize_Setting-validate\tWP Class Method",
+            "contents": "${1:WP_Customize_Setting}->validate( ${2:\\$value} );"
         },
         {
             "trigger": "WP_Customize_Setting-value\tWP Class Method",
@@ -7775,6 +8311,10 @@
             "contents": "${1:WP_Http_Cookie}->__construct( ${2:\\$data}${3:, ${4:''}} );"
         },
         {
+            "trigger": "WP_Http_Cookie-get_attributes\tWP Class Method",
+            "contents": "${1:WP_Http_Cookie}->get_attributes();"
+        },
+        {
             "trigger": "WP_Http_Cookie-getFullHeader\tWP Class Method",
             "contents": "${1:WP_Http_Cookie}->getFullHeader();"
         },
@@ -7867,6 +8407,50 @@
             "contents": "${1:WP_HTTP_Proxy}->username();"
         },
         {
+            "trigger": "WP_HTTP_Requests_Response-__construct\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->__construct( ${2:\\$response}${3:, ${4:''}} );"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-get_cookies\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->get_cookies();"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-get_data\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->get_data();"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-get_headers\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->get_headers();"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-get_response_object\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->get_response_object();"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-get_status\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->get_status();"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-header\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->header( ${2:\\$key}, ${3:\\$value}${4:, ${5:true}} );"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-set_data\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->set_data( ${2:\\$data} );"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-set_headers\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->set_headers( ${2:\\$headers} );"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-set_status\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->set_status( ${2:\\$code} );"
+        },
+        {
+            "trigger": "WP_HTTP_Requests_Response-to_array\tWP Class Method",
+            "contents": "${1:WP_HTTP_Requests_Response}->to_array();"
+        },
+        {
             "trigger": "WP_HTTP_Response-__construct\tWP Class Method",
             "contents": "${1:WP_HTTP_Response}->__construct(${2: ${3:null}${4:, ${5:200}${6:, ${7:array()}}} });"
         },
@@ -7923,6 +8507,10 @@
             "contents": "${1:WP_Http}->block_request( ${2:\\$uri} );"
         },
         {
+            "trigger": "WP_Http-browser_redirect_compatibility\tWP Class Method",
+            "contents": "${1:WP_Http}::browser_redirect_compatibility( ${2:\\$location}, ${3:\\$headers}, ${4:\\$data}, ${5:\\$options}, ${6:\\$original} );"
+        },
+        {
             "trigger": "WP_Http-buildCookieHeader\tWP Class Method",
             "contents": "${1:WP_Http}::buildCookieHeader( ${2:\\$r} );"
         },
@@ -7949,6 +8537,10 @@
         {
             "trigger": "WP_Http-make_absolute_url\tWP Class Method",
             "contents": "${1:WP_Http}::make_absolute_url( ${2:\\$maybe_relative_path}, ${3:\\$url} );"
+        },
+        {
+            "trigger": "WP_Http-normalize_cookies\tWP Class Method",
+            "contents": "${1:WP_Http}::normalize_cookies( ${2:\\$cookies} );"
         },
         {
             "trigger": "WP_Http-post\tWP Class Method",
@@ -8731,8 +9323,36 @@
             "contents": "${1:WP_Nav_Menu_Widget}->widget( ${2:\\$args}, ${3:\\$instance} );"
         },
         {
+            "trigger": "WP_Network_Query-__construct\tWP Class Method",
+            "contents": "${1:WP_Network_Query}->__construct(${2: ${3:''} });"
+        },
+        {
+            "trigger": "WP_Network_Query-get_networks\tWP Class Method",
+            "contents": "${1:WP_Network_Query}->get_networks();"
+        },
+        {
+            "trigger": "WP_Network_Query-parse_query\tWP Class Method",
+            "contents": "${1:WP_Network_Query}->parse_query(${2: ${3:''} });"
+        },
+        {
+            "trigger": "WP_Network_Query-query\tWP Class Method",
+            "contents": "${1:WP_Network_Query}->query( ${2:\\$query} );"
+        },
+        {
             "trigger": "WP_Network-__construct\tWP Class Method",
             "contents": "${1:WP_Network}->__construct( ${2:\\$network} );"
+        },
+        {
+            "trigger": "WP_Network-__get\tWP Class Method",
+            "contents": "${1:WP_Network}->__get( ${2:\\$key} );"
+        },
+        {
+            "trigger": "WP_Network-__isset\tWP Class Method",
+            "contents": "${1:WP_Network}->__isset( ${2:\\$key} );"
+        },
+        {
+            "trigger": "WP_Network-__set\tWP Class Method",
+            "contents": "${1:WP_Network}->__set( ${2:\\$key}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_Network-get_by_path\tWP Class Method",
@@ -8927,6 +9547,10 @@
             "contents": "${1:WP_Plugins_List_Table}->prepare_items();"
         },
         {
+            "trigger": "WP_Plugins_List_Table-search_box\tWP Class Method",
+            "contents": "${1:WP_Plugins_List_Table}->search_box( ${2:\\$text}, ${3:\\$input_id} );"
+        },
+        {
             "trigger": "WP_Plugins_List_Table-single_row\tWP Class Method",
             "contents": "${1:WP_Plugins_List_Table}->single_row( ${2:\\$item} );"
         },
@@ -8937,6 +9561,54 @@
         {
             "trigger": "WP_Post_Comments_List_Table-get_per_page\tWP Class Method",
             "contents": "${1:WP_Post_Comments_List_Table}->get_per_page(${2: ${3:false} });"
+        },
+        {
+            "trigger": "WP_Post_Type-__construct\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->__construct( ${2:\\$post_type}${3:, ${4:array()}} );"
+        },
+        {
+            "trigger": "WP_Post_Type-add_hooks\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->add_hooks();"
+        },
+        {
+            "trigger": "WP_Post_Type-add_rewrite_rules\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->add_rewrite_rules();"
+        },
+        {
+            "trigger": "WP_Post_Type-add_supports\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->add_supports();"
+        },
+        {
+            "trigger": "WP_Post_Type-register_meta_boxes\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->register_meta_boxes();"
+        },
+        {
+            "trigger": "WP_Post_Type-register_taxonomies\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->register_taxonomies();"
+        },
+        {
+            "trigger": "WP_Post_Type-remove_hooks\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->remove_hooks();"
+        },
+        {
+            "trigger": "WP_Post_Type-remove_rewrite_rules\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->remove_rewrite_rules();"
+        },
+        {
+            "trigger": "WP_Post_Type-remove_supports\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->remove_supports();"
+        },
+        {
+            "trigger": "WP_Post_Type-set_props\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->set_props( ${2:\\$args} );"
+        },
+        {
+            "trigger": "WP_Post_Type-unregister_meta_boxes\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->unregister_meta_boxes();"
+        },
+        {
+            "trigger": "WP_Post_Type-unregister_taxonomies\tWP Class Method",
+            "contents": "${1:WP_Post_Type}->unregister_taxonomies();"
         },
         {
             "trigger": "WP_Post-__construct\tWP Class Method",
@@ -10067,12 +10739,44 @@
             "contents": "${1:WP_Site_Icon}->intermediate_image_sizes(${2: ${3:array()} });"
         },
         {
+            "trigger": "WP_Site_Query-__construct\tWP Class Method",
+            "contents": "${1:WP_Site_Query}->__construct(${2: ${3:''} });"
+        },
+        {
+            "trigger": "WP_Site_Query-get_sites\tWP Class Method",
+            "contents": "${1:WP_Site_Query}->get_sites();"
+        },
+        {
+            "trigger": "WP_Site_Query-parse_query\tWP Class Method",
+            "contents": "${1:WP_Site_Query}->parse_query(${2: ${3:''} });"
+        },
+        {
+            "trigger": "WP_Site_Query-query\tWP Class Method",
+            "contents": "${1:WP_Site_Query}->query( ${2:\\$query} );"
+        },
+        {
             "trigger": "WP_Site-__construct\tWP Class Method",
             "contents": "${1:WP_Site}->__construct( ${2:\\$site} );"
         },
         {
+            "trigger": "WP_Site-__get\tWP Class Method",
+            "contents": "${1:WP_Site}->__get( ${2:\\$key} );"
+        },
+        {
+            "trigger": "WP_Site-__isset\tWP Class Method",
+            "contents": "${1:WP_Site}->__isset( ${2:\\$key} );"
+        },
+        {
+            "trigger": "WP_Site-__set\tWP Class Method",
+            "contents": "${1:WP_Site}->__set( ${2:\\$key}, ${3:\\$value} );"
+        },
+        {
             "trigger": "WP_Site-get_instance\tWP Class Method",
             "contents": "${1:WP_Site}::get_instance( ${2:\\$site_id} );"
+        },
+        {
+            "trigger": "WP_Site-to_array\tWP Class Method",
+            "contents": "${1:WP_Site}->to_array();"
         },
         {
             "trigger": "WP_Styles-__construct\tWP Class Method",
@@ -10133,6 +10837,22 @@
         {
             "trigger": "WP_Tax_Query-transform_query\tWP Class Method",
             "contents": "${1:WP_Tax_Query}->transform_query( ${2:\\$query}, ${3:\\$resulting_field} );"
+        },
+        {
+            "trigger": "WP_Term_Query-__construct\tWP Class Method",
+            "contents": "${1:WP_Term_Query}->__construct(${2: ${3:''} });"
+        },
+        {
+            "trigger": "WP_Term_Query-get_terms\tWP Class Method",
+            "contents": "${1:WP_Term_Query}->get_terms();"
+        },
+        {
+            "trigger": "WP_Term_Query-parse_query\tWP Class Method",
+            "contents": "${1:WP_Term_Query}->parse_query(${2: ${3:''} });"
+        },
+        {
+            "trigger": "WP_Term_Query-query\tWP Class Method",
+            "contents": "${1:WP_Term_Query}->query( ${2:\\$query} );"
         },
         {
             "trigger": "WP_Term-__construct\tWP Class Method",
@@ -10399,6 +11119,14 @@
             "contents": "${1:WP_Theme}->load_textdomain();"
         },
         {
+            "trigger": "WP_Theme-network_disable_theme\tWP Class Method",
+            "contents": "${1:WP_Theme}::network_disable_theme( ${2:\\$stylesheets} );"
+        },
+        {
+            "trigger": "WP_Theme-network_enable_theme\tWP Class Method",
+            "contents": "${1:WP_Theme}::network_enable_theme( ${2:\\$stylesheets} );"
+        },
+        {
             "trigger": "WP_Theme-offsetExists\tWP Class Method",
             "contents": "${1:WP_Theme}->offsetExists( ${2:\\$offset} );"
         },
@@ -10508,7 +11236,7 @@
         },
         {
             "trigger": "WP_Upgrader_Skin-request_filesystem_credentials\tWP Class Method",
-            "contents": "${1:WP_Upgrader_Skin}->request_filesystem_credentials(${2: ${3:false}${4:, ${5:false}${6:, ${7:false}}} });"
+            "contents": "${1:WP_Upgrader_Skin}->request_filesystem_credentials(${2: ${3:false}${4:, ${5:''}${6:, ${7:false}}} });"
         },
         {
             "trigger": "WP_Upgrader_Skin-set_result\tWP Class Method",
@@ -10816,11 +11544,11 @@
         },
         {
             "trigger": "WP_Widget_Factory-register\tWP Class Method",
-            "contents": "${1:WP_Widget_Factory}->register( ${2:\\$widget_class} );"
+            "contents": "${1:WP_Widget_Factory}->register( ${2:\\$widget} );"
         },
         {
             "trigger": "WP_Widget_Factory-unregister\tWP Class Method",
-            "contents": "${1:WP_Widget_Factory}->unregister( ${2:\\$widget_class} );"
+            "contents": "${1:WP_Widget_Factory}->unregister( ${2:\\$widget} );"
         },
         {
             "trigger": "WP_Widget_Factory-WP_Widget_Factory\tWP Class Method",
@@ -11505,6 +12233,10 @@
         {
             "trigger": "wpdb-delete\tWP Class Method",
             "contents": "${1:wpdb}->delete( ${2:\\$table}, ${3:\\$where}${4:, ${5:null}} );"
+        },
+        {
+            "trigger": "wpdb-determine_charset\tWP Class Method",
+            "contents": "${1:wpdb}->determine_charset( ${2:\\$charset}, ${3:\\$collate} );"
         },
         {
             "trigger": "wpdb-esc_like\tWP Class Method",

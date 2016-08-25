@@ -2,18 +2,18 @@
 
 Is a collection of WordPress completions and some snippets for Sublime Text
 
-WordPress Version : **4.5.3**
+WordPress Version : **4.6**
 
 
 ### Completions
 
 Type of completions | Nº of completions
 ---                 | ---
-Functions           | **2622**
-Filters             | **1275**
-Actions             | **585**
-Classes             | **267**
-Methods             | **2909**
+Functions           | **2666**
+Filters             | **1356**
+Actions             | **616**
+Classes             | **327**
+Methods             | **3092**
 Constants           | **513**
 Capabilities        | **56**
 
@@ -23,13 +23,13 @@ Capabilities        | **56**
 Name            | Type   | Version
 ---             | ---    | ---
 Akismet         | Plugin | **3.1.11**
-Twenty Ten      | Theme  | **2.1**
-Twenty Eleven   | Theme  | **2.4**
-Twenty Twelve   | Theme  | **2.0**
-Twenty Thirteen | Theme  | **1.9**
-Twenty Fourteen | Theme  | **1.7**
-Twenty Fifteen  | Theme  | **1.5**
-Twenty Sixteen  | Theme  | **1.2**
+Twenty Ten      | Theme  | **2.2**
+Twenty Eleven   | Theme  | **2.5**
+Twenty Twelve   | Theme  | **2.1**
+Twenty Thirteen | Theme  | **2.0**
+Twenty Fourteen | Theme  | **1.8**
+Twenty Fifteen  | Theme  | **1.6**
+Twenty Sixteen  | Theme  | **1.3**
 
 
 ### Notes

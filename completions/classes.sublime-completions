@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "267 WordPress Classes",
+    "comment": "327 WordPress Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -283,6 +283,222 @@
             "contents": "POP3"
         },
         {
+            "trigger": "Requests\tWP Class Name",
+            "contents": "Requests"
+        },
+        {
+            "trigger": "Requests_Auth_Basic\tWP Class Name",
+            "contents": "Requests_Auth_Basic"
+        },
+        {
+            "trigger": "Requests_Cookie\tWP Class Name",
+            "contents": "Requests_Cookie"
+        },
+        {
+            "trigger": "Requests_Cookie_Jar\tWP Class Name",
+            "contents": "Requests_Cookie_Jar"
+        },
+        {
+            "trigger": "Requests_Exception\tWP Class Name",
+            "contents": "Requests_Exception"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP\tWP Class Name",
+            "contents": "Requests_Exception_HTTP"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_304\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_304"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_305\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_305"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_306\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_306"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_400\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_400"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_401\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_401"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_402\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_402"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_403\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_403"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_404\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_404"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_405\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_405"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_406\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_406"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_407\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_407"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_408\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_408"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_409\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_409"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_410\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_410"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_411\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_411"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_412\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_412"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_413\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_413"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_414\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_414"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_415\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_415"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_416\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_416"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_417\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_417"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_418\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_418"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_428\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_428"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_429\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_429"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_431\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_431"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_500\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_500"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_501\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_501"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_502\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_502"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_503\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_503"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_504\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_504"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_505\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_505"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_511\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_511"
+        },
+        {
+            "trigger": "Requests_Exception_HTTP_Unknown\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_Unknown"
+        },
+        {
+            "trigger": "Requests_Exception_Transport\tWP Class Name",
+            "contents": "Requests_Exception_Transport"
+        },
+        {
+            "trigger": "Requests_Exception_Transport_cURL\tWP Class Name",
+            "contents": "Requests_Exception_Transport_cURL"
+        },
+        {
+            "trigger": "Requests_Hooks\tWP Class Name",
+            "contents": "Requests_Hooks"
+        },
+        {
+            "trigger": "Requests_IDNAEncoder\tWP Class Name",
+            "contents": "Requests_IDNAEncoder"
+        },
+        {
+            "trigger": "Requests_IPv6\tWP Class Name",
+            "contents": "Requests_IPv6"
+        },
+        {
+            "trigger": "Requests_IRI\tWP Class Name",
+            "contents": "Requests_IRI"
+        },
+        {
+            "trigger": "Requests_Proxy_HTTP\tWP Class Name",
+            "contents": "Requests_Proxy_HTTP"
+        },
+        {
+            "trigger": "Requests_Response\tWP Class Name",
+            "contents": "Requests_Response"
+        },
+        {
+            "trigger": "Requests_Response_Headers\tWP Class Name",
+            "contents": "Requests_Response_Headers"
+        },
+        {
+            "trigger": "Requests_Session\tWP Class Name",
+            "contents": "Requests_Session"
+        },
+        {
+            "trigger": "Requests_SSL\tWP Class Name",
+            "contents": "Requests_SSL"
+        },
+        {
+            "trigger": "Requests_Transport_cURL\tWP Class Name",
+            "contents": "Requests_Transport_cURL"
+        },
+        {
+            "trigger": "Requests_Transport_fsockopen\tWP Class Name",
+            "contents": "Requests_Transport_fsockopen"
+        },
+        {
+            "trigger": "Requests_Utility_CaseInsensitiveDictionary\tWP Class Name",
+            "contents": "Requests_Utility_CaseInsensitiveDictionary"
+        },
+        {
+            "trigger": "Requests_Utility_FilteredIterator\tWP Class Name",
+            "contents": "Requests_Utility_FilteredIterator"
+        },
+        {
             "trigger": "Services_JSON\tWP Class Name",
             "contents": "Services_JSON"
         },
@@ -547,6 +763,10 @@
             "contents": "WP_Ajax_Response"
         },
         {
+            "trigger": "WP_Ajax_Upgrader_Skin\tWP Class Name",
+            "contents": "WP_Ajax_Upgrader_Skin"
+        },
+        {
             "trigger": "wp_atom_server\tWP Class Name",
             "contents": "wp_atom_server"
         },
@@ -771,6 +991,10 @@
             "contents": "WP_HTTP_Proxy"
         },
         {
+            "trigger": "WP_HTTP_Requests_Response\tWP Class Name",
+            "contents": "WP_HTTP_Requests_Response"
+        },
+        {
             "trigger": "WP_HTTP_Response\tWP Class Name",
             "contents": "WP_HTTP_Response"
         },
@@ -847,6 +1071,10 @@
             "contents": "WP_Network"
         },
         {
+            "trigger": "WP_Network_Query\tWP Class Name",
+            "contents": "WP_Network_Query"
+        },
+        {
             "trigger": "WP_Object_Cache\tWP Class Name",
             "contents": "WP_Object_Cache"
         },
@@ -873,6 +1101,10 @@
         {
             "trigger": "WP_Post_Comments_List_Table\tWP Class Name",
             "contents": "WP_Post_Comments_List_Table"
+        },
+        {
+            "trigger": "WP_Post_Type\tWP Class Name",
+            "contents": "WP_Post_Type"
         },
         {
             "trigger": "WP_Posts_List_Table\tWP Class Name",
@@ -939,6 +1171,10 @@
             "contents": "WP_Site_Icon"
         },
         {
+            "trigger": "WP_Site_Query\tWP Class Name",
+            "contents": "WP_Site_Query"
+        },
+        {
             "trigger": "WP_Styles\tWP Class Name",
             "contents": "WP_Styles"
         },
@@ -949,6 +1185,10 @@
         {
             "trigger": "WP_Term\tWP Class Name",
             "contents": "WP_Term"
+        },
+        {
+            "trigger": "WP_Term_Query\tWP Class Name",
+            "contents": "WP_Term_Query"
         },
         {
             "trigger": "WP_Terms_List_Table\tWP Class Name",
