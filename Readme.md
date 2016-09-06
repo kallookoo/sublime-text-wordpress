@@ -10,10 +10,10 @@ WordPress Version : **4.6**
 Type of completions | Nº of completions
 ---                 | ---
 Functions           | **2666**
-Filters             | **1356**
-Actions             | **616**
-Classes             | **327**
-Methods             | **3092**
+Filters             | **1372**
+Actions             | **620**
+Classes             | **328**
+Methods             | **3096**
 Constants           | **513**
 Capabilities        | **56**
 
@@ -22,7 +22,7 @@ Capabilities        | **56**
 
 Name            | Type   | Version
 ---             | ---    | ---
-Akismet         | Plugin | **3.1.11**
+Akismet         | Plugin | **3.2**
 Twenty Ten      | Theme  | **2.2**
 Twenty Eleven   | Theme  | **2.5**
 Twenty Twelve   | Theme  | **2.1**
