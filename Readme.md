@@ -1,4 +1,4 @@
-## Sublime Text WordPress Package
+## WordPress Completions
 
 Is a collection of WordPress completions and some snippets for Sublime Text
 
@@ -34,7 +34,7 @@ Twenty Sixteen  | Theme  | **1.3**
 
 ### Notes
 
-Deprecated Functions, Constants, Classes, Methods and Hooks ( Actions or Filters ) or Themes have been removed
+Deprecated Functions, Constants, Classes, Methods, Actions, Filters have been removed
 
 On some cause the first "tab" deletes all parameters instead of having to tab through each one:
 
@@ -73,35 +73,6 @@ Tested on Sublime Text 3118
 If use Sublime Text before 3092 is possible what some snippet not working.
 
 If your problem with `alt+/` to show completions popup in linux, set key bindings with `ctrl+space` by example
-
-Default keys in linux:
-
-```json
-    ...
-    { "keys": ["alt+/"], "command": "auto_complete" },
-    { "keys": ["alt+/"], "command": "replace_completion_with_auto_complete", "context":
-        [
-            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
-            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
-            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
-        ]
-    },
-    ...
-```
-to:
-
-```json
-    ...
-    { "keys": ["ctrl+space"], "command": "auto_complete" },
-    { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
-        [
-            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
-            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
-            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
-        ]
-    },
-    ...
-```
 
 
 ### Install

@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "327 WordPress Classes",
+    "comment": "328 WordPress Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -21,6 +21,10 @@
         {
             "trigger": "Akismet_Admin\tWP Class Name",
             "contents": "Akismet_Admin"
+        },
+        {
+            "trigger": "Akismet_CLI\tWP Class Name",
+            "contents": "Akismet_CLI"
         },
         {
             "trigger": "Akismet_Widget\tWP Class Name",

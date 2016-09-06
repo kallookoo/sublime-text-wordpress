@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3092 WordPress Classes Methods",
+    "comment": "3096 WordPress Classes Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -203,6 +203,10 @@
             "contents": "${1:Akismet_Admin}::recheck_queue();"
         },
         {
+            "trigger": "Akismet_Admin-recheck_queue_portion\tWP Class Method",
+            "contents": "${1:Akismet_Admin}::recheck_queue_portion(${2: ${3:0}${4:, ${5:100}} });"
+        },
+        {
             "trigger": "Akismet_Admin-remove_comment_author_url\tWP Class Method",
             "contents": "${1:Akismet_Admin}::remove_comment_author_url();"
         },
@@ -217,6 +221,14 @@
         {
             "trigger": "Akismet_Admin-verify_wpcom_key\tWP Class Method",
             "contents": "${1:Akismet_Admin}::verify_wpcom_key( ${2:\\$api_key}, ${3:\\$user_id}${4:, ${5:array()}} );"
+        },
+        {
+            "trigger": "Akismet_CLI-check\tWP Class Method",
+            "contents": "${1:Akismet_CLI}->check( ${2:\\$args}, ${3:\\$assoc_args} );"
+        },
+        {
+            "trigger": "Akismet_CLI-recheck_queue\tWP Class Method",
+            "contents": "${1:Akismet_CLI}->recheck_queue();"
         },
         {
             "trigger": "Akismet_Widget-__construct\tWP Class Method",
@@ -377,6 +389,10 @@
         {
             "trigger": "Akismet-print_form_js\tWP Class Method",
             "contents": "${1:Akismet}::print_form_js();"
+        },
+        {
+            "trigger": "Akismet-recheck_comment\tWP Class Method",
+            "contents": "${1:Akismet}::recheck_comment( ${2:\\$id}${3:, ${4:'recheck_queue'}} );"
         },
         {
             "trigger": "Akismet-set_last_comment\tWP Class Method",
