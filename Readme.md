@@ -92,17 +92,18 @@ Is a collection of the completions and some snippets for Sublime Text
 * Deprecated Functions, Constants, Classes, Methods, Actions, Filters have been removed
 * Back compatibility is not included, as support for PHP versions
 * Actions or Filter add two version of the completion only this not is dynamic name
-	> Example of completion file for Hooks:
-	> ```
-	>         {
-	>             "trigger": "add_action-init\tWP Action",
-	>             "contents": "add_action( 'init', ${1:\\$function_to_add}, ${2:10} );"
-	>         },
-	>         {
-	>             "trigger": "init\tWP Action Name",
-	>             "contents": "init"
-	>         },
-	> ```
+	- Example of completion file for Hooks:
+
+	```
+	        {
+	            "trigger": "add_action-init\tWP Action",
+	            "contents": "add_action( 'init', ${1:\\$function_to_add}, ${2:10} );"
+	        },
+	        {
+	            "trigger": "init\tWP Action Name",
+	            "contents": "init"
+	        },
+	```
 
 	- This first trigger use add_action- for get all actions and continue by name of the action, returns everything you need to create.
 	- The second trigger simply use the name and return this name.

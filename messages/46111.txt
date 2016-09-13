@@ -1,0 +1,4 @@
+Version 4.6.1+1.1
+-----------------------------------------
+
+- hooks, restore single name completions
