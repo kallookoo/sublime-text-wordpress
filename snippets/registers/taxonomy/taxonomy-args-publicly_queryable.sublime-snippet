@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['publicly_queryable' => ${1:true},
+]]></content>
+	<description>WP Template: Publicly Queryable Arguments for Register Taxonomy</description>
+	<tabTrigger>wp-taxonomy-args-publicly_queryable</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

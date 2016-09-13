@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "328 WordPress Classes",
+    "comment": "327 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -769,10 +769,6 @@
         {
             "trigger": "WP_Ajax_Upgrader_Skin\tWP Class Name",
             "contents": "WP_Ajax_Upgrader_Skin"
-        },
-        {
-            "trigger": "wp_atom_server\tWP Class Name",
-            "contents": "wp_atom_server"
         },
         {
             "trigger": "WP_Automatic_Updater\tWP Class Name",

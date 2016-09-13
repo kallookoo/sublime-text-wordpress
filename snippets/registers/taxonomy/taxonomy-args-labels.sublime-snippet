@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA['labels' => array(${6:
+	'name'                       => _x( '${4:Plural Name}', 'Taxonomy general name', ${1:'${2:Text Domain}'} ),}${7:
+	'singular_name'              => _x( '${5:Singular Name}', 'Taxonomy singular name', $1 ),}${8:
+	'menu_name'                  => _x( '$4', 'Admin Menu text', $1 ),}${9:
+	'all_items'                  => __( 'All $4', $1 ),}{10:
+	'edit_item'                  => __( 'Edit $5', $1 ),}{11:
+	'view_item'                  => __( 'View $5', $1 ),}{12:
+	'update_item'                => __( 'Update $5', $1 ),}{13:
+	'add_new_item'               => __( 'Add New $5', $1 ),}{14:
+	'new_item_name'              => __( 'New $5 Name', $1 ),}{15:
+	'parent_item'                => __( 'Parent $5', $1 ),}{16:
+	'parent_item_colon'          => __( 'Parent $5:', $1 ),}{17:
+	'search_items'               => __( 'Search $5', $1 ),}{18:
+	'popular_items'              => __( 'Popular $5', $1 ),}{19:
+	'separate_items_with_commas' => __( 'Separate $4 with commas', $1 ),}{20:
+	'add_or_remove_items'        => __( 'Add or remove $4', $1 ),}{21:
+	'choose_from_most_used'      => __( 'Choose from the most used $4', $1 ),}{22:
+	'not_found'                  => __( 'Not $4 found', $1 ),}
+),]]></content>
+	<description>WP Template: Label Arguments for Register Taxonomy</description>
+	<tabTrigger>wp-taxonomy-args-labels</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

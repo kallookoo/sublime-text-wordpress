@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['show_in_menu' => ${1:true},
+]]></content>
+	<description>WP Template: Show In Menu Arguments for Register Taxonomy</description>
+	<tabTrigger>wp-taxonomy-args-show_in_menu</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

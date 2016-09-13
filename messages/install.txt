@@ -1,0 +1,11 @@
+How to use WordPress Completions
+
+* Use "wp-" for view some completions
+* Use "add_action-" for view actions completions
+* Use "add_filter-" for view filters completions
+* Use functions, constants or classes names, for e.g. plugin_dir... for view completions
+* Use "name_of_class-method_name" for view method completions. e.g "WP_Error-add" by default all Classes wrap with sublime format completions
+* Use "ctrl+space" or "alt+/" in linux for call completions if tag "<?php" not is defined. e.g. for create plugin header in empty file.
+* On some cause the first "tab" deletes all parameters instead of having to tab through each one:
+	- First Tab --> Select all parameters
+	- Each Tab There after --> Selects each individual parameter or block

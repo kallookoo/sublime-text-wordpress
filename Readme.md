@@ -1,87 +1,122 @@
 ## WordPress Completions
 
-Is a collection of WordPress completions and some snippets for Sublime Text
+Is a collection of the completions and some snippets for Sublime Text
 
-WordPress Version : **4.6**
+### Functions Completions: **2663**
 
+| Type   | Package         | Version | Completions |
+| ------ | --------------- | ------- | ----------- |
+| Core   | WordPress       | 4.6.1   | **2403**    |
+| Plugin | Akismet         | 3.2     | **62**      |
+| Theme  | Twenty Ten      | 2.2     | **13**      |
+| Theme  | Twenty Eleven   | 2.5     | **40**      |
+| Theme  | Twenty Twelve   | 2.1     | **21**      |
+| Theme  | Twenty Thirteen | 2.0     | **23**      |
+| Theme  | Twenty Fourteen | 1.8     | **30**      |
+| Theme  | Twenty Fifteen  | 1.6     | **33**      |
+| Theme  | Twenty Sixteen  | 1.3     | **38**      |
 
-### Completions
+### Actions Completions: **627**
 
-Type of completions | Nº of completions
----                 | ---
-Functions           | **2666**
-Filters             | **1372**
-Actions             | **620**
-Classes             | **328**
-Methods             | **3096**
-Constants           | **513**
-Capabilities        | **56**
+| Type   | Package         | Version | Completions |
+| ------ | --------------- | ------- | ----------- |
+| Core   | WordPress       | 4.6.1   | **604**     |
+| Plugin | Akismet         | 3.2     | **13**      |
+| Theme  | Twenty Ten      | 2.2     | **1**       |
+| Theme  | Twenty Eleven   | 2.5     | **2**       |
+| Theme  | Twenty Twelve   | 2.1     | **1**       |
+| Theme  | Twenty Thirteen | 2.0     | **1**       |
+| Theme  | Twenty Fourteen | 1.8     | **3**       |
+| Theme  | Twenty Fifteen  | 1.6     | **1**       |
+| Theme  | Twenty Sixteen  | 1.3     | **1**       |
 
+### Filters Completions: **1324**
 
-### Plugins and Themes included
+| Type   | Package         | Version | Completions |
+| ------ | --------------- | ------- | ----------- |
+| Core   | WordPress       | 4.6.1   | **1273**    |
+| Plugin | Akismet         | 3.2     | **12**      |
+| Theme  | Twenty Ten      | 2.2     | **5**       |
+| Theme  | Twenty Eleven   | 2.5     | **12**      |
+| Theme  | Twenty Twelve   | 2.1     | **3**       |
+| Theme  | Twenty Thirteen | 2.0     | **2**       |
+| Theme  | Twenty Fourteen | 1.8     | **4**       |
+| Theme  | Twenty Fifteen  | 1.6     | **5**       |
+| Theme  | Twenty Sixteen  | 1.3     | **8**       |
 
-Name            | Type   | Version
----             | ---    | ---
-Akismet         | Plugin | **3.2**
-Twenty Ten      | Theme  | **2.2**
-Twenty Eleven   | Theme  | **2.5**
-Twenty Twelve   | Theme  | **2.1**
-Twenty Thirteen | Theme  | **2.0**
-Twenty Fourteen | Theme  | **1.8**
-Twenty Fifteen  | Theme  | **1.6**
-Twenty Sixteen  | Theme  | **1.3**
+### Classes Completions: **327**
 
+| Type   | Package         | Version | Completions |
+| ------ | --------------- | ------- | ----------- |
+| Core   | WordPress       | 4.6.1   | **320**     |
+| Plugin | Akismet         | 3.2     | **4**       |
+| Theme  | Twenty Eleven   | 2.5     | **1**       |
+| Theme  | Twenty Fourteen | 1.8     | **2**       |
 
-### Notes
+### Methods Completions: **3094**
 
-Deprecated Functions, Constants, Classes, Methods, Actions, Filters have been removed
+| Type   | Package         | Version | Completions |
+| ------ | --------------- | ------- | ----------- |
+| Core   | WordPress       | 4.6.1   | **2974**    |
+| Plugin | Akismet         | 3.2     | **93**      |
+| Theme  | Twenty Eleven   | 2.5     | **6**       |
+| Theme  | Twenty Fourteen | 1.8     | **21**      |
 
-On some cause the first "tab" deletes all parameters instead of having to tab through each one:
+### Constants Completions: **513**
 
-- First Tab --> Select all parameters
-- Each Tab There after --> Selects each individual parameter or block
+| Type   | Package   | Version | Completions |
+| ------ | --------- | ------- | ----------- |
+| Core   | WordPress | 4.6.1   | **509**     |
+| Plugin | Akismet   | 3.2     | **4**       |
 
-Actions or Filter add two version of the completion only this not is dynamic name
+### Capabilities Completions: **56**
 
-Example of completion file for Hooks:
-```
-        {
-            "trigger": "add_action-init\tWP Action",
-            "contents": "add_action( 'init', ${1:\\$function_to_add}${2:, ${3:10}} );"
-        },
-        {
-            "trigger": "init\tWP Action Name",
-            "contents": "init"
-        },
-```
-This first trigger use add_action- for get all actions and continue by name of the action, returns everything you need to create.
-The second trigger simply use the name and return this name.
+| Type | Package   | Version | Completions |
+| ---- | --------- | ------- | ----------- |
+| Core | WordPress | 4.6.1   | **56**      |
+
+### How to use
 
 * Use `wp-` for view some completions
 * Use `add_action-` for view actions completions
 * Use `add_filter-` for view filters completions
 * Use functions, constants or classes names, for e.g. plugin_dir... for view completions
-* Use `name_of_class-method_name` for view method completions. e.g `WP_Error-add`
-  by default all Classes wrap with sublime format completions
-* Use `ctrl+space` or `alt+/` in linux for call completions if tag <?php not is defined. e.g. for create plugin header in empty file.
+* Use `name_of_class-method_name` for view method completions. e.g `WP_Error-add` by default all Classes wrap with sublime format completions
+* Use `ctrl+space` or `alt+/` in linux for call completions if tag `<?php` not is defined. e.g. for create plugin header in empty file.
+* On some cause the first "tab" deletes all parameters instead of having to tab through each one:
+	- First Tab --> Select all parameters
+	- Each Tab There after --> Selects each individual parameter or block
 
+### Another Informations
 
-### Other Notes
+* Deprecated Functions, Constants, Classes, Methods, Actions, Filters have been removed
+* Back compatibility is not included, as support for PHP versions
+* Actions or Filter add two version of the completion only this not is dynamic name
+	> Example of completion file for Hooks:
+	> ```
+	>         {
+	>             "trigger": "add_action-init\tWP Action",
+	>             "contents": "add_action( 'init', ${1:\\$function_to_add}, ${2:10} );"
+	>         },
+	>         {
+	>             "trigger": "init\tWP Action Name",
+	>             "contents": "init"
+	>         },
+	> ```
 
-Tested on Sublime Text 3118
-
-If use Sublime Text before 3092 is possible what some snippet not working.
-
-If your problem with `alt+/` to show completions popup in linux, set key bindings with `ctrl+space` by example
-
+	- This first trigger use add_action- for get all actions and continue by name of the action, returns everything you need to create.
+	- The second trigger simply use the name and return this name.
+* Some snippet last index if used for delete this comments
+* If use Sublime Text before 3092 is possible what some snippet not working.
+* If your problem with `alt+/` to show completions popup on linux, set key bindings with `ctrl+space` by example.
 
 ### Install
 
-- Find WordPress Completions in Package Control
+Find WordPress Completions in Package Control
 
 ### Issues
 
-You found some issue, please create an issue to solve it.
+You found some issue, please create an [issue](https://github.com/23r9i0/sublime-text-wordpress/issues/new) to solve it.
 
 ### Donate
 

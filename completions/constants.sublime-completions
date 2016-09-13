@@ -1,6 +1,6 @@
 {
-    "scope": "source.php - string",
-    "comment": "513 WordPress Constants",
+    "scope": "source.php - variable.other.php",
+    "comment": "513 WordPress - Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",

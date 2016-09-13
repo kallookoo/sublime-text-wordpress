@@ -19,7 +19,7 @@
 		 * @global object  $post_type_object
 		 * @global WP_Post $post
 		 */
-		global \$post_type, \$post_type_object, \$post;
+		global \$post_type_object, \$post;
 
 		// We ensure that there is, to prevent PHP errors and other errors.
 		if ( ! isset( \$post_type_object->labels ) || ! isset( \$post->ID ) )

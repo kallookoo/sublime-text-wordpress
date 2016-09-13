@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['show_in_quick_edit' => ${1:true},
+]]></content>
+	<description>WP Template: Show In Quick Edit Arguments for Register Taxonomy</description>
+	<tabTrigger>wp-taxonomy-args-show_in_quick_edit</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

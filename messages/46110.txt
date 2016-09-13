@@ -1,0 +1,6 @@
+WordPress Completions - Version 4.6.1+1.0
+-----------------------------------------
+
+- hooks, now priority and accepted arguments they are not optional
+- Change function, if it returns any results of the semicolon it is now possible to remove
+- Complete Register Taxonomy snippet
