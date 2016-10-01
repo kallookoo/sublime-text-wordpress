@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3094 WordPress - Methods",
+    "comment": "3093 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -12179,204 +12179,200 @@
             "contents": "${1:WP}->set_query_var( ${2:\\$key}, ${3:\\$value} );"
         },
         {
-            "trigger": "wpdb-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new wpdb( ${3:\\$dbuser}, ${4:\\$dbpassword}, ${5:\\$dbname}, ${6:\\$dbhost} );"
-        },
-        {
             "trigger": "wpdb-__destruct\tWP Class Method",
-            "contents": "${1:wpdb}->__destruct();"
+            "contents": "\\$wpdb->__destruct();"
         },
         {
             "trigger": "wpdb-__get\tWP Class Method",
-            "contents": "${1:wpdb}->__get( ${2:\\$name} );"
+            "contents": "\\$wpdb->__get( ${1:\\$name} );"
         },
         {
             "trigger": "wpdb-__isset\tWP Class Method",
-            "contents": "${1:wpdb}->__isset( ${2:\\$name} );"
+            "contents": "\\$wpdb->__isset( ${1:\\$name} );"
         },
         {
             "trigger": "wpdb-__set\tWP Class Method",
-            "contents": "${1:wpdb}->__set( ${2:\\$name}, ${3:\\$value} );"
+            "contents": "\\$wpdb->__set( ${1:\\$name}, ${2:\\$value} );"
         },
         {
             "trigger": "wpdb-__unset\tWP Class Method",
-            "contents": "${1:wpdb}->__unset( ${2:\\$name} );"
+            "contents": "\\$wpdb->__unset( ${1:\\$name} );"
         },
         {
             "trigger": "wpdb-_escape\tWP Class Method",
-            "contents": "${1:wpdb}->_escape( ${2:\\$data} );"
+            "contents": "\\$wpdb->_escape( ${1:\\$data} );"
         },
         {
             "trigger": "wpdb-_insert_replace_helper\tWP Class Method",
-            "contents": "${1:wpdb}->_insert_replace_helper( ${2:\\$table}, ${3:\\$data}, ${4:\\$format}, ${5:\\$type} );"
+            "contents": "\\$wpdb->_insert_replace_helper( ${1:\\$table}, ${2:\\$data}, ${3:\\$format}, ${4:\\$type} );"
         },
         {
             "trigger": "wpdb-_real_escape\tWP Class Method",
-            "contents": "${1:wpdb}->_real_escape( ${2:\\$string} );"
+            "contents": "\\$wpdb->_real_escape( ${1:\\$string} );"
         },
         {
             "trigger": "wpdb-bail\tWP Class Method",
-            "contents": "${1:wpdb}->bail( ${2:\\$message}, ${3:\\$error_code} );"
+            "contents": "\\$wpdb->bail( ${1:\\$message}, ${2:\\$error_code} );"
         },
         {
             "trigger": "wpdb-check_connection\tWP Class Method",
-            "contents": "${1:wpdb}->check_connection( ${2:\\$allow_bail} );"
+            "contents": "\\$wpdb->check_connection( ${1:\\$allow_bail} );"
         },
         {
             "trigger": "wpdb-check_database_version\tWP Class Method",
-            "contents": "${1:wpdb}->check_database_version();"
+            "contents": "\\$wpdb->check_database_version();"
         },
         {
             "trigger": "wpdb-close\tWP Class Method",
-            "contents": "${1:wpdb}->close();"
+            "contents": "\\$wpdb->close();"
         },
         {
             "trigger": "wpdb-db_connect\tWP Class Method",
-            "contents": "${1:wpdb}->db_connect( ${2:\\$allow_bail} );"
+            "contents": "\\$wpdb->db_connect( ${1:\\$allow_bail} );"
         },
         {
             "trigger": "wpdb-db_version\tWP Class Method",
-            "contents": "${1:wpdb}->db_version();"
+            "contents": "\\$wpdb->db_version();"
         },
         {
             "trigger": "wpdb-delete\tWP Class Method",
-            "contents": "${1:wpdb}->delete( ${2:\\$table}, ${3:\\$where}, ${4:\\$where_format} );"
+            "contents": "\\$wpdb->delete( ${1:\\$table}, ${2:\\$where}, ${3:\\$where_format} );"
         },
         {
             "trigger": "wpdb-determine_charset\tWP Class Method",
-            "contents": "${1:wpdb}->determine_charset( ${2:\\$charset}, ${3:\\$collate} );"
+            "contents": "\\$wpdb->determine_charset( ${1:\\$charset}, ${2:\\$collate} );"
         },
         {
             "trigger": "wpdb-esc_like\tWP Class Method",
-            "contents": "${1:wpdb}->esc_like( ${2:\\$text} );"
+            "contents": "\\$wpdb->esc_like( ${1:\\$text} );"
         },
         {
             "trigger": "wpdb-escape_by_ref\tWP Class Method",
-            "contents": "${1:wpdb}->escape_by_ref( ${2:\\$string} );"
+            "contents": "\\$wpdb->escape_by_ref( ${1:\\$string} );"
         },
         {
             "trigger": "wpdb-flush\tWP Class Method",
-            "contents": "${1:wpdb}->flush();"
+            "contents": "\\$wpdb->flush();"
         },
         {
             "trigger": "wpdb-get_blog_prefix\tWP Class Method",
-            "contents": "${1:wpdb}->get_blog_prefix( ${2:\\$blog_id} );"
+            "contents": "\\$wpdb->get_blog_prefix( ${1:\\$blog_id} );"
         },
         {
             "trigger": "wpdb-get_caller\tWP Class Method",
-            "contents": "${1:wpdb}->get_caller();"
+            "contents": "\\$wpdb->get_caller();"
         },
         {
             "trigger": "wpdb-get_charset_collate\tWP Class Method",
-            "contents": "${1:wpdb}->get_charset_collate();"
+            "contents": "\\$wpdb->get_charset_collate();"
         },
         {
             "trigger": "wpdb-get_col\tWP Class Method",
-            "contents": "${1:wpdb}->get_col( ${2:\\$query}, ${3:\\$x} );"
+            "contents": "\\$wpdb->get_col( ${1:\\$query}, ${2:\\$x} );"
         },
         {
             "trigger": "wpdb-get_col_charset\tWP Class Method",
-            "contents": "${1:wpdb}->get_col_charset( ${2:\\$table}, ${3:\\$column} );"
+            "contents": "\\$wpdb->get_col_charset( ${1:\\$table}, ${2:\\$column} );"
         },
         {
             "trigger": "wpdb-get_col_info\tWP Class Method",
-            "contents": "${1:wpdb}->get_col_info( ${2:\\$info_type}, ${3:\\$col_offset} );"
+            "contents": "\\$wpdb->get_col_info( ${1:\\$info_type}, ${2:\\$col_offset} );"
         },
         {
             "trigger": "wpdb-get_col_length\tWP Class Method",
-            "contents": "${1:wpdb}->get_col_length( ${2:\\$table}, ${3:\\$column} );"
+            "contents": "\\$wpdb->get_col_length( ${1:\\$table}, ${2:\\$column} );"
         },
         {
             "trigger": "wpdb-get_results\tWP Class Method",
-            "contents": "${1:wpdb}->get_results( ${2:\\$query}, ${3:\\$output} );"
+            "contents": "\\$wpdb->get_results( ${1:\\$query}, ${2:\\$output} );"
         },
         {
             "trigger": "wpdb-get_row\tWP Class Method",
-            "contents": "${1:wpdb}->get_row( ${2:\\$query}, ${3:\\$output}, ${4:\\$y} );"
+            "contents": "\\$wpdb->get_row( ${1:\\$query}, ${2:\\$output}, ${3:\\$y} );"
         },
         {
             "trigger": "wpdb-get_var\tWP Class Method",
-            "contents": "${1:wpdb}->get_var( ${2:\\$query}, ${3:\\$x}, ${4:\\$y} );"
+            "contents": "\\$wpdb->get_var( ${1:\\$query}, ${2:\\$x}, ${3:\\$y} );"
         },
         {
             "trigger": "wpdb-has_cap\tWP Class Method",
-            "contents": "${1:wpdb}->has_cap( ${2:\\$db_cap} );"
+            "contents": "\\$wpdb->has_cap( ${1:\\$db_cap} );"
         },
         {
             "trigger": "wpdb-hide_errors\tWP Class Method",
-            "contents": "${1:wpdb}->hide_errors();"
+            "contents": "\\$wpdb->hide_errors();"
         },
         {
             "trigger": "wpdb-init_charset\tWP Class Method",
-            "contents": "${1:wpdb}->init_charset();"
+            "contents": "\\$wpdb->init_charset();"
         },
         {
             "trigger": "wpdb-insert\tWP Class Method",
-            "contents": "${1:wpdb}->insert( ${2:\\$table}, ${3:\\$data}, ${4:\\$format} );"
+            "contents": "\\$wpdb->insert( ${1:\\$table}, ${2:\\$data}, ${3:\\$format} );"
         },
         {
             "trigger": "wpdb-prepare\tWP Class Method",
-            "contents": "${1:wpdb}->prepare( ${2:\\$query}, ${3:\\$args} );"
+            "contents": "\\$wpdb->prepare( ${1:\\$query}, ${2:\\$args} );"
         },
         {
             "trigger": "wpdb-print_error\tWP Class Method",
-            "contents": "${1:wpdb}->print_error( ${2:\\$str} );"
+            "contents": "\\$wpdb->print_error( ${1:\\$str} );"
         },
         {
             "trigger": "wpdb-query\tWP Class Method",
-            "contents": "${1:wpdb}->query( ${2:\\$query} );"
+            "contents": "\\$wpdb->query( ${1:\\$query} );"
         },
         {
             "trigger": "wpdb-replace\tWP Class Method",
-            "contents": "${1:wpdb}->replace( ${2:\\$table}, ${3:\\$data}, ${4:\\$format} );"
+            "contents": "\\$wpdb->replace( ${1:\\$table}, ${2:\\$data}, ${3:\\$format} );"
         },
         {
             "trigger": "wpdb-select\tWP Class Method",
-            "contents": "${1:wpdb}->select( ${2:\\$db}, ${3:\\$dbh} );"
+            "contents": "\\$wpdb->select( ${1:\\$db}, ${2:\\$dbh} );"
         },
         {
             "trigger": "wpdb-set_blog_id\tWP Class Method",
-            "contents": "${1:wpdb}->set_blog_id( ${2:\\$blog_id}, ${3:\\$site_id} );"
+            "contents": "\\$wpdb->set_blog_id( ${1:\\$blog_id}, ${2:\\$site_id} );"
         },
         {
             "trigger": "wpdb-set_charset\tWP Class Method",
-            "contents": "${1:wpdb}->set_charset( ${2:\\$dbh}, ${3:\\$charset}, ${4:\\$collate} );"
+            "contents": "\\$wpdb->set_charset( ${1:\\$dbh}, ${2:\\$charset}, ${3:\\$collate} );"
         },
         {
             "trigger": "wpdb-set_prefix\tWP Class Method",
-            "contents": "${1:wpdb}->set_prefix( ${2:\\$prefix}, ${3:\\$set_table_names} );"
+            "contents": "\\$wpdb->set_prefix( ${1:\\$prefix}, ${2:\\$set_table_names} );"
         },
         {
             "trigger": "wpdb-set_sql_mode\tWP Class Method",
-            "contents": "${1:wpdb}->set_sql_mode( ${2:\\$modes} );"
+            "contents": "\\$wpdb->set_sql_mode( ${1:\\$modes} );"
         },
         {
             "trigger": "wpdb-show_errors\tWP Class Method",
-            "contents": "${1:wpdb}->show_errors( ${2:\\$show} );"
+            "contents": "\\$wpdb->show_errors( ${1:\\$show} );"
         },
         {
             "trigger": "wpdb-strip_invalid_text_for_column\tWP Class Method",
-            "contents": "${1:wpdb}->strip_invalid_text_for_column( ${2:\\$table}, ${3:\\$column}, ${4:\\$value} );"
+            "contents": "\\$wpdb->strip_invalid_text_for_column( ${1:\\$table}, ${2:\\$column}, ${3:\\$value} );"
         },
         {
             "trigger": "wpdb-suppress_errors\tWP Class Method",
-            "contents": "${1:wpdb}->suppress_errors( ${2:\\$suppress} );"
+            "contents": "\\$wpdb->suppress_errors( ${1:\\$suppress} );"
         },
         {
             "trigger": "wpdb-tables\tWP Class Method",
-            "contents": "${1:wpdb}->tables( ${2:\\$scope}, ${3:\\$prefix}, ${4:\\$blog_id} );"
+            "contents": "\\$wpdb->tables( ${1:\\$scope}, ${2:\\$prefix}, ${3:\\$blog_id} );"
         },
         {
             "trigger": "wpdb-timer_start\tWP Class Method",
-            "contents": "${1:wpdb}->timer_start();"
+            "contents": "\\$wpdb->timer_start();"
         },
         {
             "trigger": "wpdb-timer_stop\tWP Class Method",
-            "contents": "${1:wpdb}->timer_stop();"
+            "contents": "\\$wpdb->timer_stop();"
         },
         {
             "trigger": "wpdb-update\tWP Class Method",
-            "contents": "${1:wpdb}->update( ${2:\\$table}, ${3:\\$data}, ${4:\\$where}, ${5:\\$format}, ${6:\\$where_format} );"
+            "contents": "\\$wpdb->update( ${1:\\$table}, ${2:\\$data}, ${3:\\$where}, ${4:\\$format}, ${5:\\$where_format} );"
         }
     ]
 }

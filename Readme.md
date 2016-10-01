@@ -2,78 +2,19 @@
 
 Is a collection of the completions and some snippets for Sublime Text
 
-### Functions Completions: **2663**
+### Completions List
 
-| Type   | Package         | Version | Completions |
-| ------ | --------------- | ------- | ----------- |
-| Core   | WordPress       | 4.6.1   | **2403**    |
-| Plugin | Akismet         | 3.2     | **62**      |
-| Theme  | Twenty Ten      | 2.2     | **13**      |
-| Theme  | Twenty Eleven   | 2.5     | **40**      |
-| Theme  | Twenty Twelve   | 2.1     | **21**      |
-| Theme  | Twenty Thirteen | 2.0     | **23**      |
-| Theme  | Twenty Fourteen | 1.8     | **30**      |
-| Theme  | Twenty Fifteen  | 1.6     | **33**      |
-| Theme  | Twenty Sixteen  | 1.3     | **38**      |
+> See extend completions list on [wiki](https://github.com/23r9i0/sublime-text-wordpress/wiki) page
 
-### Actions Completions: **627**
-
-| Type   | Package         | Version | Completions |
-| ------ | --------------- | ------- | ----------- |
-| Core   | WordPress       | 4.6.1   | **604**     |
-| Plugin | Akismet         | 3.2     | **13**      |
-| Theme  | Twenty Ten      | 2.2     | **1**       |
-| Theme  | Twenty Eleven   | 2.5     | **2**       |
-| Theme  | Twenty Twelve   | 2.1     | **1**       |
-| Theme  | Twenty Thirteen | 2.0     | **1**       |
-| Theme  | Twenty Fourteen | 1.8     | **3**       |
-| Theme  | Twenty Fifteen  | 1.6     | **1**       |
-| Theme  | Twenty Sixteen  | 1.3     | **1**       |
-
-### Filters Completions: **1324**
-
-| Type   | Package         | Version | Completions |
-| ------ | --------------- | ------- | ----------- |
-| Core   | WordPress       | 4.6.1   | **1273**    |
-| Plugin | Akismet         | 3.2     | **12**      |
-| Theme  | Twenty Ten      | 2.2     | **5**       |
-| Theme  | Twenty Eleven   | 2.5     | **12**      |
-| Theme  | Twenty Twelve   | 2.1     | **3**       |
-| Theme  | Twenty Thirteen | 2.0     | **2**       |
-| Theme  | Twenty Fourteen | 1.8     | **4**       |
-| Theme  | Twenty Fifteen  | 1.6     | **5**       |
-| Theme  | Twenty Sixteen  | 1.3     | **8**       |
-
-### Classes Completions: **327**
-
-| Type   | Package         | Version | Completions |
-| ------ | --------------- | ------- | ----------- |
-| Core   | WordPress       | 4.6.1   | **320**     |
-| Plugin | Akismet         | 3.2     | **4**       |
-| Theme  | Twenty Eleven   | 2.5     | **1**       |
-| Theme  | Twenty Fourteen | 1.8     | **2**       |
-
-### Methods Completions: **3094**
-
-| Type   | Package         | Version | Completions |
-| ------ | --------------- | ------- | ----------- |
-| Core   | WordPress       | 4.6.1   | **2974**    |
-| Plugin | Akismet         | 3.2     | **93**      |
-| Theme  | Twenty Eleven   | 2.5     | **6**       |
-| Theme  | Twenty Fourteen | 1.8     | **21**      |
-
-### Constants Completions: **513**
-
-| Type   | Package   | Version | Completions |
-| ------ | --------- | ------- | ----------- |
-| Core   | WordPress | 4.6.1   | **509**     |
-| Plugin | Akismet   | 3.2     | **4**       |
-
-### Capabilities Completions: **56**
-
-| Type | Package   | Version | Completions |
-| ---- | --------- | ------- | ----------- |
-| Core | WordPress | 4.6.1   | **56**      |
+| Type         | Completions |
+| ------------ | ----------- |
+| Functions    | **2663**    |
+| Actions      | **627**     |
+| Filters      | **1324**    |
+| Classes      | **327**     |
+| Methods      | **3093**    |
+| Constants    | **513**     |
+| Capabilities | **56**      |
 
 ### How to use
 

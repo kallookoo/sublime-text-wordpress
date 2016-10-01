@@ -4576,7 +4576,7 @@
         },
         {
             "trigger": "load_plugin_textdomain\tWP Function",
-            "contents": "load_plugin_textdomain( ${1:\\$domain}, false${2:, ${3:false}} )${4:;}"
+            "contents": "load_plugin_textdomain( ${1:\\$domain}, false${2:, ${3:'${4:dirname( plugin_basename( __FILE__ ) ) . \/languages}'}} )${5:;}"
         },
         {
             "trigger": "load_template\tWP Function",
@@ -4588,7 +4588,7 @@
         },
         {
             "trigger": "load_theme_textdomain\tWP Function",
-            "contents": "load_theme_textdomain( ${1:\\$domain}${2:, ${3:false}} )${4:;}"
+            "contents": "load_theme_textdomain( ${1:\\$domain}${2:, ${3:'${4:get_template_directory() . \/languages}'}} )${5:;}"
         },
         {
             "trigger": "locale_stylesheet\tWP Function",
