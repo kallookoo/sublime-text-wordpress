@@ -1308,7 +1308,7 @@
         },
         {
             "trigger": "wpdb\tWP Class Name",
-            "contents": "global wpdb;"
+            "contents": "global \\$wpdb;"
         }
     ]
 }
