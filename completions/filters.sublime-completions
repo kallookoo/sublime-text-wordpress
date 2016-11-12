@@ -3431,6 +3431,14 @@
             "contents": "human_time_diff"
         },
         {
+            "trigger": "add_filter-icon_dir\tWP Filter",
+            "contents": "add_filter( 'icon_dir', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "icon_dir\tWP Filter Name",
+            "contents": "icon_dir"
+        },
+        {
             "trigger": "add_filter-icon_dir_uri\tWP Filter",
             "contents": "add_filter( 'icon_dir_uri', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -4799,14 +4807,6 @@
             "contents": "add_filter( \"option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
         },
         {
-            "trigger": "add_filter-option_enable_xmlrpc\tWP Filter",
-            "contents": "add_filter( 'option_enable_xmlrpc', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "option_enable_xmlrpc\tWP Filter Name",
-            "contents": "option_enable_xmlrpc"
-        },
-        {
             "trigger": "add_filter-option_page_capability_{$option_page}\tWP Filter",
             "contents": "add_filter( \"option_page_capability_${1:\\{${2:\\$option_page}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
@@ -5705,14 +5705,6 @@
         {
             "trigger": "add_filter-pre_option_{$option}\tWP Filter",
             "contents": "add_filter( \"pre_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
-        },
-        {
-            "trigger": "add_filter-pre_option_enable_xmlrpc\tWP Filter",
-            "contents": "add_filter( 'pre_option_enable_xmlrpc', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "pre_option_enable_xmlrpc\tWP Filter Name",
-            "contents": "pre_option_enable_xmlrpc"
         },
         {
             "trigger": "add_filter-pre_post_{$field}\tWP Filter",
@@ -7557,6 +7549,14 @@
         {
             "trigger": "the_time\tWP Filter Name",
             "contents": "the_time"
+        },
+        {
+            "trigger": "add_filter-the_title\tWP Filter",
+            "contents": "add_filter( 'the_title', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "the_title\tWP Filter Name",
+            "contents": "the_title"
         },
         {
             "trigger": "add_filter-the_title_rss\tWP Filter",

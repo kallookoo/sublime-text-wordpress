@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "627 WordPress - Actions",
+    "comment": "626 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -49,10 +49,6 @@
         {
             "trigger": "add_action-{$old_status}_to_{$new_status}\tWP Action",
             "contents": "add_action( \"${1:\\{${2:\\$old_status}\\}}_to_${3:\\{${4:\\$new_status}\\}}\", ${5:\\$function_to_add}, ${6:10} );"
-        },
-        {
-            "trigger": "add_action-{$tag}\tWP Action",
-            "contents": "add_action( \"${1:\\{${2:\\$tag}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
             "trigger": "add_action-{$taxonomy}_add_form\tWP Action",
