@@ -8,12 +8,12 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2663**    |
-| Actions      | **626**     |
-| Filters      | **1324**    |
-| Classes      | **327**     |
-| Methods      | **3093**    |
-| Constants    | **513**     |
+| Functions    | **2760**    |
+| Actions      | **642**     |
+| Filters      | **1384**    |
+| Classes      | **352**     |
+| Methods      | **3330**    |
+| Constants    | **517**     |
 | Capabilities | **56**      |
 
 ### How to use

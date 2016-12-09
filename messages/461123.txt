@@ -1,0 +1,5 @@
+Version 4.6.1+1.2.3
+-----------------------------------------
+
+- Constants:
+	- Add other missing WordPress Core Constants

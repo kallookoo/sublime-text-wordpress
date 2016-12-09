@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "513 WordPress - Constants",
+    "comment": "517 WordPress - Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -41,6 +41,10 @@
         {
             "trigger": "AUTH_COOKIE\tWP Constant",
             "contents": "AUTH_COOKIE"
+        },
+        {
+            "trigger": "AUTH_KEY\tWP Constant",
+            "contents": "AUTH_KEY"
         },
         {
             "trigger": "AUTOMATIC_UPDATER_DISABLED\tWP Constant",
@@ -97,6 +101,14 @@
         {
             "trigger": "DAY_IN_SECONDS\tWP Constant",
             "contents": "DAY_IN_SECONDS"
+        },
+        {
+            "trigger": "DB_CHARSET\tWP Constant",
+            "contents": "DB_CHARSET"
+        },
+        {
+            "trigger": "DB_COLLATE\tWP Constant",
+            "contents": "DB_COLLATE"
         },
         {
             "trigger": "DB_HOST\tWP Constant",
@@ -1229,6 +1241,10 @@
         {
             "trigger": "NO_HEADER_TEXT\tWP Constant",
             "contents": "NO_HEADER_TEXT"
+        },
+        {
+            "trigger": "NONCE_KEY\tWP Constant",
+            "contents": "NONCE_KEY"
         },
         {
             "trigger": "OBJECT\tWP Constant",

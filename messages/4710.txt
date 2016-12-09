@@ -1,0 +1,4 @@
+Version 4.7+1.0
+-----------------------------------------
+
+Update Wordpress Version to 4.7

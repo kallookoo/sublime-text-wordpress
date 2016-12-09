@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "626 WordPress - Actions",
+    "comment": "642 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -200,7 +200,7 @@
         },
         {
             "trigger": "add_action-add_site_option\tWP Action",
-            "contents": "add_action( 'add_site_option', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_action( 'add_site_option', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "add_site_option\tWP Action Name",
@@ -208,7 +208,7 @@
         },
         {
             "trigger": "add_action-add_site_option_{$option}\tWP Action",
-            "contents": "add_action( \"add_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
+            "contents": "add_action( \"add_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
         },
         {
             "trigger": "add_action-add_tag_form_fields\tWP Action",
@@ -220,7 +220,7 @@
         },
         {
             "trigger": "add_action-add_term_relationship\tWP Action",
-            "contents": "add_action( 'add_term_relationship', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_action( 'add_term_relationship', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "add_term_relationship\tWP Action Name",
@@ -264,7 +264,7 @@
         },
         {
             "trigger": "add_action-added_term_relationship\tWP Action",
-            "contents": "add_action( 'added_term_relationship', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_action( 'added_term_relationship', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "added_term_relationship\tWP Action Name",
@@ -863,6 +863,14 @@
             "contents": "bulk_edit_custom_box"
         },
         {
+            "trigger": "add_action-change_locale\tWP Action",
+            "contents": "add_action( 'change_locale', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "change_locale\tWP Action Name",
+            "contents": "change_locale"
+        },
+        {
             "trigger": "add_action-check_admin_referer\tWP Action",
             "contents": "add_action( 'check_admin_referer', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -880,7 +888,7 @@
         },
         {
             "trigger": "add_action-check_comment_flood\tWP Action",
-            "contents": "add_action( 'check_comment_flood', ${1:\\$function_to_add}, ${2:10}, 3 );"
+            "contents": "add_action( 'check_comment_flood', ${1:\\$function_to_add}, ${2:10}, 4 );"
         },
         {
             "trigger": "check_comment_flood\tWP Action Name",
@@ -1492,7 +1500,7 @@
         },
         {
             "trigger": "add_action-delete_site_option\tWP Action",
-            "contents": "add_action( 'delete_site_option', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'delete_site_option', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "delete_site_option\tWP Action Name",
@@ -1500,7 +1508,7 @@
         },
         {
             "trigger": "add_action-delete_site_option_{$option}\tWP Action",
-            "contents": "add_action( \"delete_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
+            "contents": "add_action( \"delete_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
         },
         {
             "trigger": "add_action-delete_site_transient_{$transient}\tWP Action",
@@ -1516,7 +1524,7 @@
         },
         {
             "trigger": "add_action-delete_term_relationships\tWP Action",
-            "contents": "add_action( 'delete_term_relationships', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_action( 'delete_term_relationships', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "delete_term_relationships\tWP Action Name",
@@ -1624,7 +1632,7 @@
         },
         {
             "trigger": "add_action-deleted_term_relationships\tWP Action",
-            "contents": "add_action( 'deleted_term_relationships', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_action( 'deleted_term_relationships', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "deleted_term_relationships\tWP Action Name",
@@ -2888,7 +2896,7 @@
         },
         {
             "trigger": "add_action-pre_delete_site_option_{$option}\tWP Action",
-            "contents": "add_action( \"pre_delete_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
+            "contents": "add_action( \"pre_delete_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
         },
         {
             "trigger": "add_action-pre_delete_term\tWP Action",
@@ -2977,6 +2985,14 @@
         {
             "trigger": "pre_post_update\tWP Action Name",
             "contents": "pre_post_update"
+        },
+        {
+            "trigger": "add_action-pre_trackback_post\tWP Action",
+            "contents": "add_action( 'pre_trackback_post', ${1:\\$function_to_add}, ${2:10}, 6 );"
+        },
+        {
+            "trigger": "pre_trackback_post\tWP Action Name",
+            "contents": "pre_trackback_post"
         },
         {
             "trigger": "add_action-pre_uninstall_plugin\tWP Action",
@@ -3163,6 +3179,10 @@
             "contents": "remove_user_role"
         },
         {
+            "trigger": "add_action-requests-{$hook}\tWP Action",
+            "contents": "add_action( \"requests-${1:\\{${2:\\$hook}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+        },
+        {
             "trigger": "add_action-resetpass_form\tWP Action",
             "contents": "add_action( 'resetpass_form', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -3177,6 +3197,78 @@
         {
             "trigger": "rest_api_init\tWP Action Name",
             "contents": "rest_api_init"
+        },
+        {
+            "trigger": "add_action-rest_delete_{$this->post_type}\tWP Action",
+            "contents": "add_action( \"rest_delete_${1:\\{${2:\\$this->post_type}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+        },
+        {
+            "trigger": "add_action-rest_delete_{$this->taxonomy}\tWP Action",
+            "contents": "add_action( \"rest_delete_${1:\\{${2:\\$this->taxonomy}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+        },
+        {
+            "trigger": "add_action-rest_delete_comment\tWP Action",
+            "contents": "add_action( 'rest_delete_comment', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_delete_comment\tWP Action Name",
+            "contents": "rest_delete_comment"
+        },
+        {
+            "trigger": "add_action-rest_delete_revision\tWP Action",
+            "contents": "add_action( 'rest_delete_revision', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "rest_delete_revision\tWP Action Name",
+            "contents": "rest_delete_revision"
+        },
+        {
+            "trigger": "add_action-rest_delete_user\tWP Action",
+            "contents": "add_action( 'rest_delete_user', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_delete_user\tWP Action Name",
+            "contents": "rest_delete_user"
+        },
+        {
+            "trigger": "add_action-rest_insert_{$this->post_type}\tWP Action",
+            "contents": "add_action( \"rest_insert_${1:\\{${2:\\$this->post_type}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+        },
+        {
+            "trigger": "add_action-rest_insert_{$this->taxonomy}\tWP Action",
+            "contents": "add_action( \"rest_insert_${1:\\{${2:\\$this->taxonomy}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+        },
+        {
+            "trigger": "add_action-rest_insert_attachment\tWP Action",
+            "contents": "add_action( 'rest_insert_attachment', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_insert_attachment\tWP Action Name",
+            "contents": "rest_insert_attachment"
+        },
+        {
+            "trigger": "add_action-rest_insert_comment\tWP Action",
+            "contents": "add_action( 'rest_insert_comment', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_insert_comment\tWP Action Name",
+            "contents": "rest_insert_comment"
+        },
+        {
+            "trigger": "add_action-rest_insert_user\tWP Action",
+            "contents": "add_action( 'rest_insert_user', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_insert_user\tWP Action Name",
+            "contents": "rest_insert_user"
+        },
+        {
+            "trigger": "add_action-restore_previous_locale\tWP Action",
+            "contents": "add_action( 'restore_previous_locale', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "restore_previous_locale\tWP Action Name",
+            "contents": "restore_previous_locale"
         },
         {
             "trigger": "add_action-restrict_manage_comments\tWP Action",
@@ -3551,6 +3643,14 @@
             "contents": "switch_blog"
         },
         {
+            "trigger": "add_action-switch_locale\tWP Action",
+            "contents": "add_action( 'switch_locale', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "switch_locale\tWP Action Name",
+            "contents": "switch_locale"
+        },
+        {
             "trigger": "add_action-switch_theme\tWP Action",
             "contents": "add_action( 'switch_theme', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
@@ -3876,7 +3976,7 @@
         },
         {
             "trigger": "add_action-update_site_option\tWP Action",
-            "contents": "add_action( 'update_site_option', ${1:\\$function_to_add}, ${2:10}, 3 );"
+            "contents": "add_action( 'update_site_option', ${1:\\$function_to_add}, ${2:10}, 4 );"
         },
         {
             "trigger": "update_site_option\tWP Action Name",
@@ -3884,7 +3984,7 @@
         },
         {
             "trigger": "add_action-update_site_option_{$option}\tWP Action",
-            "contents": "add_action( \"update_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+            "contents": "add_action( \"update_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 4 );"
         },
         {
             "trigger": "add_action-update_wpmu_options\tWP Action",
@@ -4353,6 +4453,14 @@
         {
             "trigger": "wp_restore_post_revision\tWP Action Name",
             "contents": "wp_restore_post_revision"
+        },
+        {
+            "trigger": "add_action-wp_roles_init\tWP Action",
+            "contents": "add_action( 'wp_roles_init', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_roles_init\tWP Action Name",
+            "contents": "wp_roles_init"
         },
         {
             "trigger": "add_action-wp_set_comment_status\tWP Action",
