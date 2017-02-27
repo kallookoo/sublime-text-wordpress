@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1384 WordPress - Filters",
+    "comment": "1386 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -225,6 +225,14 @@
         {
             "trigger": "ajax_query_attachments_args\tWP Filter Name",
             "contents": "ajax_query_attachments_args"
+        },
+        {
+            "trigger": "add_filter-akismet_admin_page_hook_suffixes\tWP Filter",
+            "contents": "add_filter( 'akismet_admin_page_hook_suffixes', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "akismet_admin_page_hook_suffixes\tWP Filter Name",
+            "contents": "akismet_admin_page_hook_suffixes"
         },
         {
             "trigger": "add_filter-akismet_comment_nonce\tWP Filter",
@@ -8273,6 +8281,14 @@
         {
             "trigger": "twentyseventeen_social_links_icons\tWP Filter Name",
             "contents": "twentyseventeen_social_links_icons"
+        },
+        {
+            "trigger": "add_filter-twentyseventeen_starter_content\tWP Filter",
+            "contents": "add_filter( 'twentyseventeen_starter_content', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "twentyseventeen_starter_content\tWP Filter Name",
+            "contents": "twentyseventeen_starter_content"
         },
         {
             "trigger": "add_filter-twentysixteen_attachment_size\tWP Filter",

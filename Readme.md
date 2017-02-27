@@ -8,11 +8,11 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2760**    |
+| Functions    | **2761**    |
 | Actions      | **642**     |
-| Filters      | **1384**    |
+| Filters      | **1386**    |
 | Classes      | **352**     |
-| Methods      | **3330**    |
+| Methods      | **3334**    |
 | Constants    | **517**     |
 | Capabilities | **56**      |
 
