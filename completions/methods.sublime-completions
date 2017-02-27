@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3330 WordPress - Methods",
+    "comment": "3334 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -119,10 +119,6 @@
             "contents": "${1:Akismet_Admin}::display_configuration_page();"
         },
         {
-            "trigger": "Akismet_Admin-display_invalid_version\tWP Class Method",
-            "contents": "${1:Akismet_Admin}::display_invalid_version();"
-        },
-        {
             "trigger": "Akismet_Admin-display_notice\tWP Class Method",
             "contents": "${1:Akismet_Admin}::display_notice();"
         },
@@ -193,6 +189,10 @@
         {
             "trigger": "Akismet_Admin-load_resources\tWP Class Method",
             "contents": "${1:Akismet_Admin}::load_resources();"
+        },
+        {
+            "trigger": "Akismet_Admin-modify_plugin_description\tWP Class Method",
+            "contents": "${1:Akismet_Admin}::modify_plugin_description( ${2:\\$all_plugins} );"
         },
         {
             "trigger": "Akismet_Admin-plugin_action_links\tWP Class Method",
@@ -409,6 +409,10 @@
         {
             "trigger": "Akismet-transition_comment_status\tWP Class Method",
             "contents": "${1:Akismet}::transition_comment_status( ${2:\\$new_status}, ${3:\\$old_status}, ${4:\\$comment} );"
+        },
+        {
+            "trigger": "Akismet-update_alert\tWP Class Method",
+            "contents": "${1:Akismet}::update_alert( ${2:\\$response} );"
         },
         {
             "trigger": "Akismet-update_comment_history\tWP Class Method",
@@ -3151,6 +3155,10 @@
             "contents": "${1:PHPMailer}::normalizeBreaks( ${2:\\$text}, ${3:\\$breaktype} );"
         },
         {
+            "trigger": "PHPMailer-parseAddresses\tWP Class Method",
+            "contents": "${1:PHPMailer}->parseAddresses( ${2:\\$addrstr}, ${3:\\$useimap} );"
+        },
+        {
             "trigger": "PHPMailer-postSend\tWP Class Method",
             "contents": "${1:PHPMailer}->postSend();"
         },
@@ -5611,6 +5619,10 @@
             "contents": "${1:SMTP}->getLastReply();"
         },
         {
+            "trigger": "SMTP-getLastTransactionID\tWP Class Method",
+            "contents": "${1:SMTP}->getLastTransactionID();"
+        },
+        {
             "trigger": "SMTP-getServerExt\tWP Class Method",
             "contents": "${1:SMTP}->getServerExt( ${2:\\$name} );"
         },
@@ -6673,6 +6685,10 @@
         {
             "trigger": "WP_Customize_Manager-_sanitize_background_setting\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->_sanitize_background_setting( ${2:\\$value}, ${3:\\$setting} );"
+        },
+        {
+            "trigger": "WP_Customize_Manager-_sanitize_external_header_video\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->_sanitize_external_header_video( ${2:\\$value} );"
         },
         {
             "trigger": "WP_Customize_Manager-_sanitize_header_textcolor\tWP Class Method",

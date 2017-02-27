@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2760 WordPress - Functions",
+    "comment": "2761 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -1056,7 +1056,7 @@
         },
         {
             "trigger": "akismet_add_comment_nonce\tWP Function",
-            "contents": "akismet_add_comment_nonce();"
+            "contents": "akismet_add_comment_nonce( ${1:\\$post_id} );"
         },
         {
             "trigger": "akismet_admin_init\tWP Function",
@@ -9141,6 +9141,10 @@
         {
             "trigger": "wp_get_image_editor\tWP Function",
             "contents": "wp_get_image_editor( ${1:\\$path}${2:, ${3:array( ${4:'${5:}'} )}} )${6:;}"
+        },
+        {
+            "trigger": "wp_get_image_mime\tWP Function",
+            "contents": "wp_get_image_mime( ${1:\\$file} )${2:;}"
         },
         {
             "trigger": "wp_get_installed_translations\tWP Function",
