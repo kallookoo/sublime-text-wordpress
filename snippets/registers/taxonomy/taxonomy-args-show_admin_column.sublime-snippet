@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA['show_admin_column' => ${1:false},
-]]></content>
-	<description>WP Template: Show Admin Column Arguments for Register Taxonomy</description>
-	<tabTrigger>wp-taxonomy-args-show_admin_column</tabTrigger>
-	<scope>source.php meta.array.php - string</scope>
-</snippet>

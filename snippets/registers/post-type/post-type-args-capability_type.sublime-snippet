@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA['capability_type' => ${1:'${2:post}'},
-]]></content>
-	<description>WP Template: Capability Type Arguments for Register Post Type</description>
-	<tabTrigger>wp-post-type-args-capability_type</tabTrigger>
-	<scope>source.php meta.array.php - string</scope>
-</snippet>

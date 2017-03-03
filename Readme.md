@@ -4,8 +4,6 @@ Is a collection of the completions and some snippets for Sublime Text
 
 ### Completions List
 
-> See extend completions list on [wiki](https://github.com/23r9i0/sublime-text-wordpress/wiki) page
-
 | Type         | Completions |
 | ------------ | ----------- |
 | Functions    | **2761**    |
@@ -30,6 +28,7 @@ Is a collection of the completions and some snippets for Sublime Text
 
 ### Another Informations
 
+* More info inside of [wiki](https://github.com/23r9i0/sublime-text-wordpress/wiki) page.
 * Deprecated Functions, Constants, Classes, Methods, Actions, Filters have been removed
 * Back compatibility is not included, as support for PHP versions
 * Actions or Filter add two version of the completion only this not is dynamic name

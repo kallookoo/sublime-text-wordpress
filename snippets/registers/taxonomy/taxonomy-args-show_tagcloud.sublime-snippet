@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA['show_tagcloud' => ${1:true},
-]]></content>
-	<description>WP Template: Show Tagcloud Arguments for Register Taxonomy</description>
-	<tabTrigger>wp-taxonomy-args-show_tagcloud</tabTrigger>
-	<scope>source.php meta.array.php - string</scope>
-</snippet>

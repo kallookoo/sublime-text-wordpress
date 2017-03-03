@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA['update_count_callback' => ${1:'${2:callback}'},
-]]></content>
-	<description>WP Template: Update Count Callback Arguments for Register Taxonomy</description>
-	<tabTrigger>wp-taxonomy-args-update_count_callback</tabTrigger>
-	<scope>source.php meta.array.php - string</scope>
-</snippet>

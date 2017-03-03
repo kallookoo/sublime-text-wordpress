@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA['public' => ${1:true},
-]]></content>
-	<description>WP Template: Public Arguments for Register Taxonomy</description>
-	<tabTrigger>wp-taxonomy-args-public</tabTrigger>
-	<scope>source.php meta.array.php - string</scope>
-</snippet>

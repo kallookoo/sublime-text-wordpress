@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA['capabilities' => ${1:array( ${2:''} )},
-]]></content>
-	<description>WP Template: Capabilities Arguments for Register Taxonomy</description>
-	<tabTrigger>wp-taxonomy-args-capabilities</tabTrigger>
-	<scope>source.php meta.array.php - string</scope>
-</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA['permalink_epmask' => ${1:EP_PERMALINK},
-]]></content>
-	<description>WP Template: Permalink Epmask Arguments for Register Post Type</description>
-	<tabTrigger>wp-post-type-args-permalink_epmask</tabTrigger>
-	<scope>source.php meta.array.php - string</scope>
-</snippet>

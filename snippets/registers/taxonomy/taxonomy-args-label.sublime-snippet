@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA['label' => _x( '${3:Plural Name}', 'Taxonomy general name', ${1:'${2:Text Domain}'} ),
-]]></content>
-	<description>WP Template: Label Arguments for Register Taxonomy</description>
-	<tabTrigger>wp-taxonomy-args-label</tabTrigger>
-	<scope>source.php meta.array.php - string</scope>
-</snippet>

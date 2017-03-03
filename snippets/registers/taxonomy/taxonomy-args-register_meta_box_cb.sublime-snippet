@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA['register_meta_box_cb' => ${1:'${2:callback}'},
-]]></content>
-	<description>WP Template: Register Meta Box Callback Arguments for Register Taxonomy</description>
-	<tabTrigger>wp-taxonomy-args-register_meta_box_cb</tabTrigger>
-	<scope>source.php meta.array.php - string</scope>
-</snippet>
