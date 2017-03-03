@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA['supports' => ${1:array(${2:
+	'title',}${3:
+	'editor',}${4:
+	'excerpt',}${5:
+	'author',}${6:
+	'thumbnail',}${7:
+	'comments',}${8:
+	'trackbacks',}${9:
+	'revisions',}${10:
+	'custom-fields',}${11:
+	'page-attributes',}${12:
+	'post-formats',}
+)},
+]]></content>
+	<description>WP Template: Supports Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-supports</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

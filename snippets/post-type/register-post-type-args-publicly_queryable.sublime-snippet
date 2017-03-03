@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['publicly_queryable' => ${1:true},
+]]></content>
+	<description>WP Template: Publicly Queryable Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-publicly_queryable</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

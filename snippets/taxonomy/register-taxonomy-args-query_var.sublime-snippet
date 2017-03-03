@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['query_var' => ${1:true},
+]]></content>
+	<description>WP Template: Query Var Arguments for Register Taxonomy</description>
+	<tabTrigger>wp-taxonomy-args-query_var</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['has_archive' => ${1:false},
+]]></content>
+	<description>WP Template: Has Archive Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-has_archive</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>
