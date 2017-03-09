@@ -8,7 +8,7 @@ Is a collection of the completions and some snippets for Sublime Text
 | ------------ | ----------- |
 | Functions    | **2761**    |
 | Actions      | **642**     |
-| Filters      | **1386**    |
+| Filters      | **1387**    |
 | Classes      | **352**     |
 | Methods      | **3334**    |
 | Constants    | **517**     |

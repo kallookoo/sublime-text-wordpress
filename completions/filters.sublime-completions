@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1386 WordPress - Filters",
+    "comment": "1387 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -2821,6 +2821,14 @@
         {
             "trigger": "get_header_image_tag\tWP Filter Name",
             "contents": "get_header_image_tag"
+        },
+        {
+            "trigger": "add_filter-get_header_video_url\tWP Filter",
+            "contents": "add_filter( 'get_header_video_url', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "get_header_video_url\tWP Filter Name",
+            "contents": "get_header_video_url"
         },
         {
             "trigger": "add_filter-get_image_tag\tWP Filter",
