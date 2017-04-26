@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2761 WordPress - Functions",
+    "comment": "2762 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -1529,6 +1529,10 @@
         {
             "trigger": "clean_post_cache\tWP Function",
             "contents": "clean_post_cache( ${1:\\$post} );"
+        },
+        {
+            "trigger": "clean_site_details_cache\tWP Function",
+            "contents": "clean_site_details_cache( ${1:\\$site_id} );"
         },
         {
             "trigger": "clean_term_cache\tWP Function",

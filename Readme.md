@@ -6,9 +6,9 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2761**    |
+| Functions    | **2762**    |
 | Actions      | **642**     |
-| Filters      | **1387**    |
+| Filters      | **1392**    |
 | Classes      | **352**     |
 | Methods      | **3334**    |
 | Constants    | **517**     |
@@ -30,30 +30,42 @@ Is a collection of the completions and some snippets for Sublime Text
 
 * More info inside of [wiki](https://github.com/23r9i0/sublime-text-wordpress/wiki) page.
 * Deprecated Functions, Constants, Classes, Methods, Actions, Filters have been removed
-* Back compatibility is not included, as support for PHP versions
+* WordPress back compatibility files is not included, as support for PHP versions
 * Actions or Filter add two version of the completion only this not is dynamic name
-	- Example of completion file for Hooks:
+
+	#### Example of completion file for Hooks
+
+	With dynamic name:
 
 	```
-	        {
-	            "trigger": "add_action-init\tWP Action",
-	            "contents": "add_action( 'init', ${1:\\$function_to_add}, ${2:10} );"
-	        },
-	        {
-	            "trigger": "init\tWP Action Name",
-	            "contents": "init"
-	        },
+		{
+			"trigger": "add_action-load-{$page_hook}\tWP Action",
+			"contents": "add_action( \"load-${1:\\{${2:\\$page_hook}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
+		},
+	```
+	Without dynamic name:
+
+	```
+		{
+			"trigger": "add_action-init\tWP Action",
+			"contents": "add_action( 'init', ${1:\\$function_to_add}, ${2:10} );"
+		},
+		{
+			"trigger": "init\tWP Action Name",
+			"contents": "init"
+		},
 	```
 
 	- This first trigger use add_action- for get all actions and continue by name of the action, returns everything you need to create.
 	- The second trigger simply use the name and return this name.
-* Some snippet last index if used for delete this comments
+
+* Some snippet the last index if used to delete this comments
 * If use Sublime Text before 3092 is possible what some snippet not working.
-* If your problem with `alt+/` to show completions popup on linux, set key bindings with `ctrl+space` by example.
+* If your problem with `alt+/` to show completions popup, set key bindings with `ctrl+space` by example.
 
 ### Install
 
-Find WordPress Completions in Package Control
+Find WordPress Completions inside of Package Control
 
 ### Issues
 

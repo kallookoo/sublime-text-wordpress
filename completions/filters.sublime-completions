@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1387 WordPress - Filters",
+    "comment": "1392 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -4263,6 +4263,30 @@
             "contents": "media_embedded_in_content_allowed_types"
         },
         {
+            "trigger": "add_filter-media_library_months_with_files\tWP Filter",
+            "contents": "add_filter( 'media_library_months_with_files', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "media_library_months_with_files\tWP Filter Name",
+            "contents": "media_library_months_with_files"
+        },
+        {
+            "trigger": "add_filter-media_library_show_audio_playlist\tWP Filter",
+            "contents": "add_filter( 'media_library_show_audio_playlist', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "media_library_show_audio_playlist\tWP Filter Name",
+            "contents": "media_library_show_audio_playlist"
+        },
+        {
+            "trigger": "add_filter-media_library_show_video_playlist\tWP Filter",
+            "contents": "add_filter( 'media_library_show_video_playlist', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "media_library_show_video_playlist\tWP Filter Name",
+            "contents": "media_library_show_video_playlist"
+        },
+        {
             "trigger": "add_filter-media_meta\tWP Filter",
             "contents": "add_filter( 'media_meta', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -7011,6 +7035,14 @@
             "contents": "self_link"
         },
         {
+            "trigger": "add_filter-send_auth_cookies\tWP Filter",
+            "contents": "add_filter( 'send_auth_cookies', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "send_auth_cookies\tWP Filter Name",
+            "contents": "send_auth_cookies"
+        },
+        {
             "trigger": "add_filter-send_core_update_notification_email\tWP Filter",
             "contents": "add_filter( 'send_core_update_notification_email', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -7989,6 +8021,14 @@
         {
             "trigger": "theme_row_meta\tWP Filter Name",
             "contents": "theme_row_meta"
+        },
+        {
+            "trigger": "add_filter-theme_scandir_exclusions\tWP Filter",
+            "contents": "add_filter( 'theme_scandir_exclusions', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "theme_scandir_exclusions\tWP Filter Name",
+            "contents": "theme_scandir_exclusions"
         },
         {
             "trigger": "add_filter-themes_api\tWP Filter",

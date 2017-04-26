@@ -93,7 +93,7 @@ add_action( 'widgets_init', function() \{
 \} );
 
 ]]></content>
-    <description>WP Template: Register New Widget</description>
-	<tabTrigger>wp-widget</tabTrigger>
+    <description>WP Template: Register Theme Widget</description>
+	<tabTrigger>wp-theme-widget</tabTrigger>
 	<scope>embedding.php - comment - string</scope>
 </snippet>
