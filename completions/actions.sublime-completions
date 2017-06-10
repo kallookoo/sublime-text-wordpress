@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "642 WordPress - Actions",
+    "comment": "646 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -589,6 +589,22 @@
         {
             "trigger": "akismet_comment_check_response\tWP Action Name",
             "contents": "akismet_comment_check_response"
+        },
+        {
+            "trigger": "add_action-akismet_delete_comment_batch\tWP Action",
+            "contents": "add_action( 'akismet_delete_comment_batch', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "akismet_delete_comment_batch\tWP Action Name",
+            "contents": "akismet_delete_comment_batch"
+        },
+        {
+            "trigger": "add_action-akismet_delete_commentmeta_batch\tWP Action",
+            "contents": "add_action( 'akismet_delete_commentmeta_batch', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "akismet_delete_commentmeta_batch\tWP Action Name",
+            "contents": "akismet_delete_commentmeta_batch"
         },
         {
             "trigger": "add_action-akismet_http_request_pre\tWP Action",
@@ -1367,8 +1383,8 @@
             "contents": "customize_save"
         },
         {
-            "trigger": "add_action-customize_save_{$this->id_data['base']}\tWP Action",
-            "contents": "add_action( \"customize_save_${1:\\{${2:\\$this->id_data['base']}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
+            "trigger": "add_action-customize_save_{$id_base}\tWP Action",
+            "contents": "add_action( \"customize_save_${1:\\{${2:\\$id_base}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
             "trigger": "add_action-customize_save_after\tWP Action",
@@ -1573,6 +1589,14 @@
         {
             "trigger": "add_action-deleted_{$meta_type}meta\tWP Action",
             "contents": "add_action( \"deleted_${1:\\{${2:\\$meta_type}\\}}meta\", ${3:\\$function_to_add}, ${4:10} );"
+        },
+        {
+            "trigger": "add_action-deleted_blog\tWP Action",
+            "contents": "add_action( 'deleted_blog', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "deleted_blog\tWP Action Name",
+            "contents": "deleted_blog"
         },
         {
             "trigger": "add_action-deleted_comment\tWP Action",
@@ -3041,6 +3065,14 @@
         {
             "trigger": "preprocess_signup_form\tWP Action Name",
             "contents": "preprocess_signup_form"
+        },
+        {
+            "trigger": "add_action-print_default_editor_scripts\tWP Action",
+            "contents": "add_action( 'print_default_editor_scripts', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "print_default_editor_scripts\tWP Action Name",
+            "contents": "print_default_editor_scripts"
         },
         {
             "trigger": "add_action-print_media_templates\tWP Action",
