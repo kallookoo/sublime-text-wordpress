@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "517 WordPress - Constants",
+    "comment": "513 WordPress - Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -9,22 +9,6 @@
         {
             "trigger": "ADMIN_COOKIE_PATH\tWP Constant",
             "contents": "ADMIN_COOKIE_PATH"
-        },
-        {
-            "trigger": "AKISMET__MINIMUM_WP_VERSION\tWP Constant",
-            "contents": "AKISMET__MINIMUM_WP_VERSION"
-        },
-        {
-            "trigger": "AKISMET__PLUGIN_DIR\tWP Constant",
-            "contents": "AKISMET__PLUGIN_DIR"
-        },
-        {
-            "trigger": "AKISMET_DELETE_LIMIT\tWP Constant",
-            "contents": "AKISMET_DELETE_LIMIT"
-        },
-        {
-            "trigger": "AKISMET_VERSION\tWP Constant",
-            "contents": "AKISMET_VERSION"
         },
         {
             "trigger": "ALTERNATE_WP_CRON\tWP Constant",

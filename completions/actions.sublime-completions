@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "646 WordPress - Actions",
+    "comment": "621 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -583,110 +583,6 @@
             "contents": "add_action( \"after-${1:\\{${2:\\$taxonomy}\\}}-table\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
-            "trigger": "add_action-akismet_comment_check_response\tWP Action",
-            "contents": "add_action( 'akismet_comment_check_response', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_comment_check_response\tWP Action Name",
-            "contents": "akismet_comment_check_response"
-        },
-        {
-            "trigger": "add_action-akismet_delete_comment_batch\tWP Action",
-            "contents": "add_action( 'akismet_delete_comment_batch', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_delete_comment_batch\tWP Action Name",
-            "contents": "akismet_delete_comment_batch"
-        },
-        {
-            "trigger": "add_action-akismet_delete_commentmeta_batch\tWP Action",
-            "contents": "add_action( 'akismet_delete_commentmeta_batch', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_delete_commentmeta_batch\tWP Action Name",
-            "contents": "akismet_delete_commentmeta_batch"
-        },
-        {
-            "trigger": "add_action-akismet_http_request_pre\tWP Action",
-            "contents": "add_action( 'akismet_http_request_pre', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_http_request_pre\tWP Action Name",
-            "contents": "akismet_http_request_pre"
-        },
-        {
-            "trigger": "add_action-akismet_https_disabled\tWP Action",
-            "contents": "add_action( 'akismet_https_disabled', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_https_disabled\tWP Action Name",
-            "contents": "akismet_https_disabled"
-        },
-        {
-            "trigger": "add_action-akismet_https_request_failure\tWP Action",
-            "contents": "add_action( 'akismet_https_request_failure', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_https_request_failure\tWP Action Name",
-            "contents": "akismet_https_request_failure"
-        },
-        {
-            "trigger": "add_action-akismet_https_request_pre\tWP Action",
-            "contents": "add_action( 'akismet_https_request_pre', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_https_request_pre\tWP Action Name",
-            "contents": "akismet_https_request_pre"
-        },
-        {
-            "trigger": "add_action-akismet_request_failure\tWP Action",
-            "contents": "add_action( 'akismet_request_failure', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_request_failure\tWP Action Name",
-            "contents": "akismet_request_failure"
-        },
-        {
-            "trigger": "add_action-akismet_scheduled_recheck\tWP Action",
-            "contents": "add_action( 'akismet_scheduled_recheck', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_scheduled_recheck\tWP Action Name",
-            "contents": "akismet_scheduled_recheck"
-        },
-        {
-            "trigger": "add_action-akismet_spam_caught\tWP Action",
-            "contents": "add_action( 'akismet_spam_caught', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_spam_caught\tWP Action Name",
-            "contents": "akismet_spam_caught"
-        },
-        {
-            "trigger": "add_action-akismet_ssl_disabled\tWP Action",
-            "contents": "add_action( 'akismet_ssl_disabled', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "akismet_ssl_disabled\tWP Action Name",
-            "contents": "akismet_ssl_disabled"
-        },
-        {
-            "trigger": "add_action-akismet_submit_nonspam_comment\tWP Action",
-            "contents": "add_action( 'akismet_submit_nonspam_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "akismet_submit_nonspam_comment\tWP Action Name",
-            "contents": "akismet_submit_nonspam_comment"
-        },
-        {
-            "trigger": "add_action-akismet_submit_spam_comment\tWP Action",
-            "contents": "add_action( 'akismet_submit_spam_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "akismet_submit_spam_comment\tWP Action Name",
-            "contents": "akismet_submit_spam_comment"
-        },
-        {
             "trigger": "add_action-all_admin_notices\tWP Action",
             "contents": "add_action( 'all_admin_notices', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -1007,14 +903,6 @@
             "contents": "add_action( \"comment_${1:\\{${2:\\$old_status}\\}}_to_${3:\\{${4:\\$new_status}\\}}\", ${5:\\$function_to_add}, ${6:10} );"
         },
         {
-            "trigger": "add_action-comment_add_author_url\tWP Action",
-            "contents": "add_action( 'comment_add_author_url', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "comment_add_author_url\tWP Action Name",
-            "contents": "comment_add_author_url"
-        },
-        {
             "trigger": "add_action-comment_atom_entry\tWP Action",
             "contents": "add_action( 'comment_atom_entry', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -1165,14 +1053,6 @@
         {
             "trigger": "comment_post\tWP Action Name",
             "contents": "comment_post"
-        },
-        {
-            "trigger": "add_action-comment_remove_author_url\tWP Action",
-            "contents": "add_action( 'comment_remove_author_url', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "comment_remove_author_url\tWP Action Name",
-            "contents": "comment_remove_author_url"
         },
         {
             "trigger": "add_action-commentrss2_item\tWP Action",
@@ -3785,86 +3665,6 @@
         {
             "trigger": "trashed_post_comments\tWP Action Name",
             "contents": "trashed_post_comments"
-        },
-        {
-            "trigger": "add_action-twentyeleven_credits\tWP Action",
-            "contents": "add_action( 'twentyeleven_credits', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentyeleven_credits\tWP Action Name",
-            "contents": "twentyeleven_credits"
-        },
-        {
-            "trigger": "add_action-twentyeleven_enqueue_color_scheme\tWP Action",
-            "contents": "add_action( 'twentyeleven_enqueue_color_scheme', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentyeleven_enqueue_color_scheme\tWP Action Name",
-            "contents": "twentyeleven_enqueue_color_scheme"
-        },
-        {
-            "trigger": "add_action-twentyfifteen_credits\tWP Action",
-            "contents": "add_action( 'twentyfifteen_credits', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentyfifteen_credits\tWP Action Name",
-            "contents": "twentyfifteen_credits"
-        },
-        {
-            "trigger": "add_action-twentyfourteen_credits\tWP Action",
-            "contents": "add_action( 'twentyfourteen_credits', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentyfourteen_credits\tWP Action Name",
-            "contents": "twentyfourteen_credits"
-        },
-        {
-            "trigger": "add_action-twentyfourteen_featured_posts_after\tWP Action",
-            "contents": "add_action( 'twentyfourteen_featured_posts_after', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentyfourteen_featured_posts_after\tWP Action Name",
-            "contents": "twentyfourteen_featured_posts_after"
-        },
-        {
-            "trigger": "add_action-twentyfourteen_featured_posts_before\tWP Action",
-            "contents": "add_action( 'twentyfourteen_featured_posts_before', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentyfourteen_featured_posts_before\tWP Action Name",
-            "contents": "twentyfourteen_featured_posts_before"
-        },
-        {
-            "trigger": "add_action-twentysixteen_credits\tWP Action",
-            "contents": "add_action( 'twentysixteen_credits', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentysixteen_credits\tWP Action Name",
-            "contents": "twentysixteen_credits"
-        },
-        {
-            "trigger": "add_action-twentyten_credits\tWP Action",
-            "contents": "add_action( 'twentyten_credits', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentyten_credits\tWP Action Name",
-            "contents": "twentyten_credits"
-        },
-        {
-            "trigger": "add_action-twentythirteen_credits\tWP Action",
-            "contents": "add_action( 'twentythirteen_credits', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentythirteen_credits\tWP Action Name",
-            "contents": "twentythirteen_credits"
-        },
-        {
-            "trigger": "add_action-twentytwelve_credits\tWP Action",
-            "contents": "add_action( 'twentytwelve_credits', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "twentytwelve_credits\tWP Action Name",
-            "contents": "twentytwelve_credits"
         },
         {
             "trigger": "add_action-unarchive_blog\tWP Action",

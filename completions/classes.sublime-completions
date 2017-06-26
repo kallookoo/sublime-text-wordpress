@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "357 WordPress - Classes",
+    "comment": "350 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -13,22 +13,6 @@
         {
             "trigger": "_WP_List_Table_Compat\tWP Class Name",
             "contents": "_WP_List_Table_Compat"
-        },
-        {
-            "trigger": "Akismet\tWP Class Name",
-            "contents": "Akismet"
-        },
-        {
-            "trigger": "Akismet_Admin\tWP Class Name",
-            "contents": "Akismet_Admin"
-        },
-        {
-            "trigger": "Akismet_CLI\tWP Class Name",
-            "contents": "Akismet_CLI"
-        },
-        {
-            "trigger": "Akismet_Widget\tWP Class Name",
-            "contents": "Akismet_Widget"
         },
         {
             "trigger": "AMFReader\tWP Class Name",
@@ -81,10 +65,6 @@
         {
             "trigger": "Custom_Image_Header\tWP Class Name",
             "contents": "Custom_Image_Header"
-        },
-        {
-            "trigger": "Featured_Content\tWP Class Name",
-            "contents": "Featured_Content"
         },
         {
             "trigger": "File_Upload_Upgrader\tWP Class Name",
@@ -713,14 +693,6 @@
         {
             "trigger": "Translations\tWP Class Name",
             "contents": "Translations"
-        },
-        {
-            "trigger": "Twenty_Eleven_Ephemera_Widget\tWP Class Name",
-            "contents": "Twenty_Eleven_Ephemera_Widget"
-        },
-        {
-            "trigger": "Twenty_Fourteen_Ephemera_Widget\tWP Class Name",
-            "contents": "Twenty_Fourteen_Ephemera_Widget"
         },
         {
             "trigger": "Walker\tWP Class Name",
