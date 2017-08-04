@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3263 WordPress - Methods",
+    "comment": "3268 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -12087,6 +12087,22 @@
             "contents": "${1:WP_Widget_Categories}->widget( ${2:\\$args}, ${3:\\$instance} );"
         },
         {
+            "trigger": "WP_Widget_Custom_HTML-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Widget_Custom_HTML();"
+        },
+        {
+            "trigger": "WP_Widget_Custom_HTML-form\tWP Class Method",
+            "contents": "${1:WP_Widget_Custom_HTML}->form( ${2:\\$instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Custom_HTML-update\tWP Class Method",
+            "contents": "${1:WP_Widget_Custom_HTML}->update( ${2:\\$new_instance}, ${3:\\$old_instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Custom_HTML-widget\tWP Class Method",
+            "contents": "${1:WP_Widget_Custom_HTML}->widget( ${2:\\$args}, ${3:\\$instance} );"
+        },
+        {
             "trigger": "WP_Widget_Factory-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_Widget_Factory();"
         },
@@ -12211,8 +12227,8 @@
             "contents": "${1:\\$${2:class} = }new WP_Widget_Media( ${3:\\$id_base}, ${4:\\$name}, ${5:\\$widget_options}, ${6:\\$control_options} );"
         },
         {
-            "trigger": "WP_Widget_Media-_register\tWP Class Method",
-            "contents": "${1:WP_Widget_Media}->_register();"
+            "trigger": "WP_Widget_Media-_register_one\tWP Class Method",
+            "contents": "${1:WP_Widget_Media}->_register_one( ${2:\\$number} );"
         },
         {
             "trigger": "WP_Widget_Media-display_media_state\tWP Class Method",
@@ -12383,8 +12399,8 @@
             "contents": "${1:\\$${2:class} = }new WP_Widget_Text();"
         },
         {
-            "trigger": "WP_Widget_Text-_register\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->_register();"
+            "trigger": "WP_Widget_Text-_register_one\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->_register_one( ${2:\\$number} );"
         },
         {
             "trigger": "WP_Widget_Text-enqueue_admin_scripts\tWP Class Method",
@@ -12393,6 +12409,10 @@
         {
             "trigger": "WP_Widget_Text-form\tWP Class Method",
             "contents": "${1:WP_Widget_Text}->form( ${2:\\$instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Text-is_legacy_instance\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->is_legacy_instance( ${2:\\$instance} );"
         },
         {
             "trigger": "WP_Widget_Text-render_control_template_scripts\tWP Class Method",

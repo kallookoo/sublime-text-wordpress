@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA['delete_with_user' => ${1:null},
+]]></content>
+	<description>WP Template: Delete with user Arguments for Register Post Type</description>
+	<tabTrigger>wp-post-type-args-delete-with-user</tabTrigger>
+	<scope>source.php meta.array.php - string</scope>
+</snippet>

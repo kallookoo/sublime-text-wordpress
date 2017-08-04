@@ -64,6 +64,7 @@ function function_prefix_register_post_type() {
 		// ),
 		// 'query_var'            => true,
 		// 'can_export'           => true,
+		// 'delete_with_user'     => null,
 	);
 
 	if ( ! post_type_exists( 'post_type' ) ) {

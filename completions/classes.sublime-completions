@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "350 WordPress - Classes",
+    "comment": "351 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -1333,6 +1333,10 @@
         {
             "trigger": "WP_Widget_Categories\tWP Class Name",
             "contents": "WP_Widget_Categories"
+        },
+        {
+            "trigger": "WP_Widget_Custom_HTML\tWP Class Name",
+            "contents": "WP_Widget_Custom_HTML"
         },
         {
             "trigger": "WP_Widget_Factory\tWP Class Name",

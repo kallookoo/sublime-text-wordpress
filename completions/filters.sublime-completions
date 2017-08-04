@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1345 WordPress - Filters",
+    "comment": "1347 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -6431,6 +6431,14 @@
             "contents": "rest_pre_dispatch"
         },
         {
+            "trigger": "add_filter-rest_pre_echo_response\tWP Filter",
+            "contents": "add_filter( 'rest_pre_echo_response', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_pre_echo_response\tWP Filter Name",
+            "contents": "rest_pre_echo_response"
+        },
+        {
             "trigger": "add_filter-rest_pre_get_setting\tWP Filter",
             "contents": "add_filter( 'rest_pre_get_setting', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
@@ -8517,6 +8525,14 @@
         {
             "trigger": "widget_comments_args\tWP Filter Name",
             "contents": "widget_comments_args"
+        },
+        {
+            "trigger": "add_filter-widget_custom_html_content\tWP Filter",
+            "contents": "add_filter( 'widget_custom_html_content', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "widget_custom_html_content\tWP Filter Name",
+            "contents": "widget_custom_html_content"
         },
         {
             "trigger": "add_filter-widget_customizer_setting_args\tWP Filter",
