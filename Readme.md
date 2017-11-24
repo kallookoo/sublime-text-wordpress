@@ -12,7 +12,7 @@ Is a collection of the completions and some snippets for Sublime Text
 | Classes      | **344**     |
 | Methods      | **3237**    |
 | Constants    | **496**     |
-| Capabilities | **63**      |
+| Capabilities | **64**      |
 
 ### How to use
 
