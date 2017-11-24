@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "56 WordPress - Capabilities",
+    "comment": "63 WordPress - Capabilities",
     "completions": [
         {
             "trigger": "activate_plugins\tWP Capability",
@@ -225,6 +225,34 @@
         {
             "trigger": "upload_files\tWP Capability",
             "contents": "upload_files"
+        },
+        {
+            "trigger": "ure_create_capabilities\tWP Capability",
+            "contents": "ure_create_capabilities"
+        },
+        {
+            "trigger": "ure_create_roles\tWP Capability",
+            "contents": "ure_create_roles"
+        },
+        {
+            "trigger": "ure_delete_capabilities\tWP Capability",
+            "contents": "ure_delete_capabilities"
+        },
+        {
+            "trigger": "ure_delete_roles\tWP Capability",
+            "contents": "ure_delete_roles"
+        },
+        {
+            "trigger": "ure_edit_roles\tWP Capability",
+            "contents": "ure_edit_roles"
+        },
+        {
+            "trigger": "ure_manage_options\tWP Capability",
+            "contents": "ure_manage_options"
+        },
+        {
+            "trigger": "ure_reset_roles\tWP Capability",
+            "contents": "ure_reset_roles"
         }
     ]
 }

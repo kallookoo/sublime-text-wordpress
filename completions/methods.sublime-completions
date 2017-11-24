@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3268 WordPress - Methods",
+    "comment": "3237 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -51,10 +51,6 @@
             "contents": "${1:_WP_Editors}::print_tinymce_scripts();"
         },
         {
-            "trigger": "_WP_Editors-wp_fullscreen_html\tWP Class Method",
-            "contents": "${1:_WP_Editors}::wp_fullscreen_html();"
-        },
-        {
             "trigger": "_WP_Editors-wp_link_dialog\tWP Class Method",
             "contents": "${1:_WP_Editors}::wp_link_dialog();"
         },
@@ -73,110 +69,6 @@
         {
             "trigger": "_WP_List_Table_Compat-get_columns\tWP Class Method",
             "contents": "${1:_WP_List_Table_Compat}->get_columns();"
-        },
-        {
-            "trigger": "AMFReader-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new AMFReader( ${3:\\$stream} );"
-        },
-        {
-            "trigger": "AMFReader-readArray\tWP Class Method",
-            "contents": "${1:AMFReader}->readArray();"
-        },
-        {
-            "trigger": "AMFReader-readBoolean\tWP Class Method",
-            "contents": "${1:AMFReader}->readBoolean();"
-        },
-        {
-            "trigger": "AMFReader-readData\tWP Class Method",
-            "contents": "${1:AMFReader}->readData();"
-        },
-        {
-            "trigger": "AMFReader-readDate\tWP Class Method",
-            "contents": "${1:AMFReader}->readDate();"
-        },
-        {
-            "trigger": "AMFReader-readDouble\tWP Class Method",
-            "contents": "${1:AMFReader}->readDouble();"
-        },
-        {
-            "trigger": "AMFReader-readLongString\tWP Class Method",
-            "contents": "${1:AMFReader}->readLongString();"
-        },
-        {
-            "trigger": "AMFReader-readMixedArray\tWP Class Method",
-            "contents": "${1:AMFReader}->readMixedArray();"
-        },
-        {
-            "trigger": "AMFReader-readObject\tWP Class Method",
-            "contents": "${1:AMFReader}->readObject();"
-        },
-        {
-            "trigger": "AMFReader-readString\tWP Class Method",
-            "contents": "${1:AMFReader}->readString();"
-        },
-        {
-            "trigger": "AMFReader-readTypedObject\tWP Class Method",
-            "contents": "${1:AMFReader}->readTypedObject();"
-        },
-        {
-            "trigger": "AMFReader-readXML\tWP Class Method",
-            "contents": "${1:AMFReader}->readXML();"
-        },
-        {
-            "trigger": "AMFStream-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new AMFStream( ${3:\\$bytes} );"
-        },
-        {
-            "trigger": "AMFStream-peekByte\tWP Class Method",
-            "contents": "${1:AMFStream}->peekByte();"
-        },
-        {
-            "trigger": "AMFStream-peekDouble\tWP Class Method",
-            "contents": "${1:AMFStream}->peekDouble();"
-        },
-        {
-            "trigger": "AMFStream-peekInt\tWP Class Method",
-            "contents": "${1:AMFStream}->peekInt();"
-        },
-        {
-            "trigger": "AMFStream-peekLong\tWP Class Method",
-            "contents": "${1:AMFStream}->peekLong();"
-        },
-        {
-            "trigger": "AMFStream-peekLongUTF\tWP Class Method",
-            "contents": "${1:AMFStream}->peekLongUTF();"
-        },
-        {
-            "trigger": "AMFStream-peekUTF\tWP Class Method",
-            "contents": "${1:AMFStream}->peekUTF();"
-        },
-        {
-            "trigger": "AMFStream-read\tWP Class Method",
-            "contents": "${1:AMFStream}->read( ${2:\\$length} );"
-        },
-        {
-            "trigger": "AMFStream-readByte\tWP Class Method",
-            "contents": "${1:AMFStream}->readByte();"
-        },
-        {
-            "trigger": "AMFStream-readDouble\tWP Class Method",
-            "contents": "${1:AMFStream}->readDouble();"
-        },
-        {
-            "trigger": "AMFStream-readInt\tWP Class Method",
-            "contents": "${1:AMFStream}->readInt();"
-        },
-        {
-            "trigger": "AMFStream-readLong\tWP Class Method",
-            "contents": "${1:AMFStream}->readLong();"
-        },
-        {
-            "trigger": "AMFStream-readLongUTF\tWP Class Method",
-            "contents": "${1:AMFStream}->readLongUTF();"
-        },
-        {
-            "trigger": "AMFStream-readUTF\tWP Class Method",
-            "contents": "${1:AMFStream}->readUTF();"
         },
         {
             "trigger": "AtomParser-__construct\tWP Class Method",
@@ -261,42 +153,6 @@
         {
             "trigger": "Automatic_Upgrader_Skin-request_filesystem_credentials\tWP Class Method",
             "contents": "${1:Automatic_Upgrader_Skin}->request_filesystem_credentials( ${2:\\$error}, ${3:\\$context}, ${4:\\$allow_relaxed_file_ownership} );"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new AVCSequenceParameterSetReader( ${3:\\$sps} );"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader-expGolombSe\tWP Class Method",
-            "contents": "${1:AVCSequenceParameterSetReader}->expGolombSe();"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader-expGolombUe\tWP Class Method",
-            "contents": "${1:AVCSequenceParameterSetReader}->expGolombUe();"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader-getBit\tWP Class Method",
-            "contents": "${1:AVCSequenceParameterSetReader}->getBit();"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader-getBits\tWP Class Method",
-            "contents": "${1:AVCSequenceParameterSetReader}->getBits( ${2:\\$bits} );"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader-getHeight\tWP Class Method",
-            "contents": "${1:AVCSequenceParameterSetReader}->getHeight();"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader-getWidth\tWP Class Method",
-            "contents": "${1:AVCSequenceParameterSetReader}->getWidth();"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader-readData\tWP Class Method",
-            "contents": "${1:AVCSequenceParameterSetReader}->readData();"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader-skipBits\tWP Class Method",
-            "contents": "${1:AVCSequenceParameterSetReader}->skipBits( ${2:\\$bits} );"
         },
         {
             "trigger": "Bulk_Plugin_Upgrader_Skin-add_strings\tWP Class Method",
@@ -473,6 +329,10 @@
         {
             "trigger": "Custom_Image_Header-get_header_dimensions\tWP Class Method",
             "contents": "${1:Custom_Image_Header}->get_header_dimensions( ${2:\\$dimensions} );"
+        },
+        {
+            "trigger": "Custom_Image_Header-get_previous_crop\tWP Class Method",
+            "contents": "${1:Custom_Image_Header}->get_previous_crop( ${2:\\$object} );"
         },
         {
             "trigger": "Custom_Image_Header-get_uploaded_header_images\tWP Class Method",
@@ -851,6 +711,10 @@
             "contents": "${1:getid3_ac3}::bitrateLookup( ${2:\\$frmsizecod} );"
         },
         {
+            "trigger": "getid3_ac3-blocksPerSyncFrame\tWP Class Method",
+            "contents": "${1:getid3_ac3}::blocksPerSyncFrame( ${2:\\$numblkscod} );"
+        },
+        {
             "trigger": "getid3_ac3-centerMixLevelLookup\tWP Class Method",
             "contents": "${1:getid3_ac3}::centerMixLevelLookup( ${2:\\$cmixlev} );"
         },
@@ -877,6 +741,10 @@
         {
             "trigger": "getid3_ac3-sampleRateCodeLookup\tWP Class Method",
             "contents": "${1:getid3_ac3}::sampleRateCodeLookup( ${2:\\$fscod} );"
+        },
+        {
+            "trigger": "getid3_ac3-sampleRateCodeLookup2\tWP Class Method",
+            "contents": "${1:getid3_ac3}::sampleRateCodeLookup2( ${2:\\$fscod2} );"
         },
         {
             "trigger": "getid3_ac3-serviceTypeLookup\tWP Class Method",
@@ -1019,26 +887,6 @@
             "contents": "${1:getid3_flac}::pictureTypeLookup( ${2:\\$type_id} );"
         },
         {
-            "trigger": "getid3_flv-Analyze\tWP Class Method",
-            "contents": "${1:getid3_flv}->Analyze();"
-        },
-        {
-            "trigger": "getid3_flv-audioBitDepthLookup\tWP Class Method",
-            "contents": "${1:getid3_flv}::audioBitDepthLookup( ${2:\\$id} );"
-        },
-        {
-            "trigger": "getid3_flv-audioFormatLookup\tWP Class Method",
-            "contents": "${1:getid3_flv}::audioFormatLookup( ${2:\\$id} );"
-        },
-        {
-            "trigger": "getid3_flv-audioRateLookup\tWP Class Method",
-            "contents": "${1:getid3_flv}::audioRateLookup( ${2:\\$id} );"
-        },
-        {
-            "trigger": "getid3_flv-videoCodecLookup\tWP Class Method",
-            "contents": "${1:getid3_flv}::videoCodecLookup( ${2:\\$id} );"
-        },
-        {
             "trigger": "getid3_handler-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new getid3_handler( ${3:\\$getid3}, ${4:\\$call_module} );"
         },
@@ -1113,6 +961,10 @@
         {
             "trigger": "getid3_id3v2-FrameNameShortLookup\tWP Class Method",
             "contents": "${1:getid3_id3v2}::FrameNameShortLookup( ${2:\\$framename} );"
+        },
+        {
+            "trigger": "getid3_id3v2-ID3v22iTunesBrokenFrameName\tWP Class Method",
+            "contents": "${1:getid3_id3v2}::ID3v22iTunesBrokenFrameName( ${2:\\$frame_name} );"
         },
         {
             "trigger": "getid3_id3v2-ID3v2HeaderLength\tWP Class Method",
@@ -1279,6 +1131,10 @@
             "contents": "${1:getid3_lib}::FixedPoint8_8( ${2:\\$rawdata} );"
         },
         {
+            "trigger": "getid3_lib-flipped_array_merge_noclobber\tWP Class Method",
+            "contents": "${1:getid3_lib}::flipped_array_merge_noclobber( ${2:\\$array1}, ${3:\\$array2} );"
+        },
+        {
             "trigger": "getid3_lib-Float2BinaryDecimal\tWP Class Method",
             "contents": "${1:getid3_lib}::Float2BinaryDecimal( ${2:\\$floatvalue} );"
         },
@@ -1381,6 +1237,10 @@
         {
             "trigger": "getid3_lib-ksort_recursive\tWP Class Method",
             "contents": "${1:getid3_lib}::ksort_recursive( ${2:\\$theArray} );"
+        },
+        {
+            "trigger": "getid3_lib-LittleEndian2Bin\tWP Class Method",
+            "contents": "${1:getid3_lib}::LittleEndian2Bin( ${2:\\$byteword} );"
         },
         {
             "trigger": "getid3_lib-LittleEndian2Float\tWP Class Method",
@@ -1647,6 +1507,10 @@
             "contents": "${1:getid3_quicktime}->CopyToAppropriateCommentsSection( ${2:\\$keyname}, ${3:\\$data}, ${4:\\$boxname} );"
         },
         {
+            "trigger": "getid3_quicktime-LociString\tWP Class Method",
+            "contents": "${1:getid3_quicktime}->LociString( ${2:\\$lstring}, ${3:\\$count} );"
+        },
+        {
             "trigger": "getid3_quicktime-NoNullString\tWP Class Method",
             "contents": "${1:getid3_quicktime}->NoNullString( ${2:\\$nullterminatedstring} );"
         },
@@ -1655,8 +1519,16 @@
             "contents": "${1:getid3_quicktime}->Pascal2String( ${2:\\$pascalstring} );"
         },
         {
+            "trigger": "getid3_quicktime-quicktime_bookmark_time_scale\tWP Class Method",
+            "contents": "${1:getid3_quicktime}->quicktime_bookmark_time_scale( ${2:\\$info} );"
+        },
+        {
             "trigger": "getid3_quicktime-quicktime_read_mp4_descr_length\tWP Class Method",
             "contents": "${1:getid3_quicktime}->quicktime_read_mp4_descr_length( ${2:\\$data}, ${3:\\$offset} );"
+        },
+        {
+            "trigger": "getid3_quicktime-quicktime_time_to_sample_table\tWP Class Method",
+            "contents": "${1:getid3_quicktime}->quicktime_time_to_sample_table( ${2:\\$info} );"
         },
         {
             "trigger": "getid3_quicktime-QuicktimeAudioCodecLookup\tWP Class Method",
@@ -1715,6 +1587,14 @@
             "contents": "${1:getid3_quicktime}->QuicktimeVideoCodecLookup( ${2:\\$codecid} );"
         },
         {
+            "trigger": "getid3_quicktime-search_tag_by_key\tWP Class Method",
+            "contents": "${1:getid3_quicktime}->search_tag_by_key( ${2:\\$info}, ${3:\\$tag}, ${4:\\$history}, ${5:\\$result} );"
+        },
+        {
+            "trigger": "getid3_quicktime-search_tag_by_pair\tWP Class Method",
+            "contents": "${1:getid3_quicktime}->search_tag_by_pair( ${2:\\$info}, ${3:\\$k}, ${4:\\$v}, ${5:\\$history}, ${6:\\$result} );"
+        },
+        {
             "trigger": "getid3_riff-Analyze\tWP Class Method",
             "contents": "${1:getid3_riff}->Analyze();"
         },
@@ -1768,7 +1648,7 @@
         },
         {
             "trigger": "getID3-analyze\tWP Class Method",
-            "contents": "${1:getID3}->analyze( ${2:\\$filename} );"
+            "contents": "${1:getID3}->analyze( ${2:\\$filename}, ${3:\\$filesize}, ${4:\\$original_filename} );"
         },
         {
             "trigger": "getID3-CalculateCompressionRatioAudio\tWP Class Method",
@@ -1823,8 +1703,12 @@
             "contents": "${1:getID3}->include_module( ${2:\\$name} );"
         },
         {
+            "trigger": "getID3-is_writable\tWP Class Method",
+            "contents": "${1:getID3}::is_writable( ${2:\\$filename} );"
+        },
+        {
             "trigger": "getID3-openfile\tWP Class Method",
-            "contents": "${1:getID3}->openfile( ${2:\\$filename} );"
+            "contents": "${1:getID3}->openfile( ${2:\\$filename}, ${3:\\$filesize} );"
         },
         {
             "trigger": "getID3-ProcessAudioStreams\tWP Class Method",
@@ -2093,26 +1977,6 @@
         {
             "trigger": "IXR_Value-IXR_Value\tWP Class Method",
             "contents": "${1:IXR_Value}->IXR_Value( ${2:\\$data}, ${3:\\$type} );"
-        },
-        {
-            "trigger": "Language_Pack_Upgrader_Skin-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new Language_Pack_Upgrader_Skin( ${3:\\$args} );"
-        },
-        {
-            "trigger": "Language_Pack_Upgrader_Skin-after\tWP Class Method",
-            "contents": "${1:Language_Pack_Upgrader_Skin}->after();"
-        },
-        {
-            "trigger": "Language_Pack_Upgrader_Skin-before\tWP Class Method",
-            "contents": "${1:Language_Pack_Upgrader_Skin}->before();"
-        },
-        {
-            "trigger": "Language_Pack_Upgrader_Skin-bulk_footer\tWP Class Method",
-            "contents": "${1:Language_Pack_Upgrader_Skin}->bulk_footer();"
-        },
-        {
-            "trigger": "Language_Pack_Upgrader_Skin-error\tWP Class Method",
-            "contents": "${1:Language_Pack_Upgrader_Skin}->error( ${2:\\$error} );"
         },
         {
             "trigger": "Language_Pack_Upgrader-async_upgrade\tWP Class Method",
@@ -2873,6 +2737,18 @@
         {
             "trigger": "Plugin_Upgrader-upgrade_strings\tWP Class Method",
             "contents": "${1:Plugin_Upgrader}->upgrade_strings();"
+        },
+        {
+            "trigger": "Plural_Forms-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new Plural_Forms( ${3:\\$str} );"
+        },
+        {
+            "trigger": "Plural_Forms-execute\tWP Class Method",
+            "contents": "${1:Plural_Forms}->execute( ${2:\\$n} );"
+        },
+        {
+            "trigger": "Plural_Forms-get\tWP Class Method",
+            "contents": "${1:Plural_Forms}->get( ${2:\\$num} );"
         },
         {
             "trigger": "PO-add_comment_to_entry\tWP Class Method",
@@ -4559,22 +4435,6 @@
             "contents": "${1:SimplePie_Parser}->tag_open( ${2:\\$parser}, ${3:\\$tag}, ${4:\\$attributes} );"
         },
         {
-            "trigger": "SimplePie_Rating-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new SimplePie_Rating( ${3:\\$scheme}, ${4:\\$value} );"
-        },
-        {
-            "trigger": "SimplePie_Rating-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Rating}->__toString();"
-        },
-        {
-            "trigger": "SimplePie_Rating-get_scheme\tWP Class Method",
-            "contents": "${1:SimplePie_Rating}->get_scheme();"
-        },
-        {
-            "trigger": "SimplePie_Rating-get_value\tWP Class Method",
-            "contents": "${1:SimplePie_Rating}->get_value();"
-        },
-        {
             "trigger": "SimplePie_Registry-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new SimplePie_Registry();"
         },
@@ -5859,10 +5719,6 @@
             "contents": "${1:WP_Admin_Bar}->initialize();"
         },
         {
-            "trigger": "WP_Admin_Bar-recursive_render\tWP Class Method",
-            "contents": "${1:WP_Admin_Bar}->recursive_render( ${2:\\$id}, ${3:\\$node} );"
-        },
-        {
             "trigger": "WP_Admin_Bar-remove_menu\tWP Class Method",
             "contents": "${1:WP_Admin_Bar}->remove_menu( ${2:\\$id} );"
         },
@@ -6083,6 +5939,22 @@
             "contents": "${1:WP_Customize_Background_Position_Control}->render_content();"
         },
         {
+            "trigger": "WP_Customize_Code_Editor_Control-content_template\tWP Class Method",
+            "contents": "${1:WP_Customize_Code_Editor_Control}->content_template();"
+        },
+        {
+            "trigger": "WP_Customize_Code_Editor_Control-enqueue\tWP Class Method",
+            "contents": "${1:WP_Customize_Code_Editor_Control}->enqueue();"
+        },
+        {
+            "trigger": "WP_Customize_Code_Editor_Control-json\tWP Class Method",
+            "contents": "${1:WP_Customize_Code_Editor_Control}->json();"
+        },
+        {
+            "trigger": "WP_Customize_Code_Editor_Control-render_content\tWP Class Method",
+            "contents": "${1:WP_Customize_Code_Editor_Control}->render_content();"
+        },
+        {
             "trigger": "WP_Customize_Color_Control-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_Customize_Color_Control( ${3:\\$manager}, ${4:\\$id}, ${5:\\$args} );"
         },
@@ -6191,6 +6063,30 @@
             "contents": "${1:WP_Customize_Custom_CSS_Setting}->value();"
         },
         {
+            "trigger": "WP_Customize_Date_Time_Control-content_template\tWP Class Method",
+            "contents": "${1:WP_Customize_Date_Time_Control}->content_template();"
+        },
+        {
+            "trigger": "WP_Customize_Date_Time_Control-format_gmt_offset\tWP Class Method",
+            "contents": "${1:WP_Customize_Date_Time_Control}->format_gmt_offset( ${2:\\$offset} );"
+        },
+        {
+            "trigger": "WP_Customize_Date_Time_Control-get_month_choices\tWP Class Method",
+            "contents": "${1:WP_Customize_Date_Time_Control}->get_month_choices();"
+        },
+        {
+            "trigger": "WP_Customize_Date_Time_Control-get_timezone_info\tWP Class Method",
+            "contents": "${1:WP_Customize_Date_Time_Control}->get_timezone_info();"
+        },
+        {
+            "trigger": "WP_Customize_Date_Time_Control-json\tWP Class Method",
+            "contents": "${1:WP_Customize_Date_Time_Control}->json();"
+        },
+        {
+            "trigger": "WP_Customize_Date_Time_Control-render_content\tWP Class Method",
+            "contents": "${1:WP_Customize_Date_Time_Control}->render_content();"
+        },
+        {
             "trigger": "WP_Customize_Filter_Setting-update\tWP Class Method",
             "contents": "${1:WP_Customize_Filter_Setting}->update( ${2:\\$value} );"
         },
@@ -6221,10 +6117,6 @@
         {
             "trigger": "WP_Customize_Header_Image_Setting-update\tWP Class Method",
             "contents": "${1:WP_Customize_Header_Image_Setting}->update( ${2:\\$value} );"
-        },
-        {
-            "trigger": "WP_Customize_Image_Control-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new WP_Customize_Image_Control( ${3:\\$manager}, ${4:\\$id}, ${5:\\$args} );"
         },
         {
             "trigger": "WP_Customize_Manager-__construct\tWP Class Method",
@@ -6271,6 +6163,10 @@
             "contents": "${1:WP_Customize_Manager}->add_control( ${2:\\$id}, ${3:\\$args} );"
         },
         {
+            "trigger": "WP_Customize_Manager-add_customize_screen_to_heartbeat_settings\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->add_customize_screen_to_heartbeat_settings( ${2:\\$settings} );"
+        },
+        {
             "trigger": "WP_Customize_Manager-add_dynamic_settings\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->add_dynamic_settings( ${2:\\$setting_ids} );"
         },
@@ -6295,6 +6191,14 @@
             "contents": "${1:WP_Customize_Manager}->after_setup_theme();"
         },
         {
+            "trigger": "WP_Customize_Manager-autosaved\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->autosaved();"
+        },
+        {
+            "trigger": "WP_Customize_Manager-branching\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->branching();"
+        },
+        {
             "trigger": "WP_Customize_Manager-changeset_data\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->changeset_data();"
         },
@@ -6305,6 +6209,10 @@
         {
             "trigger": "WP_Customize_Manager-changeset_uuid\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->changeset_uuid();"
+        },
+        {
+            "trigger": "WP_Customize_Manager-check_changeset_lock_with_heartbeat\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->check_changeset_lock_with_heartbeat( ${2:\\$response}, ${3:\\$data}, ${4:\\$screen_id} );"
         },
         {
             "trigger": "WP_Customize_Manager-containers\tWP Class Method",
@@ -6341,6 +6249,10 @@
         {
             "trigger": "WP_Customize_Manager-enqueue_control_scripts\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->enqueue_control_scripts();"
+        },
+        {
+            "trigger": "WP_Customize_Manager-establish_loaded_changeset\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->establish_loaded_changeset();"
         },
         {
             "trigger": "WP_Customize_Manager-export_header_video_settings\tWP Class Method",
@@ -6419,6 +6331,26 @@
             "contents": "${1:WP_Customize_Manager}->get_template_root();"
         },
         {
+            "trigger": "WP_Customize_Manager-grant_edit_post_capability_for_changeset\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->grant_edit_post_capability_for_changeset( ${2:\\$caps}, ${3:\\$cap}, ${4:\\$user_id}, ${5:\\$args} );"
+        },
+        {
+            "trigger": "WP_Customize_Manager-handle_changeset_trash_request\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->handle_changeset_trash_request();"
+        },
+        {
+            "trigger": "WP_Customize_Manager-handle_dismiss_autosave_or_lock_request\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->handle_dismiss_autosave_or_lock_request();"
+        },
+        {
+            "trigger": "WP_Customize_Manager-handle_load_themes_request\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->handle_load_themes_request();"
+        },
+        {
+            "trigger": "WP_Customize_Manager-handle_override_changeset_lock_request\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->handle_override_changeset_lock_request();"
+        },
+        {
             "trigger": "WP_Customize_Manager-has_published_pages\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->has_published_pages();"
         },
@@ -6457,6 +6389,10 @@
         {
             "trigger": "WP_Customize_Manager-prepare_setting_validity_for_js\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->prepare_setting_validity_for_js( ${2:\\$validity} );"
+        },
+        {
+            "trigger": "WP_Customize_Manager-refresh_changeset_lock\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->refresh_changeset_lock( ${2:\\$changeset_post_id} );"
         },
         {
             "trigger": "WP_Customize_Manager-refresh_nonces\tWP Class Method",
@@ -6531,6 +6467,10 @@
             "contents": "${1:WP_Customize_Manager}->set_autofocus( ${2:\\$autofocus} );"
         },
         {
+            "trigger": "WP_Customize_Manager-set_changeset_lock\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->set_changeset_lock( ${2:\\$changeset_post_id}, ${3:\\$take_over} );"
+        },
+        {
             "trigger": "WP_Customize_Manager-set_post_value\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->set_post_value( ${2:\\$setting_id}, ${3:\\$value} );"
         },
@@ -6547,6 +6487,10 @@
             "contents": "${1:WP_Customize_Manager}->settings();"
         },
         {
+            "trigger": "WP_Customize_Manager-settings_previewed\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->settings_previewed();"
+        },
+        {
             "trigger": "WP_Customize_Manager-setup_theme\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->setup_theme();"
         },
@@ -6561,6 +6505,10 @@
         {
             "trigger": "WP_Customize_Manager-theme\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->theme();"
+        },
+        {
+            "trigger": "WP_Customize_Manager-trash_changeset_post\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->trash_changeset_post( ${2:\\$post} );"
         },
         {
             "trigger": "WP_Customize_Manager-unsanitized_post_values\tWP Class Method",
@@ -6585,6 +6533,10 @@
         {
             "trigger": "WP_Customize_Media_Control-enqueue\tWP Class Method",
             "contents": "${1:WP_Customize_Media_Control}->enqueue();"
+        },
+        {
+            "trigger": "WP_Customize_Media_Control-get_default_button_labels\tWP Class Method",
+            "contents": "${1:WP_Customize_Media_Control}->get_default_button_labels();"
         },
         {
             "trigger": "WP_Customize_Media_Control-render_content\tWP Class Method",
@@ -6665,6 +6617,14 @@
         {
             "trigger": "WP_Customize_Nav_Menu_Location_Control-to_json\tWP Class Method",
             "contents": "${1:WP_Customize_Nav_Menu_Location_Control}->to_json();"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menu_Locations_Control-content_template\tWP Class Method",
+            "contents": "${1:WP_Customize_Nav_Menu_Locations_Control}->content_template();"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menu_Locations_Control-render_content\tWP Class Method",
+            "contents": "${1:WP_Customize_Nav_Menu_Locations_Control}->render_content();"
         },
         {
             "trigger": "WP_Customize_Nav_Menu_Section-json\tWP Class Method",
@@ -6819,10 +6779,6 @@
             "contents": "${1:WP_Customize_Nav_Menus}->search_available_items_query( ${2:\\$args} );"
         },
         {
-            "trigger": "WP_Customize_New_Menu_Control-render_content\tWP Class Method",
-            "contents": "${1:WP_Customize_New_Menu_Control}->render_content();"
-        },
-        {
             "trigger": "WP_Customize_Panel-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_Customize_Panel( ${3:\\$manager}, ${4:\\$id}, ${5:\\$args} );"
         },
@@ -6911,54 +6867,6 @@
             "contents": "${1:WP_Customize_Section}->print_template();"
         },
         {
-            "trigger": "WP_Customize_Selective_Refresh-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new WP_Customize_Selective_Refresh( ${3:\\$manager} );"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-add_dynamic_partials\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->add_dynamic_partials( ${2:\\$partial_ids} );"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-add_partial\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->add_partial( ${2:\\$id}, ${3:\\$args} );"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-enqueue_preview_scripts\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->enqueue_preview_scripts();"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-export_preview_data\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->export_preview_data();"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-get_partial\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->get_partial( ${2:\\$id} );"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-handle_error\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->handle_error( ${2:\\$errno}, ${3:\\$errstr}, ${4:\\$errfile}, ${5:\\$errline} );"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-handle_render_partials_request\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->handle_render_partials_request();"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-init_preview\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->init_preview();"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-is_render_partials_request\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->is_render_partials_request();"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-partials\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->partials();"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh-remove_partial\tWP Class Method",
-            "contents": "${1:WP_Customize_Selective_Refresh}->remove_partial( ${2:\\$id} );"
-        },
-        {
             "trigger": "WP_Customize_Setting-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_Customize_Setting( ${3:\\$manager}, ${4:\\$id}, ${5:\\$args} );"
         },
@@ -7045,6 +6953,10 @@
         {
             "trigger": "WP_Customize_Theme_Control-to_json\tWP Class Method",
             "contents": "${1:WP_Customize_Theme_Control}->to_json();"
+        },
+        {
+            "trigger": "WP_Customize_Themes_Section-json\tWP Class Method",
+            "contents": "${1:WP_Customize_Themes_Section}->json();"
         },
         {
             "trigger": "WP_Customize_Upload_Control-to_json\tWP Class Method",
@@ -7357,6 +7269,10 @@
         {
             "trigger": "WP_Embed-delete_oembed_caches\tWP Class Method",
             "contents": "${1:WP_Embed}->delete_oembed_caches( ${2:\\$post_ID} );"
+        },
+        {
+            "trigger": "WP_Embed-find_oembed_post_id\tWP Class Method",
+            "contents": "${1:WP_Embed}->find_oembed_post_id( ${2:\\$cache_key} );"
         },
         {
             "trigger": "WP_Embed-maybe_make_link\tWP Class Method",
@@ -9307,22 +9223,6 @@
             "contents": "${1:WP_Object_Cache}->switch_to_blog( ${2:\\$blog_id} );"
         },
         {
-            "trigger": "WP_oEmbed_Controller-get_item\tWP Class Method",
-            "contents": "${1:WP_oEmbed_Controller}->get_item( ${2:\\$request} );"
-        },
-        {
-            "trigger": "WP_oEmbed_Controller-get_proxy_item\tWP Class Method",
-            "contents": "${1:WP_oEmbed_Controller}->get_proxy_item( ${2:\\$request} );"
-        },
-        {
-            "trigger": "WP_oEmbed_Controller-get_proxy_item_permissions_check\tWP Class Method",
-            "contents": "${1:WP_oEmbed_Controller}->get_proxy_item_permissions_check();"
-        },
-        {
-            "trigger": "WP_oEmbed_Controller-register_routes\tWP Class Method",
-            "contents": "${1:WP_oEmbed_Controller}->register_routes();"
-        },
-        {
             "trigger": "WP_oEmbed-__call\tWP Class Method",
             "contents": "${1:WP_oEmbed}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
@@ -9589,82 +9489,6 @@
         {
             "trigger": "WP_Posts_List_Table-single_row\tWP Class Method",
             "contents": "${1:WP_Posts_List_Table}->single_row( ${2:\\$post}, ${3:\\$level} );"
-        },
-        {
-            "trigger": "WP_Press_This-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new WP_Press_This();"
-        },
-        {
-            "trigger": "WP_Press_This-add_category\tWP Class Method",
-            "contents": "${1:WP_Press_This}->add_category();"
-        },
-        {
-            "trigger": "WP_Press_This-add_editor_style\tWP Class Method",
-            "contents": "${1:WP_Press_This}->add_editor_style( ${2:\\$styles} );"
-        },
-        {
-            "trigger": "WP_Press_This-categories_html\tWP Class Method",
-            "contents": "${1:WP_Press_This}->categories_html( ${2:\\$post} );"
-        },
-        {
-            "trigger": "WP_Press_This-fetch_source_html\tWP Class Method",
-            "contents": "${1:WP_Press_This}->fetch_source_html( ${2:\\$url} );"
-        },
-        {
-            "trigger": "WP_Press_This-get_canonical_link\tWP Class Method",
-            "contents": "${1:WP_Press_This}->get_canonical_link( ${2:\\$data} );"
-        },
-        {
-            "trigger": "WP_Press_This-get_embeds\tWP Class Method",
-            "contents": "${1:WP_Press_This}->get_embeds( ${2:\\$data} );"
-        },
-        {
-            "trigger": "WP_Press_This-get_images\tWP Class Method",
-            "contents": "${1:WP_Press_This}->get_images( ${2:\\$data} );"
-        },
-        {
-            "trigger": "WP_Press_This-get_source_site_name\tWP Class Method",
-            "contents": "${1:WP_Press_This}->get_source_site_name( ${2:\\$data} );"
-        },
-        {
-            "trigger": "WP_Press_This-get_suggested_content\tWP Class Method",
-            "contents": "${1:WP_Press_This}->get_suggested_content( ${2:\\$data} );"
-        },
-        {
-            "trigger": "WP_Press_This-get_suggested_title\tWP Class Method",
-            "contents": "${1:WP_Press_This}->get_suggested_title( ${2:\\$data} );"
-        },
-        {
-            "trigger": "WP_Press_This-html\tWP Class Method",
-            "contents": "${1:WP_Press_This}->html();"
-        },
-        {
-            "trigger": "WP_Press_This-merge_or_fetch_data\tWP Class Method",
-            "contents": "${1:WP_Press_This}->merge_or_fetch_data();"
-        },
-        {
-            "trigger": "WP_Press_This-post_formats_html\tWP Class Method",
-            "contents": "${1:WP_Press_This}->post_formats_html( ${2:\\$post} );"
-        },
-        {
-            "trigger": "WP_Press_This-save_post\tWP Class Method",
-            "contents": "${1:WP_Press_This}->save_post();"
-        },
-        {
-            "trigger": "WP_Press_This-side_load_images\tWP Class Method",
-            "contents": "${1:WP_Press_This}->side_load_images( ${2:\\$post_id}, ${3:\\$content} );"
-        },
-        {
-            "trigger": "WP_Press_This-site_settings\tWP Class Method",
-            "contents": "${1:WP_Press_This}->site_settings();"
-        },
-        {
-            "trigger": "WP_Press_This-source_data_fetch_fallback\tWP Class Method",
-            "contents": "${1:WP_Press_This}->source_data_fetch_fallback( ${2:\\$url}, ${3:\\$data} );"
-        },
-        {
-            "trigger": "WP_Press_This-tags_html\tWP Class Method",
-            "contents": "${1:WP_Press_This}->tags_html( ${2:\\$post} );"
         },
         {
             "trigger": "WP_Query-__call\tWP Class Method",
@@ -10171,6 +9995,10 @@
             "contents": "${1:WP_REST_Posts_Controller}->check_read_permission( ${2:\\$post} );"
         },
         {
+            "trigger": "WP_REST_Posts_Controller-check_template\tWP Class Method",
+            "contents": "${1:WP_REST_Posts_Controller}->check_template( ${2:\\$template}, ${3:\\$request} );"
+        },
+        {
             "trigger": "WP_REST_Posts_Controller-create_item\tWP Class Method",
             "contents": "${1:WP_REST_Posts_Controller}->create_item( ${2:\\$request} );"
         },
@@ -10212,7 +10040,7 @@
         },
         {
             "trigger": "WP_REST_Posts_Controller-handle_template\tWP Class Method",
-            "contents": "${1:WP_REST_Posts_Controller}->handle_template( ${2:\\$template}, ${3:\\$post_id} );"
+            "contents": "${1:WP_REST_Posts_Controller}->handle_template( ${2:\\$template}, ${3:\\$post_id}, ${4:\\$validate} );"
         },
         {
             "trigger": "WP_REST_Posts_Controller-prepare_item_for_response\tWP Class Method",
@@ -10972,7 +10800,7 @@
         },
         {
             "trigger": "WP_Roles-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new WP_Roles();"
+            "contents": "${1:\\$${2:class} = }new WP_Roles( ${3:\\$site_id} );"
         },
         {
             "trigger": "WP_Roles-add_cap\tWP Class Method",
@@ -10983,12 +10811,24 @@
             "contents": "${1:WP_Roles}->add_role( ${2:\\$role}, ${3:\\$display_name}, ${4:\\$capabilities} );"
         },
         {
+            "trigger": "WP_Roles-for_site\tWP Class Method",
+            "contents": "${1:WP_Roles}->for_site( ${2:\\$site_id} );"
+        },
+        {
             "trigger": "WP_Roles-get_names\tWP Class Method",
             "contents": "${1:WP_Roles}->get_names();"
         },
         {
             "trigger": "WP_Roles-get_role\tWP Class Method",
             "contents": "${1:WP_Roles}->get_role( ${2:\\$role} );"
+        },
+        {
+            "trigger": "WP_Roles-get_site_id\tWP Class Method",
+            "contents": "${1:WP_Roles}->get_site_id();"
+        },
+        {
+            "trigger": "WP_Roles-init_roles\tWP Class Method",
+            "contents": "${1:WP_Roles}->init_roles();"
         },
         {
             "trigger": "WP_Roles-is_role\tWP Class Method",
@@ -11908,7 +11748,7 @@
         },
         {
             "trigger": "WP_User-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new WP_User( ${3:\\$id}, ${4:\\$name}, ${5:\\$blog_id} );"
+            "contents": "${1:\\$${2:class} = }new WP_User( ${3:\\$id}, ${4:\\$name}, ${5:\\$site_id} );"
         },
         {
             "trigger": "WP_User-__get\tWP Class Method",
@@ -11939,8 +11779,8 @@
             "contents": "${1:WP_User}->exists();"
         },
         {
-            "trigger": "WP_User-for_blog\tWP Class Method",
-            "contents": "${1:WP_User}->for_blog( ${2:\\$blog_id} );"
+            "trigger": "WP_User-for_site\tWP Class Method",
+            "contents": "${1:WP_User}->for_site( ${2:\\$site_id} );"
         },
         {
             "trigger": "WP_User-get\tWP Class Method",
@@ -11955,6 +11795,10 @@
             "contents": "${1:WP_User}->get_role_caps();"
         },
         {
+            "trigger": "WP_User-get_site_id\tWP Class Method",
+            "contents": "${1:WP_User}->get_site_id();"
+        },
+        {
             "trigger": "WP_User-has_cap\tWP Class Method",
             "contents": "${1:WP_User}->has_cap( ${2:\\$cap} );"
         },
@@ -11964,7 +11808,7 @@
         },
         {
             "trigger": "WP_User-init\tWP Class Method",
-            "contents": "${1:WP_User}->init( ${2:\\$data}, ${3:\\$blog_id} );"
+            "contents": "${1:WP_User}->init( ${2:\\$data}, ${3:\\$site_id} );"
         },
         {
             "trigger": "WP_User-level_reduction\tWP Class Method",
@@ -12091,8 +11935,28 @@
             "contents": "${1:\\$${2:class} = }new WP_Widget_Custom_HTML();"
         },
         {
+            "trigger": "WP_Widget_Custom_HTML-_filter_gallery_shortcode_attrs\tWP Class Method",
+            "contents": "${1:WP_Widget_Custom_HTML}->_filter_gallery_shortcode_attrs( ${2:\\$attrs} );"
+        },
+        {
+            "trigger": "WP_Widget_Custom_HTML-_register_one\tWP Class Method",
+            "contents": "${1:WP_Widget_Custom_HTML}->_register_one( ${2:\\$number} );"
+        },
+        {
+            "trigger": "WP_Widget_Custom_HTML-add_help_text\tWP Class Method",
+            "contents": "${1:WP_Widget_Custom_HTML}::add_help_text();"
+        },
+        {
+            "trigger": "WP_Widget_Custom_HTML-enqueue_admin_scripts\tWP Class Method",
+            "contents": "${1:WP_Widget_Custom_HTML}->enqueue_admin_scripts();"
+        },
+        {
             "trigger": "WP_Widget_Custom_HTML-form\tWP Class Method",
             "contents": "${1:WP_Widget_Custom_HTML}->form( ${2:\\$instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Custom_HTML-render_control_template_scripts\tWP Class Method",
+            "contents": "${1:WP_Widget_Custom_HTML}::render_control_template_scripts();"
         },
         {
             "trigger": "WP_Widget_Custom_HTML-update\tWP Class Method",
@@ -12173,6 +12037,26 @@
         {
             "trigger": "WP_Widget_Media_Audio-render_media\tWP Class Method",
             "contents": "${1:WP_Widget_Media_Audio}->render_media( ${2:\\$instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Media_Gallery-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Widget_Media_Gallery();"
+        },
+        {
+            "trigger": "WP_Widget_Media_Gallery-enqueue_admin_scripts\tWP Class Method",
+            "contents": "${1:WP_Widget_Media_Gallery}->enqueue_admin_scripts();"
+        },
+        {
+            "trigger": "WP_Widget_Media_Gallery-get_instance_schema\tWP Class Method",
+            "contents": "${1:WP_Widget_Media_Gallery}->get_instance_schema();"
+        },
+        {
+            "trigger": "WP_Widget_Media_Gallery-render_control_template_scripts\tWP Class Method",
+            "contents": "${1:WP_Widget_Media_Gallery}->render_control_template_scripts();"
+        },
+        {
+            "trigger": "WP_Widget_Media_Gallery-render_media\tWP Class Method",
+            "contents": "${1:WP_Widget_Media_Gallery}->render_media( ${2:\\$instance} );"
         },
         {
             "trigger": "WP_Widget_Media_Image-__construct\tWP Class Method",
@@ -12395,38 +12279,6 @@
             "contents": "${1:WP_Widget_Tag_Cloud}->widget( ${2:\\$args}, ${3:\\$instance} );"
         },
         {
-            "trigger": "WP_Widget_Text-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new WP_Widget_Text();"
-        },
-        {
-            "trigger": "WP_Widget_Text-_register_one\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->_register_one( ${2:\\$number} );"
-        },
-        {
-            "trigger": "WP_Widget_Text-enqueue_admin_scripts\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->enqueue_admin_scripts();"
-        },
-        {
-            "trigger": "WP_Widget_Text-form\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->form( ${2:\\$instance} );"
-        },
-        {
-            "trigger": "WP_Widget_Text-is_legacy_instance\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->is_legacy_instance( ${2:\\$instance} );"
-        },
-        {
-            "trigger": "WP_Widget_Text-render_control_template_scripts\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->render_control_template_scripts();"
-        },
-        {
-            "trigger": "WP_Widget_Text-update\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->update( ${2:\\$new_instance}, ${3:\\$old_instance} );"
-        },
-        {
-            "trigger": "WP_Widget_Text-widget\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->widget( ${2:\\$args}, ${3:\\$instance} );"
-        },
-        {
             "trigger": "WP_Widget-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_Widget( ${3:\\$id_base}, ${4:\\$name}, ${5:\\$widget_options}, ${6:\\$control_options} );"
         },
@@ -12563,6 +12415,10 @@
             "contents": "${1:wp_xmlrpc_server}->get_custom_fields( ${2:\\$post_id} );"
         },
         {
+            "trigger": "wp_xmlrpc_server-get_term_custom_fields\tWP Class Method",
+            "contents": "${1:wp_xmlrpc_server}->get_term_custom_fields( ${2:\\$term_id} );"
+        },
+        {
             "trigger": "wp_xmlrpc_server-initialise_blog_option_info\tWP Class Method",
             "contents": "${1:wp_xmlrpc_server}->initialise_blog_option_info();"
         },
@@ -12645,6 +12501,10 @@
         {
             "trigger": "wp_xmlrpc_server-set_custom_fields\tWP Class Method",
             "contents": "${1:wp_xmlrpc_server}->set_custom_fields( ${2:\\$post_id}, ${3:\\$fields} );"
+        },
+        {
+            "trigger": "wp_xmlrpc_server-set_term_custom_fields\tWP Class Method",
+            "contents": "${1:wp_xmlrpc_server}->set_term_custom_fields( ${2:\\$term_id}, ${3:\\$fields} );"
         },
         {
             "trigger": "wp_xmlrpc_server-wp_deleteCategory\tWP Class Method",
@@ -12911,6 +12771,10 @@
             "contents": "\\$wpdb->_real_escape( ${1:\\$string} );"
         },
         {
+            "trigger": "wpdb-add_placeholder_escape\tWP Class Method",
+            "contents": "\\$wpdb->add_placeholder_escape( ${1:\\$query} );"
+        },
+        {
             "trigger": "wpdb-bail\tWP Class Method",
             "contents": "\\$wpdb->bail( ${1:\\$message}, ${2:\\$error_code} );"
         },
@@ -13011,6 +12875,14 @@
             "contents": "\\$wpdb->insert( ${1:\\$table}, ${2:\\$data}, ${3:\\$format} );"
         },
         {
+            "trigger": "wpdb-parse_db_host\tWP Class Method",
+            "contents": "\\$wpdb->parse_db_host( ${1:\\$host} );"
+        },
+        {
+            "trigger": "wpdb-placeholder_escape\tWP Class Method",
+            "contents": "\\$wpdb->placeholder_escape();"
+        },
+        {
             "trigger": "wpdb-prepare\tWP Class Method",
             "contents": "\\$wpdb->prepare( ${1:\\$query}, ${2:\\$args} );"
         },
@@ -13023,6 +12895,10 @@
             "contents": "\\$wpdb->query( ${1:\\$query} );"
         },
         {
+            "trigger": "wpdb-remove_placeholder_escape\tWP Class Method",
+            "contents": "\\$wpdb->remove_placeholder_escape( ${1:\\$query} );"
+        },
+        {
             "trigger": "wpdb-replace\tWP Class Method",
             "contents": "\\$wpdb->replace( ${1:\\$table}, ${2:\\$data}, ${3:\\$format} );"
         },
@@ -13032,7 +12908,7 @@
         },
         {
             "trigger": "wpdb-set_blog_id\tWP Class Method",
-            "contents": "\\$wpdb->set_blog_id( ${1:\\$blog_id}, ${2:\\$site_id} );"
+            "contents": "\\$wpdb->set_blog_id( ${1:\\$blog_id}, ${2:\\$network_id} );"
         },
         {
             "trigger": "wpdb-set_charset\tWP Class Method",

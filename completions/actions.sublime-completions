@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "621 WordPress - Actions",
+    "comment": "622 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -871,6 +871,14 @@
             "contents": "clean_site_cache"
         },
         {
+            "trigger": "add_action-clean_taxonomy_cache\tWP Action",
+            "contents": "add_action( 'clean_taxonomy_cache', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "clean_taxonomy_cache\tWP Action Name",
+            "contents": "clean_taxonomy_cache"
+        },
+        {
             "trigger": "add_action-clean_term_cache\tWP Action",
             "contents": "add_action( 'clean_term_cache', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
@@ -1227,22 +1235,6 @@
             "contents": "add_action( \"customize_render_panel_${1:\\{${2:\\$this->id}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
-            "trigger": "add_action-customize_render_partials_after\tWP Action",
-            "contents": "add_action( 'customize_render_partials_after', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "customize_render_partials_after\tWP Action Name",
-            "contents": "customize_render_partials_after"
-        },
-        {
-            "trigger": "add_action-customize_render_partials_before\tWP Action",
-            "contents": "add_action( 'customize_render_partials_before', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "customize_render_partials_before\tWP Action Name",
-            "contents": "customize_render_partials_before"
-        },
-        {
             "trigger": "add_action-customize_render_section\tWP Action",
             "contents": "add_action( 'customize_render_section', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -1344,7 +1336,7 @@
         },
         {
             "trigger": "add_action-delete_comment\tWP Action",
-            "contents": "add_action( 'delete_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'delete_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "delete_comment\tWP Action Name",
@@ -1480,7 +1472,7 @@
         },
         {
             "trigger": "add_action-deleted_comment\tWP Action",
-            "contents": "add_action( 'deleted_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'deleted_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "deleted_comment\tWP Action Name",
@@ -2203,6 +2195,14 @@
             "contents": "loop_end"
         },
         {
+            "trigger": "add_action-loop_no_results\tWP Action",
+            "contents": "add_action( 'loop_no_results', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "loop_no_results\tWP Action Name",
+            "contents": "loop_no_results"
+        },
+        {
             "trigger": "add_action-loop_start\tWP Action",
             "contents": "add_action( 'loop_start', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -2365,6 +2365,14 @@
         {
             "trigger": "manage_themes_custom_column\tWP Action Name",
             "contents": "manage_themes_custom_column"
+        },
+        {
+            "trigger": "add_action-manage_users_extra_tablenav\tWP Action",
+            "contents": "add_action( 'manage_users_extra_tablenav', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "manage_users_extra_tablenav\tWP Action Name",
+            "contents": "manage_users_extra_tablenav"
         },
         {
             "trigger": "add_action-mature_blog\tWP Action",
@@ -2539,6 +2547,14 @@
             "contents": "page_attributes_meta_box_template"
         },
         {
+            "trigger": "add_action-page_attributes_misc_attributes\tWP Action",
+            "contents": "add_action( 'page_attributes_misc_attributes', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "page_attributes_misc_attributes\tWP Action Name",
+            "contents": "page_attributes_misc_attributes"
+        },
+        {
             "trigger": "add_action-parse_comment_query\tWP Action",
             "contents": "add_action( 'parse_comment_query', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -2657,10 +2673,6 @@
         {
             "trigger": "populate_options\tWP Action Name",
             "contents": "populate_options"
-        },
-        {
-            "trigger": "add_action-post_action_{$action}\tWP Action",
-            "contents": "add_action( \"post_action_${1:\\{${2:\\$action}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
             "trigger": "add_action-post_comment_status_meta_box-options\tWP Action",
@@ -2988,7 +3000,7 @@
         },
         {
             "trigger": "add_action-quick_edit_custom_box\tWP Action",
-            "contents": "add_action( 'quick_edit_custom_box', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_action( 'quick_edit_custom_box', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "quick_edit_custom_box\tWP Action Name",
@@ -3017,14 +3029,6 @@
         {
             "trigger": "rdf_ns\tWP Action Name",
             "contents": "rdf_ns"
-        },
-        {
-            "trigger": "add_action-refresh_blog_details\tWP Action",
-            "contents": "add_action( 'refresh_blog_details', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "refresh_blog_details\tWP Action Name",
-            "contents": "refresh_blog_details"
         },
         {
             "trigger": "add_action-register_form\tWP Action",
@@ -3332,7 +3336,7 @@
         },
         {
             "trigger": "add_action-set_auth_cookie\tWP Action",
-            "contents": "add_action( 'set_auth_cookie', ${1:\\$function_to_add}, ${2:10}, 5 );"
+            "contents": "add_action( 'set_auth_cookie', ${1:\\$function_to_add}, ${2:10}, 6 );"
         },
         {
             "trigger": "set_auth_cookie\tWP Action Name",
@@ -3356,7 +3360,7 @@
         },
         {
             "trigger": "add_action-set_logged_in_cookie\tWP Action",
-            "contents": "add_action( 'set_logged_in_cookie', ${1:\\$function_to_add}, ${2:10}, 5 );"
+            "contents": "add_action( 'set_logged_in_cookie', ${1:\\$function_to_add}, ${2:10}, 6 );"
         },
         {
             "trigger": "set_logged_in_cookie\tWP Action Name",
@@ -3484,7 +3488,7 @@
         },
         {
             "trigger": "add_action-spam_comment\tWP Action",
-            "contents": "add_action( 'spam_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'spam_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "spam_comment\tWP Action Name",
@@ -3492,7 +3496,7 @@
         },
         {
             "trigger": "add_action-spammed_comment\tWP Action",
-            "contents": "add_action( 'spammed_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'spammed_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "spammed_comment\tWP Action Name",
@@ -3628,7 +3632,7 @@
         },
         {
             "trigger": "add_action-trash_comment\tWP Action",
-            "contents": "add_action( 'trash_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'trash_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "trash_comment\tWP Action Name",
@@ -3644,7 +3648,7 @@
         },
         {
             "trigger": "add_action-trashed_comment\tWP Action",
-            "contents": "add_action( 'trashed_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'trashed_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "trashed_comment\tWP Action Name",
@@ -3712,7 +3716,7 @@
         },
         {
             "trigger": "add_action-unspam_comment\tWP Action",
-            "contents": "add_action( 'unspam_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'unspam_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "unspam_comment\tWP Action Name",
@@ -3720,7 +3724,7 @@
         },
         {
             "trigger": "add_action-unspammed_comment\tWP Action",
-            "contents": "add_action( 'unspammed_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'unspammed_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "unspammed_comment\tWP Action Name",
@@ -3728,7 +3732,7 @@
         },
         {
             "trigger": "add_action-untrash_comment\tWP Action",
-            "contents": "add_action( 'untrash_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'untrash_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "untrash_comment\tWP Action Name",
@@ -3752,7 +3756,7 @@
         },
         {
             "trigger": "add_action-untrashed_comment\tWP Action",
-            "contents": "add_action( 'untrashed_comment', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'untrashed_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "untrashed_comment\tWP Action Name",
@@ -4101,6 +4105,14 @@
         {
             "trigger": "wp_edit_form_attachment_display\tWP Action Name",
             "contents": "wp_edit_form_attachment_display"
+        },
+        {
+            "trigger": "add_action-wp_enqueue_code_editor\tWP Action",
+            "contents": "add_action( 'wp_enqueue_code_editor', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_enqueue_code_editor\tWP Action Name",
+            "contents": "wp_enqueue_code_editor"
         },
         {
             "trigger": "add_action-wp_enqueue_editor\tWP Action",

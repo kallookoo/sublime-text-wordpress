@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1347 WordPress - Filters",
+    "comment": "1365 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -187,6 +187,14 @@
             "contents": "admin_post_thumbnail_size"
         },
         {
+            "trigger": "add_filter-admin_referrer_policy\tWP Filter",
+            "contents": "add_filter( 'admin_referrer_policy', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "admin_referrer_policy\tWP Filter Name",
+            "contents": "admin_referrer_policy"
+        },
+        {
             "trigger": "add_filter-admin_title\tWP Filter",
             "contents": "add_filter( 'admin_title', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -225,6 +233,14 @@
         {
             "trigger": "all_themes\tWP Filter Name",
             "contents": "all_themes"
+        },
+        {
+            "trigger": "add_filter-alloptions\tWP Filter",
+            "contents": "add_filter( 'alloptions', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "alloptions\tWP Filter Name",
+            "contents": "alloptions"
         },
         {
             "trigger": "add_filter-allow_dev_auto_core_updates\tWP Filter",
@@ -376,11 +392,19 @@
         },
         {
             "trigger": "add_filter-audio_submitbox_misc_sections\tWP Filter",
-            "contents": "add_filter( 'audio_submitbox_misc_sections', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'audio_submitbox_misc_sections', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "audio_submitbox_misc_sections\tWP Filter Name",
             "contents": "audio_submitbox_misc_sections"
+        },
+        {
+            "trigger": "add_filter-auth_{$object_type}_{$sub_type}_meta_{$meta_key}\tWP Filter",
+            "contents": "add_filter( \"auth_${1:\\{${2:\\$object_type}\\}}_${3:\\{${4:\\$sub_type}\\}}_meta_${5:\\{${6:\\$meta_key}\\}}\", ${7:\\$function_to_add}, ${8:10}, 6 );"
+        },
+        {
+            "trigger": "add_filter-auth_{$object_type}_meta_{$meta_key}\tWP Filter",
+            "contents": "add_filter( \"auth_${1:\\{${2:\\$object_type}\\}}_meta_${3:\\{${4:\\$meta_key}\\}}\", ${5:\\$function_to_add}, ${6:10}, 6 );"
         },
         {
             "trigger": "add_filter-auth_cookie\tWP Filter",
@@ -507,6 +531,14 @@
             "contents": "automatic_updates_send_debug_email"
         },
         {
+            "trigger": "add_filter-available_permalink_structure_tags\tWP Filter",
+            "contents": "add_filter( 'available_permalink_structure_tags', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "available_permalink_structure_tags\tWP Filter Name",
+            "contents": "available_permalink_structure_tags"
+        },
+        {
             "trigger": "add_filter-avatar_defaults\tWP Filter",
             "contents": "add_filter( 'avatar_defaults', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -585,6 +617,14 @@
         {
             "trigger": "bulk_post_updated_messages\tWP Filter Name",
             "contents": "bulk_post_updated_messages"
+        },
+        {
+            "trigger": "add_filter-can_add_user_to_blog\tWP Filter",
+            "contents": "add_filter( 'can_add_user_to_blog', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "can_add_user_to_blog\tWP Filter Name",
+            "contents": "can_add_user_to_blog"
         },
         {
             "trigger": "add_filter-can_edit_network\tWP Filter",
@@ -1095,14 +1135,6 @@
             "contents": "content_pagination"
         },
         {
-            "trigger": "add_filter-content_save_pre\tWP Filter",
-            "contents": "add_filter( 'content_save_pre', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "content_save_pre\tWP Filter Name",
-            "contents": "content_save_pre"
-        },
-        {
             "trigger": "add_filter-content_url\tWP Filter",
             "contents": "add_filter( 'content_url', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -1117,6 +1149,14 @@
         {
             "trigger": "core_version_check_locale\tWP Filter Name",
             "contents": "core_version_check_locale"
+        },
+        {
+            "trigger": "add_filter-core_version_check_query_args\tWP Filter",
+            "contents": "add_filter( 'core_version_check_query_args', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "core_version_check_query_args\tWP Filter Name",
+            "contents": "core_version_check_query_args"
         },
         {
             "trigger": "add_filter-cron_request\tWP Filter",
@@ -1155,6 +1195,14 @@
             "contents": "customize_allowed_urls"
         },
         {
+            "trigger": "add_filter-customize_changeset_branching\tWP Filter",
+            "contents": "add_filter( 'customize_changeset_branching', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "customize_changeset_branching\tWP Filter Name",
+            "contents": "customize_changeset_branching"
+        },
+        {
             "trigger": "add_filter-customize_changeset_save_data\tWP Filter",
             "contents": "add_filter( 'customize_changeset_save_data', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -1171,22 +1219,6 @@
             "contents": "customize_control_active"
         },
         {
-            "trigger": "add_filter-customize_dynamic_partial_args\tWP Filter",
-            "contents": "add_filter( 'customize_dynamic_partial_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "customize_dynamic_partial_args\tWP Filter Name",
-            "contents": "customize_dynamic_partial_args"
-        },
-        {
-            "trigger": "add_filter-customize_dynamic_partial_class\tWP Filter",
-            "contents": "add_filter( 'customize_dynamic_partial_class', ${1:\\$function_to_add}, ${2:10}, 3 );"
-        },
-        {
-            "trigger": "customize_dynamic_partial_class\tWP Filter Name",
-            "contents": "customize_dynamic_partial_class"
-        },
-        {
             "trigger": "add_filter-customize_dynamic_setting_args\tWP Filter",
             "contents": "add_filter( 'customize_dynamic_setting_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -1201,6 +1233,14 @@
         {
             "trigger": "customize_dynamic_setting_class\tWP Filter Name",
             "contents": "customize_dynamic_setting_class"
+        },
+        {
+            "trigger": "add_filter-customize_load_themes\tWP Filter",
+            "contents": "add_filter( 'customize_load_themes', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "customize_load_themes\tWP Filter Name",
+            "contents": "customize_load_themes"
         },
         {
             "trigger": "add_filter-customize_loaded_components\tWP Filter",
@@ -1269,14 +1309,6 @@
         {
             "trigger": "customize_refresh_nonces\tWP Filter Name",
             "contents": "customize_refresh_nonces"
-        },
-        {
-            "trigger": "add_filter-customize_render_partials_response\tWP Filter",
-            "contents": "add_filter( 'customize_render_partials_response', ${1:\\$function_to_add}, ${2:10}, 3 );"
-        },
-        {
-            "trigger": "customize_render_partials_response\tWP Filter Name",
-            "contents": "customize_render_partials_response"
         },
         {
             "trigger": "add_filter-customize_sanitize_{$this->id}\tWP Filter",
@@ -1828,7 +1860,7 @@
         },
         {
             "trigger": "add_filter-editable_extensions\tWP Filter",
-            "contents": "add_filter( 'editable_extensions', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'editable_extensions', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "editable_extensions\tWP Filter Name",
@@ -1939,6 +1971,14 @@
             "contents": "embed_site_title_html"
         },
         {
+            "trigger": "add_filter-embed_thumbnail_id\tWP Filter",
+            "contents": "add_filter( 'embed_thumbnail_id', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "embed_thumbnail_id\tWP Filter Name",
+            "contents": "embed_thumbnail_id"
+        },
+        {
             "trigger": "add_filter-embed_thumbnail_image_shape\tWP Filter",
             "contents": "add_filter( 'embed_thumbnail_image_shape', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -2035,14 +2075,6 @@
             "contents": "enable_post_by_email_configuration"
         },
         {
-            "trigger": "add_filter-enable_press_this_media_discovery\tWP Filter",
-            "contents": "add_filter( 'enable_press_this_media_discovery', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "enable_press_this_media_discovery\tWP Filter Name",
-            "contents": "enable_press_this_media_discovery"
-        },
-        {
             "trigger": "add_filter-enable_update_services_configuration\tWP Filter",
             "contents": "add_filter( 'enable_update_services_configuration', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -2105,14 +2137,6 @@
         {
             "trigger": "excerpt_more\tWP Filter Name",
             "contents": "excerpt_more"
-        },
-        {
-            "trigger": "add_filter-excerpt_save_pre\tWP Filter",
-            "contents": "add_filter( 'excerpt_save_pre', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "excerpt_save_pre\tWP Filter Name",
-            "contents": "excerpt_save_pre"
         },
         {
             "trigger": "add_filter-exit_on_http_head\tWP Filter",
@@ -2336,7 +2360,7 @@
         },
         {
             "trigger": "add_filter-get_{$adjacent}_post_sort\tWP Filter",
-            "contents": "add_filter( \"get_${1:\\{${2:\\$adjacent}\\}}_post_sort\", ${3:\\$function_to_add}, ${4:10}, 2 );"
+            "contents": "add_filter( \"get_${1:\\{${2:\\$adjacent}\\}}_post_sort\", ${3:\\$function_to_add}, ${4:10}, 3 );"
         },
         {
             "trigger": "add_filter-get_{$adjacent}_post_where\tWP Filter",
@@ -3071,6 +3095,14 @@
             "contents": "get_the_modified_time"
         },
         {
+            "trigger": "add_filter-get_the_post_type_description\tWP Filter",
+            "contents": "add_filter( 'get_the_post_type_description', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "get_the_post_type_description\tWP Filter Name",
+            "contents": "get_the_post_type_description"
+        },
+        {
             "trigger": "add_filter-get_the_tags\tWP Filter",
             "contents": "add_filter( 'get_the_tags', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -3772,7 +3804,7 @@
         },
         {
             "trigger": "add_filter-list_cats\tWP Filter",
-            "contents": "add_filter( 'list_cats', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'list_cats', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "list_cats\tWP Filter Name",
@@ -3939,6 +3971,14 @@
             "contents": "login_headerurl"
         },
         {
+            "trigger": "add_filter-login_link_separator\tWP Filter",
+            "contents": "add_filter( 'login_link_separator', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "login_link_separator\tWP Filter Name",
+            "contents": "login_link_separator"
+        },
+        {
             "trigger": "add_filter-login_message\tWP Filter",
             "contents": "add_filter( 'login_message', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -3961,6 +4001,14 @@
         {
             "trigger": "login_redirect\tWP Filter Name",
             "contents": "login_redirect"
+        },
+        {
+            "trigger": "add_filter-login_title\tWP Filter",
+            "contents": "add_filter( 'login_title', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "login_title\tWP Filter Name",
+            "contents": "login_title"
         },
         {
             "trigger": "add_filter-login_url\tWP Filter",
@@ -4208,7 +4256,7 @@
         },
         {
             "trigger": "add_filter-media_submitbox_misc_sections\tWP Filter",
-            "contents": "add_filter( 'media_submitbox_misc_sections', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'media_submitbox_misc_sections', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "media_submitbox_misc_sections\tWP Filter Name",
@@ -4452,7 +4500,7 @@
         },
         {
             "trigger": "add_filter-nav_menu_items_{$post_type_name}_recent\tWP Filter",
-            "contents": "add_filter( \"nav_menu_items_${1:\\{${2:\\$post_type_name}\\}}_recent\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+            "contents": "add_filter( \"nav_menu_items_${1:\\{${2:\\$post_type_name}\\}}_recent\", ${3:\\$function_to_add}, ${4:10}, 4 );"
         },
         {
             "trigger": "add_filter-nav_menu_link_attributes\tWP Filter",
@@ -4485,6 +4533,14 @@
         {
             "trigger": "navigation_markup_template\tWP Filter Name",
             "contents": "navigation_markup_template"
+        },
+        {
+            "trigger": "add_filter-network_admin_email_change_email\tWP Filter",
+            "contents": "add_filter( 'network_admin_email_change_email', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "network_admin_email_change_email\tWP Filter Name",
+            "contents": "network_admin_email_change_email"
         },
         {
             "trigger": "add_filter-network_admin_plugin_action_links\tWP Filter",
@@ -4565,6 +4621,14 @@
         {
             "trigger": "new_admin_email_content\tWP Filter Name",
             "contents": "new_admin_email_content"
+        },
+        {
+            "trigger": "add_filter-new_network_admin_email_content\tWP Filter",
+            "contents": "add_filter( 'new_network_admin_email_content', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "new_network_admin_email_content\tWP Filter Name",
+            "contents": "new_network_admin_email_content"
         },
         {
             "trigger": "add_filter-new_user_email_content\tWP Filter",
@@ -4688,7 +4752,7 @@
         },
         {
             "trigger": "add_filter-number_format_i18n\tWP Filter",
-            "contents": "add_filter( 'number_format_i18n', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'number_format_i18n', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "number_format_i18n\tWP Filter Name",
@@ -4701,14 +4765,6 @@
         {
             "trigger": "oembed_dataparse\tWP Filter Name",
             "contents": "oembed_dataparse"
-        },
-        {
-            "trigger": "add_filter-oembed_default_width\tWP Filter",
-            "contents": "add_filter( 'oembed_default_width', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "oembed_default_width\tWP Filter Name",
-            "contents": "oembed_default_width"
         },
         {
             "trigger": "add_filter-oembed_discovery_links\tWP Filter",
@@ -4765,14 +4821,6 @@
         {
             "trigger": "oembed_remote_get_args\tWP Filter Name",
             "contents": "oembed_remote_get_args"
-        },
-        {
-            "trigger": "add_filter-oembed_request_post_id\tWP Filter",
-            "contents": "add_filter( 'oembed_request_post_id', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "oembed_request_post_id\tWP Filter Name",
-            "contents": "oembed_request_post_id"
         },
         {
             "trigger": "add_filter-oembed_response_data\tWP Filter",
@@ -4993,6 +5041,14 @@
         {
             "trigger": "add_filter-plugin_action_links_{$plugin_file}\tWP Filter",
             "contents": "add_filter( \"plugin_action_links_${1:\\{${2:\\$plugin_file}\\}}\", ${3:\\$function_to_add}, ${4:10}, 4 );"
+        },
+        {
+            "trigger": "add_filter-plugin_files_exclusions\tWP Filter",
+            "contents": "add_filter( 'plugin_files_exclusions', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "plugin_files_exclusions\tWP Filter Name",
+            "contents": "plugin_files_exclusions"
         },
         {
             "trigger": "add_filter-plugin_install_action_links\tWP Filter",
@@ -5264,7 +5320,7 @@
         },
         {
             "trigger": "add_filter-post_thumbnail_size\tWP Filter",
-            "contents": "add_filter( 'post_thumbnail_size', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'post_thumbnail_size', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "post_thumbnail_size\tWP Filter Name",
@@ -5531,6 +5587,14 @@
             "contents": "add_filter( \"pre_add_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
         },
         {
+            "trigger": "add_filter-pre_cache_alloptions\tWP Filter",
+            "contents": "add_filter( 'pre_cache_alloptions', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "pre_cache_alloptions\tWP Filter Name",
+            "contents": "pre_cache_alloptions"
+        },
+        {
             "trigger": "add_filter-pre_category_nicename\tWP Filter",
             "contents": "add_filter( 'pre_category_nicename', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -5667,6 +5731,14 @@
             "contents": "pre_get_lastpostmodified"
         },
         {
+            "trigger": "add_filter-pre_get_main_site_id\tWP Filter",
+            "contents": "add_filter( 'pre_get_main_site_id', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "pre_get_main_site_id\tWP Filter Name",
+            "contents": "pre_get_main_site_id"
+        },
+        {
             "trigger": "add_filter-pre_get_network_by_path\tWP Filter",
             "contents": "add_filter( 'pre_get_network_by_path', ${1:\\$function_to_add}, ${2:10}, 5 );"
         },
@@ -5747,6 +5819,14 @@
             "contents": "pre_kses"
         },
         {
+            "trigger": "add_filter-pre_move_uploaded_file\tWP Filter",
+            "contents": "add_filter( 'pre_move_uploaded_file', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "pre_move_uploaded_file\tWP Filter Name",
+            "contents": "pre_move_uploaded_file"
+        },
+        {
             "trigger": "add_filter-pre_oembed_result\tWP Filter",
             "contents": "add_filter( 'pre_oembed_result', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
@@ -5756,7 +5836,7 @@
         },
         {
             "trigger": "add_filter-pre_option_{$option}\tWP Filter",
-            "contents": "add_filter( \"pre_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
+            "contents": "add_filter( \"pre_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
         },
         {
             "trigger": "add_filter-pre_post_{$field}\tWP Filter",
@@ -5800,7 +5880,7 @@
         },
         {
             "trigger": "add_filter-pre_site_option_{$option}\tWP Filter",
-            "contents": "add_filter( \"pre_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+            "contents": "add_filter( \"pre_site_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 4 );"
         },
         {
             "trigger": "add_filter-pre_site_transient_{$transient}\tWP Filter",
@@ -5811,8 +5891,32 @@
             "contents": "add_filter( \"pre_term_${1:\\{${2:\\$field}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
         },
         {
+            "trigger": "add_filter-pre_term_link\tWP Filter",
+            "contents": "add_filter( 'pre_term_link', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "pre_term_link\tWP Filter Name",
+            "contents": "pre_term_link"
+        },
+        {
             "trigger": "add_filter-pre_transient_{$transient}\tWP Filter",
             "contents": "add_filter( \"pre_transient_${1:\\{${2:\\$transient}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
+        },
+        {
+            "trigger": "add_filter-pre_trash_post\tWP Filter",
+            "contents": "add_filter( 'pre_trash_post', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "pre_trash_post\tWP Filter Name",
+            "contents": "pre_trash_post"
+        },
+        {
+            "trigger": "add_filter-pre_untrash_post\tWP Filter",
+            "contents": "add_filter( 'pre_untrash_post', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "pre_untrash_post\tWP Filter Name",
+            "contents": "pre_untrash_post"
         },
         {
             "trigger": "add_filter-pre_update_option\tWP Filter",
@@ -5953,46 +6057,6 @@
         {
             "trigger": "preprocess_comment\tWP Filter Name",
             "contents": "preprocess_comment"
-        },
-        {
-            "trigger": "add_filter-press_this_data\tWP Filter",
-            "contents": "add_filter( 'press_this_data', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "press_this_data\tWP Filter Name",
-            "contents": "press_this_data"
-        },
-        {
-            "trigger": "add_filter-press_this_redirect_in_parent\tWP Filter",
-            "contents": "add_filter( 'press_this_redirect_in_parent', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "press_this_redirect_in_parent\tWP Filter Name",
-            "contents": "press_this_redirect_in_parent"
-        },
-        {
-            "trigger": "add_filter-press_this_save_post\tWP Filter",
-            "contents": "add_filter( 'press_this_save_post', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "press_this_save_post\tWP Filter Name",
-            "contents": "press_this_save_post"
-        },
-        {
-            "trigger": "add_filter-press_this_save_redirect\tWP Filter",
-            "contents": "add_filter( 'press_this_save_redirect', ${1:\\$function_to_add}, ${2:10}, 3 );"
-        },
-        {
-            "trigger": "press_this_save_redirect\tWP Filter Name",
-            "contents": "press_this_save_redirect"
-        },
-        {
-            "trigger": "add_filter-press_this_suggested_html\tWP Filter",
-            "contents": "add_filter( 'press_this_suggested_html', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "press_this_suggested_html\tWP Filter Name",
-            "contents": "press_this_suggested_html"
         },
         {
             "trigger": "add_filter-preview_post_link\tWP Filter",
@@ -6405,14 +6469,6 @@
         {
             "trigger": "rest_namespace_index\tWP Filter Name",
             "contents": "rest_namespace_index"
-        },
-        {
-            "trigger": "add_filter-rest_oembed_ttl\tWP Filter",
-            "contents": "add_filter( 'rest_oembed_ttl', ${1:\\$function_to_add}, ${2:10}, 3 );"
-        },
-        {
-            "trigger": "rest_oembed_ttl\tWP Filter Name",
-            "contents": "rest_oembed_ttl"
         },
         {
             "trigger": "add_filter-rest_post_dispatch\tWP Filter",
@@ -6971,6 +7027,14 @@
             "contents": "secure_signon_cookie"
         },
         {
+            "trigger": "add_filter-self_admin_url\tWP Filter",
+            "contents": "add_filter( 'self_admin_url', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "self_admin_url\tWP Filter Name",
+            "contents": "self_admin_url"
+        },
+        {
             "trigger": "add_filter-self_link\tWP Filter",
             "contents": "add_filter( 'self_link', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -7003,12 +7067,28 @@
             "contents": "send_email_change_email"
         },
         {
+            "trigger": "add_filter-send_network_admin_email_change_email\tWP Filter",
+            "contents": "add_filter( 'send_network_admin_email_change_email', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "send_network_admin_email_change_email\tWP Filter Name",
+            "contents": "send_network_admin_email_change_email"
+        },
+        {
             "trigger": "add_filter-send_password_change_email\tWP Filter",
             "contents": "add_filter( 'send_password_change_email', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "send_password_change_email\tWP Filter Name",
             "contents": "send_password_change_email"
+        },
+        {
+            "trigger": "add_filter-send_site_admin_email_change_email\tWP Filter",
+            "contents": "add_filter( 'send_site_admin_email_change_email', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "send_site_admin_email_change_email\tWP Filter Name",
+            "contents": "send_site_admin_email_change_email"
         },
         {
             "trigger": "add_filter-session_token_manager\tWP Filter",
@@ -7045,14 +7125,6 @@
         {
             "trigger": "add_filter-shortcode_atts_{$shortcode}\tWP Filter",
             "contents": "add_filter( \"shortcode_atts_${1:\\{${2:\\$shortcode}\\}}\", ${3:\\$function_to_add}, ${4:10}, 4 );"
-        },
-        {
-            "trigger": "add_filter-shortcut_link\tWP Filter",
-            "contents": "add_filter( 'shortcut_link', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "shortcut_link\tWP Filter Name",
-            "contents": "shortcut_link"
         },
         {
             "trigger": "add_filter-show_admin_bar\tWP Filter",
@@ -7205,6 +7277,14 @@
         {
             "trigger": "single_term_title\tWP Filter Name",
             "contents": "single_term_title"
+        },
+        {
+            "trigger": "add_filter-site_admin_email_change_email\tWP Filter",
+            "contents": "add_filter( 'site_admin_email_change_email', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "site_admin_email_change_email\tWP Filter Name",
+            "contents": "site_admin_email_change_email"
         },
         {
             "trigger": "add_filter-site_allowed_themes\tWP Filter",
@@ -8047,14 +8127,6 @@
             "contents": "tiny_mce_plugins"
         },
         {
-            "trigger": "add_filter-title_save_pre\tWP Filter",
-            "contents": "add_filter( 'title_save_pre', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "title_save_pre\tWP Filter Name",
-            "contents": "title_save_pre"
-        },
-        {
             "trigger": "add_filter-trackback_url\tWP Filter",
             "contents": "add_filter( 'trackback_url', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -8173,14 +8245,6 @@
         {
             "trigger": "update_theme_complete_actions\tWP Filter Name",
             "contents": "update_theme_complete_actions"
-        },
-        {
-            "trigger": "add_filter-update_translations_complete_actions\tWP Filter",
-            "contents": "add_filter( 'update_translations_complete_actions', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "update_translations_complete_actions\tWP Filter Name",
-            "contents": "update_translations_complete_actions"
         },
         {
             "trigger": "add_filter-update_welcome_email\tWP Filter",
@@ -8431,6 +8495,14 @@
             "contents": "user_trailingslashit"
         },
         {
+            "trigger": "add_filter-username_exists\tWP Filter",
+            "contents": "add_filter( 'username_exists', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "username_exists\tWP Filter Name",
+            "contents": "username_exists"
+        },
+        {
             "trigger": "add_filter-users_list_table_query_args\tWP Filter",
             "contents": "add_filter( 'users_list_table_query_args', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -8487,8 +8559,12 @@
             "contents": "add_filter( \"widget_${1:\\{${2:\\$this->id_base}\\}}_instance\", ${3:\\$function_to_add}, ${4:10}, 3 );"
         },
         {
+            "trigger": "add_filter-widget_{$this->id_base}_instance_schema\tWP Filter",
+            "contents": "add_filter( \"widget_${1:\\{${2:\\$this->id_base}\\}}_instance_schema\", ${3:\\$function_to_add}, ${4:10}, 2 );"
+        },
+        {
             "trigger": "add_filter-widget_archives_args\tWP Filter",
-            "contents": "add_filter( 'widget_archives_args', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'widget_archives_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "widget_archives_args\tWP Filter Name",
@@ -8496,7 +8572,7 @@
         },
         {
             "trigger": "add_filter-widget_archives_dropdown_args\tWP Filter",
-            "contents": "add_filter( 'widget_archives_dropdown_args', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'widget_archives_dropdown_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "widget_archives_dropdown_args\tWP Filter Name",
@@ -8504,7 +8580,7 @@
         },
         {
             "trigger": "add_filter-widget_categories_args\tWP Filter",
-            "contents": "add_filter( 'widget_categories_args', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'widget_categories_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "widget_categories_args\tWP Filter Name",
@@ -8512,7 +8588,7 @@
         },
         {
             "trigger": "add_filter-widget_categories_dropdown_args\tWP Filter",
-            "contents": "add_filter( 'widget_categories_dropdown_args', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'widget_categories_dropdown_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "widget_categories_dropdown_args\tWP Filter Name",
@@ -8520,7 +8596,7 @@
         },
         {
             "trigger": "add_filter-widget_comments_args\tWP Filter",
-            "contents": "add_filter( 'widget_comments_args', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'widget_comments_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "widget_comments_args\tWP Filter Name",
@@ -8568,7 +8644,7 @@
         },
         {
             "trigger": "add_filter-widget_meta_poweredby\tWP Filter",
-            "contents": "add_filter( 'widget_meta_poweredby', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'widget_meta_poweredby', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "widget_meta_poweredby\tWP Filter Name",
@@ -8584,7 +8660,7 @@
         },
         {
             "trigger": "add_filter-widget_pages_args\tWP Filter",
-            "contents": "add_filter( 'widget_pages_args', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'widget_pages_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "widget_pages_args\tWP Filter Name",
@@ -8592,7 +8668,7 @@
         },
         {
             "trigger": "add_filter-widget_posts_args\tWP Filter",
-            "contents": "add_filter( 'widget_posts_args', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'widget_posts_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "widget_posts_args\tWP Filter Name",
@@ -8600,27 +8676,11 @@
         },
         {
             "trigger": "add_filter-widget_tag_cloud_args\tWP Filter",
-            "contents": "add_filter( 'widget_tag_cloud_args', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'widget_tag_cloud_args', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "widget_tag_cloud_args\tWP Filter Name",
             "contents": "widget_tag_cloud_args"
-        },
-        {
-            "trigger": "add_filter-widget_text\tWP Filter",
-            "contents": "add_filter( 'widget_text', ${1:\\$function_to_add}, ${2:10}, 3 );"
-        },
-        {
-            "trigger": "widget_text\tWP Filter Name",
-            "contents": "widget_text"
-        },
-        {
-            "trigger": "add_filter-widget_text_content\tWP Filter",
-            "contents": "add_filter( 'widget_text_content', ${1:\\$function_to_add}, ${2:10}, 3 );"
-        },
-        {
-            "trigger": "widget_text_content\tWP Filter Name",
-            "contents": "widget_text_content"
         },
         {
             "trigger": "add_filter-widget_title\tWP Filter",
@@ -8704,7 +8764,7 @@
         },
         {
             "trigger": "add_filter-wp_audio_shortcode_class\tWP Filter",
-            "contents": "add_filter( 'wp_audio_shortcode_class', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'wp_audio_shortcode_class', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "wp_audio_shortcode_class\tWP Filter Name",
@@ -8813,6 +8873,14 @@
         {
             "trigger": "wp_checkdate\tWP Filter Name",
             "contents": "wp_checkdate"
+        },
+        {
+            "trigger": "add_filter-wp_code_editor_settings\tWP Filter",
+            "contents": "add_filter( 'wp_code_editor_settings', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "wp_code_editor_settings\tWP Filter Name",
+            "contents": "wp_code_editor_settings"
         },
         {
             "trigger": "add_filter-wp_comment_reply\tWP Filter",
@@ -9151,6 +9219,14 @@
             "contents": "wp_get_nav_menu_items"
         },
         {
+            "trigger": "add_filter-wp_get_nav_menu_name\tWP Filter",
+            "contents": "add_filter( 'wp_get_nav_menu_name', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "wp_get_nav_menu_name\tWP Filter Name",
+            "contents": "wp_get_nav_menu_name"
+        },
+        {
             "trigger": "add_filter-wp_get_nav_menu_object\tWP Filter",
             "contents": "add_filter( 'wp_get_nav_menu_object', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -9173,6 +9249,14 @@
         {
             "trigger": "wp_get_object_terms\tWP Filter Name",
             "contents": "wp_get_object_terms"
+        },
+        {
+            "trigger": "add_filter-wp_get_object_terms_args\tWP Filter",
+            "contents": "add_filter( 'wp_get_object_terms_args', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_get_object_terms_args\tWP Filter Name",
+            "contents": "wp_get_object_terms_args"
         },
         {
             "trigger": "add_filter-wp_get_revision_ui_diff\tWP Filter",
@@ -9309,6 +9393,14 @@
         {
             "trigger": "wp_is_large_network\tWP Filter Name",
             "contents": "wp_is_large_network"
+        },
+        {
+            "trigger": "add_filter-wp_is_mobile\tWP Filter",
+            "contents": "add_filter( 'wp_is_mobile', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_is_mobile\tWP Filter Name",
+            "contents": "wp_is_mobile"
         },
         {
             "trigger": "add_filter-wp_kses_allowed_html\tWP Filter",
@@ -9539,6 +9631,22 @@
             "contents": "wp_network_dashboard_widgets"
         },
         {
+            "trigger": "add_filter-wp_new_user_notification_email\tWP Filter",
+            "contents": "add_filter( 'wp_new_user_notification_email', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_new_user_notification_email\tWP Filter Name",
+            "contents": "wp_new_user_notification_email"
+        },
+        {
+            "trigger": "add_filter-wp_new_user_notification_email_admin\tWP Filter",
+            "contents": "add_filter( 'wp_new_user_notification_email_admin', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_new_user_notification_email_admin\tWP Filter Name",
+            "contents": "wp_new_user_notification_email_admin"
+        },
+        {
             "trigger": "add_filter-wp_page_menu\tWP Filter",
             "contents": "add_filter( 'wp_page_menu', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -9563,12 +9671,28 @@
             "contents": "wp_parse_str"
         },
         {
+            "trigger": "add_filter-wp_password_change_notification_email\tWP Filter",
+            "contents": "add_filter( 'wp_password_change_notification_email', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_password_change_notification_email\tWP Filter Name",
+            "contents": "wp_password_change_notification_email"
+        },
+        {
             "trigger": "add_filter-wp_post_revision_title_expanded\tWP Filter",
             "contents": "add_filter( 'wp_post_revision_title_expanded', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "wp_post_revision_title_expanded\tWP Filter Name",
             "contents": "wp_post_revision_title_expanded"
+        },
+        {
+            "trigger": "add_filter-wp_pre_insert_user_data\tWP Filter",
+            "contents": "add_filter( 'wp_pre_insert_user_data', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_pre_insert_user_data\tWP Filter Name",
+            "contents": "wp_pre_insert_user_data"
         },
         {
             "trigger": "add_filter-wp_prepare_attachment_for_js\tWP Filter",
@@ -9617,6 +9741,14 @@
         {
             "trigger": "wp_read_image_metadata_types\tWP Filter Name",
             "contents": "wp_read_image_metadata_types"
+        },
+        {
+            "trigger": "add_filter-wp_read_video_metadata\tWP Filter",
+            "contents": "add_filter( 'wp_read_video_metadata', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "wp_read_video_metadata\tWP Filter Name",
+            "contents": "wp_read_video_metadata"
         },
         {
             "trigger": "add_filter-wp_redirect\tWP Filter",
@@ -9948,7 +10080,7 @@
         },
         {
             "trigger": "add_filter-wp_video_shortcode_class\tWP Filter",
-            "contents": "add_filter( 'wp_video_shortcode_class', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_filter( 'wp_video_shortcode_class', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "wp_video_shortcode_class\tWP Filter Name",

@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "351 WordPress - Classes",
+    "comment": "344 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -13,14 +13,6 @@
         {
             "trigger": "_WP_List_Table_Compat\tWP Class Name",
             "contents": "_WP_List_Table_Compat"
-        },
-        {
-            "trigger": "AMFReader\tWP Class Name",
-            "contents": "AMFReader"
-        },
-        {
-            "trigger": "AMFStream\tWP Class Name",
-            "contents": "AMFStream"
         },
         {
             "trigger": "AtomEntry\tWP Class Name",
@@ -37,10 +29,6 @@
         {
             "trigger": "Automatic_Upgrader_Skin\tWP Class Name",
             "contents": "Automatic_Upgrader_Skin"
-        },
-        {
-            "trigger": "AVCSequenceParameterSetReader\tWP Class Name",
-            "contents": "AVCSequenceParameterSetReader"
         },
         {
             "trigger": "Bulk_Plugin_Upgrader_Skin\tWP Class Name",
@@ -113,10 +101,6 @@
         {
             "trigger": "getid3_flac\tWP Class Name",
             "contents": "getid3_flac"
-        },
-        {
-            "trigger": "getid3_flv\tWP Class Name",
-            "contents": "getid3_flv"
         },
         {
             "trigger": "getid3_handler\tWP Class Name",
@@ -207,10 +191,6 @@
             "contents": "Language_Pack_Upgrader"
         },
         {
-            "trigger": "Language_Pack_Upgrader_Skin\tWP Class Name",
-            "contents": "Language_Pack_Upgrader_Skin"
-        },
-        {
             "trigger": "MO\tWP Class Name",
             "contents": "MO"
         },
@@ -245,6 +225,10 @@
         {
             "trigger": "Plugin_Upgrader_Skin\tWP Class Name",
             "contents": "Plugin_Upgrader_Skin"
+        },
+        {
+            "trigger": "Plural_Forms\tWP Class Name",
+            "contents": "Plural_Forms"
         },
         {
             "trigger": "PO\tWP Class Name",
@@ -397,10 +381,6 @@
         {
             "trigger": "Requests_Exception_HTTP_431\tWP Class Name",
             "contents": "Requests_Exception_HTTP_431"
-        },
-        {
-            "trigger": "Requests_Exception_HTTP_500\tWP Class Name",
-            "contents": "Requests_Exception_HTTP_500"
         },
         {
             "trigger": "Requests_Exception_HTTP_501\tWP Class Name",
@@ -595,10 +575,6 @@
             "contents": "SimplePie_Parser"
         },
         {
-            "trigger": "SimplePie_Rating\tWP Class Name",
-            "contents": "SimplePie_Rating"
-        },
-        {
             "trigger": "SimplePie_Registry\tWP Class Name",
             "contents": "SimplePie_Registry"
         },
@@ -783,6 +759,10 @@
             "contents": "WP_Customize_Background_Position_Control"
         },
         {
+            "trigger": "WP_Customize_Code_Editor_Control\tWP Class Name",
+            "contents": "WP_Customize_Code_Editor_Control"
+        },
+        {
             "trigger": "WP_Customize_Color_Control\tWP Class Name",
             "contents": "WP_Customize_Color_Control"
         },
@@ -797,6 +777,10 @@
         {
             "trigger": "WP_Customize_Custom_CSS_Setting\tWP Class Name",
             "contents": "WP_Customize_Custom_CSS_Setting"
+        },
+        {
+            "trigger": "WP_Customize_Date_Time_Control\tWP Class Name",
+            "contents": "WP_Customize_Date_Time_Control"
         },
         {
             "trigger": "WP_Customize_Filter_Setting\tWP Class Name",
@@ -843,6 +827,10 @@
             "contents": "WP_Customize_Nav_Menu_Location_Control"
         },
         {
+            "trigger": "WP_Customize_Nav_Menu_Locations_Control\tWP Class Name",
+            "contents": "WP_Customize_Nav_Menu_Locations_Control"
+        },
+        {
             "trigger": "WP_Customize_Nav_Menu_Name_Control\tWP Class Name",
             "contents": "WP_Customize_Nav_Menu_Name_Control"
         },
@@ -863,14 +851,6 @@
             "contents": "WP_Customize_Nav_Menus_Panel"
         },
         {
-            "trigger": "WP_Customize_New_Menu_Control\tWP Class Name",
-            "contents": "WP_Customize_New_Menu_Control"
-        },
-        {
-            "trigger": "WP_Customize_New_Menu_Section\tWP Class Name",
-            "contents": "WP_Customize_New_Menu_Section"
-        },
-        {
             "trigger": "WP_Customize_Panel\tWP Class Name",
             "contents": "WP_Customize_Panel"
         },
@@ -881,10 +861,6 @@
         {
             "trigger": "WP_Customize_Section\tWP Class Name",
             "contents": "WP_Customize_Section"
-        },
-        {
-            "trigger": "WP_Customize_Selective_Refresh\tWP Class Name",
-            "contents": "WP_Customize_Selective_Refresh"
         },
         {
             "trigger": "WP_Customize_Setting\tWP Class Name",
@@ -901,6 +877,10 @@
         {
             "trigger": "WP_Customize_Theme_Control\tWP Class Name",
             "contents": "WP_Customize_Theme_Control"
+        },
+        {
+            "trigger": "WP_Customize_Themes_Panel\tWP Class Name",
+            "contents": "WP_Customize_Themes_Panel"
         },
         {
             "trigger": "WP_Customize_Themes_Section\tWP Class Name",
@@ -1091,10 +1071,6 @@
             "contents": "WP_oEmbed"
         },
         {
-            "trigger": "WP_oEmbed_Controller\tWP Class Name",
-            "contents": "WP_oEmbed_Controller"
-        },
-        {
             "trigger": "WP_Plugin_Install_List_Table\tWP Class Name",
             "contents": "WP_Plugin_Install_List_Table"
         },
@@ -1117,10 +1093,6 @@
         {
             "trigger": "WP_Posts_List_Table\tWP Class Name",
             "contents": "WP_Posts_List_Table"
-        },
-        {
-            "trigger": "WP_Press_This\tWP Class Name",
-            "contents": "WP_Press_This"
         },
         {
             "trigger": "WP_Query\tWP Class Name",
@@ -1359,6 +1331,10 @@
             "contents": "WP_Widget_Media_Audio"
         },
         {
+            "trigger": "WP_Widget_Media_Gallery\tWP Class Name",
+            "contents": "WP_Widget_Media_Gallery"
+        },
+        {
             "trigger": "WP_Widget_Media_Image\tWP Class Name",
             "contents": "WP_Widget_Media_Image"
         },
@@ -1393,10 +1369,6 @@
         {
             "trigger": "WP_Widget_Tag_Cloud\tWP Class Name",
             "contents": "WP_Widget_Tag_Cloud"
-        },
-        {
-            "trigger": "WP_Widget_Text\tWP Class Name",
-            "contents": "WP_Widget_Text"
         },
         {
             "trigger": "wp_xmlrpc_server\tWP Class Name",
