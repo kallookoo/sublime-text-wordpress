@@ -7,11 +7,11 @@ Is a collection of the completions and some snippets for Sublime Text
 | Type         | Completions |
 | ------------ | ----------- |
 | Functions    | **2502**    |
-| Actions      | **622**     |
-| Filters      | **1365**    |
-| Classes      | **344**     |
-| Methods      | **3237**    |
-| Constants    | **496**     |
+| Actions      | **625**     |
+| Filters      | **1375**    |
+| Classes      | **354**     |
+| Methods      | **3310**    |
+| Constants    | **514**     |
 | Capabilities | **64**      |
 
 ### How to use

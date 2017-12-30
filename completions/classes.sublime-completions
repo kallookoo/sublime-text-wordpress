@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "344 WordPress - Classes",
+    "comment": "354 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -13,6 +13,14 @@
         {
             "trigger": "_WP_List_Table_Compat\tWP Class Name",
             "contents": "_WP_List_Table_Compat"
+        },
+        {
+            "trigger": "AMFReader\tWP Class Name",
+            "contents": "AMFReader"
+        },
+        {
+            "trigger": "AMFStream\tWP Class Name",
+            "contents": "AMFStream"
         },
         {
             "trigger": "AtomEntry\tWP Class Name",
@@ -29,6 +37,10 @@
         {
             "trigger": "Automatic_Upgrader_Skin\tWP Class Name",
             "contents": "Automatic_Upgrader_Skin"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader\tWP Class Name",
+            "contents": "AVCSequenceParameterSetReader"
         },
         {
             "trigger": "Bulk_Plugin_Upgrader_Skin\tWP Class Name",
@@ -101,6 +113,10 @@
         {
             "trigger": "getid3_flac\tWP Class Name",
             "contents": "getid3_flac"
+        },
+        {
+            "trigger": "getid3_flv\tWP Class Name",
+            "contents": "getid3_flv"
         },
         {
             "trigger": "getid3_handler\tWP Class Name",
@@ -189,6 +205,10 @@
         {
             "trigger": "Language_Pack_Upgrader\tWP Class Name",
             "contents": "Language_Pack_Upgrader"
+        },
+        {
+            "trigger": "Language_Pack_Upgrader_Skin\tWP Class Name",
+            "contents": "Language_Pack_Upgrader_Skin"
         },
         {
             "trigger": "MO\tWP Class Name",
@@ -383,6 +403,10 @@
             "contents": "Requests_Exception_HTTP_431"
         },
         {
+            "trigger": "Requests_Exception_HTTP_500\tWP Class Name",
+            "contents": "Requests_Exception_HTTP_500"
+        },
+        {
             "trigger": "Requests_Exception_HTTP_501\tWP Class Name",
             "contents": "Requests_Exception_HTTP_501"
         },
@@ -573,6 +597,10 @@
         {
             "trigger": "SimplePie_Parser\tWP Class Name",
             "contents": "SimplePie_Parser"
+        },
+        {
+            "trigger": "SimplePie_Rating\tWP Class Name",
+            "contents": "SimplePie_Rating"
         },
         {
             "trigger": "SimplePie_Registry\tWP Class Name",
@@ -863,6 +891,10 @@
             "contents": "WP_Customize_Section"
         },
         {
+            "trigger": "WP_Customize_Selective_Refresh\tWP Class Name",
+            "contents": "WP_Customize_Selective_Refresh"
+        },
+        {
             "trigger": "WP_Customize_Setting\tWP Class Name",
             "contents": "WP_Customize_Setting"
         },
@@ -1069,6 +1101,10 @@
         {
             "trigger": "WP_oEmbed\tWP Class Name",
             "contents": "WP_oEmbed"
+        },
+        {
+            "trigger": "WP_oEmbed_Controller\tWP Class Name",
+            "contents": "WP_oEmbed_Controller"
         },
         {
             "trigger": "WP_Plugin_Install_List_Table\tWP Class Name",
@@ -1369,6 +1405,10 @@
         {
             "trigger": "WP_Widget_Tag_Cloud\tWP Class Name",
             "contents": "WP_Widget_Tag_Cloud"
+        },
+        {
+            "trigger": "WP_Widget_Text\tWP Class Name",
+            "contents": "WP_Widget_Text"
         },
         {
             "trigger": "wp_xmlrpc_server\tWP Class Name",

@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3237 WordPress - Methods",
+    "comment": "3310 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -69,6 +69,110 @@
         {
             "trigger": "_WP_List_Table_Compat-get_columns\tWP Class Method",
             "contents": "${1:_WP_List_Table_Compat}->get_columns();"
+        },
+        {
+            "trigger": "AMFReader-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new AMFReader( ${3:\\$stream} );"
+        },
+        {
+            "trigger": "AMFReader-readArray\tWP Class Method",
+            "contents": "${1:AMFReader}->readArray();"
+        },
+        {
+            "trigger": "AMFReader-readBoolean\tWP Class Method",
+            "contents": "${1:AMFReader}->readBoolean();"
+        },
+        {
+            "trigger": "AMFReader-readData\tWP Class Method",
+            "contents": "${1:AMFReader}->readData();"
+        },
+        {
+            "trigger": "AMFReader-readDate\tWP Class Method",
+            "contents": "${1:AMFReader}->readDate();"
+        },
+        {
+            "trigger": "AMFReader-readDouble\tWP Class Method",
+            "contents": "${1:AMFReader}->readDouble();"
+        },
+        {
+            "trigger": "AMFReader-readLongString\tWP Class Method",
+            "contents": "${1:AMFReader}->readLongString();"
+        },
+        {
+            "trigger": "AMFReader-readMixedArray\tWP Class Method",
+            "contents": "${1:AMFReader}->readMixedArray();"
+        },
+        {
+            "trigger": "AMFReader-readObject\tWP Class Method",
+            "contents": "${1:AMFReader}->readObject();"
+        },
+        {
+            "trigger": "AMFReader-readString\tWP Class Method",
+            "contents": "${1:AMFReader}->readString();"
+        },
+        {
+            "trigger": "AMFReader-readTypedObject\tWP Class Method",
+            "contents": "${1:AMFReader}->readTypedObject();"
+        },
+        {
+            "trigger": "AMFReader-readXML\tWP Class Method",
+            "contents": "${1:AMFReader}->readXML();"
+        },
+        {
+            "trigger": "AMFStream-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new AMFStream( ${3:\\$bytes} );"
+        },
+        {
+            "trigger": "AMFStream-peekByte\tWP Class Method",
+            "contents": "${1:AMFStream}->peekByte();"
+        },
+        {
+            "trigger": "AMFStream-peekDouble\tWP Class Method",
+            "contents": "${1:AMFStream}->peekDouble();"
+        },
+        {
+            "trigger": "AMFStream-peekInt\tWP Class Method",
+            "contents": "${1:AMFStream}->peekInt();"
+        },
+        {
+            "trigger": "AMFStream-peekLong\tWP Class Method",
+            "contents": "${1:AMFStream}->peekLong();"
+        },
+        {
+            "trigger": "AMFStream-peekLongUTF\tWP Class Method",
+            "contents": "${1:AMFStream}->peekLongUTF();"
+        },
+        {
+            "trigger": "AMFStream-peekUTF\tWP Class Method",
+            "contents": "${1:AMFStream}->peekUTF();"
+        },
+        {
+            "trigger": "AMFStream-read\tWP Class Method",
+            "contents": "${1:AMFStream}->read( ${2:\\$length} );"
+        },
+        {
+            "trigger": "AMFStream-readByte\tWP Class Method",
+            "contents": "${1:AMFStream}->readByte();"
+        },
+        {
+            "trigger": "AMFStream-readDouble\tWP Class Method",
+            "contents": "${1:AMFStream}->readDouble();"
+        },
+        {
+            "trigger": "AMFStream-readInt\tWP Class Method",
+            "contents": "${1:AMFStream}->readInt();"
+        },
+        {
+            "trigger": "AMFStream-readLong\tWP Class Method",
+            "contents": "${1:AMFStream}->readLong();"
+        },
+        {
+            "trigger": "AMFStream-readLongUTF\tWP Class Method",
+            "contents": "${1:AMFStream}->readLongUTF();"
+        },
+        {
+            "trigger": "AMFStream-readUTF\tWP Class Method",
+            "contents": "${1:AMFStream}->readUTF();"
         },
         {
             "trigger": "AtomParser-__construct\tWP Class Method",
@@ -153,6 +257,42 @@
         {
             "trigger": "Automatic_Upgrader_Skin-request_filesystem_credentials\tWP Class Method",
             "contents": "${1:Automatic_Upgrader_Skin}->request_filesystem_credentials( ${2:\\$error}, ${3:\\$context}, ${4:\\$allow_relaxed_file_ownership} );"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new AVCSequenceParameterSetReader( ${3:\\$sps} );"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader-expGolombSe\tWP Class Method",
+            "contents": "${1:AVCSequenceParameterSetReader}->expGolombSe();"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader-expGolombUe\tWP Class Method",
+            "contents": "${1:AVCSequenceParameterSetReader}->expGolombUe();"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader-getBit\tWP Class Method",
+            "contents": "${1:AVCSequenceParameterSetReader}->getBit();"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader-getBits\tWP Class Method",
+            "contents": "${1:AVCSequenceParameterSetReader}->getBits( ${2:\\$bits} );"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader-getHeight\tWP Class Method",
+            "contents": "${1:AVCSequenceParameterSetReader}->getHeight();"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader-getWidth\tWP Class Method",
+            "contents": "${1:AVCSequenceParameterSetReader}->getWidth();"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader-readData\tWP Class Method",
+            "contents": "${1:AVCSequenceParameterSetReader}->readData();"
+        },
+        {
+            "trigger": "AVCSequenceParameterSetReader-skipBits\tWP Class Method",
+            "contents": "${1:AVCSequenceParameterSetReader}->skipBits( ${2:\\$bits} );"
         },
         {
             "trigger": "Bulk_Plugin_Upgrader_Skin-add_strings\tWP Class Method",
@@ -885,6 +1025,26 @@
         {
             "trigger": "getid3_flac-pictureTypeLookup\tWP Class Method",
             "contents": "${1:getid3_flac}::pictureTypeLookup( ${2:\\$type_id} );"
+        },
+        {
+            "trigger": "getid3_flv-Analyze\tWP Class Method",
+            "contents": "${1:getid3_flv}->Analyze();"
+        },
+        {
+            "trigger": "getid3_flv-audioBitDepthLookup\tWP Class Method",
+            "contents": "${1:getid3_flv}::audioBitDepthLookup( ${2:\\$id} );"
+        },
+        {
+            "trigger": "getid3_flv-audioFormatLookup\tWP Class Method",
+            "contents": "${1:getid3_flv}::audioFormatLookup( ${2:\\$id} );"
+        },
+        {
+            "trigger": "getid3_flv-audioRateLookup\tWP Class Method",
+            "contents": "${1:getid3_flv}::audioRateLookup( ${2:\\$id} );"
+        },
+        {
+            "trigger": "getid3_flv-videoCodecLookup\tWP Class Method",
+            "contents": "${1:getid3_flv}::videoCodecLookup( ${2:\\$id} );"
         },
         {
             "trigger": "getid3_handler-__construct\tWP Class Method",
@@ -1977,6 +2137,26 @@
         {
             "trigger": "IXR_Value-IXR_Value\tWP Class Method",
             "contents": "${1:IXR_Value}->IXR_Value( ${2:\\$data}, ${3:\\$type} );"
+        },
+        {
+            "trigger": "Language_Pack_Upgrader_Skin-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new Language_Pack_Upgrader_Skin( ${3:\\$args} );"
+        },
+        {
+            "trigger": "Language_Pack_Upgrader_Skin-after\tWP Class Method",
+            "contents": "${1:Language_Pack_Upgrader_Skin}->after();"
+        },
+        {
+            "trigger": "Language_Pack_Upgrader_Skin-before\tWP Class Method",
+            "contents": "${1:Language_Pack_Upgrader_Skin}->before();"
+        },
+        {
+            "trigger": "Language_Pack_Upgrader_Skin-bulk_footer\tWP Class Method",
+            "contents": "${1:Language_Pack_Upgrader_Skin}->bulk_footer();"
+        },
+        {
+            "trigger": "Language_Pack_Upgrader_Skin-error\tWP Class Method",
+            "contents": "${1:Language_Pack_Upgrader_Skin}->error( ${2:\\$error} );"
         },
         {
             "trigger": "Language_Pack_Upgrader-async_upgrade\tWP Class Method",
@@ -4435,6 +4615,22 @@
             "contents": "${1:SimplePie_Parser}->tag_open( ${2:\\$parser}, ${3:\\$tag}, ${4:\\$attributes} );"
         },
         {
+            "trigger": "SimplePie_Rating-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new SimplePie_Rating( ${3:\\$scheme}, ${4:\\$value} );"
+        },
+        {
+            "trigger": "SimplePie_Rating-__toString\tWP Class Method",
+            "contents": "${1:SimplePie_Rating}->__toString();"
+        },
+        {
+            "trigger": "SimplePie_Rating-get_scheme\tWP Class Method",
+            "contents": "${1:SimplePie_Rating}->get_scheme();"
+        },
+        {
+            "trigger": "SimplePie_Rating-get_value\tWP Class Method",
+            "contents": "${1:SimplePie_Rating}->get_value();"
+        },
+        {
             "trigger": "SimplePie_Registry-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new SimplePie_Registry();"
         },
@@ -6867,6 +7063,54 @@
             "contents": "${1:WP_Customize_Section}->print_template();"
         },
         {
+            "trigger": "WP_Customize_Selective_Refresh-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Customize_Selective_Refresh( ${3:\\$manager} );"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-add_dynamic_partials\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->add_dynamic_partials( ${2:\\$partial_ids} );"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-add_partial\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->add_partial( ${2:\\$id}, ${3:\\$args} );"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-enqueue_preview_scripts\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->enqueue_preview_scripts();"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-export_preview_data\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->export_preview_data();"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-get_partial\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->get_partial( ${2:\\$id} );"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-handle_error\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->handle_error( ${2:\\$errno}, ${3:\\$errstr}, ${4:\\$errfile}, ${5:\\$errline} );"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-handle_render_partials_request\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->handle_render_partials_request();"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-init_preview\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->init_preview();"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-is_render_partials_request\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->is_render_partials_request();"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-partials\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->partials();"
+        },
+        {
+            "trigger": "WP_Customize_Selective_Refresh-remove_partial\tWP Class Method",
+            "contents": "${1:WP_Customize_Selective_Refresh}->remove_partial( ${2:\\$id} );"
+        },
+        {
             "trigger": "WP_Customize_Setting-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_Customize_Setting( ${3:\\$manager}, ${4:\\$id}, ${5:\\$args} );"
         },
@@ -9221,6 +9465,22 @@
         {
             "trigger": "WP_Object_Cache-switch_to_blog\tWP Class Method",
             "contents": "${1:WP_Object_Cache}->switch_to_blog( ${2:\\$blog_id} );"
+        },
+        {
+            "trigger": "WP_oEmbed_Controller-get_item\tWP Class Method",
+            "contents": "${1:WP_oEmbed_Controller}->get_item( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_oEmbed_Controller-get_proxy_item\tWP Class Method",
+            "contents": "${1:WP_oEmbed_Controller}->get_proxy_item( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_oEmbed_Controller-get_proxy_item_permissions_check\tWP Class Method",
+            "contents": "${1:WP_oEmbed_Controller}->get_proxy_item_permissions_check();"
+        },
+        {
+            "trigger": "WP_oEmbed_Controller-register_routes\tWP Class Method",
+            "contents": "${1:WP_oEmbed_Controller}->register_routes();"
         },
         {
             "trigger": "WP_oEmbed-__call\tWP Class Method",
@@ -12277,6 +12537,38 @@
         {
             "trigger": "WP_Widget_Tag_Cloud-widget\tWP Class Method",
             "contents": "${1:WP_Widget_Tag_Cloud}->widget( ${2:\\$args}, ${3:\\$instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Text-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Widget_Text();"
+        },
+        {
+            "trigger": "WP_Widget_Text-_register_one\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->_register_one( ${2:\\$number} );"
+        },
+        {
+            "trigger": "WP_Widget_Text-enqueue_admin_scripts\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->enqueue_admin_scripts();"
+        },
+        {
+            "trigger": "WP_Widget_Text-form\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->form( ${2:\\$instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Text-is_legacy_instance\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->is_legacy_instance( ${2:\\$instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Text-render_control_template_scripts\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->render_control_template_scripts();"
+        },
+        {
+            "trigger": "WP_Widget_Text-update\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->update( ${2:\\$new_instance}, ${3:\\$old_instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Text-widget\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->widget( ${2:\\$args}, ${3:\\$instance} );"
         },
         {
             "trigger": "WP_Widget-__construct\tWP Class Method",

@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "496 WordPress - Constants",
+    "comment": "514 WordPress - Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -1063,6 +1063,42 @@
             "contents": "GB_IN_BYTES"
         },
         {
+            "trigger": "GETID3_FLV_TAG_AUDIO\tWP Constant",
+            "contents": "GETID3_FLV_TAG_AUDIO"
+        },
+        {
+            "trigger": "GETID3_FLV_TAG_META\tWP Constant",
+            "contents": "GETID3_FLV_TAG_META"
+        },
+        {
+            "trigger": "GETID3_FLV_TAG_VIDEO\tWP Constant",
+            "contents": "GETID3_FLV_TAG_VIDEO"
+        },
+        {
+            "trigger": "GETID3_FLV_VIDEO_H263\tWP Constant",
+            "contents": "GETID3_FLV_VIDEO_H263"
+        },
+        {
+            "trigger": "GETID3_FLV_VIDEO_H264\tWP Constant",
+            "contents": "GETID3_FLV_VIDEO_H264"
+        },
+        {
+            "trigger": "GETID3_FLV_VIDEO_SCREEN\tWP Constant",
+            "contents": "GETID3_FLV_VIDEO_SCREEN"
+        },
+        {
+            "trigger": "GETID3_FLV_VIDEO_SCREENV2\tWP Constant",
+            "contents": "GETID3_FLV_VIDEO_SCREENV2"
+        },
+        {
+            "trigger": "GETID3_FLV_VIDEO_VP6FLV\tWP Constant",
+            "contents": "GETID3_FLV_VIDEO_VP6FLV"
+        },
+        {
+            "trigger": "GETID3_FLV_VIDEO_VP6FLV_ALPHA\tWP Constant",
+            "contents": "GETID3_FLV_VIDEO_VP6FLV_ALPHA"
+        },
+        {
             "trigger": "GETID3_HELPERAPPSDIR\tWP Constant",
             "contents": "GETID3_HELPERAPPSDIR"
         },
@@ -1081,6 +1117,42 @@
         {
             "trigger": "GETID3_TEMP_DIR\tWP Constant",
             "contents": "GETID3_TEMP_DIR"
+        },
+        {
+            "trigger": "H264_AVC_SEQUENCE_HEADER\tWP Constant",
+            "contents": "H264_AVC_SEQUENCE_HEADER"
+        },
+        {
+            "trigger": "H264_PROFILE_BASELINE\tWP Constant",
+            "contents": "H264_PROFILE_BASELINE"
+        },
+        {
+            "trigger": "H264_PROFILE_EXTENDED\tWP Constant",
+            "contents": "H264_PROFILE_EXTENDED"
+        },
+        {
+            "trigger": "H264_PROFILE_HIGH\tWP Constant",
+            "contents": "H264_PROFILE_HIGH"
+        },
+        {
+            "trigger": "H264_PROFILE_HIGH10\tWP Constant",
+            "contents": "H264_PROFILE_HIGH10"
+        },
+        {
+            "trigger": "H264_PROFILE_HIGH422\tWP Constant",
+            "contents": "H264_PROFILE_HIGH422"
+        },
+        {
+            "trigger": "H264_PROFILE_HIGH444\tWP Constant",
+            "contents": "H264_PROFILE_HIGH444"
+        },
+        {
+            "trigger": "H264_PROFILE_HIGH444_PREDICTIVE\tWP Constant",
+            "contents": "H264_PROFILE_HIGH444_PREDICTIVE"
+        },
+        {
+            "trigger": "H264_PROFILE_MAIN\tWP Constant",
+            "contents": "H264_PROFILE_MAIN"
         },
         {
             "trigger": "HEADER_IMAGE\tWP Constant",

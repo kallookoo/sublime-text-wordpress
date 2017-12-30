@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "622 WordPress - Actions",
+    "comment": "625 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -1233,6 +1233,22 @@
         {
             "trigger": "add_action-customize_render_panel_{$this->id}\tWP Action",
             "contents": "add_action( \"customize_render_panel_${1:\\{${2:\\$this->id}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
+        },
+        {
+            "trigger": "add_action-customize_render_partials_after\tWP Action",
+            "contents": "add_action( 'customize_render_partials_after', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "customize_render_partials_after\tWP Action Name",
+            "contents": "customize_render_partials_after"
+        },
+        {
+            "trigger": "add_action-customize_render_partials_before\tWP Action",
+            "contents": "add_action( 'customize_render_partials_before', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "customize_render_partials_before\tWP Action Name",
+            "contents": "customize_render_partials_before"
         },
         {
             "trigger": "add_action-customize_render_section\tWP Action",
@@ -2673,6 +2689,10 @@
         {
             "trigger": "populate_options\tWP Action Name",
             "contents": "populate_options"
+        },
+        {
+            "trigger": "add_action-post_action_{$action}\tWP Action",
+            "contents": "add_action( \"post_action_${1:\\{${2:\\$action}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
             "trigger": "add_action-post_comment_status_meta_box-options\tWP Action",
