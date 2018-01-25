@@ -6020,7 +6020,7 @@
         },
         {
             "trigger": "term_description\tWP Function",
-            "contents": "term_description(${1: ${2:\\$term}${3:, ${4:'${5:post_tag}'}} })${6:;}"
+            "contents": "term_description( ${1:\\$term} )${2:;}"
         },
         {
             "trigger": "term_exists\tWP Function",
