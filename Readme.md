@@ -6,11 +6,11 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2502**    |
+| Functions    | **2505**    |
 | Actions      | **625**     |
-| Filters      | **1375**    |
+| Filters      | **1376**    |
 | Classes      | **354**     |
-| Methods      | **3310**    |
+| Methods      | **3313**    |
 | Constants    | **514**     |
 | Capabilities | **64**      |
 

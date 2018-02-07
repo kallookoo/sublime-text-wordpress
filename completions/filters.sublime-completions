@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1375 WordPress - Filters",
+    "comment": "1376 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -4885,6 +4885,14 @@
         {
             "trigger": "oembed_ttl\tWP Filter Name",
             "contents": "oembed_ttl"
+        },
+        {
+            "trigger": "add_filter-old_slug_redirect_post_id\tWP Filter",
+            "contents": "add_filter( 'old_slug_redirect_post_id', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "old_slug_redirect_post_id\tWP Filter Name",
+            "contents": "old_slug_redirect_post_id"
         },
         {
             "trigger": "add_filter-old_slug_redirect_url\tWP Filter",

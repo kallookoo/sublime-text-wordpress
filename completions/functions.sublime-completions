@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2502 WordPress - Functions",
+    "comment": "2505 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -189,6 +189,14 @@
         {
             "trigger": "_filter_query_attachment_filenames\tWP Function",
             "contents": "_filter_query_attachment_filenames( ${1:\\$clauses} )${2:;}"
+        },
+        {
+            "trigger": "_find_post_by_old_date\tWP Function",
+            "contents": "_find_post_by_old_date( ${1:\\$post_type} )${2:;}"
+        },
+        {
+            "trigger": "_find_post_by_old_slug\tWP Function",
+            "contents": "_find_post_by_old_slug( ${1:\\$post_type} )${2:;}"
         },
         {
             "trigger": "_fix_attachment_links\tWP Function",
@@ -7313,6 +7321,10 @@
         {
             "trigger": "wp_check_filetype_and_ext\tWP Function",
             "contents": "wp_check_filetype_and_ext( ${1:\\$file}, ${2:\\$filename}${3:, ${4:null}} )${5:;}"
+        },
+        {
+            "trigger": "wp_check_for_changed_dates\tWP Function",
+            "contents": "wp_check_for_changed_dates( ${1:\\$post_id}, ${2:\\$post}, ${3:\\$post_before} );"
         },
         {
             "trigger": "wp_check_for_changed_slugs\tWP Function",

@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3310 WordPress - Methods",
+    "comment": "3313 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -12543,6 +12543,10 @@
             "contents": "${1:\\$${2:class} = }new WP_Widget_Text();"
         },
         {
+            "trigger": "WP_Widget_Text-_filter_gallery_shortcode_attrs\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->_filter_gallery_shortcode_attrs( ${2:\\$attrs} );"
+        },
+        {
             "trigger": "WP_Widget_Text-_register_one\tWP Class Method",
             "contents": "${1:WP_Widget_Text}->_register_one( ${2:\\$number} );"
         },
@@ -12551,8 +12555,16 @@
             "contents": "${1:WP_Widget_Text}->enqueue_admin_scripts();"
         },
         {
+            "trigger": "WP_Widget_Text-enqueue_preview_scripts\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->enqueue_preview_scripts();"
+        },
+        {
             "trigger": "WP_Widget_Text-form\tWP Class Method",
             "contents": "${1:WP_Widget_Text}->form( ${2:\\$instance} );"
+        },
+        {
+            "trigger": "WP_Widget_Text-inject_video_max_width_style\tWP Class Method",
+            "contents": "${1:WP_Widget_Text}->inject_video_max_width_style( ${2:\\$matches} );"
         },
         {
             "trigger": "WP_Widget_Text-is_legacy_instance\tWP Class Method",
@@ -12560,7 +12572,7 @@
         },
         {
             "trigger": "WP_Widget_Text-render_control_template_scripts\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->render_control_template_scripts();"
+            "contents": "${1:WP_Widget_Text}::render_control_template_scripts();"
         },
         {
             "trigger": "WP_Widget_Text-update\tWP Class Method",
