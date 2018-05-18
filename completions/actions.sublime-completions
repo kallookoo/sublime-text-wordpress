@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "625 WordPress - Actions",
+    "comment": "628 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -3364,7 +3364,7 @@
         },
         {
             "trigger": "add_action-set_comment_cookies\tWP Action",
-            "contents": "add_action( 'set_comment_cookies', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_action( 'set_comment_cookies', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "set_comment_cookies\tWP Action Name",
@@ -3951,6 +3951,14 @@
             "contents": "user_register"
         },
         {
+            "trigger": "add_action-user_request_action_confirmed\tWP Action",
+            "contents": "add_action( 'user_request_action_confirmed', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "user_request_action_confirmed\tWP Action Name",
+            "contents": "user_request_action_confirmed"
+        },
+        {
             "trigger": "add_action-validate_password_reset\tWP Action",
             "contents": "add_action( 'validate_password_reset', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -4301,6 +4309,22 @@
         {
             "trigger": "wp_print_styles\tWP Action Name",
             "contents": "wp_print_styles"
+        },
+        {
+            "trigger": "add_action-wp_privacy_personal_data_erased\tWP Action",
+            "contents": "add_action( 'wp_privacy_personal_data_erased', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_privacy_personal_data_erased\tWP Action Name",
+            "contents": "wp_privacy_personal_data_erased"
+        },
+        {
+            "trigger": "add_action-wp_privacy_personal_data_export_file_created\tWP Action",
+            "contents": "add_action( 'wp_privacy_personal_data_export_file_created', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "wp_privacy_personal_data_export_file_created\tWP Action Name",
+            "contents": "wp_privacy_personal_data_export_file_created"
         },
         {
             "trigger": "add_action-wp_register_sidebar_widget\tWP Action",

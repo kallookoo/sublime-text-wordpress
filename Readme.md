@@ -6,11 +6,11 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2505**    |
-| Actions      | **625**     |
-| Filters      | **1376**    |
-| Classes      | **354**     |
-| Methods      | **3313**    |
+| Functions    | **2549**    |
+| Actions      | **628**     |
+| Filters      | **1398**    |
+| Classes      | **359**     |
+| Methods      | **3338**    |
 | Constants    | **514**     |
 | Capabilities | **64**      |
 
@@ -28,7 +28,7 @@ Is a collection of the completions and some snippets for Sublime Text
 
 ### Another Informations
 
-* More info inside of [wiki](https://github.com/23r9i0/sublime-text-wordpress/wiki) page.
+* More info inside of [wiki](https://github.com/kallookoo/sublime-text-wordpress/wiki) page.
 * Deprecated Functions, Constants, Classes, Methods, Actions, Filters have been removed
 * WordPress back compatibility files is not included, as support for PHP versions
 * Actions or Filter add two version of the completion only this not is dynamic name
@@ -69,7 +69,7 @@ Find WordPress Completions inside of Package Control
 
 ### Issues
 
-You found some issue, please create an [issue](https://github.com/23r9i0/sublime-text-wordpress/issues/new) to solve it.
+You found some issue, please create an [issue](https://github.com/kallookoo/sublime-text-wordpress/issues/new) to solve it.
 
 ### Donate
 

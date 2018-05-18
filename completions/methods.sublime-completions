@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3313 WordPress - Methods",
+    "comment": "3338 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -8795,6 +8795,10 @@
             "contents": "${1:WP_Internal_Pointers}::pointer_wp410_dfw();"
         },
         {
+            "trigger": "WP_Internal_Pointers-pointer_wp496_privacy\tWP Class Method",
+            "contents": "${1:WP_Internal_Pointers}::pointer_wp496_privacy();"
+        },
+        {
             "trigger": "WP_Links_List_Table-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_Links_List_Table( ${3:\\$args} );"
         },
@@ -9749,6 +9753,98 @@
         {
             "trigger": "WP_Posts_List_Table-single_row\tWP Class Method",
             "contents": "${1:WP_Posts_List_Table}->single_row( ${2:\\$post}, ${3:\\$level} );"
+        },
+        {
+            "trigger": "WP_Privacy_Data_Export_Requests_Table-column_email\tWP Class Method",
+            "contents": "${1:WP_Privacy_Data_Export_Requests_Table}->column_email( ${2:\\$item} );"
+        },
+        {
+            "trigger": "WP_Privacy_Data_Export_Requests_Table-column_next_steps\tWP Class Method",
+            "contents": "${1:WP_Privacy_Data_Export_Requests_Table}->column_next_steps( ${2:\\$item} );"
+        },
+        {
+            "trigger": "WP_Privacy_Data_Removal_Requests_Table-column_email\tWP Class Method",
+            "contents": "${1:WP_Privacy_Data_Removal_Requests_Table}->column_email( ${2:\\$item} );"
+        },
+        {
+            "trigger": "WP_Privacy_Data_Removal_Requests_Table-column_next_steps\tWP Class Method",
+            "contents": "${1:WP_Privacy_Data_Removal_Requests_Table}->column_next_steps( ${2:\\$item} );"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content-_policy_page_updated\tWP Class Method",
+            "contents": "${1:WP_Privacy_Policy_Content}::_policy_page_updated( ${2:\\$post_id} );"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content-add\tWP Class Method",
+            "contents": "${1:WP_Privacy_Policy_Content}::add( ${2:\\$plugin_name}, ${3:\\$policy_text} );"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content-add_suggested_content\tWP Class Method",
+            "contents": "${1:WP_Privacy_Policy_Content}::add_suggested_content();"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content-get_default_content\tWP Class Method",
+            "contents": "${1:WP_Privacy_Policy_Content}::get_default_content( ${2:\\$descr} );"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content-get_suggested_policy_text\tWP Class Method",
+            "contents": "${1:WP_Privacy_Policy_Content}::get_suggested_policy_text();"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content-notice\tWP Class Method",
+            "contents": "${1:WP_Privacy_Policy_Content}::notice( ${2:\\$post} );"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content-policy_text_changed_notice\tWP Class Method",
+            "contents": "${1:WP_Privacy_Policy_Content}::policy_text_changed_notice();"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content-privacy_policy_guide\tWP Class Method",
+            "contents": "${1:WP_Privacy_Policy_Content}::privacy_policy_guide();"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content-text_change_check\tWP Class Method",
+            "contents": "${1:WP_Privacy_Policy_Content}::text_change_check();"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-column_cb\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->column_cb( ${2:\\$item} );"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-column_default\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->column_default( ${2:\\$item}, ${3:\\$column_name} );"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-column_email\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->column_email( ${2:\\$item} );"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-column_next_steps\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->column_next_steps( ${2:\\$item} );"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-column_status\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->column_status( ${2:\\$item} );"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-embed_scripts\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->embed_scripts();"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-get_columns\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->get_columns();"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-prepare_items\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->prepare_items();"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-process_bulk_action\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->process_bulk_action();"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table-single_row\tWP Class Method",
+            "contents": "${1:WP_Privacy_Requests_Table}->single_row( ${2:\\$item} );"
         },
         {
             "trigger": "WP_Query-__call\tWP Class Method",
@@ -12001,6 +12097,10 @@
         {
             "trigger": "WP_User_Query-set\tWP Class Method",
             "contents": "${1:WP_User_Query}->set( ${2:\\$query_var}, ${3:\\$value} );"
+        },
+        {
+            "trigger": "WP_User_Request-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_User_Request( ${3:\\$post} );"
         },
         {
             "trigger": "WP_User-__call\tWP Class Method",

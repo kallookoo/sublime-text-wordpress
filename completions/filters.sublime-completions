@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1376 WordPress - Filters",
+    "comment": "1398 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -6195,6 +6195,14 @@
             "contents": "privacy_on_link_title"
         },
         {
+            "trigger": "add_filter-privacy_policy_url\tWP Filter",
+            "contents": "add_filter( 'privacy_policy_url', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "privacy_policy_url\tWP Filter Name",
+            "contents": "privacy_policy_url"
+        },
+        {
             "trigger": "add_filter-private_title_format\tWP Filter",
             "contents": "add_filter( 'private_title_format', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -7963,6 +7971,14 @@
             "contents": "the_preview"
         },
         {
+            "trigger": "add_filter-the_privacy_policy_link\tWP Filter",
+            "contents": "add_filter( 'the_privacy_policy_link', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "the_privacy_policy_link\tWP Filter Name",
+            "contents": "the_privacy_policy_link"
+        },
+        {
             "trigger": "add_filter-the_search_query\tWP Filter",
             "contents": "add_filter( 'the_search_query', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -8125,6 +8141,14 @@
         {
             "trigger": "theme_scandir_exclusions\tWP Filter Name",
             "contents": "theme_scandir_exclusions"
+        },
+        {
+            "trigger": "add_filter-theme_templates\tWP Filter",
+            "contents": "add_filter( 'theme_templates', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "theme_templates\tWP Filter Name",
+            "contents": "theme_templates"
         },
         {
             "trigger": "add_filter-themes_api\tWP Filter",
@@ -8503,6 +8527,14 @@
             "contents": "user_can_richedit"
         },
         {
+            "trigger": "add_filter-user_confirmed_action_email_content\tWP Filter",
+            "contents": "add_filter( 'user_confirmed_action_email_content', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "user_confirmed_action_email_content\tWP Filter Name",
+            "contents": "user_confirmed_action_email_content"
+        },
+        {
             "trigger": "add_filter-user_contactmethods\tWP Filter",
             "contents": "add_filter( 'user_contactmethods', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -8517,6 +8549,14 @@
         {
             "trigger": "user_dashboard_url\tWP Filter Name",
             "contents": "user_dashboard_url"
+        },
+        {
+            "trigger": "add_filter-user_erasure_fulfillment_email_to\tWP Filter",
+            "contents": "add_filter( 'user_erasure_fulfillment_email_to', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "user_erasure_fulfillment_email_to\tWP Filter Name",
+            "contents": "user_erasure_fulfillment_email_to"
         },
         {
             "trigger": "add_filter-user_has_cap\tWP Filter",
@@ -8541,6 +8581,54 @@
         {
             "trigger": "user_registration_email\tWP Filter Name",
             "contents": "user_registration_email"
+        },
+        {
+            "trigger": "add_filter-user_request_action_confirmed_message\tWP Filter",
+            "contents": "add_filter( 'user_request_action_confirmed_message', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "user_request_action_confirmed_message\tWP Filter Name",
+            "contents": "user_request_action_confirmed_message"
+        },
+        {
+            "trigger": "add_filter-user_request_action_description\tWP Filter",
+            "contents": "add_filter( 'user_request_action_description', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "user_request_action_description\tWP Filter Name",
+            "contents": "user_request_action_description"
+        },
+        {
+            "trigger": "add_filter-user_request_action_email_content\tWP Filter",
+            "contents": "add_filter( 'user_request_action_email_content', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "user_request_action_email_content\tWP Filter Name",
+            "contents": "user_request_action_email_content"
+        },
+        {
+            "trigger": "add_filter-user_request_action_email_subject\tWP Filter",
+            "contents": "add_filter( 'user_request_action_email_subject', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "user_request_action_email_subject\tWP Filter Name",
+            "contents": "user_request_action_email_subject"
+        },
+        {
+            "trigger": "add_filter-user_request_confirmed_email_to\tWP Filter",
+            "contents": "add_filter( 'user_request_confirmed_email_to', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "user_request_confirmed_email_to\tWP Filter Name",
+            "contents": "user_request_confirmed_email_to"
+        },
+        {
+            "trigger": "add_filter-user_request_key_expiration\tWP Filter",
+            "contents": "add_filter( 'user_request_key_expiration', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "user_request_key_expiration\tWP Filter Name",
+            "contents": "user_request_key_expiration"
         },
         {
             "trigger": "add_filter-user_row_actions\tWP Filter",
@@ -8825,6 +8913,14 @@
         {
             "trigger": "wp_ajax_cropped_attachment_metadata\tWP Filter Name",
             "contents": "wp_ajax_cropped_attachment_metadata"
+        },
+        {
+            "trigger": "add_filter-wp_anonymize_comment\tWP Filter",
+            "contents": "add_filter( 'wp_anonymize_comment', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_anonymize_comment\tWP Filter Name",
+            "contents": "wp_anonymize_comment"
         },
         {
             "trigger": "add_filter-wp_audio_embed_handler\tWP Filter",
@@ -9297,6 +9393,14 @@
         {
             "trigger": "wp_get_custom_css\tWP Filter Name",
             "contents": "wp_get_custom_css"
+        },
+        {
+            "trigger": "add_filter-wp_get_default_privacy_policy_content\tWP Filter",
+            "contents": "add_filter( 'wp_get_default_privacy_policy_content', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_get_default_privacy_policy_content\tWP Filter Name",
+            "contents": "wp_get_default_privacy_policy_content"
         },
         {
             "trigger": "add_filter-wp_get_nav_menu_items\tWP Filter",
@@ -9805,6 +9909,78 @@
         {
             "trigger": "wp_prepare_themes_for_js\tWP Filter Name",
             "contents": "wp_prepare_themes_for_js"
+        },
+        {
+            "trigger": "add_filter-wp_privacy_anonymize_data\tWP Filter",
+            "contents": "add_filter( 'wp_privacy_anonymize_data', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_privacy_anonymize_data\tWP Filter Name",
+            "contents": "wp_privacy_anonymize_data"
+        },
+        {
+            "trigger": "add_filter-wp_privacy_export_expiration\tWP Filter",
+            "contents": "add_filter( 'wp_privacy_export_expiration', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_privacy_export_expiration\tWP Filter Name",
+            "contents": "wp_privacy_export_expiration"
+        },
+        {
+            "trigger": "add_filter-wp_privacy_exports_dir\tWP Filter",
+            "contents": "add_filter( 'wp_privacy_exports_dir', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_privacy_exports_dir\tWP Filter Name",
+            "contents": "wp_privacy_exports_dir"
+        },
+        {
+            "trigger": "add_filter-wp_privacy_exports_url\tWP Filter",
+            "contents": "add_filter( 'wp_privacy_exports_url', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_privacy_exports_url\tWP Filter Name",
+            "contents": "wp_privacy_exports_url"
+        },
+        {
+            "trigger": "add_filter-wp_privacy_personal_data_email_content\tWP Filter",
+            "contents": "add_filter( 'wp_privacy_personal_data_email_content', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "wp_privacy_personal_data_email_content\tWP Filter Name",
+            "contents": "wp_privacy_personal_data_email_content"
+        },
+        {
+            "trigger": "add_filter-wp_privacy_personal_data_erasers\tWP Filter",
+            "contents": "add_filter( 'wp_privacy_personal_data_erasers', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_privacy_personal_data_erasers\tWP Filter Name",
+            "contents": "wp_privacy_personal_data_erasers"
+        },
+        {
+            "trigger": "add_filter-wp_privacy_personal_data_erasure_page\tWP Filter",
+            "contents": "add_filter( 'wp_privacy_personal_data_erasure_page', ${1:\\$function_to_add}, ${2:10}, 6 );"
+        },
+        {
+            "trigger": "wp_privacy_personal_data_erasure_page\tWP Filter Name",
+            "contents": "wp_privacy_personal_data_erasure_page"
+        },
+        {
+            "trigger": "add_filter-wp_privacy_personal_data_export_page\tWP Filter",
+            "contents": "add_filter( 'wp_privacy_personal_data_export_page', ${1:\\$function_to_add}, ${2:10}, 7 );"
+        },
+        {
+            "trigger": "wp_privacy_personal_data_export_page\tWP Filter Name",
+            "contents": "wp_privacy_personal_data_export_page"
+        },
+        {
+            "trigger": "add_filter-wp_privacy_personal_data_exporters\tWP Filter",
+            "contents": "add_filter( 'wp_privacy_personal_data_exporters', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_privacy_personal_data_exporters\tWP Filter Name",
+            "contents": "wp_privacy_personal_data_exporters"
         },
         {
             "trigger": "add_filter-wp_query_search_exclusion_prefix\tWP Filter",

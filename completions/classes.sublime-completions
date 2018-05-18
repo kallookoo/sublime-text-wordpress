@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "354 WordPress - Classes",
+    "comment": "359 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -1131,6 +1131,22 @@
             "contents": "WP_Posts_List_Table"
         },
         {
+            "trigger": "WP_Privacy_Data_Export_Requests_Table\tWP Class Name",
+            "contents": "WP_Privacy_Data_Export_Requests_Table"
+        },
+        {
+            "trigger": "WP_Privacy_Data_Removal_Requests_Table\tWP Class Name",
+            "contents": "WP_Privacy_Data_Removal_Requests_Table"
+        },
+        {
+            "trigger": "WP_Privacy_Policy_Content\tWP Class Name",
+            "contents": "WP_Privacy_Policy_Content"
+        },
+        {
+            "trigger": "WP_Privacy_Requests_Table\tWP Class Name",
+            "contents": "WP_Privacy_Requests_Table"
+        },
+        {
             "trigger": "WP_Query\tWP Class Name",
             "contents": "WP_Query"
         },
@@ -1317,6 +1333,10 @@
         {
             "trigger": "WP_User_Query\tWP Class Name",
             "contents": "WP_User_Query"
+        },
+        {
+            "trigger": "WP_User_Request\tWP Class Name",
+            "contents": "WP_User_Request"
         },
         {
             "trigger": "WP_Users_List_Table\tWP Class Name",
