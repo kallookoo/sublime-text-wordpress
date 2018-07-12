@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2549 WordPress - Functions",
+    "comment": "2551 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -5780,7 +5780,7 @@
         },
         {
             "trigger": "save_mod_rewrite_rules\tWP Function",
-            "contents": "save_mod_rewrite_rules();"
+            "contents": "save_mod_rewrite_rules()${1:;}"
         },
         {
             "trigger": "saveDomDocument\tWP Function",
@@ -7687,6 +7687,10 @@
             "contents": "wp_delete_attachment( ${1:\\$post_id}${2:, ${3:false}} )${4:;}"
         },
         {
+            "trigger": "wp_delete_attachment_files\tWP Function",
+            "contents": "wp_delete_attachment_files( ${1:\\$post_id}, ${2:\\$meta}, ${3:\\$backup_sizes}, ${4:\\$file} )${5:;}"
+        },
+        {
             "trigger": "wp_delete_auto_drafts\tWP Function",
             "contents": "wp_delete_auto_drafts();"
         },
@@ -7701,6 +7705,10 @@
         {
             "trigger": "wp_delete_file\tWP Function",
             "contents": "wp_delete_file( ${1:\\$file} );"
+        },
+        {
+            "trigger": "wp_delete_file_from_directory\tWP Function",
+            "contents": "wp_delete_file_from_directory( ${1:\\$file}, ${2:\\$directory} )${3:;}"
         },
         {
             "trigger": "wp_delete_link\tWP Function",

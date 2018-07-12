@@ -6,8 +6,8 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2549**    |
-| Actions      | **628**     |
+| Functions    | **2551**    |
+| Actions      | **629**     |
 | Filters      | **1398**    |
 | Classes      | **359**     |
 | Methods      | **3338**    |

@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "628 WordPress - Actions",
+    "comment": "629 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -4317,6 +4317,14 @@
         {
             "trigger": "wp_privacy_personal_data_erased\tWP Action Name",
             "contents": "wp_privacy_personal_data_erased"
+        },
+        {
+            "trigger": "add_action-wp_privacy_personal_data_export_file\tWP Action",
+            "contents": "add_action( 'wp_privacy_personal_data_export_file', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_privacy_personal_data_export_file\tWP Action Name",
+            "contents": "wp_privacy_personal_data_export_file"
         },
         {
             "trigger": "add_action-wp_privacy_personal_data_export_file_created\tWP Action",
