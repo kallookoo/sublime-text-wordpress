@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "629 WordPress - Actions",
+    "comment": "631 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -149,6 +149,14 @@
         {
             "trigger": "add_attachment\tWP Action Name",
             "contents": "add_attachment"
+        },
+        {
+            "trigger": "add_action-add_inline_data\tWP Action",
+            "contents": "add_action( 'add_inline_data', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "add_inline_data\tWP Action Name",
+            "contents": "add_inline_data"
         },
         {
             "trigger": "add_action-add_link\tWP Action",
@@ -3689,6 +3697,14 @@
         {
             "trigger": "trashed_post_comments\tWP Action Name",
             "contents": "trashed_post_comments"
+        },
+        {
+            "trigger": "add_action-try_gutenberg_panel\tWP Action",
+            "contents": "add_action( 'try_gutenberg_panel', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "try_gutenberg_panel\tWP Action Name",
+            "contents": "try_gutenberg_panel"
         },
         {
             "trigger": "add_action-unarchive_blog\tWP Action",

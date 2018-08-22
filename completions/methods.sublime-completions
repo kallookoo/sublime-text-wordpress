@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3338 WordPress - Methods",
+    "comment": "3339 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -10189,6 +10189,10 @@
         {
             "trigger": "WP_REST_Controller-get_endpoint_args_for_item_schema\tWP Class Method",
             "contents": "${1:WP_REST_Controller}->get_endpoint_args_for_item_schema( ${2:\\$method} );"
+        },
+        {
+            "trigger": "WP_REST_Controller-get_fields_for_response\tWP Class Method",
+            "contents": "${1:WP_REST_Controller}->get_fields_for_response( ${2:\\$request} );"
         },
         {
             "trigger": "WP_REST_Controller-get_item\tWP Class Method",

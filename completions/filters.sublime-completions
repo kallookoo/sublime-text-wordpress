@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1398 WordPress - Filters",
+    "comment": "1403 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -399,12 +399,12 @@
             "contents": "audio_submitbox_misc_sections"
         },
         {
-            "trigger": "add_filter-auth_{$object_type}_{$sub_type}_meta_{$meta_key}\tWP Filter",
-            "contents": "add_filter( \"auth_${1:\\{${2:\\$object_type}\\}}_${3:\\{${4:\\$sub_type}\\}}_meta_${5:\\{${6:\\$meta_key}\\}}\", ${7:\\$function_to_add}, ${8:10}, 6 );"
-        },
-        {
             "trigger": "add_filter-auth_{$object_type}_meta_{$meta_key}\tWP Filter",
             "contents": "add_filter( \"auth_${1:\\{${2:\\$object_type}\\}}_meta_${3:\\{${4:\\$meta_key}\\}}\", ${5:\\$function_to_add}, ${6:10}, 6 );"
+        },
+        {
+            "trigger": "add_filter-auth_{$object_type}_meta_{$meta_key}_for_{$object_subtype}\tWP Filter",
+            "contents": "add_filter( \"auth_${1:\\{${2:\\$object_type}\\}}_meta_${3:\\{${4:\\$meta_key}\\}}_for_${5:\\{${6:\\$object_subtype}\\}}\", ${7:\\$function_to_add}, ${8:10}, 6 );"
         },
         {
             "trigger": "add_filter-auth_cookie\tWP Filter",
@@ -2829,6 +2829,10 @@
         {
             "trigger": "get_network\tWP Filter Name",
             "contents": "get_network"
+        },
+        {
+            "trigger": "add_filter-get_object_subtype_{$object_type}\tWP Filter",
+            "contents": "add_filter( \"get_object_subtype_${1:\\{${2:\\$object_type}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
         },
         {
             "trigger": "add_filter-get_object_terms\tWP Filter",
@@ -6887,6 +6891,10 @@
             "contents": "add_filter( \"sanitize_${1:\\{${2:\\$object_type}\\}}_meta_${3:\\{${4:\\$meta_key}\\}}\", ${5:\\$function_to_add}, ${6:10}, 3 );"
         },
         {
+            "trigger": "add_filter-sanitize_{$object_type}_meta_{$meta_key}_for_{$object_subtype}\tWP Filter",
+            "contents": "add_filter( \"sanitize_${1:\\{${2:\\$object_type}\\}}_meta_${3:\\{${4:\\$meta_key}\\}}_for_${5:\\{${6:\\$object_subtype}\\}}\", ${7:\\$function_to_add}, ${8:10}, 4 );"
+        },
+        {
             "trigger": "add_filter-sanitize_email\tWP Filter",
             "contents": "add_filter( 'sanitize_email', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
@@ -8243,6 +8251,14 @@
             "contents": "translations_api_result"
         },
         {
+            "trigger": "add_filter-try_gutenberg_learn_more_link\tWP Filter",
+            "contents": "add_filter( 'try_gutenberg_learn_more_link', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "try_gutenberg_learn_more_link\tWP Filter Name",
+            "contents": "try_gutenberg_learn_more_link"
+        },
+        {
             "trigger": "add_filter-type_url_form_media\tWP Filter",
             "contents": "add_filter( 'type_url_form_media', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -8551,6 +8567,14 @@
             "contents": "user_dashboard_url"
         },
         {
+            "trigger": "add_filter-user_erasure_complete_email_subject\tWP Filter",
+            "contents": "add_filter( 'user_erasure_complete_email_subject', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "user_erasure_complete_email_subject\tWP Filter Name",
+            "contents": "user_erasure_complete_email_subject"
+        },
+        {
             "trigger": "add_filter-user_erasure_fulfillment_email_to\tWP Filter",
             "contents": "add_filter( 'user_erasure_fulfillment_email_to', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -8613,6 +8637,14 @@
         {
             "trigger": "user_request_action_email_subject\tWP Filter Name",
             "contents": "user_request_action_email_subject"
+        },
+        {
+            "trigger": "add_filter-user_request_confirmed_email_subject\tWP Filter",
+            "contents": "add_filter( 'user_request_confirmed_email_subject', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "user_request_confirmed_email_subject\tWP Filter Name",
+            "contents": "user_request_confirmed_email_subject"
         },
         {
             "trigger": "add_filter-user_request_confirmed_email_to\tWP Filter",

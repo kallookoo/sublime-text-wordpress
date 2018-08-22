@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2551 WordPress - Functions",
+    "comment": "2560 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -803,6 +803,10 @@
             "contents": "_wp_privacy_hook_requests_page();"
         },
         {
+            "trigger": "_wp_privacy_requests_screen_options\tWP Function",
+            "contents": "_wp_privacy_requests_screen_options();"
+        },
+        {
             "trigger": "_wp_privacy_resend_request\tWP Function",
             "contents": "_wp_privacy_resend_request( ${1:\\$request_id} )${2:;}"
         },
@@ -813,6 +817,10 @@
         {
             "trigger": "_wp_privacy_send_request_confirmation_notification\tWP Function",
             "contents": "_wp_privacy_send_request_confirmation_notification( ${1:\\$request_id} );"
+        },
+        {
+            "trigger": "_wp_privacy_settings_filter_draft_page_titles\tWP Function",
+            "contents": "_wp_privacy_settings_filter_draft_page_titles( ${1:\\$title}, ${2:\\$page} )${3:;}"
         },
         {
             "trigger": "_wp_privacy_statuses\tWP Function",
@@ -2895,6 +2903,10 @@
             "contents": "get_num_queries()${1:;}"
         },
         {
+            "trigger": "get_object_subtype\tWP Function",
+            "contents": "get_object_subtype( ${1:\\$object_type}, ${2:\\$object_id} )${3:;}"
+        },
+        {
             "trigger": "get_object_taxonomies\tWP Function",
             "contents": "get_object_taxonomies( ${1:\\$object}${2:, ${3:'${4:names}'}} )${5:;}"
         },
@@ -3264,7 +3276,7 @@
         },
         {
             "trigger": "get_registered_meta_keys\tWP Function",
-            "contents": "get_registered_meta_keys( ${1:\\$object_type} )${2:;}"
+            "contents": "get_registered_meta_keys( ${1:\\$object_type}${2:, ${3:'${4:}'}} )${5:;}"
         },
         {
             "trigger": "get_registered_metadata\tWP Function",
@@ -4568,7 +4580,7 @@
         },
         {
             "trigger": "login_header\tWP Function",
-            "contents": "login_header(${1: ${2:'${3:Log In}'}${4:, ${5:'${6:}'}${7:, ${8:'${9:}'}}} });"
+            "contents": "login_header(${1: ${2:'${3:Log In}'}${4:, ${5:'${6:}'}${7:, ${8:null}}} });"
         },
         {
             "trigger": "maintenance_nag\tWP Function",
@@ -5327,6 +5339,10 @@
             "contents": "register_new_user( ${1:\\$user_login}, ${2:\\$user_email} )${3:;}"
         },
         {
+            "trigger": "register_post_meta\tWP Function",
+            "contents": "register_post_meta( ${1:\\$post_type}, ${2:\\$meta_key}, ${3:\\$args} )${4:;}"
+        },
+        {
             "trigger": "register_post_status\tWP Function",
             "contents": "register_post_status( ${1:\\$post_status}${2:, ${3:array( ${4:'${5:}'} )}} )${6:;}"
         },
@@ -5363,6 +5379,10 @@
             "contents": "register_taxonomy_for_object_type( ${1:\\$taxonomy}, ${2:\\$object_type} )${3:;}"
         },
         {
+            "trigger": "register_term_meta\tWP Function",
+            "contents": "register_term_meta( ${1:\\$taxonomy}, ${2:\\$meta_key}, ${3:\\$args} )${4:;}"
+        },
+        {
             "trigger": "register_theme_directory\tWP Function",
             "contents": "register_theme_directory( ${1:\\$directory} )${2:;}"
         },
@@ -5376,7 +5396,7 @@
         },
         {
             "trigger": "registered_meta_key_exists\tWP Function",
-            "contents": "registered_meta_key_exists( ${1:\\$object_type}, ${2:\\$meta_key} )${3:;}"
+            "contents": "registered_meta_key_exists( ${1:\\$object_type}, ${2:\\$meta_key}${3:, ${4:'${5:}'}} )${6:;}"
         },
         {
             "trigger": "rel_canonical\tWP Function",
@@ -5716,7 +5736,7 @@
         },
         {
             "trigger": "sanitize_meta\tWP Function",
-            "contents": "sanitize_meta( ${1:\\$meta_key}, ${2:\\$meta_value}, ${3:\\$object_type} )${4:;}"
+            "contents": "sanitize_meta( ${1:\\$meta_key}, ${2:\\$meta_value}, ${3:\\$object_type}${4:, ${5:'${6:}'}} )${7:;}"
         },
         {
             "trigger": "sanitize_mime_type\tWP Function",
@@ -6420,11 +6440,15 @@
         },
         {
             "trigger": "unregister_meta_key\tWP Function",
-            "contents": "unregister_meta_key( ${1:\\$object_type}, ${2:\\$meta_key} )${3:;}"
+            "contents": "unregister_meta_key( ${1:\\$object_type}, ${2:\\$meta_key}${3:, ${4:'${5:}'}} )${6:;}"
         },
         {
             "trigger": "unregister_nav_menu\tWP Function",
             "contents": "unregister_nav_menu( ${1:\\$location} )${2:;}"
+        },
+        {
+            "trigger": "unregister_post_meta\tWP Function",
+            "contents": "unregister_post_meta( ${1:\\$post_type}, ${2:\\$meta_key} )${3:;}"
         },
         {
             "trigger": "unregister_post_type\tWP Function",
@@ -6445,6 +6469,10 @@
         {
             "trigger": "unregister_taxonomy_for_object_type\tWP Function",
             "contents": "unregister_taxonomy_for_object_type( ${1:\\$taxonomy}, ${2:\\$object_type} )${3:;}"
+        },
+        {
+            "trigger": "unregister_term_meta\tWP Function",
+            "contents": "unregister_term_meta( ${1:\\$taxonomy}, ${2:\\$meta_key} )${3:;}"
         },
         {
             "trigger": "unregister_widget\tWP Function",
@@ -7197,6 +7225,10 @@
         {
             "trigger": "wp_ajax_update_theme\tWP Function",
             "contents": "wp_ajax_update_theme();"
+        },
+        {
+            "trigger": "wp_ajax_update_try_gutenberg_panel\tWP Function",
+            "contents": "wp_ajax_update_try_gutenberg_panel();"
         },
         {
             "trigger": "wp_ajax_update_welcome_panel\tWP Function",
@@ -9801,6 +9833,10 @@
         {
             "trigger": "wp_trim_words\tWP Function",
             "contents": "wp_trim_words( ${1:\\$text}${2:, ${3:55}${4:, ${5:null}}} )${6:;}"
+        },
+        {
+            "trigger": "wp_try_gutenberg_panel\tWP Function",
+            "contents": "wp_try_gutenberg_panel();"
         },
         {
             "trigger": "wp_underscore_audio_template\tWP Function",
