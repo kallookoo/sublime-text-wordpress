@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1403 WordPress - Filters",
+    "comment": "1400 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -1993,30 +1993,6 @@
         {
             "trigger": "embed_site_title_html\tWP Filter Name",
             "contents": "embed_site_title_html"
-        },
-        {
-            "trigger": "add_filter-embed_thumbnail_id\tWP Filter",
-            "contents": "add_filter( 'embed_thumbnail_id', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "embed_thumbnail_id\tWP Filter Name",
-            "contents": "embed_thumbnail_id"
-        },
-        {
-            "trigger": "add_filter-embed_thumbnail_image_shape\tWP Filter",
-            "contents": "add_filter( 'embed_thumbnail_image_shape', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "embed_thumbnail_image_shape\tWP Filter Name",
-            "contents": "embed_thumbnail_image_shape"
-        },
-        {
-            "trigger": "add_filter-embed_thumbnail_image_size\tWP Filter",
-            "contents": "add_filter( 'embed_thumbnail_image_size', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "embed_thumbnail_image_size\tWP Filter Name",
-            "contents": "embed_thumbnail_image_size"
         },
         {
             "trigger": "add_filter-emoji_ext\tWP Filter",

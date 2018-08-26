@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "631 WordPress - Actions",
+    "comment": "627 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -1857,38 +1857,6 @@
         {
             "trigger": "edited_terms\tWP Action Name",
             "contents": "edited_terms"
-        },
-        {
-            "trigger": "add_action-embed_content\tWP Action",
-            "contents": "add_action( 'embed_content', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "embed_content\tWP Action Name",
-            "contents": "embed_content"
-        },
-        {
-            "trigger": "add_action-embed_content_meta\tWP Action",
-            "contents": "add_action( 'embed_content_meta', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "embed_content_meta\tWP Action Name",
-            "contents": "embed_content_meta"
-        },
-        {
-            "trigger": "add_action-embed_footer\tWP Action",
-            "contents": "add_action( 'embed_footer', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "embed_footer\tWP Action Name",
-            "contents": "embed_footer"
-        },
-        {
-            "trigger": "add_action-embed_head\tWP Action",
-            "contents": "add_action( 'embed_head', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "embed_head\tWP Action Name",
-            "contents": "embed_head"
         },
         {
             "trigger": "add_action-end_fetch_post_thumbnail_html\tWP Action",

@@ -1,14 +1,10 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2560 WordPress - Functions",
+    "comment": "2556 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
             "contents": "__( ${1:\\$text}${2:, ${3:'${4:default}'}} )${5:;}"
-        },
-        {
-            "trigger": "__autoload\tWP Function",
-            "contents": "__autoload( ${1:\\$classname} );"
         },
         {
             "trigger": "__checked_selected_helper\tWP Function",
@@ -6021,18 +6017,6 @@
         {
             "trigger": "spawn_cron\tWP Function",
             "contents": "spawn_cron( ${1:\\$gmt_time} );"
-        },
-        {
-            "trigger": "spl_autoload_functions\tWP Function",
-            "contents": "spl_autoload_functions()${1:;}"
-        },
-        {
-            "trigger": "spl_autoload_register\tWP Function",
-            "contents": "spl_autoload_register( ${1:\\$autoload_function}${2:, ${3:true}${4:, ${5:false}}} );"
-        },
-        {
-            "trigger": "spl_autoload_unregister\tWP Function",
-            "contents": "spl_autoload_unregister( ${1:\\$function} )${2:;}"
         },
         {
             "trigger": "startElement\tWP Function",
