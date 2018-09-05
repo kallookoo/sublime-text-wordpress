@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[defined( 'ABSPATH' ) || exit;
+	<content><![CDATA[defined( 'ABSPATH' ) or exit;
 ]]></content>
     <description>WP Template: Prevent Direct Access to files</description>
 	<tabTrigger>wp-secure-file</tabTrigger>
-	<scope>embedding.php - comment - string</scope>
+	<scope>source.php - comment - string</scope>
 </snippet>
