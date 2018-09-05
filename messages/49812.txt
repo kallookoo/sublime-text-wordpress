@@ -1,0 +1,9 @@
+Version 4.9.8+1.2
+-----------------------------------------
+
+- Remove WordPress Coding Standards error on wp-secure-file.sublime-snippet
+- Change scope on wp-secure-file.sublime-snippet for trigger inside PHP open tag '<?php'
+
+INFO:
+Package control add the random packages inside of ingored_packages, please check if not working.
+see issue https://github.com/wbond/package_control/issues/1379
