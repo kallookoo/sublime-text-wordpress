@@ -1,0 +1,9 @@
+Version 4.9.8+1.2.1
+-----------------------------------------
+
+- Change all references of 'defined( 'ABSPATH' ) or exit;' to 'defined( 'ABSPATH' ) || exit;'
+  because not pass WordPress Coding Standards
+
+INFO:
+Package control add the random packages inside of ingored_packages, please check if not working.
+see issue https://github.com/wbond/package_control/issues/1379

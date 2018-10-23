@@ -28,7 +28,7 @@ ${9: * License URI: ${10:https://www.gnu.org/licenses/gpl-2.0.html}
  * along with $2. If not, see ${17:$10}.
  */
 
-defined( 'ABSPATH' ) or exit;
+defined( 'ABSPATH' ) || exit;
 
 class ${18:Plugin_Class_Name} \{
 

@@ -2,7 +2,7 @@
 	<content><![CDATA[${1:<?php}
 ${2:namespace ${3:NAMESPACE};}
 
-defined( 'ABSPATH' ) or exit;
+defined( 'ABSPATH' ) || exit;
 
 trait ${4:Prefix_}Singleton \{
 

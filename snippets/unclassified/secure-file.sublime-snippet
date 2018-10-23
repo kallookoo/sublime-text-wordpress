@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[defined( 'ABSPATH' ) or exit;
+	<content><![CDATA[defined( 'ABSPATH' ) || exit;
 ]]></content>
     <description>WP Template: Prevent Direct Access to files</description>
 	<tabTrigger>wp-secure-file</tabTrigger>

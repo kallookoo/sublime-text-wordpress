@@ -14,7 +14,7 @@ ${10: * Text Domain: ${11:Text Domain}
 }${14: * Network: ${15:false}
 } */
 
-defined( 'ABSPATH' ) or exit;
+defined( 'ABSPATH' ) || exit;
 
 ]]></content>
 	<description>WP Template: Plugin Header</description>
