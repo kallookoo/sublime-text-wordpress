@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "359 WordPress - Classes",
+    "comment": "371 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -759,6 +759,26 @@
             "contents": "WP_Automatic_Updater"
         },
         {
+            "trigger": "WP_Block_Parser\tWP Class Name",
+            "contents": "WP_Block_Parser"
+        },
+        {
+            "trigger": "WP_Block_Parser_Block\tWP Class Name",
+            "contents": "WP_Block_Parser_Block"
+        },
+        {
+            "trigger": "WP_Block_Parser_Frame\tWP Class Name",
+            "contents": "WP_Block_Parser_Frame"
+        },
+        {
+            "trigger": "WP_Block_Type\tWP Class Name",
+            "contents": "WP_Block_Type"
+        },
+        {
+            "trigger": "WP_Block_Type_Registry\tWP Class Name",
+            "contents": "WP_Block_Type_Registry"
+        },
+        {
             "trigger": "WP_Comment\tWP Class Name",
             "contents": "WP_Comment"
         },
@@ -1155,6 +1175,18 @@
             "contents": "WP_REST_Attachments_Controller"
         },
         {
+            "trigger": "WP_REST_Autosaves_Controller\tWP Class Name",
+            "contents": "WP_REST_Autosaves_Controller"
+        },
+        {
+            "trigger": "WP_REST_Block_Renderer_Controller\tWP Class Name",
+            "contents": "WP_REST_Block_Renderer_Controller"
+        },
+        {
+            "trigger": "WP_REST_Blocks_Controller\tWP Class Name",
+            "contents": "WP_REST_Blocks_Controller"
+        },
+        {
             "trigger": "WP_REST_Comment_Meta_Fields\tWP Class Name",
             "contents": "WP_REST_Comment_Meta_Fields"
         },
@@ -1173,6 +1205,10 @@
         {
             "trigger": "WP_REST_Post_Meta_Fields\tWP Class Name",
             "contents": "WP_REST_Post_Meta_Fields"
+        },
+        {
+            "trigger": "WP_REST_Post_Search_Handler\tWP Class Name",
+            "contents": "WP_REST_Post_Search_Handler"
         },
         {
             "trigger": "WP_REST_Post_Statuses_Controller\tWP Class Name",
@@ -1199,6 +1235,14 @@
             "contents": "WP_REST_Revisions_Controller"
         },
         {
+            "trigger": "WP_REST_Search_Controller\tWP Class Name",
+            "contents": "WP_REST_Search_Controller"
+        },
+        {
+            "trigger": "WP_REST_Search_Handler\tWP Class Name",
+            "contents": "WP_REST_Search_Handler"
+        },
+        {
             "trigger": "WP_REST_Server\tWP Class Name",
             "contents": "WP_REST_Server"
         },
@@ -1217,6 +1261,10 @@
         {
             "trigger": "WP_REST_Terms_Controller\tWP Class Name",
             "contents": "WP_REST_Terms_Controller"
+        },
+        {
+            "trigger": "WP_REST_Themes_Controller\tWP Class Name",
+            "contents": "WP_REST_Themes_Controller"
         },
         {
             "trigger": "WP_REST_User_Meta_Fields\tWP Class Name",

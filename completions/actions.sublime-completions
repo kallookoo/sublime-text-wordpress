@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "627 WordPress - Actions",
+    "comment": "635 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -41,6 +41,10 @@
         {
             "trigger": "_wp_put_post_revision\tWP Action Name",
             "contents": "_wp_put_post_revision"
+        },
+        {
+            "trigger": "add_action-{$action}\tWP Action",
+            "contents": "add_action( \"${1:\\{${2:\\$action}\\}}\", ${3:\\$function_to_add}, ${4:10}, 4 );"
         },
         {
             "trigger": "add_action-{$new_status}_{$post->post_type}\tWP Action",
@@ -765,6 +769,14 @@
         {
             "trigger": "begin_fetch_post_thumbnail_html\tWP Action Name",
             "contents": "begin_fetch_post_thumbnail_html"
+        },
+        {
+            "trigger": "add_action-block_editor_meta_box_hidden_fields\tWP Action",
+            "contents": "add_action( 'block_editor_meta_box_hidden_fields', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "block_editor_meta_box_hidden_fields\tWP Action Name",
+            "contents": "block_editor_meta_box_hidden_fields"
         },
         {
             "trigger": "add_action-blog_privacy_selector\tWP Action",
@@ -1865,6 +1877,22 @@
         {
             "trigger": "end_fetch_post_thumbnail_html\tWP Action Name",
             "contents": "end_fetch_post_thumbnail_html"
+        },
+        {
+            "trigger": "add_action-enqueue_block_assets\tWP Action",
+            "contents": "add_action( 'enqueue_block_assets', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "enqueue_block_assets\tWP Action Name",
+            "contents": "enqueue_block_assets"
+        },
+        {
+            "trigger": "add_action-enqueue_block_editor_assets\tWP Action",
+            "contents": "add_action( 'enqueue_block_editor_assets', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "enqueue_block_editor_assets\tWP Action Name",
+            "contents": "enqueue_block_editor_assets"
         },
         {
             "trigger": "add_action-enqueue_embed_scripts\tWP Action",
@@ -3103,6 +3131,38 @@
             "contents": "resetpass_form"
         },
         {
+            "trigger": "add_action-rest_after_insert_{$this->post_type}\tWP Action",
+            "contents": "add_action( \"rest_after_insert_${1:\\{${2:\\$this->post_type}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+        },
+        {
+            "trigger": "add_action-rest_after_insert_{$this->taxonomy}\tWP Action",
+            "contents": "add_action( \"rest_after_insert_${1:\\{${2:\\$this->taxonomy}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+        },
+        {
+            "trigger": "add_action-rest_after_insert_attachment\tWP Action",
+            "contents": "add_action( 'rest_after_insert_attachment', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_after_insert_attachment\tWP Action Name",
+            "contents": "rest_after_insert_attachment"
+        },
+        {
+            "trigger": "add_action-rest_after_insert_comment\tWP Action",
+            "contents": "add_action( 'rest_after_insert_comment', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_after_insert_comment\tWP Action Name",
+            "contents": "rest_after_insert_comment"
+        },
+        {
+            "trigger": "add_action-rest_after_insert_user\tWP Action",
+            "contents": "add_action( 'rest_after_insert_user', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_after_insert_user\tWP Action Name",
+            "contents": "rest_after_insert_user"
+        },
+        {
             "trigger": "add_action-rest_api_init\tWP Action",
             "contents": "add_action( 'rest_api_init', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -3665,14 +3725,6 @@
         {
             "trigger": "trashed_post_comments\tWP Action Name",
             "contents": "trashed_post_comments"
-        },
-        {
-            "trigger": "add_action-try_gutenberg_panel\tWP Action",
-            "contents": "add_action( 'try_gutenberg_panel', ${1:\\$function_to_add}, ${2:10} );"
-        },
-        {
-            "trigger": "try_gutenberg_panel\tWP Action Name",
-            "contents": "try_gutenberg_panel"
         },
         {
             "trigger": "add_action-unarchive_blog\tWP Action",
