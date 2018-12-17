@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1420 WordPress - Filters",
+    "comment": "1421 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -9737,6 +9737,14 @@
         {
             "trigger": "wp_kses_allowed_html\tWP Filter Name",
             "contents": "wp_kses_allowed_html"
+        },
+        {
+            "trigger": "add_filter-wp_kses_uri_attributes\tWP Filter",
+            "contents": "add_filter( 'wp_kses_uri_attributes', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_kses_uri_attributes\tWP Filter Name",
+            "contents": "wp_kses_uri_attributes"
         },
         {
             "trigger": "add_filter-wp_link_pages\tWP Filter",

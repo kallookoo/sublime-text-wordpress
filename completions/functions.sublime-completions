@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2608 WordPress - Functions",
+    "comment": "2611 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -669,6 +669,10 @@
         {
             "trigger": "_wp_footer_scripts\tWP Function",
             "contents": "_wp_footer_scripts();"
+        },
+        {
+            "trigger": "_wp_get_allowed_postdata\tWP Function",
+            "contents": "_wp_get_allowed_postdata(${1: ${2:null} })${3:;}"
         },
         {
             "trigger": "_wp_get_attachment_relative_path\tWP Function",
@@ -8839,6 +8843,10 @@
             "contents": "wp_kses_stripslashes( ${1:\\$string} )${2:;}"
         },
         {
+            "trigger": "wp_kses_uri_attributes\tWP Function",
+            "contents": "wp_kses_uri_attributes()${1:;}"
+        },
+        {
             "trigger": "wp_kses_version\tWP Function",
             "contents": "wp_kses_version()${1:;}"
         },
@@ -9753,6 +9761,10 @@
         {
             "trigger": "wp_send_user_request\tWP Function",
             "contents": "wp_send_user_request( ${1:\\$request_id} )${2:;}"
+        },
+        {
+            "trigger": "wp_sensitive_page_meta\tWP Function",
+            "contents": "wp_sensitive_page_meta();"
         },
         {
             "trigger": "wp_set_all_user_settings\tWP Function",
