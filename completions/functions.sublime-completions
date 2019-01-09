@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2611 WordPress - Functions",
+    "comment": "2613 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -3915,14 +3915,6 @@
             "contents": "grant_super_admin( ${1:\\$user_id} )${2:;}"
         },
         {
-            "trigger": "gutenberg_draft_or_post_title\tWP Function",
-            "contents": "gutenberg_draft_or_post_title( ${1:\\$post} )${2:;}"
-        },
-        {
-            "trigger": "gutenberg_render_block_core_latest_comments\tWP Function",
-            "contents": "gutenberg_render_block_core_latest_comments(${1: ${2:array( ${3:'${4:}'} )} })${5:;}"
-        },
-        {
             "trigger": "has_action\tWP Function",
             "contents": "has_action( ${1:\\$tag}${2:, ${3:false}} )${4:;}"
         },
@@ -4621,6 +4613,10 @@
         {
             "trigger": "load_script_textdomain\tWP Function",
             "contents": "load_script_textdomain( ${1:\\$handle}, ${2:\\$domain}${3:, ${4:null}} )${5:;}"
+        },
+        {
+            "trigger": "load_script_translations\tWP Function",
+            "contents": "load_script_translations( ${1:\\$file}, ${2:\\$handle}, ${3:\\$domain} )${4:;}"
         },
         {
             "trigger": "load_template\tWP Function",
@@ -5601,6 +5597,10 @@
         {
             "trigger": "render_block_core_categories\tWP Function",
             "contents": "render_block_core_categories( ${1:\\$attributes} )${2:;}"
+        },
+        {
+            "trigger": "render_block_core_latest_comments\tWP Function",
+            "contents": "render_block_core_latest_comments(${1: ${2:array( ${3:'${4:}'} )} })${5:;}"
         },
         {
             "trigger": "render_block_core_latest_posts\tWP Function",
@@ -8851,6 +8851,10 @@
             "contents": "wp_kses_version()${1:;}"
         },
         {
+            "trigger": "wp_latest_comments_draft_or_post_title\tWP Function",
+            "contents": "wp_latest_comments_draft_or_post_title( ${1:\\$post} )${2:;}"
+        },
+        {
             "trigger": "wp_link_category_checklist\tWP Function",
             "contents": "wp_link_category_checklist( ${1:\\$link_id} );"
         },
@@ -10057,6 +10061,10 @@
         {
             "trigger": "wp_unique_filename\tWP Function",
             "contents": "wp_unique_filename( ${1:\\$dir}, ${2:\\$filename}${3:, ${4:null}} )${5:;}"
+        },
+        {
+            "trigger": "wp_unique_id\tWP Function",
+            "contents": "wp_unique_id(${1: ${2:'${3:}'} })${4:;}"
         },
         {
             "trigger": "wp_unique_post_slug\tWP Function",

@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1421 WordPress - Filters",
+    "comment": "1426 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -561,6 +561,14 @@
         {
             "trigger": "block_categories\tWP Filter Name",
             "contents": "block_categories"
+        },
+        {
+            "trigger": "add_filter-block_editor_no_javascript_message\tWP Filter",
+            "contents": "add_filter( 'block_editor_no_javascript_message', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "block_editor_no_javascript_message\tWP Filter Name",
+            "contents": "block_editor_no_javascript_message"
         },
         {
             "trigger": "add_filter-block_editor_preload_paths\tWP Filter",
@@ -3959,6 +3967,30 @@
             "contents": "load_image_to_edit_path"
         },
         {
+            "trigger": "add_filter-load_script_textdomain_relative_path\tWP Filter",
+            "contents": "add_filter( 'load_script_textdomain_relative_path', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "load_script_textdomain_relative_path\tWP Filter Name",
+            "contents": "load_script_textdomain_relative_path"
+        },
+        {
+            "trigger": "add_filter-load_script_translation_file\tWP Filter",
+            "contents": "add_filter( 'load_script_translation_file', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "load_script_translation_file\tWP Filter Name",
+            "contents": "load_script_translation_file"
+        },
+        {
+            "trigger": "add_filter-load_script_translations\tWP Filter",
+            "contents": "add_filter( 'load_script_translations', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "load_script_translations\tWP Filter Name",
+            "contents": "load_script_translations"
+        },
+        {
             "trigger": "add_filter-load_textdomain_mofile\tWP Filter",
             "contents": "add_filter( 'load_textdomain_mofile', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -5925,6 +5957,14 @@
         {
             "trigger": "pre_kses\tWP Filter Name",
             "contents": "pre_kses"
+        },
+        {
+            "trigger": "add_filter-pre_load_script_translations\tWP Filter",
+            "contents": "add_filter( 'pre_load_script_translations', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "pre_load_script_translations\tWP Filter Name",
+            "contents": "pre_load_script_translations"
         },
         {
             "trigger": "add_filter-pre_move_uploaded_file\tWP Filter",

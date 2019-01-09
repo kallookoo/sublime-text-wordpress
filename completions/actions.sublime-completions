@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "635 WordPress - Actions",
+    "comment": "634 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -41,10 +41,6 @@
         {
             "trigger": "_wp_put_post_revision\tWP Action Name",
             "contents": "_wp_put_post_revision"
-        },
-        {
-            "trigger": "add_action-{$action}\tWP Action",
-            "contents": "add_action( \"${1:\\{${2:\\$action}\\}}\", ${3:\\$function_to_add}, ${4:10}, 4 );"
         },
         {
             "trigger": "add_action-{$new_status}_{$post->post_type}\tWP Action",
