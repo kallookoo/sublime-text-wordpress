@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "634 WordPress - Actions",
+    "comment": "645 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -49,6 +49,10 @@
         {
             "trigger": "add_action-{$old_status}_to_{$new_status}\tWP Action",
             "contents": "add_action( \"${1:\\{${2:\\$old_status}\\}}_to_${3:\\{${4:\\$new_status}\\}}\", ${5:\\$function_to_add}, ${6:10} );"
+        },
+        {
+            "trigger": "add_action-{$page_hook}\tWP Action",
+            "contents": "add_action( \"${1:\\{${2:\\$page_hook}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
             "trigger": "add_action-{$taxonomy}_add_form\tWP Action",
@@ -279,8 +283,8 @@
             "contents": "added_term_relationship"
         },
         {
-            "trigger": "add_action-admin_action_{$_REQUEST['action']}\tWP Action",
-            "contents": "add_action( \"admin_action_${1:\\{${2:\\$_REQUEST['action']}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
+            "trigger": "add_action-admin_action_{$action}\tWP Action",
+            "contents": "add_action( \"admin_action_${1:\\{${2:\\$action}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
             "trigger": "add_action-admin_bar_init\tWP Action",
@@ -1359,14 +1363,6 @@
             "contents": "delete_attachment"
         },
         {
-            "trigger": "add_action-delete_blog\tWP Action",
-            "contents": "add_action( 'delete_blog', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "delete_blog\tWP Action Name",
-            "contents": "delete_blog"
-        },
-        {
             "trigger": "add_action-delete_comment\tWP Action",
             "contents": "add_action( 'delete_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -1493,14 +1489,6 @@
         {
             "trigger": "add_action-deleted_{$meta_type}meta\tWP Action",
             "contents": "add_action( \"deleted_${1:\\{${2:\\$meta_type}\\}}meta\", ${3:\\$function_to_add}, ${4:10} );"
-        },
-        {
-            "trigger": "add_action-deleted_blog\tWP Action",
-            "contents": "add_action( 'deleted_blog', ${1:\\$function_to_add}, ${2:10}, 2 );"
-        },
-        {
-            "trigger": "deleted_blog\tWP Action Name",
-            "contents": "deleted_blog"
         },
         {
             "trigger": "add_action-deleted_comment\tWP Action",
@@ -1773,6 +1761,10 @@
         {
             "trigger": "edit_post\tWP Action Name",
             "contents": "edit_post"
+        },
+        {
+            "trigger": "add_action-edit_post_{$post->post_type}\tWP Action",
+            "contents": "add_action( \"edit_post_${1:\\{${2:\\$post->post_type}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
         },
         {
             "trigger": "add_action-edit_term\tWP Action",
@@ -2455,6 +2447,14 @@
             "contents": "mu_activity_box_end"
         },
         {
+            "trigger": "add_action-mu_plugin_loaded\tWP Action",
+            "contents": "add_action( 'mu_plugin_loaded', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "mu_plugin_loaded\tWP Action Name",
+            "contents": "mu_plugin_loaded"
+        },
+        {
             "trigger": "add_action-mu_rightnow_end\tWP Action",
             "contents": "add_action( 'mu_rightnow_end', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -2479,8 +2479,8 @@
             "contents": "myblogs_allblogs_options"
         },
         {
-            "trigger": "add_action-network_admin_edit_{$_GET['action']}\tWP Action",
-            "contents": "add_action( \"network_admin_edit_${1:\\{${2:\\$_GET['action']}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
+            "trigger": "add_action-network_admin_edit_{$action}\tWP Action",
+            "contents": "add_action( \"network_admin_edit_${1:\\{${2:\\$action}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
             "trigger": "add_action-network_admin_menu\tWP Action",
@@ -2497,6 +2497,14 @@
         {
             "trigger": "network_admin_notices\tWP Action Name",
             "contents": "network_admin_notices"
+        },
+        {
+            "trigger": "add_action-network_plugin_loaded\tWP Action",
+            "contents": "add_action( 'network_plugin_loaded', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "network_plugin_loaded\tWP Action Name",
+            "contents": "network_plugin_loaded"
         },
         {
             "trigger": "add_action-network_site_new_created_user\tWP Action",
@@ -2673,6 +2681,14 @@
         {
             "trigger": "pingback_post\tWP Action Name",
             "contents": "pingback_post"
+        },
+        {
+            "trigger": "add_action-plugin_loaded\tWP Action",
+            "contents": "add_action( 'plugin_loaded', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "plugin_loaded\tWP Action Name",
+            "contents": "plugin_loaded"
         },
         {
             "trigger": "add_action-plugins_loaded\tWP Action",
@@ -3097,6 +3113,14 @@
         {
             "trigger": "registered_taxonomy\tWP Action Name",
             "contents": "registered_taxonomy"
+        },
+        {
+            "trigger": "add_action-registered_taxonomy_for_object_type\tWP Action",
+            "contents": "add_action( 'registered_taxonomy_for_object_type', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "registered_taxonomy_for_object_type\tWP Action Name",
+            "contents": "registered_taxonomy_for_object_type"
         },
         {
             "trigger": "add_action-remove_user_from_blog\tWP Action",
@@ -3767,6 +3791,14 @@
             "contents": "unregistered_taxonomy"
         },
         {
+            "trigger": "add_action-unregistered_taxonomy_for_object_type\tWP Action",
+            "contents": "add_action( 'unregistered_taxonomy_for_object_type', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "unregistered_taxonomy_for_object_type\tWP Action Name",
+            "contents": "unregistered_taxonomy_for_object_type"
+        },
+        {
             "trigger": "add_action-unspam_comment\tWP Action",
             "contents": "add_action( 'unspam_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -4055,8 +4087,8 @@
             "contents": "wp_after_admin_bar_render"
         },
         {
-            "trigger": "add_action-wp_ajax_{$_REQUEST['action']}\tWP Action",
-            "contents": "add_action( \"wp_ajax_${1:\\{${2:\\$_REQUEST['action']}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
+            "trigger": "add_action-wp_ajax_{$action}\tWP Action",
+            "contents": "add_action( \"wp_ajax_${1:\\{${2:\\$action}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
             "trigger": "add_action-wp_ajax_crop_image_pre_save\tWP Action",
@@ -4067,8 +4099,8 @@
             "contents": "wp_ajax_crop_image_pre_save"
         },
         {
-            "trigger": "add_action-wp_ajax_nopriv_{$_REQUEST['action']}\tWP Action",
-            "contents": "add_action( \"wp_ajax_nopriv_${1:\\{${2:\\$_REQUEST['action']}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
+            "trigger": "add_action-wp_ajax_nopriv_{$action}\tWP Action",
+            "contents": "add_action( \"wp_ajax_nopriv_${1:\\{${2:\\$action}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
         {
             "trigger": "add_action-wp_authenticate\tWP Action",
@@ -4159,6 +4191,14 @@
             "contents": "wp_delete_post_revision"
         },
         {
+            "trigger": "add_action-wp_delete_site\tWP Action",
+            "contents": "add_action( 'wp_delete_site', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_delete_site\tWP Action Name",
+            "contents": "wp_delete_site"
+        },
+        {
             "trigger": "add_action-wp_edit_form_attachment_display\tWP Action",
             "contents": "add_action( 'wp_edit_form_attachment_display', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -4223,6 +4263,14 @@
             "contents": "wp_head"
         },
         {
+            "trigger": "add_action-wp_initialize_site\tWP Action",
+            "contents": "add_action( 'wp_initialize_site', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "wp_initialize_site\tWP Action Name",
+            "contents": "wp_initialize_site"
+        },
+        {
             "trigger": "add_action-wp_insert_comment\tWP Action",
             "contents": "add_action( 'wp_insert_comment', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -4237,6 +4285,14 @@
         {
             "trigger": "wp_insert_post\tWP Action Name",
             "contents": "wp_insert_post"
+        },
+        {
+            "trigger": "add_action-wp_insert_site\tWP Action",
+            "contents": "add_action( 'wp_insert_site', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_insert_site\tWP Action Name",
+            "contents": "wp_insert_site"
         },
         {
             "trigger": "add_action-wp_install\tWP Action",
@@ -4415,6 +4471,14 @@
             "contents": "wp_trash_post"
         },
         {
+            "trigger": "add_action-wp_uninitialize_site\tWP Action",
+            "contents": "add_action( 'wp_uninitialize_site', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_uninitialize_site\tWP Action Name",
+            "contents": "wp_uninitialize_site"
+        },
+        {
             "trigger": "add_action-wp_unregister_sidebar_widget\tWP Action",
             "contents": "add_action( 'wp_unregister_sidebar_widget', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -4447,6 +4511,14 @@
             "contents": "wp_update_nav_menu_item"
         },
         {
+            "trigger": "add_action-wp_update_site\tWP Action",
+            "contents": "add_action( 'wp_update_site', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "wp_update_site\tWP Action Name",
+            "contents": "wp_update_site"
+        },
+        {
             "trigger": "add_action-wp_upgrade\tWP Action",
             "contents": "add_action( 'wp_upgrade', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -4461,6 +4533,22 @@
         {
             "trigger": "wp_user_dashboard_setup\tWP Action Name",
             "contents": "wp_user_dashboard_setup"
+        },
+        {
+            "trigger": "add_action-wp_validate_site_data\tWP Action",
+            "contents": "add_action( 'wp_validate_site_data', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_validate_site_data\tWP Action Name",
+            "contents": "wp_validate_site_data"
+        },
+        {
+            "trigger": "add_action-wp_validate_site_deletion\tWP Action",
+            "contents": "add_action( 'wp_validate_site_deletion', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "wp_validate_site_deletion\tWP Action Name",
+            "contents": "wp_validate_site_deletion"
         },
         {
             "trigger": "add_action-wp_verify_nonce_failed\tWP Action",
@@ -4509,14 +4597,6 @@
         {
             "trigger": "wpmu_delete_user\tWP Action Name",
             "contents": "wpmu_delete_user"
-        },
-        {
-            "trigger": "add_action-wpmu_new_blog\tWP Action",
-            "contents": "add_action( 'wpmu_new_blog', ${1:\\$function_to_add}, ${2:10}, 6 );"
-        },
-        {
-            "trigger": "wpmu_new_blog\tWP Action Name",
-            "contents": "wpmu_new_blog"
         },
         {
             "trigger": "add_action-wpmu_new_user\tWP Action",

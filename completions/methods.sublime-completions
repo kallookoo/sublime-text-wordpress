@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3410 WordPress - Methods",
+    "comment": "3412 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -2177,6 +2177,10 @@
         {
             "trigger": "Language_Pack_Upgrader-check_package\tWP Class Method",
             "contents": "${1:Language_Pack_Upgrader}->check_package( ${2:\\$source}, ${3:\\$remote_source} );"
+        },
+        {
+            "trigger": "Language_Pack_Upgrader-clear_destination\tWP Class Method",
+            "contents": "${1:Language_Pack_Upgrader}->clear_destination( ${2:\\$remote_destination} );"
         },
         {
             "trigger": "Language_Pack_Upgrader-get_name_for_update\tWP Class Method",
@@ -7665,6 +7669,10 @@
         {
             "trigger": "WP_Error-get_error_messages\tWP Class Method",
             "contents": "${1:WP_Error}->get_error_messages( ${2:\\$code} );"
+        },
+        {
+            "trigger": "WP_Error-has_errors\tWP Class Method",
+            "contents": "${1:WP_Error}->has_errors();"
         },
         {
             "trigger": "WP_Error-remove\tWP Class Method",
