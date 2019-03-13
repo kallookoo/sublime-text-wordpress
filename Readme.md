@@ -6,9 +6,9 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2650**    |
+| Functions    | **2652**    |
 | Actions      | **645**     |
-| Filters      | **1454**    |
+| Filters      | **1456**    |
 | Classes      | **371**     |
 | Methods      | **3412**    |
 | Constants    | **514**     |
