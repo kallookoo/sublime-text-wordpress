@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1454 WordPress - Filters",
+    "comment": "1456 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -9499,6 +9499,14 @@
             "contents": "wp_die_xmlrpc_handler"
         },
         {
+            "trigger": "add_filter-wp_direct_php_update_url\tWP Filter",
+            "contents": "add_filter( 'wp_direct_php_update_url', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_direct_php_update_url\tWP Filter Name",
+            "contents": "wp_direct_php_update_url"
+        },
+        {
             "trigger": "add_filter-wp_doing_ajax\tWP Filter",
             "contents": "add_filter( 'wp_doing_ajax', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -9953,6 +9961,14 @@
         {
             "trigger": "wp_is_mobile\tWP Filter Name",
             "contents": "wp_is_mobile"
+        },
+        {
+            "trigger": "add_filter-wp_is_php_version_acceptable\tWP Filter",
+            "contents": "add_filter( 'wp_is_php_version_acceptable', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "wp_is_php_version_acceptable\tWP Filter Name",
+            "contents": "wp_is_php_version_acceptable"
         },
         {
             "trigger": "add_filter-wp_kses_allowed_html\tWP Filter",

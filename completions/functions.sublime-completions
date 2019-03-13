@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2650 WordPress - Functions",
+    "comment": "2652 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -8035,6 +8035,10 @@
             "contents": "wp_die(${1: ${2:'${3:}'}${4:, ${5:'${6:}'}${7:, ${8:array( ${9:'${10:}'} )}}} });"
         },
         {
+            "trigger": "wp_direct_php_update_button\tWP Function",
+            "contents": "wp_direct_php_update_button();"
+        },
+        {
             "trigger": "wp_doc_link_parse\tWP Function",
             "contents": "wp_doc_link_parse( ${1:\\$content} )${2:;}"
         },
@@ -8385,6 +8389,10 @@
         {
             "trigger": "wp_get_default_update_php_url\tWP Function",
             "contents": "wp_get_default_update_php_url()${1:;}"
+        },
+        {
+            "trigger": "wp_get_direct_php_update_url\tWP Function",
+            "contents": "wp_get_direct_php_update_url()${1:;}"
         },
         {
             "trigger": "wp_get_document_title\tWP Function",
