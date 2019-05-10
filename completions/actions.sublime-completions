@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "645 WordPress - Actions",
+    "comment": "648 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -1907,6 +1907,14 @@
             "contents": "export_wp"
         },
         {
+            "trigger": "add_action-generate_recovery_mode_key\tWP Action",
+            "contents": "add_action( 'generate_recovery_mode_key', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "generate_recovery_mode_key\tWP Action Name",
+            "contents": "generate_recovery_mode_key"
+        },
+        {
             "trigger": "add_action-generate_rewrite_rules\tWP Action",
             "contents": "add_action( 'generate_rewrite_rules', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -1937,6 +1945,14 @@
         {
             "trigger": "get_sidebar\tWP Action Name",
             "contents": "get_sidebar"
+        },
+        {
+            "trigger": "add_action-get_template_part\tWP Action",
+            "contents": "add_action( 'get_template_part', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "get_template_part\tWP Action Name",
+            "contents": "get_template_part"
         },
         {
             "trigger": "add_action-get_template_part_{$slug}\tWP Action",
@@ -4125,6 +4141,14 @@
         {
             "trigger": "wp_blacklist_check\tWP Action Name",
             "contents": "wp_blacklist_check"
+        },
+        {
+            "trigger": "add_action-wp_body_open\tWP Action",
+            "contents": "add_action( 'wp_body_open', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_body_open\tWP Action Name",
+            "contents": "wp_body_open"
         },
         {
             "trigger": "add_action-wp_create_file_in_uploads\tWP Action",

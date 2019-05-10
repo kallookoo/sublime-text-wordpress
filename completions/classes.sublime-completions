@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "371 WordPress - Classes",
+    "comment": "381 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -951,6 +951,10 @@
             "contents": "WP_Date_Query"
         },
         {
+            "trigger": "WP_Debug_Data\tWP Class Name",
+            "contents": "WP_Debug_Data"
+        },
+        {
             "trigger": "WP_Dependencies\tWP Class Name",
             "contents": "WP_Dependencies"
         },
@@ -961,6 +965,10 @@
         {
             "trigger": "WP_Error\tWP Class Name",
             "contents": "WP_Error"
+        },
+        {
+            "trigger": "WP_Fatal_Error_Handler\tWP Class Name",
+            "contents": "WP_Fatal_Error_Handler"
         },
         {
             "trigger": "WP_Feed_Cache\tWP Class Name",
@@ -1127,6 +1135,10 @@
             "contents": "WP_oEmbed_Controller"
         },
         {
+            "trigger": "WP_Paused_Extensions_Storage\tWP Class Name",
+            "contents": "WP_Paused_Extensions_Storage"
+        },
+        {
             "trigger": "WP_Plugin_Install_List_Table\tWP Class Name",
             "contents": "WP_Plugin_Install_List_Table"
         },
@@ -1169,6 +1181,26 @@
         {
             "trigger": "WP_Query\tWP Class Name",
             "contents": "WP_Query"
+        },
+        {
+            "trigger": "WP_Recovery_Mode\tWP Class Name",
+            "contents": "WP_Recovery_Mode"
+        },
+        {
+            "trigger": "WP_Recovery_Mode_Cookie_Service\tWP Class Name",
+            "contents": "WP_Recovery_Mode_Cookie_Service"
+        },
+        {
+            "trigger": "WP_Recovery_Mode_Email_Service\tWP Class Name",
+            "contents": "WP_Recovery_Mode_Email_Service"
+        },
+        {
+            "trigger": "WP_Recovery_Mode_Key_Service\tWP Class Name",
+            "contents": "WP_Recovery_Mode_Key_Service"
+        },
+        {
+            "trigger": "WP_Recovery_Mode_Link_Service\tWP Class Name",
+            "contents": "WP_Recovery_Mode_Link_Service"
         },
         {
             "trigger": "WP_REST_Attachments_Controller\tWP Class Name",
@@ -1309,6 +1341,14 @@
         {
             "trigger": "WP_Site\tWP Class Name",
             "contents": "WP_Site"
+        },
+        {
+            "trigger": "WP_Site_Health\tWP Class Name",
+            "contents": "WP_Site_Health"
+        },
+        {
+            "trigger": "WP_Site_Health_Auto_Updates\tWP Class Name",
+            "contents": "WP_Site_Health_Auto_Updates"
         },
         {
             "trigger": "WP_Site_Icon\tWP Class Name",

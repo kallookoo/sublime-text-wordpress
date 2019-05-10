@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "514 WordPress - Constants",
+    "comment": "517 WordPress - Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -1511,6 +1511,10 @@
             "contents": "PO_MAX_LINE_LEN"
         },
         {
+            "trigger": "RECOVERY_MODE_COOKIE\tWP Constant",
+            "contents": "RECOVERY_MODE_COOKIE"
+        },
+        {
             "trigger": "REST_API_VERSION\tWP Constant",
             "contents": "REST_API_VERSION"
         },
@@ -2007,12 +2011,20 @@
             "contents": "WP_REPAIRING"
         },
         {
+            "trigger": "WP_SANDBOX_SCRAPING\tWP Constant",
+            "contents": "WP_SANDBOX_SCRAPING"
+        },
+        {
             "trigger": "WP_SETUP_CONFIG\tWP Constant",
             "contents": "WP_SETUP_CONFIG"
         },
         {
             "trigger": "WP_SITEURL\tWP Constant",
             "contents": "WP_SITEURL"
+        },
+        {
+            "trigger": "WP_START_TIMESTAMP\tWP Constant",
+            "contents": "WP_START_TIMESTAMP"
         },
         {
             "trigger": "WP_UNINSTALL_PLUGIN\tWP Constant",
