@@ -10,7 +10,7 @@ Is a collection of the completions and some snippets for Sublime Text
 | Actions      | **648**     |
 | Filters      | **1490**    |
 | Classes      | **381**     |
-| Methods      | **3483**    |
+| Methods      | **3484**    |
 | Constants    | **517**     |
 | Capabilities | **64**      |
 

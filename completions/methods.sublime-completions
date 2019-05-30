@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3483 WordPress - Methods",
+    "comment": "3484 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -188,11 +188,11 @@
         },
         {
             "trigger": "AtomParser-_default\tWP Class Method",
-            "contents": "${1:AtomParser}->_default( ${2:\\$parser}, ${3:\\$data} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:AtomParser}->_default( ${2:\\$parser}, ${3:\\$data} );"
         },
         {
             "trigger": "AtomParser-_p\tWP Class Method",
-            "contents": "${1:AtomParser}->_p( ${2:\\$msg} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:AtomParser}->_p( ${2:\\$msg} );"
         },
         {
             "trigger": "AtomParser-AtomParser\tWP Class Method",
@@ -572,15 +572,15 @@
         },
         {
             "trigger": "ftp_base-_checkCode\tWP Class Method",
-            "contents": "${1:ftp_base}->_checkCode();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_base}->_checkCode();"
         },
         {
             "trigger": "ftp_base-_list\tWP Class Method",
-            "contents": "${1:ftp_base}->_list( ${2:\\$arg}, ${3:\\$cmd}, ${4:\\$fnction} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_base}->_list( ${2:\\$arg}, ${3:\\$cmd}, ${4:\\$fnction} );"
         },
         {
             "trigger": "ftp_base-_settype\tWP Class Method",
-            "contents": "${1:ftp_base}->_settype( ${2:\\$mode} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_base}->_settype( ${2:\\$mode} );"
         },
         {
             "trigger": "ftp_base-abort\tWP Class Method",
@@ -764,43 +764,43 @@
         },
         {
             "trigger": "ftp_pure-_connect\tWP Class Method",
-            "contents": "${1:ftp_pure}->_connect( ${2:\\$host}, ${3:\\$port} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_connect( ${2:\\$host}, ${3:\\$port} );"
         },
         {
             "trigger": "ftp_pure-_data_close\tWP Class Method",
-            "contents": "${1:ftp_pure}->_data_close();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_data_close();"
         },
         {
             "trigger": "ftp_pure-_data_prepare\tWP Class Method",
-            "contents": "${1:ftp_pure}->_data_prepare( ${2:\\$mode} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_data_prepare( ${2:\\$mode} );"
         },
         {
             "trigger": "ftp_pure-_data_read\tWP Class Method",
-            "contents": "${1:ftp_pure}->_data_read( ${2:\\$mode}, ${3:\\$fp} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_data_read( ${2:\\$mode}, ${3:\\$fp} );"
         },
         {
             "trigger": "ftp_pure-_data_write\tWP Class Method",
-            "contents": "${1:ftp_pure}->_data_write( ${2:\\$mode}, ${3:\\$fp} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_data_write( ${2:\\$mode}, ${3:\\$fp} );"
         },
         {
             "trigger": "ftp_pure-_data_write_block\tWP Class Method",
-            "contents": "${1:ftp_pure}->_data_write_block( ${2:\\$mode}, ${3:\\$block} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_data_write_block( ${2:\\$mode}, ${3:\\$block} );"
         },
         {
             "trigger": "ftp_pure-_exec\tWP Class Method",
-            "contents": "${1:ftp_pure}->_exec( ${2:\\$cmd}, ${3:\\$fnction} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_exec( ${2:\\$cmd}, ${3:\\$fnction} );"
         },
         {
             "trigger": "ftp_pure-_quit\tWP Class Method",
-            "contents": "${1:ftp_pure}->_quit( ${2:\\$force} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_quit( ${2:\\$force} );"
         },
         {
             "trigger": "ftp_pure-_readmsg\tWP Class Method",
-            "contents": "${1:ftp_pure}->_readmsg( ${2:\\$fnction} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_readmsg( ${2:\\$fnction} );"
         },
         {
             "trigger": "ftp_pure-_settimeout\tWP Class Method",
-            "contents": "${1:ftp_pure}->_settimeout( ${2:\\$sock} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_pure}->_settimeout( ${2:\\$sock} );"
         },
         {
             "trigger": "ftp_sockets-__construct\tWP Class Method",
@@ -808,43 +808,43 @@
         },
         {
             "trigger": "ftp_sockets-_connect\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_connect( ${2:\\$host}, ${3:\\$port} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_connect( ${2:\\$host}, ${3:\\$port} );"
         },
         {
             "trigger": "ftp_sockets-_data_close\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_data_close();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_data_close();"
         },
         {
             "trigger": "ftp_sockets-_data_prepare\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_data_prepare( ${2:\\$mode} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_data_prepare( ${2:\\$mode} );"
         },
         {
             "trigger": "ftp_sockets-_data_read\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_data_read( ${2:\\$mode}, ${3:\\$fp} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_data_read( ${2:\\$mode}, ${3:\\$fp} );"
         },
         {
             "trigger": "ftp_sockets-_data_write\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_data_write( ${2:\\$mode}, ${3:\\$fp} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_data_write( ${2:\\$mode}, ${3:\\$fp} );"
         },
         {
             "trigger": "ftp_sockets-_data_write_block\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_data_write_block( ${2:\\$mode}, ${3:\\$block} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_data_write_block( ${2:\\$mode}, ${3:\\$block} );"
         },
         {
             "trigger": "ftp_sockets-_exec\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_exec( ${2:\\$cmd}, ${3:\\$fnction} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_exec( ${2:\\$cmd}, ${3:\\$fnction} );"
         },
         {
             "trigger": "ftp_sockets-_quit\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_quit();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_quit();"
         },
         {
             "trigger": "ftp_sockets-_readmsg\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_readmsg( ${2:\\$fnction} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_readmsg( ${2:\\$fnction} );"
         },
         {
             "trigger": "ftp_sockets-_settimeout\tWP Class Method",
-            "contents": "${1:ftp_sockets}->_settimeout( ${2:\\$sock} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:ftp_sockets}->_settimeout( ${2:\\$sock} );"
         },
         {
             "trigger": "getid3_ac3-Analyze\tWP Class Method",
@@ -2544,7 +2544,7 @@
         },
         {
             "trigger": "PHPMailer-_mime_types\tWP Class Method",
-            "contents": "${1:PHPMailer}::_mime_types( ${2:\\$ext} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:PHPMailer}::_mime_types( ${2:\\$ext} );"
         },
         {
             "trigger": "PHPMailer-addAddress\tWP Class Method",
@@ -3272,7 +3272,7 @@
         },
         {
             "trigger": "Requests_Cookie-__toString\tWP Class Method",
-            "contents": "${1:Requests_Cookie}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_Cookie}->__toString();"
         },
         {
             "trigger": "Requests_Cookie-domain_matches\tWP Class Method",
@@ -3388,23 +3388,23 @@
         },
         {
             "trigger": "Requests_IRI-__get\tWP Class Method",
-            "contents": "${1:Requests_IRI}->__get( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_IRI}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "Requests_IRI-__isset\tWP Class Method",
-            "contents": "${1:Requests_IRI}->__isset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_IRI}->__isset( ${2:\\$name} );"
         },
         {
             "trigger": "Requests_IRI-__set\tWP Class Method",
-            "contents": "${1:Requests_IRI}->__set( ${2:\\$name}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_IRI}->__set( ${2:\\$name}, ${3:\\$value} );"
         },
         {
             "trigger": "Requests_IRI-__toString\tWP Class Method",
-            "contents": "${1:Requests_IRI}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_IRI}->__toString();"
         },
         {
             "trigger": "Requests_IRI-__unset\tWP Class Method",
-            "contents": "${1:Requests_IRI}->__unset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_IRI}->__unset( ${2:\\$name} );"
         },
         {
             "trigger": "Requests_IRI-absolutize\tWP Class Method",
@@ -3480,19 +3480,19 @@
         },
         {
             "trigger": "Requests_Session-__get\tWP Class Method",
-            "contents": "${1:Requests_Session}->__get( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_Session}->__get( ${2:\\$key} );"
         },
         {
             "trigger": "Requests_Session-__isset\tWP Class Method",
-            "contents": "${1:Requests_Session}->__isset( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_Session}->__isset( ${2:\\$key} );"
         },
         {
             "trigger": "Requests_Session-__set\tWP Class Method",
-            "contents": "${1:Requests_Session}->__set( ${2:\\$key}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_Session}->__set( ${2:\\$key}, ${3:\\$value} );"
         },
         {
             "trigger": "Requests_Session-__unset\tWP Class Method",
-            "contents": "${1:Requests_Session}->__unset( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_Session}->__unset( ${2:\\$key} );"
         },
         {
             "trigger": "Requests_Session-delete\tWP Class Method",
@@ -3724,7 +3724,7 @@
         },
         {
             "trigger": "Services_JSON-_encode\tWP Class Method",
-            "contents": "${1:Services_JSON}->_encode( ${2:\\$var} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Services_JSON}->_encode( ${2:\\$var} );"
         },
         {
             "trigger": "Services_JSON-decode\tWP Class Method",
@@ -3776,7 +3776,7 @@
         },
         {
             "trigger": "SimplePie_Author-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Author}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Author}->__toString();"
         },
         {
             "trigger": "SimplePie_Author-get_email\tWP Class Method",
@@ -3880,7 +3880,7 @@
         },
         {
             "trigger": "SimplePie_Caption-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Caption}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Caption}->__toString();"
         },
         {
             "trigger": "SimplePie_Caption-get_endtime\tWP Class Method",
@@ -3908,7 +3908,7 @@
         },
         {
             "trigger": "SimplePie_Category-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Category}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Category}->__toString();"
         },
         {
             "trigger": "SimplePie_Category-get_label\tWP Class Method",
@@ -3952,7 +3952,7 @@
         },
         {
             "trigger": "SimplePie_Copyright-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Copyright}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Copyright}->__toString();"
         },
         {
             "trigger": "SimplePie_Copyright-get_attribution\tWP Class Method",
@@ -3968,7 +3968,7 @@
         },
         {
             "trigger": "SimplePie_Credit-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Credit}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Credit}->__toString();"
         },
         {
             "trigger": "SimplePie_Credit-get_name\tWP Class Method",
@@ -3988,7 +3988,7 @@
         },
         {
             "trigger": "SimplePie_Enclosure-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Enclosure}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Enclosure}->__toString();"
         },
         {
             "trigger": "SimplePie_Enclosure-embed\tWP Class Method",
@@ -4152,7 +4152,7 @@
         },
         {
             "trigger": "SimplePie_gzdecode-__set\tWP Class Method",
-            "contents": "${1:SimplePie_gzdecode}->__set( ${2:\\$name}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_gzdecode}->__set( ${2:\\$name}, ${3:\\$value} );"
         },
         {
             "trigger": "SimplePie_gzdecode-parse\tWP Class Method",
@@ -4172,23 +4172,23 @@
         },
         {
             "trigger": "SimplePie_IRI-__get\tWP Class Method",
-            "contents": "${1:SimplePie_IRI}->__get( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_IRI}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "SimplePie_IRI-__isset\tWP Class Method",
-            "contents": "${1:SimplePie_IRI}->__isset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_IRI}->__isset( ${2:\\$name} );"
         },
         {
             "trigger": "SimplePie_IRI-__set\tWP Class Method",
-            "contents": "${1:SimplePie_IRI}->__set( ${2:\\$name}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_IRI}->__set( ${2:\\$name}, ${3:\\$value} );"
         },
         {
             "trigger": "SimplePie_IRI-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_IRI}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_IRI}->__toString();"
         },
         {
             "trigger": "SimplePie_IRI-__unset\tWP Class Method",
-            "contents": "${1:SimplePie_IRI}->__unset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_IRI}->__unset( ${2:\\$name} );"
         },
         {
             "trigger": "SimplePie_IRI-absolutize\tWP Class Method",
@@ -4256,7 +4256,7 @@
         },
         {
             "trigger": "SimplePie_Item-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Item}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Item}->__toString();"
         },
         {
             "trigger": "SimplePie_Item-get_author\tWP Class Method",
@@ -4632,7 +4632,7 @@
         },
         {
             "trigger": "SimplePie_Rating-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Rating}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Rating}->__toString();"
         },
         {
             "trigger": "SimplePie_Rating-get_scheme\tWP Class Method",
@@ -4668,7 +4668,7 @@
         },
         {
             "trigger": "SimplePie_Restriction-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Restriction}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Restriction}->__toString();"
         },
         {
             "trigger": "SimplePie_Restriction-get_relationship\tWP Class Method",
@@ -4748,7 +4748,7 @@
         },
         {
             "trigger": "SimplePie_Source-__toString\tWP Class Method",
-            "contents": "${1:SimplePie_Source}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie_Source}->__toString();"
         },
         {
             "trigger": "SimplePie_Source-get_author\tWP Class Method",
@@ -4896,7 +4896,7 @@
         },
         {
             "trigger": "SimplePie-__call\tWP Class Method",
-            "contents": "${1:SimplePie}->__call( ${2:\\$method}, ${3:\\$args} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie}->__call( ${2:\\$method}, ${3:\\$args} );"
         },
         {
             "trigger": "SimplePie-__construct\tWP Class Method",
@@ -4908,7 +4908,7 @@
         },
         {
             "trigger": "SimplePie-__toString\tWP Class Method",
-            "contents": "${1:SimplePie}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie}->__toString();"
         },
         {
             "trigger": "SimplePie-enable_cache\tWP Class Method",
@@ -5352,19 +5352,19 @@
         },
         {
             "trigger": "Text_Diff_Engine_native-_compareseq\tWP Class Method",
-            "contents": "${1:Text_Diff_Engine_native}->_compareseq( ${2:\\$xoff}, ${3:\\$xlim}, ${4:\\$yoff}, ${5:\\$ylim} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Engine_native}->_compareseq( ${2:\\$xoff}, ${3:\\$xlim}, ${4:\\$yoff}, ${5:\\$ylim} );"
         },
         {
             "trigger": "Text_Diff_Engine_native-_diag\tWP Class Method",
-            "contents": "${1:Text_Diff_Engine_native}->_diag( ${2:\\$xoff}, ${3:\\$xlim}, ${4:\\$yoff}, ${5:\\$ylim}, ${6:\\$nchunks} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Engine_native}->_diag( ${2:\\$xoff}, ${3:\\$xlim}, ${4:\\$yoff}, ${5:\\$ylim}, ${6:\\$nchunks} );"
         },
         {
             "trigger": "Text_Diff_Engine_native-_lcsPos\tWP Class Method",
-            "contents": "${1:Text_Diff_Engine_native}->_lcsPos( ${2:\\$ypos} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Engine_native}->_lcsPos( ${2:\\$ypos} );"
         },
         {
             "trigger": "Text_Diff_Engine_native-_shiftBoundaries\tWP Class Method",
-            "contents": "${1:Text_Diff_Engine_native}->_shiftBoundaries( ${2:\\$lines}, ${3:\\$changed}, ${4:\\$other_changed} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Engine_native}->_shiftBoundaries( ${2:\\$lines}, ${3:\\$changed}, ${4:\\$other_changed} );"
         },
         {
             "trigger": "Text_Diff_Engine_native-diff\tWP Class Method",
@@ -5372,7 +5372,7 @@
         },
         {
             "trigger": "Text_Diff_Engine_shell-_getLines\tWP Class Method",
-            "contents": "${1:Text_Diff_Engine_shell}->_getLines( ${2:\\$text_lines}, ${3:\\$line_no}, ${4:\\$end} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Engine_shell}->_getLines( ${2:\\$text_lines}, ${3:\\$line_no}, ${4:\\$end} );"
         },
         {
             "trigger": "Text_Diff_Engine_shell-diff\tWP Class Method",
@@ -5456,35 +5456,35 @@
         },
         {
             "trigger": "Text_Diff_Renderer_inline-_added\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer_inline}->_added( ${2:\\$lines} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer_inline}->_added( ${2:\\$lines} );"
         },
         {
             "trigger": "Text_Diff_Renderer_inline-_blockHeader\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer_inline}->_blockHeader( ${2:\\$xbeg}, ${3:\\$xlen}, ${4:\\$ybeg}, ${5:\\$ylen} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer_inline}->_blockHeader( ${2:\\$xbeg}, ${3:\\$xlen}, ${4:\\$ybeg}, ${5:\\$ylen} );"
         },
         {
             "trigger": "Text_Diff_Renderer_inline-_changed\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer_inline}->_changed( ${2:\\$orig}, ${3:\\$final} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer_inline}->_changed( ${2:\\$orig}, ${3:\\$final} );"
         },
         {
             "trigger": "Text_Diff_Renderer_inline-_deleted\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer_inline}->_deleted( ${2:\\$lines}, ${3:\\$words} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer_inline}->_deleted( ${2:\\$lines}, ${3:\\$words} );"
         },
         {
             "trigger": "Text_Diff_Renderer_inline-_encode\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer_inline}->_encode( ${2:\\$string} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer_inline}->_encode( ${2:\\$string} );"
         },
         {
             "trigger": "Text_Diff_Renderer_inline-_lines\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer_inline}->_lines( ${2:\\$lines}, ${3:\\$prefix}, ${4:\\$encode} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer_inline}->_lines( ${2:\\$lines}, ${3:\\$prefix}, ${4:\\$encode} );"
         },
         {
             "trigger": "Text_Diff_Renderer_inline-_splitOnWords\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer_inline}->_splitOnWords( ${2:\\$string}, ${3:\\$newlineEscape} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer_inline}->_splitOnWords( ${2:\\$string}, ${3:\\$newlineEscape} );"
         },
         {
             "trigger": "Text_Diff_Renderer_inline-_startBlock\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer_inline}->_startBlock( ${2:\\$header} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer_inline}->_startBlock( ${2:\\$header} );"
         },
         {
             "trigger": "Text_Diff_Renderer-__construct\tWP Class Method",
@@ -5492,47 +5492,47 @@
         },
         {
             "trigger": "Text_Diff_Renderer-_added\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_added( ${2:\\$lines} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_added( ${2:\\$lines} );"
         },
         {
             "trigger": "Text_Diff_Renderer-_block\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_block( ${2:\\$xbeg}, ${3:\\$xlen}, ${4:\\$ybeg}, ${5:\\$ylen}, ${6:\\$edits} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_block( ${2:\\$xbeg}, ${3:\\$xlen}, ${4:\\$ybeg}, ${5:\\$ylen}, ${6:\\$edits} );"
         },
         {
             "trigger": "Text_Diff_Renderer-_blockHeader\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_blockHeader( ${2:\\$xbeg}, ${3:\\$xlen}, ${4:\\$ybeg}, ${5:\\$ylen} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_blockHeader( ${2:\\$xbeg}, ${3:\\$xlen}, ${4:\\$ybeg}, ${5:\\$ylen} );"
         },
         {
             "trigger": "Text_Diff_Renderer-_changed\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_changed( ${2:\\$orig}, ${3:\\$final} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_changed( ${2:\\$orig}, ${3:\\$final} );"
         },
         {
             "trigger": "Text_Diff_Renderer-_context\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_context( ${2:\\$lines} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_context( ${2:\\$lines} );"
         },
         {
             "trigger": "Text_Diff_Renderer-_deleted\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_deleted( ${2:\\$lines} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_deleted( ${2:\\$lines} );"
         },
         {
             "trigger": "Text_Diff_Renderer-_endBlock\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_endBlock();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_endBlock();"
         },
         {
             "trigger": "Text_Diff_Renderer-_endDiff\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_endDiff();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_endDiff();"
         },
         {
             "trigger": "Text_Diff_Renderer-_lines\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_lines( ${2:\\$lines}, ${3:\\$prefix} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_lines( ${2:\\$lines}, ${3:\\$prefix} );"
         },
         {
             "trigger": "Text_Diff_Renderer-_startBlock\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_startBlock( ${2:\\$header} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_startBlock( ${2:\\$header} );"
         },
         {
             "trigger": "Text_Diff_Renderer-_startDiff\tWP Class Method",
-            "contents": "${1:Text_Diff_Renderer}->_startDiff();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff_Renderer}->_startDiff();"
         },
         {
             "trigger": "Text_Diff_Renderer-getParams\tWP Class Method",
@@ -5552,11 +5552,11 @@
         },
         {
             "trigger": "Text_Diff-_check\tWP Class Method",
-            "contents": "${1:Text_Diff}->_check( ${2:\\$from_lines}, ${3:\\$to_lines} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff}->_check( ${2:\\$from_lines}, ${3:\\$to_lines} );"
         },
         {
             "trigger": "Text_Diff-_getTempDir\tWP Class Method",
-            "contents": "${1:Text_Diff}->_getTempDir();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Text_Diff}->_getTempDir();"
         },
         {
             "trigger": "Text_Diff-countAddedLines\tWP Class Method",
@@ -5896,7 +5896,7 @@
         },
         {
             "trigger": "WP_Admin_Bar-__get\tWP Class Method",
-            "contents": "${1:WP_Admin_Bar}->__get( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Admin_Bar}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Admin_Bar-add_group\tWP Class Method",
@@ -6076,7 +6076,7 @@
         },
         {
             "trigger": "WP_Comment_Query-__call\tWP Class Method",
-            "contents": "${1:WP_Comment_Query}->__call( ${2:\\$name}, ${3:\\$arguments} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Comment_Query}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
         {
             "trigger": "WP_Comment_Query-__construct\tWP Class Method",
@@ -6100,11 +6100,11 @@
         },
         {
             "trigger": "WP_Comment-__get\tWP Class Method",
-            "contents": "${1:WP_Comment}->__get( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Comment}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Comment-__isset\tWP Class Method",
-            "contents": "${1:WP_Comment}->__isset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Comment}->__isset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Comment-add_child\tWP Class Method",
@@ -6416,39 +6416,39 @@
         },
         {
             "trigger": "WP_Customize_Manager-_filter_revision_post_has_changed\tWP Class Method",
-            "contents": "${1:WP_Customize_Manager}->_filter_revision_post_has_changed( ${2:\\$post_has_changed}, ${3:\\$last_revision}, ${4:\\$post} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Manager}->_filter_revision_post_has_changed( ${2:\\$post_has_changed}, ${3:\\$last_revision}, ${4:\\$post} );"
         },
         {
             "trigger": "WP_Customize_Manager-_publish_changeset_values\tWP Class Method",
-            "contents": "${1:WP_Customize_Manager}->_publish_changeset_values( ${2:\\$changeset_post_id} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Manager}->_publish_changeset_values( ${2:\\$changeset_post_id} );"
         },
         {
             "trigger": "WP_Customize_Manager-_render_custom_logo_partial\tWP Class Method",
-            "contents": "${1:WP_Customize_Manager}->_render_custom_logo_partial();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Manager}->_render_custom_logo_partial();"
         },
         {
             "trigger": "WP_Customize_Manager-_sanitize_background_setting\tWP Class Method",
-            "contents": "${1:WP_Customize_Manager}->_sanitize_background_setting( ${2:\\$value}, ${3:\\$setting} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Manager}->_sanitize_background_setting( ${2:\\$value}, ${3:\\$setting} );"
         },
         {
             "trigger": "WP_Customize_Manager-_sanitize_external_header_video\tWP Class Method",
-            "contents": "${1:WP_Customize_Manager}->_sanitize_external_header_video( ${2:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Manager}->_sanitize_external_header_video( ${2:\\$value} );"
         },
         {
             "trigger": "WP_Customize_Manager-_sanitize_header_textcolor\tWP Class Method",
-            "contents": "${1:WP_Customize_Manager}->_sanitize_header_textcolor( ${2:\\$color} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Manager}->_sanitize_header_textcolor( ${2:\\$color} );"
         },
         {
             "trigger": "WP_Customize_Manager-_save_starter_content_changeset\tWP Class Method",
-            "contents": "${1:WP_Customize_Manager}->_save_starter_content_changeset();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Manager}->_save_starter_content_changeset();"
         },
         {
             "trigger": "WP_Customize_Manager-_validate_external_header_video\tWP Class Method",
-            "contents": "${1:WP_Customize_Manager}->_validate_external_header_video( ${2:\\$validity}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Manager}->_validate_external_header_video( ${2:\\$validity}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_Customize_Manager-_validate_header_video\tWP Class Method",
-            "contents": "${1:WP_Customize_Manager}->_validate_header_video( ${2:\\$validity}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Manager}->_validate_header_video( ${2:\\$validity}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_Customize_Manager-add_control\tWP Class Method",
@@ -7212,15 +7212,15 @@
         },
         {
             "trigger": "WP_Customize_Setting-_clear_aggregated_multidimensional_preview_applied_flag\tWP Class Method",
-            "contents": "${1:WP_Customize_Setting}->_clear_aggregated_multidimensional_preview_applied_flag();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Setting}->_clear_aggregated_multidimensional_preview_applied_flag();"
         },
         {
             "trigger": "WP_Customize_Setting-_multidimensional_preview_filter\tWP Class Method",
-            "contents": "${1:WP_Customize_Setting}->_multidimensional_preview_filter( ${2:\\$original} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Setting}->_multidimensional_preview_filter( ${2:\\$original} );"
         },
         {
             "trigger": "WP_Customize_Setting-_preview_filter\tWP Class Method",
-            "contents": "${1:WP_Customize_Setting}->_preview_filter( ${2:\\$original} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Customize_Setting}->_preview_filter( ${2:\\$original} );"
         },
         {
             "trigger": "WP_Customize_Setting-check_capabilities\tWP Class Method",
@@ -8604,7 +8604,7 @@
         },
         {
             "trigger": "WP_Http-_get_first_available_transport\tWP Class Method",
-            "contents": "${1:WP_Http}->_get_first_available_transport( ${2:\\$args}, ${3:\\$url} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Http}->_get_first_available_transport( ${2:\\$args}, ${3:\\$url} );"
         },
         {
             "trigger": "WP_Http-block_request\tWP Class Method",
@@ -8980,7 +8980,7 @@
         },
         {
             "trigger": "WP_List_Table-__call\tWP Class Method",
-            "contents": "${1:WP_List_Table}->__call( ${2:\\$name}, ${3:\\$arguments} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_List_Table}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
         {
             "trigger": "WP_List_Table-__construct\tWP Class Method",
@@ -8988,23 +8988,23 @@
         },
         {
             "trigger": "WP_List_Table-__get\tWP Class Method",
-            "contents": "${1:WP_List_Table}->__get( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_List_Table}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "WP_List_Table-__isset\tWP Class Method",
-            "contents": "${1:WP_List_Table}->__isset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_List_Table}->__isset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_List_Table-__set\tWP Class Method",
-            "contents": "${1:WP_List_Table}->__set( ${2:\\$name}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_List_Table}->__set( ${2:\\$name}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_List_Table-__unset\tWP Class Method",
-            "contents": "${1:WP_List_Table}->__unset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_List_Table}->__unset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_List_Table-_js_vars\tWP Class Method",
-            "contents": "${1:WP_List_Table}->_js_vars();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_List_Table}->_js_vars();"
         },
         {
             "trigger": "WP_List_Table-ajax_response\tWP Class Method",
@@ -9136,7 +9136,7 @@
         },
         {
             "trigger": "WP_Locale-_strings_for_pot\tWP Class Method",
-            "contents": "${1:WP_Locale}->_strings_for_pot();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Locale}->_strings_for_pot();"
         },
         {
             "trigger": "WP_Locale-get_meridiem\tWP Class Method",
@@ -9368,11 +9368,11 @@
         },
         {
             "trigger": "WP_MS_Themes_List_Table-_order_callback\tWP Class Method",
-            "contents": "${1:WP_MS_Themes_List_Table}->_order_callback( ${2:\\$theme_a}, ${3:\\$theme_b} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_MS_Themes_List_Table}->_order_callback( ${2:\\$theme_a}, ${3:\\$theme_b} );"
         },
         {
             "trigger": "WP_MS_Themes_List_Table-_search_callback\tWP Class Method",
-            "contents": "${1:WP_MS_Themes_List_Table}->_search_callback( ${2:\\$theme} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_MS_Themes_List_Table}->_search_callback( ${2:\\$theme} );"
         },
         {
             "trigger": "WP_MS_Themes_List_Table-ajax_user_can\tWP Class Method",
@@ -9508,15 +9508,15 @@
         },
         {
             "trigger": "WP_Network-__get\tWP Class Method",
-            "contents": "${1:WP_Network}->__get( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Network}->__get( ${2:\\$key} );"
         },
         {
             "trigger": "WP_Network-__isset\tWP Class Method",
-            "contents": "${1:WP_Network}->__isset( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Network}->__isset( ${2:\\$key} );"
         },
         {
             "trigger": "WP_Network-__set\tWP Class Method",
-            "contents": "${1:WP_Network}->__set( ${2:\\$key}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Network}->__set( ${2:\\$key}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_Network-get_by_path\tWP Class Method",
@@ -9536,19 +9536,19 @@
         },
         {
             "trigger": "WP_Object_Cache-__get\tWP Class Method",
-            "contents": "${1:WP_Object_Cache}->__get( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Object_Cache}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Object_Cache-__isset\tWP Class Method",
-            "contents": "${1:WP_Object_Cache}->__isset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Object_Cache}->__isset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Object_Cache-__set\tWP Class Method",
-            "contents": "${1:WP_Object_Cache}->__set( ${2:\\$name}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Object_Cache}->__set( ${2:\\$name}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_Object_Cache-__unset\tWP Class Method",
-            "contents": "${1:WP_Object_Cache}->__unset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Object_Cache}->__unset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Object_Cache-add\tWP Class Method",
@@ -9612,7 +9612,7 @@
         },
         {
             "trigger": "WP_oEmbed-__call\tWP Class Method",
-            "contents": "${1:WP_oEmbed}->__call( ${2:\\$name}, ${3:\\$arguments} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_oEmbed}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
         {
             "trigger": "WP_oEmbed-__construct\tWP Class Method",
@@ -9620,15 +9620,15 @@
         },
         {
             "trigger": "WP_oEmbed-_add_provider_early\tWP Class Method",
-            "contents": "${1:WP_oEmbed}::_add_provider_early( ${2:\\$format}, ${3:\\$provider}, ${4:\\$regex} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_oEmbed}::_add_provider_early( ${2:\\$format}, ${3:\\$provider}, ${4:\\$regex} );"
         },
         {
             "trigger": "WP_oEmbed-_remove_provider_early\tWP Class Method",
-            "contents": "${1:WP_oEmbed}::_remove_provider_early( ${2:\\$format} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_oEmbed}::_remove_provider_early( ${2:\\$format} );"
         },
         {
             "trigger": "WP_oEmbed-_strip_newlines\tWP Class Method",
-            "contents": "${1:WP_oEmbed}->_strip_newlines( ${2:\\$html}, ${3:\\$data}, ${4:\\$url} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_oEmbed}->_strip_newlines( ${2:\\$html}, ${3:\\$data}, ${4:\\$url} );"
         },
         {
             "trigger": "WP_oEmbed-data2html\tWP Class Method",
@@ -9712,11 +9712,11 @@
         },
         {
             "trigger": "WP_Plugins_List_Table-_order_callback\tWP Class Method",
-            "contents": "${1:WP_Plugins_List_Table}->_order_callback( ${2:\\$plugin_a}, ${3:\\$plugin_b} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Plugins_List_Table}->_order_callback( ${2:\\$plugin_a}, ${3:\\$plugin_b} );"
         },
         {
             "trigger": "WP_Plugins_List_Table-_search_callback\tWP Class Method",
-            "contents": "${1:WP_Plugins_List_Table}->_search_callback( ${2:\\$plugin} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Plugins_List_Table}->_search_callback( ${2:\\$plugin} );"
         },
         {
             "trigger": "WP_Plugins_List_Table-ajax_user_can\tWP Class Method",
@@ -9816,11 +9816,11 @@
         },
         {
             "trigger": "WP_Post-__get\tWP Class Method",
-            "contents": "${1:WP_Post}->__get( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Post}->__get( ${2:\\$key} );"
         },
         {
             "trigger": "WP_Post-__isset\tWP Class Method",
-            "contents": "${1:WP_Post}->__isset( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Post}->__isset( ${2:\\$key} );"
         },
         {
             "trigger": "WP_Post-filter\tWP Class Method",
@@ -9920,7 +9920,7 @@
         },
         {
             "trigger": "WP_Privacy_Policy_Content-_policy_page_updated\tWP Class Method",
-            "contents": "${1:WP_Privacy_Policy_Content}::_policy_page_updated( ${2:\\$post_id} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Privacy_Policy_Content}::_policy_page_updated( ${2:\\$post_id} );"
         },
         {
             "trigger": "WP_Privacy_Policy_Content-add\tWP Class Method",
@@ -9996,7 +9996,7 @@
         },
         {
             "trigger": "WP_Query-__call\tWP Class Method",
-            "contents": "${1:WP_Query}->__call( ${2:\\$name}, ${3:\\$arguments} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Query}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
         {
             "trigger": "WP_Query-__construct\tWP Class Method",
@@ -10004,11 +10004,11 @@
         },
         {
             "trigger": "WP_Query-__get\tWP Class Method",
-            "contents": "${1:WP_Query}->__get( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Query}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Query-__isset\tWP Class Method",
-            "contents": "${1:WP_Query}->__isset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Query}->__isset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Query-fill_query_vars\tWP Class Method",
@@ -11584,7 +11584,7 @@
         },
         {
             "trigger": "WP_Roles-__call\tWP Class Method",
-            "contents": "${1:WP_Roles}->__call( ${2:\\$name}, ${3:\\$arguments} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Roles}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
         {
             "trigger": "WP_Roles-__construct\tWP Class Method",
@@ -12060,15 +12060,15 @@
         },
         {
             "trigger": "WP_Site-__get\tWP Class Method",
-            "contents": "${1:WP_Site}->__get( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Site}->__get( ${2:\\$key} );"
         },
         {
             "trigger": "WP_Site-__isset\tWP Class Method",
-            "contents": "${1:WP_Site}->__isset( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Site}->__isset( ${2:\\$key} );"
         },
         {
             "trigger": "WP_Site-__set\tWP Class Method",
-            "contents": "${1:WP_Site}->__set( ${2:\\$key}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Site}->__set( ${2:\\$key}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_Site-get_instance\tWP Class Method",
@@ -12084,7 +12084,7 @@
         },
         {
             "trigger": "WP_Styles-_css_href\tWP Class Method",
-            "contents": "${1:WP_Styles}->_css_href( ${2:\\$src}, ${3:\\$ver}, ${4:\\$handle} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Styles}->_css_href( ${2:\\$src}, ${3:\\$ver}, ${4:\\$handle} );"
         },
         {
             "trigger": "WP_Styles-add_inline_style\tWP Class Method",
@@ -12184,7 +12184,7 @@
         },
         {
             "trigger": "WP_Term-__get\tWP Class Method",
-            "contents": "${1:WP_Term}->__get( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Term}->__get( ${2:\\$key} );"
         },
         {
             "trigger": "WP_Term-filter\tWP Class Method",
@@ -12272,23 +12272,23 @@
         },
         {
             "trigger": "WP_Text_Diff_Renderer_Table-__get\tWP Class Method",
-            "contents": "${1:WP_Text_Diff_Renderer_Table}->__get( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Text_Diff_Renderer_Table}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Text_Diff_Renderer_Table-__isset\tWP Class Method",
-            "contents": "${1:WP_Text_Diff_Renderer_Table}->__isset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Text_Diff_Renderer_Table}->__isset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Text_Diff_Renderer_Table-__set\tWP Class Method",
-            "contents": "${1:WP_Text_Diff_Renderer_Table}->__set( ${2:\\$name}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Text_Diff_Renderer_Table}->__set( ${2:\\$name}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_Text_Diff_Renderer_Table-__unset\tWP Class Method",
-            "contents": "${1:WP_Text_Diff_Renderer_Table}->__unset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Text_Diff_Renderer_Table}->__unset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_Text_Diff_Renderer_Table-_changed\tWP Class Method",
-            "contents": "${1:WP_Text_Diff_Renderer_Table}->_changed( ${2:\\$orig}, ${3:\\$final} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Text_Diff_Renderer_Table}->_changed( ${2:\\$orig}, ${3:\\$final} );"
         },
         {
             "trigger": "WP_Text_Diff_Renderer_Table-compute_string_distance\tWP Class Method",
@@ -12300,7 +12300,7 @@
         },
         {
             "trigger": "WP_Theme_Install_List_Table-_js_vars\tWP Class Method",
-            "contents": "${1:WP_Theme_Install_List_Table}->_js_vars( ${2:\\$extra_args} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Theme_Install_List_Table}->_js_vars( ${2:\\$extra_args} );"
         },
         {
             "trigger": "WP_Theme_Install_List_Table-ajax_user_can\tWP Class Method",
@@ -12344,15 +12344,15 @@
         },
         {
             "trigger": "WP_Theme-__get\tWP Class Method",
-            "contents": "${1:WP_Theme}->__get( ${2:\\$offset} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Theme}->__get( ${2:\\$offset} );"
         },
         {
             "trigger": "WP_Theme-__isset\tWP Class Method",
-            "contents": "${1:WP_Theme}->__isset( ${2:\\$offset} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Theme}->__isset( ${2:\\$offset} );"
         },
         {
             "trigger": "WP_Theme-__toString\tWP Class Method",
-            "contents": "${1:WP_Theme}->__toString();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Theme}->__toString();"
         },
         {
             "trigger": "WP_Theme-cache_delete\tWP Class Method",
@@ -12484,7 +12484,7 @@
         },
         {
             "trigger": "WP_Themes_List_Table-_js_vars\tWP Class Method",
-            "contents": "${1:WP_Themes_List_Table}->_js_vars( ${2:\\$extra_args} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Themes_List_Table}->_js_vars( ${2:\\$extra_args} );"
         },
         {
             "trigger": "WP_Themes_List_Table-ajax_user_can\tWP Class Method",
@@ -12628,7 +12628,7 @@
         },
         {
             "trigger": "WP_User_Query-__call\tWP Class Method",
-            "contents": "${1:WP_User_Query}->__call( ${2:\\$name}, ${3:\\$arguments} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User_Query}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
         {
             "trigger": "WP_User_Query-__construct\tWP Class Method",
@@ -12636,19 +12636,19 @@
         },
         {
             "trigger": "WP_User_Query-__get\tWP Class Method",
-            "contents": "${1:WP_User_Query}->__get( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User_Query}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "WP_User_Query-__isset\tWP Class Method",
-            "contents": "${1:WP_User_Query}->__isset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User_Query}->__isset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_User_Query-__set\tWP Class Method",
-            "contents": "${1:WP_User_Query}->__set( ${2:\\$name}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User_Query}->__set( ${2:\\$name}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_User_Query-__unset\tWP Class Method",
-            "contents": "${1:WP_User_Query}->__unset( ${2:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User_Query}->__unset( ${2:\\$name} );"
         },
         {
             "trigger": "WP_User_Query-fill_query_vars\tWP Class Method",
@@ -12684,7 +12684,7 @@
         },
         {
             "trigger": "WP_User-__call\tWP Class Method",
-            "contents": "${1:WP_User}->__call( ${2:\\$name}, ${3:\\$arguments} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
         {
             "trigger": "WP_User-__construct\tWP Class Method",
@@ -12692,19 +12692,19 @@
         },
         {
             "trigger": "WP_User-__get\tWP Class Method",
-            "contents": "${1:WP_User}->__get( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User}->__get( ${2:\\$key} );"
         },
         {
             "trigger": "WP_User-__isset\tWP Class Method",
-            "contents": "${1:WP_User}->__isset( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User}->__isset( ${2:\\$key} );"
         },
         {
             "trigger": "WP_User-__set\tWP Class Method",
-            "contents": "${1:WP_User}->__set( ${2:\\$key}, ${3:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User}->__set( ${2:\\$key}, ${3:\\$value} );"
         },
         {
             "trigger": "WP_User-__unset\tWP Class Method",
-            "contents": "${1:WP_User}->__unset( ${2:\\$key} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_User}->__unset( ${2:\\$key} );"
         },
         {
             "trigger": "WP_User-add_cap\tWP Class Method",
@@ -12876,11 +12876,11 @@
         },
         {
             "trigger": "WP_Widget_Custom_HTML-_filter_gallery_shortcode_attrs\tWP Class Method",
-            "contents": "${1:WP_Widget_Custom_HTML}->_filter_gallery_shortcode_attrs( ${2:\\$attrs} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget_Custom_HTML}->_filter_gallery_shortcode_attrs( ${2:\\$attrs} );"
         },
         {
             "trigger": "WP_Widget_Custom_HTML-_register_one\tWP Class Method",
-            "contents": "${1:WP_Widget_Custom_HTML}->_register_one( ${2:\\$number} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget_Custom_HTML}->_register_one( ${2:\\$number} );"
         },
         {
             "trigger": "WP_Widget_Custom_HTML-add_help_text\tWP Class Method",
@@ -12912,7 +12912,7 @@
         },
         {
             "trigger": "WP_Widget_Factory-_register_widgets\tWP Class Method",
-            "contents": "${1:WP_Widget_Factory}->_register_widgets();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget_Factory}->_register_widgets();"
         },
         {
             "trigger": "WP_Widget_Factory-register\tWP Class Method",
@@ -13052,7 +13052,7 @@
         },
         {
             "trigger": "WP_Widget_Media-_register_one\tWP Class Method",
-            "contents": "${1:WP_Widget_Media}->_register_one( ${2:\\$number} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget_Media}->_register_one( ${2:\\$number} );"
         },
         {
             "trigger": "WP_Widget_Media-display_media_state\tWP Class Method",
@@ -13204,7 +13204,7 @@
         },
         {
             "trigger": "WP_Widget_Tag_Cloud-_get_current_taxonomy\tWP Class Method",
-            "contents": "${1:WP_Widget_Tag_Cloud}->_get_current_taxonomy( ${2:\\$instance} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget_Tag_Cloud}->_get_current_taxonomy( ${2:\\$instance} );"
         },
         {
             "trigger": "WP_Widget_Tag_Cloud-form\tWP Class Method",
@@ -13224,11 +13224,11 @@
         },
         {
             "trigger": "WP_Widget_Text-_filter_gallery_shortcode_attrs\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->_filter_gallery_shortcode_attrs( ${2:\\$attrs} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget_Text}->_filter_gallery_shortcode_attrs( ${2:\\$attrs} );"
         },
         {
             "trigger": "WP_Widget_Text-_register_one\tWP Class Method",
-            "contents": "${1:WP_Widget_Text}->_register_one( ${2:\\$number} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget_Text}->_register_one( ${2:\\$number} );"
         },
         {
             "trigger": "WP_Widget_Text-enqueue_admin_scripts\tWP Class Method",
@@ -13268,27 +13268,27 @@
         },
         {
             "trigger": "WP_Widget-_get_display_callback\tWP Class Method",
-            "contents": "${1:WP_Widget}->_get_display_callback();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget}->_get_display_callback();"
         },
         {
             "trigger": "WP_Widget-_get_form_callback\tWP Class Method",
-            "contents": "${1:WP_Widget}->_get_form_callback();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget}->_get_form_callback();"
         },
         {
             "trigger": "WP_Widget-_get_update_callback\tWP Class Method",
-            "contents": "${1:WP_Widget}->_get_update_callback();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget}->_get_update_callback();"
         },
         {
             "trigger": "WP_Widget-_register\tWP Class Method",
-            "contents": "${1:WP_Widget}->_register();"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget}->_register();"
         },
         {
             "trigger": "WP_Widget-_register_one\tWP Class Method",
-            "contents": "${1:WP_Widget}->_register_one( ${2:\\$number} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget}->_register_one( ${2:\\$number} );"
         },
         {
             "trigger": "WP_Widget-_set\tWP Class Method",
-            "contents": "${1:WP_Widget}->_set( ${2:\\$number} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Widget}->_set( ${2:\\$number} );"
         },
         {
             "trigger": "WP_Widget-display_callback\tWP Class Method",
@@ -13340,7 +13340,7 @@
         },
         {
             "trigger": "wp_xmlrpc_server-__call\tWP Class Method",
-            "contents": "${1:wp_xmlrpc_server}->__call( ${2:\\$name}, ${3:\\$arguments} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:wp_xmlrpc_server}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
         {
             "trigger": "wp_xmlrpc_server-__construct\tWP Class Method",
@@ -13348,7 +13348,7 @@
         },
         {
             "trigger": "wp_xmlrpc_server-_getOptions\tWP Class Method",
-            "contents": "${1:wp_xmlrpc_server}->_getOptions( ${2:\\$options} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:wp_xmlrpc_server}->_getOptions( ${2:\\$options} );"
         },
         {
             "trigger": "wp_xmlrpc_server-add_enclosure_if_new\tWP Class Method",
@@ -13723,216 +13723,220 @@
             "contents": "${1:WP}->set_query_var( ${2:\\$key}, ${3:\\$value} );"
         },
         {
+            "trigger": "wpdb-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new wpdb( ${3:\\$dbuser}, ${4:\\$dbpassword}, ${5:\\$dbname}, ${6:\\$dbhost} );"
+        },
+        {
             "trigger": "wpdb-__destruct\tWP Class Method",
-            "contents": "\\$wpdb->__destruct();"
+            "contents": "${1:wpdb}->__destruct();"
         },
         {
             "trigger": "wpdb-__get\tWP Class Method",
-            "contents": "\\$wpdb->__get( ${1:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:wpdb}->__get( ${2:\\$name} );"
         },
         {
             "trigger": "wpdb-__isset\tWP Class Method",
-            "contents": "\\$wpdb->__isset( ${1:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:wpdb}->__isset( ${2:\\$name} );"
         },
         {
             "trigger": "wpdb-__set\tWP Class Method",
-            "contents": "\\$wpdb->__set( ${1:\\$name}, ${2:\\$value} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:wpdb}->__set( ${2:\\$name}, ${3:\\$value} );"
         },
         {
             "trigger": "wpdb-__unset\tWP Class Method",
-            "contents": "\\$wpdb->__unset( ${1:\\$name} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:wpdb}->__unset( ${2:\\$name} );"
         },
         {
             "trigger": "wpdb-_escape\tWP Class Method",
-            "contents": "\\$wpdb->_escape( ${1:\\$data} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:wpdb}->_escape( ${2:\\$data} );"
         },
         {
             "trigger": "wpdb-_insert_replace_helper\tWP Class Method",
-            "contents": "\\$wpdb->_insert_replace_helper( ${1:\\$table}, ${2:\\$data}, ${3:\\$format}, ${4:\\$type} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:wpdb}->_insert_replace_helper( ${2:\\$table}, ${3:\\$data}, ${4:\\$format}, ${5:\\$type} );"
         },
         {
             "trigger": "wpdb-_real_escape\tWP Class Method",
-            "contents": "\\$wpdb->_real_escape( ${1:\\$string} );"
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:wpdb}->_real_escape( ${2:\\$string} );"
         },
         {
             "trigger": "wpdb-add_placeholder_escape\tWP Class Method",
-            "contents": "\\$wpdb->add_placeholder_escape( ${1:\\$query} );"
+            "contents": "${1:wpdb}->add_placeholder_escape( ${2:\\$query} );"
         },
         {
             "trigger": "wpdb-bail\tWP Class Method",
-            "contents": "\\$wpdb->bail( ${1:\\$message}, ${2:\\$error_code} );"
+            "contents": "${1:wpdb}->bail( ${2:\\$message}, ${3:\\$error_code} );"
         },
         {
             "trigger": "wpdb-check_connection\tWP Class Method",
-            "contents": "\\$wpdb->check_connection( ${1:\\$allow_bail} );"
+            "contents": "${1:wpdb}->check_connection( ${2:\\$allow_bail} );"
         },
         {
             "trigger": "wpdb-check_database_version\tWP Class Method",
-            "contents": "\\$wpdb->check_database_version();"
+            "contents": "${1:wpdb}->check_database_version();"
         },
         {
             "trigger": "wpdb-close\tWP Class Method",
-            "contents": "\\$wpdb->close();"
+            "contents": "${1:wpdb}->close();"
         },
         {
             "trigger": "wpdb-db_connect\tWP Class Method",
-            "contents": "\\$wpdb->db_connect( ${1:\\$allow_bail} );"
+            "contents": "${1:wpdb}->db_connect( ${2:\\$allow_bail} );"
         },
         {
             "trigger": "wpdb-db_version\tWP Class Method",
-            "contents": "\\$wpdb->db_version();"
+            "contents": "${1:wpdb}->db_version();"
         },
         {
             "trigger": "wpdb-delete\tWP Class Method",
-            "contents": "\\$wpdb->delete( ${1:\\$table}, ${2:\\$where}, ${3:\\$where_format} );"
+            "contents": "${1:wpdb}->delete( ${2:\\$table}, ${3:\\$where}, ${4:\\$where_format} );"
         },
         {
             "trigger": "wpdb-determine_charset\tWP Class Method",
-            "contents": "\\$wpdb->determine_charset( ${1:\\$charset}, ${2:\\$collate} );"
+            "contents": "${1:wpdb}->determine_charset( ${2:\\$charset}, ${3:\\$collate} );"
         },
         {
             "trigger": "wpdb-esc_like\tWP Class Method",
-            "contents": "\\$wpdb->esc_like( ${1:\\$text} );"
+            "contents": "${1:wpdb}->esc_like( ${2:\\$text} );"
         },
         {
             "trigger": "wpdb-escape_by_ref\tWP Class Method",
-            "contents": "\\$wpdb->escape_by_ref( ${1:\\$string} );"
+            "contents": "${1:wpdb}->escape_by_ref( ${2:\\$string} );"
         },
         {
             "trigger": "wpdb-flush\tWP Class Method",
-            "contents": "\\$wpdb->flush();"
+            "contents": "${1:wpdb}->flush();"
         },
         {
             "trigger": "wpdb-get_blog_prefix\tWP Class Method",
-            "contents": "\\$wpdb->get_blog_prefix( ${1:\\$blog_id} );"
+            "contents": "${1:wpdb}->get_blog_prefix( ${2:\\$blog_id} );"
         },
         {
             "trigger": "wpdb-get_caller\tWP Class Method",
-            "contents": "\\$wpdb->get_caller();"
+            "contents": "${1:wpdb}->get_caller();"
         },
         {
             "trigger": "wpdb-get_charset_collate\tWP Class Method",
-            "contents": "\\$wpdb->get_charset_collate();"
+            "contents": "${1:wpdb}->get_charset_collate();"
         },
         {
             "trigger": "wpdb-get_col\tWP Class Method",
-            "contents": "\\$wpdb->get_col( ${1:\\$query}, ${2:\\$x} );"
+            "contents": "${1:wpdb}->get_col( ${2:\\$query}, ${3:\\$x} );"
         },
         {
             "trigger": "wpdb-get_col_charset\tWP Class Method",
-            "contents": "\\$wpdb->get_col_charset( ${1:\\$table}, ${2:\\$column} );"
+            "contents": "${1:wpdb}->get_col_charset( ${2:\\$table}, ${3:\\$column} );"
         },
         {
             "trigger": "wpdb-get_col_info\tWP Class Method",
-            "contents": "\\$wpdb->get_col_info( ${1:\\$info_type}, ${2:\\$col_offset} );"
+            "contents": "${1:wpdb}->get_col_info( ${2:\\$info_type}, ${3:\\$col_offset} );"
         },
         {
             "trigger": "wpdb-get_col_length\tWP Class Method",
-            "contents": "\\$wpdb->get_col_length( ${1:\\$table}, ${2:\\$column} );"
+            "contents": "${1:wpdb}->get_col_length( ${2:\\$table}, ${3:\\$column} );"
         },
         {
             "trigger": "wpdb-get_results\tWP Class Method",
-            "contents": "\\$wpdb->get_results( ${1:\\$query}, ${2:\\$output} );"
+            "contents": "${1:wpdb}->get_results( ${2:\\$query}, ${3:\\$output} );"
         },
         {
             "trigger": "wpdb-get_row\tWP Class Method",
-            "contents": "\\$wpdb->get_row( ${1:\\$query}, ${2:\\$output}, ${3:\\$y} );"
+            "contents": "${1:wpdb}->get_row( ${2:\\$query}, ${3:\\$output}, ${4:\\$y} );"
         },
         {
             "trigger": "wpdb-get_var\tWP Class Method",
-            "contents": "\\$wpdb->get_var( ${1:\\$query}, ${2:\\$x}, ${3:\\$y} );"
+            "contents": "${1:wpdb}->get_var( ${2:\\$query}, ${3:\\$x}, ${4:\\$y} );"
         },
         {
             "trigger": "wpdb-has_cap\tWP Class Method",
-            "contents": "\\$wpdb->has_cap( ${1:\\$db_cap} );"
+            "contents": "${1:wpdb}->has_cap( ${2:\\$db_cap} );"
         },
         {
             "trigger": "wpdb-hide_errors\tWP Class Method",
-            "contents": "\\$wpdb->hide_errors();"
+            "contents": "${1:wpdb}->hide_errors();"
         },
         {
             "trigger": "wpdb-init_charset\tWP Class Method",
-            "contents": "\\$wpdb->init_charset();"
+            "contents": "${1:wpdb}->init_charset();"
         },
         {
             "trigger": "wpdb-insert\tWP Class Method",
-            "contents": "\\$wpdb->insert( ${1:\\$table}, ${2:\\$data}, ${3:\\$format} );"
+            "contents": "${1:wpdb}->insert( ${2:\\$table}, ${3:\\$data}, ${4:\\$format} );"
         },
         {
             "trigger": "wpdb-parse_db_host\tWP Class Method",
-            "contents": "\\$wpdb->parse_db_host( ${1:\\$host} );"
+            "contents": "${1:wpdb}->parse_db_host( ${2:\\$host} );"
         },
         {
             "trigger": "wpdb-placeholder_escape\tWP Class Method",
-            "contents": "\\$wpdb->placeholder_escape();"
+            "contents": "${1:wpdb}->placeholder_escape();"
         },
         {
             "trigger": "wpdb-prepare\tWP Class Method",
-            "contents": "\\$wpdb->prepare( ${1:\\$query}, ${2:\\$args} );"
+            "contents": "${1:wpdb}->prepare( ${2:\\$query}, ${3:\\$args} );"
         },
         {
             "trigger": "wpdb-print_error\tWP Class Method",
-            "contents": "\\$wpdb->print_error( ${1:\\$str} );"
+            "contents": "${1:wpdb}->print_error( ${2:\\$str} );"
         },
         {
             "trigger": "wpdb-query\tWP Class Method",
-            "contents": "\\$wpdb->query( ${1:\\$query} );"
+            "contents": "${1:wpdb}->query( ${2:\\$query} );"
         },
         {
             "trigger": "wpdb-remove_placeholder_escape\tWP Class Method",
-            "contents": "\\$wpdb->remove_placeholder_escape( ${1:\\$query} );"
+            "contents": "${1:wpdb}->remove_placeholder_escape( ${2:\\$query} );"
         },
         {
             "trigger": "wpdb-replace\tWP Class Method",
-            "contents": "\\$wpdb->replace( ${1:\\$table}, ${2:\\$data}, ${3:\\$format} );"
+            "contents": "${1:wpdb}->replace( ${2:\\$table}, ${3:\\$data}, ${4:\\$format} );"
         },
         {
             "trigger": "wpdb-select\tWP Class Method",
-            "contents": "\\$wpdb->select( ${1:\\$db}, ${2:\\$dbh} );"
+            "contents": "${1:wpdb}->select( ${2:\\$db}, ${3:\\$dbh} );"
         },
         {
             "trigger": "wpdb-set_blog_id\tWP Class Method",
-            "contents": "\\$wpdb->set_blog_id( ${1:\\$blog_id}, ${2:\\$network_id} );"
+            "contents": "${1:wpdb}->set_blog_id( ${2:\\$blog_id}, ${3:\\$network_id} );"
         },
         {
             "trigger": "wpdb-set_charset\tWP Class Method",
-            "contents": "\\$wpdb->set_charset( ${1:\\$dbh}, ${2:\\$charset}, ${3:\\$collate} );"
+            "contents": "${1:wpdb}->set_charset( ${2:\\$dbh}, ${3:\\$charset}, ${4:\\$collate} );"
         },
         {
             "trigger": "wpdb-set_prefix\tWP Class Method",
-            "contents": "\\$wpdb->set_prefix( ${1:\\$prefix}, ${2:\\$set_table_names} );"
+            "contents": "${1:wpdb}->set_prefix( ${2:\\$prefix}, ${3:\\$set_table_names} );"
         },
         {
             "trigger": "wpdb-set_sql_mode\tWP Class Method",
-            "contents": "\\$wpdb->set_sql_mode( ${1:\\$modes} );"
+            "contents": "${1:wpdb}->set_sql_mode( ${2:\\$modes} );"
         },
         {
             "trigger": "wpdb-show_errors\tWP Class Method",
-            "contents": "\\$wpdb->show_errors( ${1:\\$show} );"
+            "contents": "${1:wpdb}->show_errors( ${2:\\$show} );"
         },
         {
             "trigger": "wpdb-strip_invalid_text_for_column\tWP Class Method",
-            "contents": "\\$wpdb->strip_invalid_text_for_column( ${1:\\$table}, ${2:\\$column}, ${3:\\$value} );"
+            "contents": "${1:wpdb}->strip_invalid_text_for_column( ${2:\\$table}, ${3:\\$column}, ${4:\\$value} );"
         },
         {
             "trigger": "wpdb-suppress_errors\tWP Class Method",
-            "contents": "\\$wpdb->suppress_errors( ${1:\\$suppress} );"
+            "contents": "${1:wpdb}->suppress_errors( ${2:\\$suppress} );"
         },
         {
             "trigger": "wpdb-tables\tWP Class Method",
-            "contents": "\\$wpdb->tables( ${1:\\$scope}, ${2:\\$prefix}, ${3:\\$blog_id} );"
+            "contents": "${1:wpdb}->tables( ${2:\\$scope}, ${3:\\$prefix}, ${4:\\$blog_id} );"
         },
         {
             "trigger": "wpdb-timer_start\tWP Class Method",
-            "contents": "\\$wpdb->timer_start();"
+            "contents": "${1:wpdb}->timer_start();"
         },
         {
             "trigger": "wpdb-timer_stop\tWP Class Method",
-            "contents": "\\$wpdb->timer_stop();"
+            "contents": "${1:wpdb}->timer_stop();"
         },
         {
             "trigger": "wpdb-update\tWP Class Method",
-            "contents": "\\$wpdb->update( ${1:\\$table}, ${2:\\$data}, ${3:\\$where}, ${4:\\$format}, ${5:\\$where_format} );"
+            "contents": "${1:wpdb}->update( ${2:\\$table}, ${3:\\$data}, ${4:\\$where}, ${5:\\$format}, ${6:\\$where_format} );"
         }
     ]
 }
