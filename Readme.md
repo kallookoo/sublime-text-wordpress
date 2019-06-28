@@ -6,7 +6,7 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2706**    |
+| Functions    | **2707**    |
 | Actions      | **648**     |
 | Filters      | **1490**    |
 | Classes      | **381**     |

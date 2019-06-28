@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2706 WordPress - Functions",
+    "comment": "2707 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -9313,6 +9313,10 @@
         {
             "trigger": "wp_maybe_grant_resume_extensions_caps\tWP Function",
             "contents": "wp_maybe_grant_resume_extensions_caps( ${1:\\$allcaps} )${2:;}"
+        },
+        {
+            "trigger": "wp_maybe_grant_site_health_caps\tWP Function",
+            "contents": "wp_maybe_grant_site_health_caps( ${1:\\$allcaps}, ${2:\\$caps}, ${3:\\$args}, ${4:\\$user} )${5:;}"
         },
         {
             "trigger": "wp_maybe_load_embeds\tWP Function",
