@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "648 WordPress - Actions",
+    "comment": "652 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -309,6 +309,22 @@
         {
             "trigger": "admin_color_scheme_picker\tWP Action Name",
             "contents": "admin_color_scheme_picker"
+        },
+        {
+            "trigger": "add_action-admin_email_confirm\tWP Action",
+            "contents": "add_action( 'admin_email_confirm', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "admin_email_confirm\tWP Action Name",
+            "contents": "admin_email_confirm"
+        },
+        {
+            "trigger": "add_action-admin_email_confirm_form\tWP Action",
+            "contents": "add_action( 'admin_email_confirm_form', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "admin_email_confirm_form\tWP Action Name",
+            "contents": "admin_email_confirm_form"
         },
         {
             "trigger": "add_action-admin_enqueue_scripts\tWP Action",
@@ -2383,6 +2399,14 @@
             "contents": "manage_sites_custom_column"
         },
         {
+            "trigger": "add_action-manage_sites_extra_tablenav\tWP Action",
+            "contents": "add_action( 'manage_sites_extra_tablenav', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "manage_sites_extra_tablenav\tWP Action Name",
+            "contents": "manage_sites_extra_tablenav"
+        },
+        {
             "trigger": "add_action-manage_themes_custom_column\tWP Action",
             "contents": "add_action( 'manage_themes_custom_column', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
@@ -3293,6 +3317,14 @@
         {
             "trigger": "restrict_manage_posts\tWP Action Name",
             "contents": "restrict_manage_posts"
+        },
+        {
+            "trigger": "add_action-restrict_manage_sites\tWP Action",
+            "contents": "add_action( 'restrict_manage_sites', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "restrict_manage_sites\tWP Action Name",
+            "contents": "restrict_manage_sites"
         },
         {
             "trigger": "add_action-restrict_manage_users\tWP Action",

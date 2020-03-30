@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "517 WordPress - Constants",
+    "comment": "509 WordPress - Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -1533,38 +1533,6 @@
         {
             "trigger": "SECURE_AUTH_COOKIE\tWP Constant",
             "contents": "SECURE_AUTH_COOKIE"
-        },
-        {
-            "trigger": "SERVICES_JSON_IN_ARR\tWP Constant",
-            "contents": "SERVICES_JSON_IN_ARR"
-        },
-        {
-            "trigger": "SERVICES_JSON_IN_CMT\tWP Constant",
-            "contents": "SERVICES_JSON_IN_CMT"
-        },
-        {
-            "trigger": "SERVICES_JSON_IN_OBJ\tWP Constant",
-            "contents": "SERVICES_JSON_IN_OBJ"
-        },
-        {
-            "trigger": "SERVICES_JSON_IN_STR\tWP Constant",
-            "contents": "SERVICES_JSON_IN_STR"
-        },
-        {
-            "trigger": "SERVICES_JSON_LOOSE_TYPE\tWP Constant",
-            "contents": "SERVICES_JSON_LOOSE_TYPE"
-        },
-        {
-            "trigger": "SERVICES_JSON_SLICE\tWP Constant",
-            "contents": "SERVICES_JSON_SLICE"
-        },
-        {
-            "trigger": "SERVICES_JSON_SUPPRESS_ERRORS\tWP Constant",
-            "contents": "SERVICES_JSON_SUPPRESS_ERRORS"
-        },
-        {
-            "trigger": "SERVICES_JSON_USE_TO_JSON\tWP Constant",
-            "contents": "SERVICES_JSON_USE_TO_JSON"
         },
         {
             "trigger": "SHORTINIT\tWP Constant",

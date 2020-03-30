@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "381 WordPress - Classes",
+    "comment": "380 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -495,14 +495,6 @@
             "contents": "Requests_Utility_FilteredIterator"
         },
         {
-            "trigger": "Services_JSON\tWP Class Name",
-            "contents": "Services_JSON"
-        },
-        {
-            "trigger": "Services_JSON_Error\tWP Class Name",
-            "contents": "Services_JSON_Error"
-        },
-        {
             "trigger": "SimplePie\tWP Class Name",
             "contents": "SimplePie"
         },
@@ -769,6 +761,10 @@
         {
             "trigger": "WP_Block_Parser_Frame\tWP Class Name",
             "contents": "WP_Block_Parser_Frame"
+        },
+        {
+            "trigger": "WP_Block_Styles_Registry\tWP Class Name",
+            "contents": "WP_Block_Styles_Registry"
         },
         {
             "trigger": "WP_Block_Type\tWP Class Name",
@@ -1163,12 +1159,12 @@
             "contents": "WP_Posts_List_Table"
         },
         {
-            "trigger": "WP_Privacy_Data_Export_Requests_Table\tWP Class Name",
-            "contents": "WP_Privacy_Data_Export_Requests_Table"
+            "trigger": "WP_Privacy_Data_Export_Requests_List_Table\tWP Class Name",
+            "contents": "WP_Privacy_Data_Export_Requests_List_Table"
         },
         {
-            "trigger": "WP_Privacy_Data_Removal_Requests_Table\tWP Class Name",
-            "contents": "WP_Privacy_Data_Removal_Requests_Table"
+            "trigger": "WP_Privacy_Data_Removal_Requests_List_Table\tWP Class Name",
+            "contents": "WP_Privacy_Data_Removal_Requests_List_Table"
         },
         {
             "trigger": "WP_Privacy_Policy_Content\tWP Class Name",

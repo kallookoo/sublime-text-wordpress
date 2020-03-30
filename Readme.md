@@ -6,12 +6,12 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2707**    |
-| Actions      | **648**     |
-| Filters      | **1490**    |
-| Classes      | **381**     |
-| Methods      | **3484**    |
-| Constants    | **517**     |
+| Functions    | **2745**    |
+| Actions      | **652**     |
+| Filters      | **1511**    |
+| Classes      | **380**     |
+| Methods      | **3490**    |
+| Constants    | **509**     |
 | Capabilities | **64**      |
 
 ### How to use
