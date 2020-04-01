@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3490 WordPress - Methods",
+    "comment": "3486 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -2903,6 +2903,14 @@
             "contents": "${1:Plugin_Upgrader_Skin}->after();"
         },
         {
+            "trigger": "Plugin_Upgrader-active_after\tWP Class Method",
+            "contents": "${1:Plugin_Upgrader}->active_after( ${2:\\$return}, ${3:\\$plugin} );"
+        },
+        {
+            "trigger": "Plugin_Upgrader-active_before\tWP Class Method",
+            "contents": "${1:Plugin_Upgrader}->active_before( ${2:\\$return}, ${3:\\$plugin} );"
+        },
+        {
             "trigger": "Plugin_Upgrader-bulk_upgrade\tWP Class Method",
             "contents": "${1:Plugin_Upgrader}->bulk_upgrade( ${2:\\$plugins}, ${3:\\$args} );"
         },
@@ -3019,16 +3027,8 @@
             "contents": "${1:\\$${2:class} = }new POMO_CachedFileReader( ${3:\\$filename} );"
         },
         {
-            "trigger": "POMO_CachedFileReader-POMO_CachedFileReader\tWP Class Method",
-            "contents": "${1:POMO_CachedFileReader}->POMO_CachedFileReader( ${2:\\$filename} );"
-        },
-        {
             "trigger": "POMO_CachedIntFileReader-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new POMO_CachedIntFileReader( ${3:\\$filename} );"
-        },
-        {
-            "trigger": "POMO_CachedIntFileReader-POMO_CachedIntFileReader\tWP Class Method",
-            "contents": "${1:POMO_CachedIntFileReader}->POMO_CachedIntFileReader( ${2:\\$filename} );"
         },
         {
             "trigger": "POMO_FileReader-__construct\tWP Class Method",
@@ -3045,10 +3045,6 @@
         {
             "trigger": "POMO_FileReader-is_resource\tWP Class Method",
             "contents": "${1:POMO_FileReader}->is_resource();"
-        },
-        {
-            "trigger": "POMO_FileReader-POMO_FileReader\tWP Class Method",
-            "contents": "${1:POMO_FileReader}->POMO_FileReader( ${2:\\$filename} );"
         },
         {
             "trigger": "POMO_FileReader-read\tWP Class Method",
@@ -3073,10 +3069,6 @@
         {
             "trigger": "POMO_Reader-is_resource\tWP Class Method",
             "contents": "${1:POMO_Reader}->is_resource();"
-        },
-        {
-            "trigger": "POMO_Reader-POMO_Reader\tWP Class Method",
-            "contents": "${1:POMO_Reader}->POMO_Reader();"
         },
         {
             "trigger": "POMO_Reader-pos\tWP Class Method",
@@ -3113,10 +3105,6 @@
         {
             "trigger": "POMO_StringReader-length\tWP Class Method",
             "contents": "${1:POMO_StringReader}->length();"
-        },
-        {
-            "trigger": "POMO_StringReader-POMO_StringReader\tWP Class Method",
-            "contents": "${1:POMO_StringReader}->POMO_StringReader( ${2:\\$str} );"
         },
         {
             "trigger": "POMO_StringReader-read\tWP Class Method",
@@ -5633,10 +5621,6 @@
         {
             "trigger": "Translation_Entry-merge_with\tWP Class Method",
             "contents": "${1:Translation_Entry}->merge_with( ${2:\\$other} );"
-        },
-        {
-            "trigger": "Translation_Entry-Translation_Entry\tWP Class Method",
-            "contents": "${1:Translation_Entry}->Translation_Entry( ${2:\\$args} );"
         },
         {
             "trigger": "Translations-add_entry\tWP Class Method",
@@ -9519,10 +9503,6 @@
             "contents": "${1:\\$${2:class} = }new WP_Object_Cache();"
         },
         {
-            "trigger": "WP_Object_Cache-__destruct\tWP Class Method",
-            "contents": "${1:WP_Object_Cache}->__destruct();"
-        },
-        {
             "trigger": "WP_Object_Cache-__get\tWP Class Method",
             "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Object_Cache}->__get( ${2:\\$name} );"
         },
@@ -10073,6 +10053,10 @@
         {
             "trigger": "WP_Query-is_embed\tWP Class Method",
             "contents": "${1:WP_Query}->is_embed();"
+        },
+        {
+            "trigger": "WP_Query-is_favicon\tWP Class Method",
+            "contents": "${1:WP_Query}->is_favicon();"
         },
         {
             "trigger": "WP_Query-is_feed\tWP Class Method",
@@ -11136,7 +11120,7 @@
         },
         {
             "trigger": "WP_REST_Server-get_routes\tWP Class Method",
-            "contents": "${1:WP_REST_Server}->get_routes();"
+            "contents": "${1:WP_REST_Server}->get_routes( ${2:\\$namespace} );"
         },
         {
             "trigger": "WP_REST_Server-register_route\tWP Class Method",
@@ -11951,6 +11935,10 @@
             "contents": "${1:WP_Site_Health}->enqueue_scripts();"
         },
         {
+            "trigger": "WP_Site_Health-get_instance\tWP Class Method",
+            "contents": "${1:WP_Site_Health}::get_instance();"
+        },
+        {
             "trigger": "WP_Site_Health-get_test_background_updates\tWP Class Method",
             "contents": "${1:WP_Site_Health}->get_test_background_updates();"
         },
@@ -12029,6 +12017,14 @@
         {
             "trigger": "WP_Site_Health-has_missed_cron\tWP Class Method",
             "contents": "${1:WP_Site_Health}->has_missed_cron();"
+        },
+        {
+            "trigger": "WP_Site_Health-maybe_create_scheduled_event\tWP Class Method",
+            "contents": "${1:WP_Site_Health}->maybe_create_scheduled_event();"
+        },
+        {
+            "trigger": "WP_Site_Health-wp_cron_scheduled_check\tWP Class Method",
+            "contents": "${1:WP_Site_Health}->wp_cron_scheduled_check();"
         },
         {
             "trigger": "WP_Site_Icon-__construct\tWP Class Method",
@@ -12943,10 +12939,6 @@
             "contents": "${1:WP_Widget_Factory}->unregister( ${2:\\$widget} );"
         },
         {
-            "trigger": "WP_Widget_Factory-WP_Widget_Factory\tWP Class Method",
-            "contents": "${1:WP_Widget_Factory}->WP_Widget_Factory();"
-        },
-        {
             "trigger": "WP_Widget_Form_Customize_Control-active_callback\tWP Class Method",
             "contents": "${1:WP_Widget_Form_Customize_Control}->active_callback();"
         },
@@ -13355,10 +13347,6 @@
             "contents": "${1:WP_Widget}->widget( ${2:\\$args}, ${3:\\$instance} );"
         },
         {
-            "trigger": "WP_Widget-WP_Widget\tWP Class Method",
-            "contents": "${1:WP_Widget}->WP_Widget( ${2:\\$id_base}, ${3:\\$name}, ${4:\\$widget_options}, ${5:\\$control_options} );"
-        },
-        {
             "trigger": "wp_xmlrpc_server-__call\tWP Class Method",
             "contents": "${0:\/** This method seems not public, check it. *\/}${1:wp_xmlrpc_server}->__call( ${2:\\$name}, ${3:\\$arguments} );"
         },
@@ -13745,10 +13733,6 @@
         {
             "trigger": "wpdb-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new wpdb( ${3:\\$dbuser}, ${4:\\$dbpassword}, ${5:\\$dbname}, ${6:\\$dbhost} );"
-        },
-        {
-            "trigger": "wpdb-__destruct\tWP Class Method",
-            "contents": "${1:wpdb}->__destruct();"
         },
         {
             "trigger": "wpdb-__get\tWP Class Method",

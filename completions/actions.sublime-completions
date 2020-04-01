@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "652 WordPress - Actions",
+    "comment": "656 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -1635,6 +1635,22 @@
             "contents": "deprecated_hook_run"
         },
         {
+            "trigger": "add_action-do_favicon\tWP Action",
+            "contents": "add_action( 'do_favicon', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "do_favicon\tWP Action Name",
+            "contents": "do_favicon"
+        },
+        {
+            "trigger": "add_action-do_faviconico\tWP Action",
+            "contents": "add_action( 'do_faviconico', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "do_faviconico\tWP Action Name",
+            "contents": "do_faviconico"
+        },
+        {
             "trigger": "add_action-do_feed_{$feed}\tWP Action",
             "contents": "add_action( \"do_feed_${1:\\{${2:\\$feed}\\}}\", ${3:\\$function_to_add}, ${4:10}, 2 );"
         },
@@ -2268,7 +2284,7 @@
         },
         {
             "trigger": "add_action-lostpassword_post\tWP Action",
-            "contents": "add_action( 'lostpassword_post', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'lostpassword_post', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "lostpassword_post\tWP Action Name",
@@ -2776,7 +2792,7 @@
         },
         {
             "trigger": "add_action-post_locked_dialog\tWP Action",
-            "contents": "add_action( 'post_locked_dialog', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'post_locked_dialog', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "post_locked_dialog\tWP Action Name",
@@ -3164,7 +3180,7 @@
         },
         {
             "trigger": "add_action-remove_user_from_blog\tWP Action",
-            "contents": "add_action( 'remove_user_from_blog', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_action( 'remove_user_from_blog', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "remove_user_from_blog\tWP Action Name",
@@ -3676,7 +3692,7 @@
         },
         {
             "trigger": "add_action-switch_blog\tWP Action",
-            "contents": "add_action( 'switch_blog', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_action( 'switch_blog', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "switch_blog\tWP Action Name",
@@ -4376,7 +4392,7 @@
         },
         {
             "trigger": "add_action-wp_login_failed\tWP Action",
-            "contents": "add_action( 'wp_login_failed', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'wp_login_failed', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "wp_login_failed\tWP Action Name",
@@ -4413,6 +4429,22 @@
         {
             "trigger": "wp_meta\tWP Action Name",
             "contents": "wp_meta"
+        },
+        {
+            "trigger": "add_action-wp_nav_menu_item_custom_fields\tWP Action",
+            "contents": "add_action( 'wp_nav_menu_item_custom_fields', ${1:\\$function_to_add}, ${2:10}, 5 );"
+        },
+        {
+            "trigger": "wp_nav_menu_item_custom_fields\tWP Action Name",
+            "contents": "wp_nav_menu_item_custom_fields"
+        },
+        {
+            "trigger": "add_action-wp_nav_menu_item_custom_fields_customize_template\tWP Action",
+            "contents": "add_action( 'wp_nav_menu_item_custom_fields_customize_template', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_nav_menu_item_custom_fields_customize_template\tWP Action Name",
+            "contents": "wp_nav_menu_item_custom_fields_customize_template"
         },
         {
             "trigger": "add_action-wp_network_dashboard_setup\tWP Action",
@@ -4472,7 +4504,7 @@
         },
         {
             "trigger": "add_action-wp_privacy_personal_data_export_file_created\tWP Action",
-            "contents": "add_action( 'wp_privacy_personal_data_export_file_created', ${1:\\$function_to_add}, ${2:10}, 4 );"
+            "contents": "add_action( 'wp_privacy_personal_data_export_file_created', ${1:\\$function_to_add}, ${2:10}, 5 );"
         },
         {
             "trigger": "wp_privacy_personal_data_export_file_created\tWP Action Name",
