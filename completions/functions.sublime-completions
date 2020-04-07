@@ -1008,7 +1008,7 @@
         },
         {
             "trigger": "add_option\tWP Function",
-            "contents": "add_option( ${1:\\$option}${2:, ${3:'${4:}'}}, ''${5:, ${6:'${7:yes}'}}} )${8:;}"
+            "contents": "add_option( ${1:\\$option}${2:, ${3:'${4:}'}}, ''${5:, ${6:'${7:yes}'}} )${8:;}"
         },
         {
             "trigger": "add_option_whitelist\tWP Function",

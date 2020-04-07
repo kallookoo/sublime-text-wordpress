@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "509 WordPress - Constants",
+    "comment": "508 WordPress - Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -1493,10 +1493,6 @@
         {
             "trigger": "PCLZIP_TEMPORARY_FILE_RATIO\tWP Constant",
             "contents": "PCLZIP_TEMPORARY_FILE_RATIO"
-        },
-        {
-            "trigger": "PHP_INT_MIN\tWP Constant",
-            "contents": "PHP_INT_MIN"
         },
         {
             "trigger": "PLUGINDIR\tWP Constant",
