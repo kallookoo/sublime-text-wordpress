@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3486 WordPress - Methods",
+    "comment": "3487 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -6641,6 +6641,10 @@
         {
             "trigger": "WP_Customize_Manager-prepare_setting_validity_for_js\tWP Class Method",
             "contents": "${1:WP_Customize_Manager}->prepare_setting_validity_for_js( ${2:\\$validity} );"
+        },
+        {
+            "trigger": "WP_Customize_Manager-preserve_insert_changeset_post_content\tWP Class Method",
+            "contents": "${1:WP_Customize_Manager}->preserve_insert_changeset_post_content( ${2:\\$data}, ${3:\\$postarr}, ${4:\\$unsanitized_postarr} );"
         },
         {
             "trigger": "WP_Customize_Manager-refresh_changeset_lock\tWP Class Method",

@@ -8,9 +8,9 @@ Is a collection of the completions and some snippets for Sublime Text
 | ------------ | ----------- |
 | Functions    | **2755**    |
 | Actions      | **656**     |
-| Filters      | **1518**    |
+| Filters      | **1520**    |
 | Classes      | **380**     |
-| Methods      | **3486**    |
+| Methods      | **3487**    |
 | Constants    | **508**     |
 | Capabilities | **64**      |
 

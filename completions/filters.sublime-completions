@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1518 WordPress - Filters",
+    "comment": "1520 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -753,6 +753,14 @@
         {
             "trigger": "category_feed_link\tWP Filter Name",
             "contents": "category_feed_link"
+        },
+        {
+            "trigger": "add_filter-category_link\tWP Filter",
+            "contents": "add_filter( 'category_link', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "category_link\tWP Filter Name",
+            "contents": "category_link"
         },
         {
             "trigger": "add_filter-category_list_link_attributes\tWP Filter",
@@ -8147,6 +8155,14 @@
             "contents": "tag_feed_link"
         },
         {
+            "trigger": "add_filter-tag_link\tWP Filter",
+            "contents": "add_filter( 'tag_link', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "tag_link\tWP Filter Name",
+            "contents": "tag_link"
+        },
+        {
             "trigger": "add_filter-taxonomy_feed_link\tWP Filter",
             "contents": "add_filter( 'taxonomy_feed_link', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
@@ -10288,7 +10304,7 @@
         },
         {
             "trigger": "add_filter-wp_insert_attachment_data\tWP Filter",
-            "contents": "add_filter( 'wp_insert_attachment_data', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_filter( 'wp_insert_attachment_data', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "wp_insert_attachment_data\tWP Filter Name",
@@ -10296,7 +10312,7 @@
         },
         {
             "trigger": "add_filter-wp_insert_post_data\tWP Filter",
-            "contents": "add_filter( 'wp_insert_post_data', ${1:\\$function_to_add}, ${2:10}, 2 );"
+            "contents": "add_filter( 'wp_insert_post_data', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "wp_insert_post_data\tWP Filter Name",
