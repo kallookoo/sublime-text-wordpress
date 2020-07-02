@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "64 WordPress - Capabilities",
+    "comment": "68 WordPress - Capabilities",
     "completions": [
         {
             "trigger": "activate_plugins\tWP Capability",
@@ -135,6 +135,10 @@
             "contents": "import"
         },
         {
+            "trigger": "install_languages\tWP Capability",
+            "contents": "install_languages"
+        },
+        {
             "trigger": "install_plugins\tWP Capability",
             "contents": "install_plugins"
         },
@@ -215,6 +219,14 @@
             "contents": "remove_users"
         },
         {
+            "trigger": "resume_plugins\tWP Capability",
+            "contents": "resume_plugins"
+        },
+        {
+            "trigger": "resume_themes\tWP Capability",
+            "contents": "resume_themes"
+        },
+        {
             "trigger": "setup_network\tWP Capability",
             "contents": "setup_network"
         },
@@ -257,6 +269,10 @@
         {
             "trigger": "upload_themes\tWP Capability",
             "contents": "upload_themes"
+        },
+        {
+            "trigger": "view_site_health_checks\tWP Capability",
+            "contents": "view_site_health_checks"
         }
     ]
 }

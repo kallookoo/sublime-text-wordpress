@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3487 WordPress - Methods",
+    "comment": "3488 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -5717,6 +5717,10 @@
         {
             "trigger": "Walker_Comment-end_lvl\tWP Class Method",
             "contents": "${1:Walker_Comment}->end_lvl( ${2:\\$output}, ${3:\\$depth}, ${4:\\$args} );"
+        },
+        {
+            "trigger": "Walker_Comment-filter_comment_text\tWP Class Method",
+            "contents": "${1:Walker_Comment}->filter_comment_text( ${2:\\$comment_text}, ${3:\\$comment} );"
         },
         {
             "trigger": "Walker_Comment-start_el\tWP Class Method",

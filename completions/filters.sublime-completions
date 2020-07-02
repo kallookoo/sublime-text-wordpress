@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "1520 WordPress - Filters",
+    "comment": "1522 WordPress - Filters",
     "completions": [
         {
             "trigger": "add_filter-_get_page_link\tWP Filter",
@@ -7719,6 +7719,10 @@
             "contents": "session_token_manager"
         },
         {
+            "trigger": "add_filter-set_screen_option_{$option}\tWP Filter",
+            "contents": "add_filter( \"set_screen_option_${1:\\{${2:\\$option}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+        },
+        {
             "trigger": "add_filter-set_url_scheme\tWP Filter",
             "contents": "add_filter( 'set_url_scheme', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
@@ -8161,6 +8165,14 @@
         {
             "trigger": "tag_link\tWP Filter Name",
             "contents": "tag_link"
+        },
+        {
+            "trigger": "add_filter-tag_row_actions\tWP Filter",
+            "contents": "add_filter( 'tag_row_actions', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "tag_row_actions\tWP Filter Name",
+            "contents": "tag_row_actions"
         },
         {
             "trigger": "add_filter-taxonomy_feed_link\tWP Filter",
