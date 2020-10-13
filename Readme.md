@@ -6,13 +6,13 @@ Is a collection of the completions and some snippets for Sublime Text
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2755**    |
-| Actions      | **656**     |
-| Filters      | **1522**    |
-| Classes      | **380**     |
-| Methods      | **3488**    |
+| Functions    | **2816**    |
+| Actions      | **665**     |
+| Filters      | **1596**    |
+| Classes      | **398**     |
+| Methods      | **3635**    |
 | Constants    | **508**     |
-| Capabilities | **68**      |
+| Capabilities | **124**     |
 
 ### How to use
 

@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3488 WordPress - Methods",
+    "comment": "3635 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -557,6 +557,10 @@
         {
             "trigger": "Custom_Image_Header-take_action\tWP Class Method",
             "contents": "${1:Custom_Image_Header}->take_action();"
+        },
+        {
+            "trigger": "Exception-errorMessage\tWP Class Method",
+            "contents": "${1:Exception}->errorMessage();"
         },
         {
             "trigger": "File_Upload_Upgrader-__construct\tWP Class Method",
@@ -1264,7 +1268,7 @@
         },
         {
             "trigger": "getid3_lib-CopyTagsToComments\tWP Class Method",
-            "contents": "${1:getid3_lib}::CopyTagsToComments( ${2:\\$ThisFileInfo} );"
+            "contents": "${1:getid3_lib}::CopyTagsToComments( ${2:\\$ThisFileInfo}, ${3:\\$option_tags_html} );"
         },
         {
             "trigger": "getid3_lib-CreateDeepArray\tWP Class Method",
@@ -1687,6 +1691,10 @@
             "contents": "${1:getid3_quicktime}->LociString( ${2:\\$lstring}, ${3:\\$count} );"
         },
         {
+            "trigger": "getid3_quicktime-MaybePascal2String\tWP Class Method",
+            "contents": "${1:getid3_quicktime}->MaybePascal2String( ${2:\\$pascalstring} );"
+        },
+        {
             "trigger": "getid3_quicktime-NoNullString\tWP Class Method",
             "contents": "${1:getid3_quicktime}->NoNullString( ${2:\\$nullterminatedstring} );"
         },
@@ -1847,6 +1855,10 @@
             "contents": "${1:getID3}->CharConvert( ${2:\\$array}, ${3:\\$encoding} );"
         },
         {
+            "trigger": "getID3-CopyTagsToComments\tWP Class Method",
+            "contents": "${1:getID3}->CopyTagsToComments( ${2:\\$ThisFileInfo} );"
+        },
+        {
             "trigger": "getID3-error\tWP Class Method",
             "contents": "${1:getID3}->error( ${2:\\$message} );"
         },
@@ -1964,7 +1976,7 @@
         },
         {
             "trigger": "IXR_Client-query\tWP Class Method",
-            "contents": "${1:IXR_Client}->query();"
+            "contents": "${1:IXR_Client}->query( ${2:\\$args} );"
         },
         {
             "trigger": "IXR_ClientMulticall-__construct\tWP Class Method",
@@ -1972,7 +1984,7 @@
         },
         {
             "trigger": "IXR_ClientMulticall-addCall\tWP Class Method",
-            "contents": "${1:IXR_ClientMulticall}->addCall();"
+            "contents": "${1:IXR_ClientMulticall}->addCall( ${2:\\$args} );"
         },
         {
             "trigger": "IXR_ClientMulticall-IXR_ClientMulticall\tWP Class Method",
@@ -1980,7 +1992,7 @@
         },
         {
             "trigger": "IXR_ClientMulticall-query\tWP Class Method",
-            "contents": "${1:IXR_ClientMulticall}->query();"
+            "contents": "${1:IXR_ClientMulticall}->query( ${2:\\$args} );"
         },
         {
             "trigger": "IXR_Date-__construct\tWP Class Method",
@@ -2680,7 +2692,7 @@
         },
         {
             "trigger": "PHPMailer-encodeQP\tWP Class Method",
-            "contents": "${1:PHPMailer}->encodeQP( ${2:\\$string}, ${3:\\$line_max} );"
+            "contents": "${1:PHPMailer}->encodeQP( ${2:\\$string} );"
         },
         {
             "trigger": "PHPMailer-encodeString\tWP Class Method",
@@ -2689,10 +2701,6 @@
         {
             "trigger": "PHPMailer-filenameToType\tWP Class Method",
             "contents": "${1:PHPMailer}::filenameToType( ${2:\\$filename} );"
-        },
-        {
-            "trigger": "PHPMailer-fixEOL\tWP Class Method",
-            "contents": "${1:PHPMailer}->fixEOL( ${2:\\$str} );"
         },
         {
             "trigger": "PHPMailer-getAllRecipientAddresses\tWP Class Method",
@@ -2719,8 +2727,16 @@
             "contents": "${1:PHPMailer}->getLastMessageID();"
         },
         {
+            "trigger": "PHPMailer-getLE\tWP Class Method",
+            "contents": "${1:PHPMailer}::getLE();"
+        },
+        {
             "trigger": "PHPMailer-getMailMIME\tWP Class Method",
             "contents": "${1:PHPMailer}->getMailMIME();"
+        },
+        {
+            "trigger": "PHPMailer-getOAuth\tWP Class Method",
+            "contents": "${1:PHPMailer}->getOAuth();"
         },
         {
             "trigger": "PHPMailer-getReplyToAddresses\tWP Class Method",
@@ -2764,7 +2780,7 @@
         },
         {
             "trigger": "PHPMailer-idnSupported\tWP Class Method",
-            "contents": "${1:PHPMailer}->idnSupported();"
+            "contents": "${1:PHPMailer}::idnSupported();"
         },
         {
             "trigger": "PHPMailer-inlineImageExists\tWP Class Method",
@@ -2795,6 +2811,10 @@
             "contents": "${1:PHPMailer}->isSMTP();"
         },
         {
+            "trigger": "PHPMailer-isValidHost\tWP Class Method",
+            "contents": "${1:PHPMailer}::isValidHost( ${2:\\$host} );"
+        },
+        {
             "trigger": "PHPMailer-mb_pathinfo\tWP Class Method",
             "contents": "${1:PHPMailer}::mb_pathinfo( ${2:\\$path}, ${3:\\$options} );"
         },
@@ -2808,7 +2828,7 @@
         },
         {
             "trigger": "PHPMailer-parseAddresses\tWP Class Method",
-            "contents": "${1:PHPMailer}->parseAddresses( ${2:\\$addrstr}, ${3:\\$useimap} );"
+            "contents": "${1:PHPMailer}::parseAddresses( ${2:\\$addrstr}, ${3:\\$useimap} );"
         },
         {
             "trigger": "PHPMailer-postSend\tWP Class Method",
@@ -2821,6 +2841,10 @@
         {
             "trigger": "PHPMailer-punyencodeAddress\tWP Class Method",
             "contents": "${1:PHPMailer}->punyencodeAddress( ${2:\\$address} );"
+        },
+        {
+            "trigger": "PHPMailer-quotedString\tWP Class Method",
+            "contents": "${1:PHPMailer}::quotedString( ${2:\\$str} );"
         },
         {
             "trigger": "PHPMailer-rfcDate\tWP Class Method",
@@ -2847,6 +2871,14 @@
             "contents": "${1:PHPMailer}->setLanguage( ${2:\\$langcode}, ${3:\\$lang_path} );"
         },
         {
+            "trigger": "PHPMailer-setOAuth\tWP Class Method",
+            "contents": "${1:PHPMailer}->setOAuth( ${2:\\$oauth} );"
+        },
+        {
+            "trigger": "PHPMailer-setSMTPInstance\tWP Class Method",
+            "contents": "${1:PHPMailer}->setSMTPInstance( ${2:\\$smtp} );"
+        },
+        {
             "trigger": "PHPMailer-setWordWrap\tWP Class Method",
             "contents": "${1:PHPMailer}->setWordWrap();"
         },
@@ -2861,6 +2893,10 @@
         {
             "trigger": "PHPMailer-smtpConnect\tWP Class Method",
             "contents": "${1:PHPMailer}->smtpConnect( ${2:\\$options} );"
+        },
+        {
+            "trigger": "PHPMailer-stripTrailingWSP\tWP Class Method",
+            "contents": "${1:PHPMailer}::stripTrailingWSP( ${2:\\$text} );"
         },
         {
             "trigger": "PHPMailer-textLine\tWP Class Method",
@@ -2879,10 +2915,6 @@
             "contents": "${1:PHPMailer}->wrapText( ${2:\\$message}, ${3:\\$length}, ${4:\\$qp_mode} );"
         },
         {
-            "trigger": "phpmailerException-errorMessage\tWP Class Method",
-            "contents": "${1:phpmailerException}->errorMessage();"
-        },
-        {
             "trigger": "Plugin_Installer_Skin-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new Plugin_Installer_Skin( ${3:\\$args} );"
         },
@@ -2893,6 +2925,10 @@
         {
             "trigger": "Plugin_Installer_Skin-before\tWP Class Method",
             "contents": "${1:Plugin_Installer_Skin}->before();"
+        },
+        {
+            "trigger": "Plugin_Installer_Skin-hide_process_failed\tWP Class Method",
+            "contents": "${1:Plugin_Installer_Skin}->hide_process_failed( ${2:\\$wp_error} );"
         },
         {
             "trigger": "Plugin_Upgrader_Skin-__construct\tWP Class Method",
@@ -3775,6 +3811,30 @@
             "contents": "${1:SimplePie_Cache_Memcache}->unlink();"
         },
         {
+            "trigger": "SimplePie_Cache_Memcached-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new SimplePie_Cache_Memcached( ${3:\\$location}, ${4:\\$name}, ${5:\\$type} );"
+        },
+        {
+            "trigger": "SimplePie_Cache_Memcached-load\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Memcached}->load();"
+        },
+        {
+            "trigger": "SimplePie_Cache_Memcached-mtime\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Memcached}->mtime();"
+        },
+        {
+            "trigger": "SimplePie_Cache_Memcached-save\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Memcached}->save( ${2:\\$data} );"
+        },
+        {
+            "trigger": "SimplePie_Cache_Memcached-touch\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Memcached}->touch();"
+        },
+        {
+            "trigger": "SimplePie_Cache_Memcached-unlink\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Memcached}->unlink();"
+        },
+        {
             "trigger": "SimplePie_Cache_MySQL-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new SimplePie_Cache_MySQL( ${3:\\$location}, ${4:\\$name}, ${5:\\$type} );"
         },
@@ -3797,6 +3857,34 @@
         {
             "trigger": "SimplePie_Cache_MySQL-unlink\tWP Class Method",
             "contents": "${1:SimplePie_Cache_MySQL}->unlink();"
+        },
+        {
+            "trigger": "SimplePie_Cache_Redis-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new SimplePie_Cache_Redis( ${3:\\$location}, ${4:\\$name}, ${5:\\$options} );"
+        },
+        {
+            "trigger": "SimplePie_Cache_Redis-load\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Redis}->load();"
+        },
+        {
+            "trigger": "SimplePie_Cache_Redis-mtime\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Redis}->mtime();"
+        },
+        {
+            "trigger": "SimplePie_Cache_Redis-save\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Redis}->save( ${2:\\$data} );"
+        },
+        {
+            "trigger": "SimplePie_Cache_Redis-setRedisClient\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Redis}->setRedisClient( ${2:\\$cache} );"
+        },
+        {
+            "trigger": "SimplePie_Cache_Redis-touch\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Redis}->touch();"
+        },
+        {
+            "trigger": "SimplePie_Cache_Redis-unlink\tWP Class Method",
+            "contents": "${1:SimplePie_Cache_Redis}->unlink();"
         },
         {
             "trigger": "SimplePie_Cache-get_handler\tWP Class Method",
@@ -3840,7 +3928,7 @@
         },
         {
             "trigger": "SimplePie_Category-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new SimplePie_Category( ${3:\\$term}, ${4:\\$scheme}, ${5:\\$label} );"
+            "contents": "${1:\\$${2:class} = }new SimplePie_Category( ${3:\\$term}, ${4:\\$scheme}, ${5:\\$label}, ${6:\\$type} );"
         },
         {
             "trigger": "SimplePie_Category-__toString\tWP Class Method",
@@ -3848,7 +3936,7 @@
         },
         {
             "trigger": "SimplePie_Category-get_label\tWP Class Method",
-            "contents": "${1:SimplePie_Category}->get_label();"
+            "contents": "${1:SimplePie_Category}->get_label( ${2:\\$strict} );"
         },
         {
             "trigger": "SimplePie_Category-get_scheme\tWP Class Method",
@@ -3857,6 +3945,10 @@
         {
             "trigger": "SimplePie_Category-get_term\tWP Class Method",
             "contents": "${1:SimplePie_Category}->get_term();"
+        },
+        {
+            "trigger": "SimplePie_Category-get_type\tWP Class Method",
+            "contents": "${1:SimplePie_Category}->get_type();"
         },
         {
             "trigger": "SimplePie_Content_Type_Sniffer-__construct\tWP Class Method",
@@ -4080,7 +4172,7 @@
         },
         {
             "trigger": "SimplePie_File-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new SimplePie_File( ${3:\\$url}, ${4:\\$timeout}, ${5:\\$redirects}, ${6:\\$headers}, ${7:\\$useragent}, ${8:\\$force_fsockopen} );"
+            "contents": "${1:\\$${2:class} = }new SimplePie_File( ${3:\\$url}, ${4:\\$timeout}, ${5:\\$redirects}, ${6:\\$headers}, ${7:\\$useragent}, ${8:\\$force_fsockopen}, ${9:\\$curl_options} );"
         },
         {
             "trigger": "SimplePie_gzdecode-__construct\tWP Class Method",
@@ -4103,8 +4195,16 @@
             "contents": "${1:SimplePie_HTTP_Parser}->parse();"
         },
         {
+            "trigger": "SimplePie_HTTP_Parser-prepareHeaders\tWP Class Method",
+            "contents": "${1:SimplePie_HTTP_Parser}::prepareHeaders( ${2:\\$headers}, ${3:\\$count} );"
+        },
+        {
             "trigger": "SimplePie_IRI-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new SimplePie_IRI( ${3:\\$iri} );"
+        },
+        {
+            "trigger": "SimplePie_IRI-__destruct\tWP Class Method",
+            "contents": "${1:SimplePie_IRI}->__destruct();"
         },
         {
             "trigger": "SimplePie_IRI-__get\tWP Class Method",
@@ -4144,7 +4244,7 @@
         },
         {
             "trigger": "SimplePie_IRI-set_authority\tWP Class Method",
-            "contents": "${1:SimplePie_IRI}->set_authority( ${2:\\$authority} );"
+            "contents": "${1:SimplePie_IRI}->set_authority( ${2:\\$authority}, ${3:\\$clear_cache} );"
         },
         {
             "trigger": "SimplePie_IRI-set_fragment\tWP Class Method",
@@ -4156,11 +4256,11 @@
         },
         {
             "trigger": "SimplePie_IRI-set_iri\tWP Class Method",
-            "contents": "${1:SimplePie_IRI}->set_iri( ${2:\\$iri} );"
+            "contents": "${1:SimplePie_IRI}->set_iri( ${2:\\$iri}, ${3:\\$clear_cache} );"
         },
         {
             "trigger": "SimplePie_IRI-set_path\tWP Class Method",
-            "contents": "${1:SimplePie_IRI}->set_path( ${2:\\$ipath} );"
+            "contents": "${1:SimplePie_IRI}->set_path( ${2:\\$ipath}, ${3:\\$clear_cache} );"
         },
         {
             "trigger": "SimplePie_IRI-set_port\tWP Class Method",
@@ -4256,7 +4356,7 @@
         },
         {
             "trigger": "SimplePie_Item-get_id\tWP Class Method",
-            "contents": "${1:SimplePie_Item}->get_id( ${2:\\$hash} );"
+            "contents": "${1:SimplePie_Item}->get_id( ${2:\\$hash}, ${3:\\$fn} );"
         },
         {
             "trigger": "SimplePie_Item-get_item_tags\tWP Class Method",
@@ -4291,6 +4391,10 @@
             "contents": "${1:SimplePie_Item}->get_source();"
         },
         {
+            "trigger": "SimplePie_Item-get_thumbnail\tWP Class Method",
+            "contents": "${1:SimplePie_Item}->get_thumbnail();"
+        },
+        {
             "trigger": "SimplePie_Item-get_title\tWP Class Method",
             "contents": "${1:SimplePie_Item}->get_title();"
         },
@@ -4312,7 +4416,7 @@
         },
         {
             "trigger": "SimplePie_Locator-__construct\tWP Class Method",
-            "contents": "${1:\\$${2:class} = }new SimplePie_Locator( ${3:\\$file}, ${4:\\$timeout}, ${5:\\$useragent}, ${6:\\$max_checked_feeds} );"
+            "contents": "${1:\\$${2:class} = }new SimplePie_Locator( ${3:\\$file}, ${4:\\$timeout}, ${5:\\$useragent}, ${6:\\$max_checked_feeds}, ${7:\\$force_fsockopen}, ${8:\\$curl_options} );"
         },
         {
             "trigger": "SimplePie_Locator-autodiscovery\tWP Class Method",
@@ -4339,8 +4443,12 @@
             "contents": "${1:SimplePie_Locator}->get_links();"
         },
         {
+            "trigger": "SimplePie_Locator-get_rel_link\tWP Class Method",
+            "contents": "${1:SimplePie_Locator}->get_rel_link( ${2:\\$rel} );"
+        },
+        {
             "trigger": "SimplePie_Locator-is_feed\tWP Class Method",
-            "contents": "${1:SimplePie_Locator}->is_feed( ${2:\\$file} );"
+            "contents": "${1:SimplePie_Locator}->is_feed( ${2:\\$file}, ${3:\\$check_html} );"
         },
         {
             "trigger": "SimplePie_Locator-set_registry\tWP Class Method",
@@ -4349,6 +4457,10 @@
         {
             "trigger": "SimplePie_Misc-absolutize_url\tWP Class Method",
             "contents": "${1:SimplePie_Misc}::absolutize_url( ${2:\\$relative}, ${3:\\$base} );"
+        },
+        {
+            "trigger": "SimplePie_Misc-array_merge_recursive\tWP Class Method",
+            "contents": "${1:SimplePie_Misc}::array_merge_recursive( ${2:\\$array1}, ${3:\\$array2} );"
         },
         {
             "trigger": "SimplePie_Misc-atom_03_construct_type\tWP Class Method",
@@ -4439,8 +4551,8 @@
             "contents": "${1:SimplePie_Misc}::silence_errors( ${2:\\$num}, ${3:\\$str} );"
         },
         {
-            "trigger": "SimplePie_Misc-space_seperated_tokens\tWP Class Method",
-            "contents": "${1:SimplePie_Misc}::space_seperated_tokens( ${2:\\$string} );"
+            "trigger": "SimplePie_Misc-space_separated_tokens\tWP Class Method",
+            "contents": "${1:SimplePie_Misc}::space_separated_tokens( ${2:\\$string} );"
         },
         {
             "trigger": "SimplePie_Misc-strip_comments\tWP Class Method",
@@ -4544,7 +4656,7 @@
         },
         {
             "trigger": "SimplePie_Parser-parse\tWP Class Method",
-            "contents": "${1:SimplePie_Parser}->parse( ${2:\\$data}, ${3:\\$encoding} );"
+            "contents": "${1:SimplePie_Parser}->parse( ${2:\\$data}, ${3:\\$encoding}, ${4:\\$url} );"
         },
         {
             "trigger": "SimplePie_Parser-set_registry\tWP Class Method",
@@ -4621,6 +4733,10 @@
         {
             "trigger": "SimplePie_Sanitize-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new SimplePie_Sanitize();"
+        },
+        {
+            "trigger": "SimplePie_Sanitize-add_attributes\tWP Class Method",
+            "contents": "${1:SimplePie_Sanitize}->add_attributes( ${2:\\$attribs} );"
         },
         {
             "trigger": "SimplePie_Sanitize-do_strip_htmltags\tWP Class Method",
@@ -4847,8 +4963,16 @@
             "contents": "${0:\/** This method seems not public, check it. *\/}${1:SimplePie}->__toString();"
         },
         {
+            "trigger": "SimplePie-add_attributes\tWP Class Method",
+            "contents": "${1:SimplePie}->add_attributes( ${2:\\$attribs} );"
+        },
+        {
             "trigger": "SimplePie-enable_cache\tWP Class Method",
             "contents": "${1:SimplePie}->enable_cache( ${2:\\$enable} );"
+        },
+        {
+            "trigger": "SimplePie-enable_exceptions\tWP Class Method",
+            "contents": "${1:SimplePie}->enable_exceptions( ${2:\\$enable} );"
         },
         {
             "trigger": "SimplePie-enable_order_by_date\tWP Class Method",
@@ -4861,6 +4985,10 @@
         {
             "trigger": "SimplePie-error\tWP Class Method",
             "contents": "${1:SimplePie}->error();"
+        },
+        {
+            "trigger": "SimplePie-force_cache_fallback\tWP Class Method",
+            "contents": "${1:SimplePie}->force_cache_fallback( ${2:\\$enable} );"
         },
         {
             "trigger": "SimplePie-force_feed\tWP Class Method",
@@ -5067,6 +5195,10 @@
             "contents": "${1:SimplePie}->set_credit_class( ${2:\\$class} );"
         },
         {
+            "trigger": "SimplePie-set_curl_options\tWP Class Method",
+            "contents": "${1:SimplePie}->set_curl_options( ${2:\\$curl_options} );"
+        },
+        {
             "trigger": "SimplePie-set_enclosure_class\tWP Class Method",
             "contents": "${1:SimplePie}->set_enclosure_class( ${2:\\$class} );"
         },
@@ -5168,15 +5300,15 @@
         },
         {
             "trigger": "SimplePie-subscribe_url\tWP Class Method",
-            "contents": "${1:SimplePie}->subscribe_url();"
+            "contents": "${1:SimplePie}->subscribe_url( ${2:\\$permanent} );"
         },
         {
             "trigger": "SMTP-authenticate\tWP Class Method",
-            "contents": "${1:SMTP}->authenticate( ${2:\\$username}, ${3:\\$password}, ${4:\\$authtype}, ${5:\\$realm}, ${6:\\$workstation}, ${7:\\$OAuth} );"
+            "contents": "${1:SMTP}->authenticate( ${2:\\$username}, ${3:\\$password}, ${4:\\$authtype}, ${5:\\$OAuth} );"
         },
         {
             "trigger": "SMTP-client_send\tWP Class Method",
-            "contents": "${1:SMTP}->client_send( ${2:\\$data} );"
+            "contents": "${1:SMTP}->client_send( ${2:\\$data}, ${3:\\$command} );"
         },
         {
             "trigger": "SMTP-close\tWP Class Method",
@@ -5248,7 +5380,7 @@
         },
         {
             "trigger": "SMTP-recipient\tWP Class Method",
-            "contents": "${1:SMTP}->recipient( ${2:\\$address} );"
+            "contents": "${1:SMTP}->recipient( ${2:\\$address}, ${3:\\$dsn} );"
         },
         {
             "trigger": "SMTP-reset\tWP Class Method",
@@ -5553,6 +5685,10 @@
         {
             "trigger": "Theme_Installer_Skin-before\tWP Class Method",
             "contents": "${1:Theme_Installer_Skin}->before();"
+        },
+        {
+            "trigger": "Theme_Installer_Skin-hide_process_failed\tWP Class Method",
+            "contents": "${1:Theme_Installer_Skin}->hide_process_failed( ${2:\\$wp_error} );"
         },
         {
             "trigger": "Theme_Upgrader_Skin-__construct\tWP Class Method",
@@ -5927,6 +6063,50 @@
             "contents": "${1:WP_Automatic_Updater}->update( ${2:\\$type}, ${3:\\$item} );"
         },
         {
+            "trigger": "WP_Block_List-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Block_List( ${3:\\$blocks}, ${4:\\$available_context}, ${5:\\$registry} );"
+        },
+        {
+            "trigger": "WP_Block_List-count\tWP Class Method",
+            "contents": "${1:WP_Block_List}->count();"
+        },
+        {
+            "trigger": "WP_Block_List-current\tWP Class Method",
+            "contents": "${1:WP_Block_List}->current();"
+        },
+        {
+            "trigger": "WP_Block_List-key\tWP Class Method",
+            "contents": "${1:WP_Block_List}->key();"
+        },
+        {
+            "trigger": "WP_Block_List-next\tWP Class Method",
+            "contents": "${1:WP_Block_List}->next();"
+        },
+        {
+            "trigger": "WP_Block_List-offsetExists\tWP Class Method",
+            "contents": "${1:WP_Block_List}->offsetExists( ${2:\\$index} );"
+        },
+        {
+            "trigger": "WP_Block_List-offsetGet\tWP Class Method",
+            "contents": "${1:WP_Block_List}->offsetGet( ${2:\\$index} );"
+        },
+        {
+            "trigger": "WP_Block_List-offsetSet\tWP Class Method",
+            "contents": "${1:WP_Block_List}->offsetSet( ${2:\\$index}, ${3:\\$value} );"
+        },
+        {
+            "trigger": "WP_Block_List-offsetUnset\tWP Class Method",
+            "contents": "${1:WP_Block_List}->offsetUnset( ${2:\\$index} );"
+        },
+        {
+            "trigger": "WP_Block_List-rewind\tWP Class Method",
+            "contents": "${1:WP_Block_List}->rewind();"
+        },
+        {
+            "trigger": "WP_Block_List-valid\tWP Class Method",
+            "contents": "${1:WP_Block_List}->valid();"
+        },
+        {
             "trigger": "WP_Block_Parser_Block-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_Block_Parser_Block( ${3:\\$name}, ${4:\\$attrs}, ${5:\\$innerBlocks}, ${6:\\$innerHTML}, ${7:\\$innerContent} );"
         },
@@ -5961,6 +6141,54 @@
         {
             "trigger": "WP_Block_Parser-proceed\tWP Class Method",
             "contents": "${1:WP_Block_Parser}->proceed();"
+        },
+        {
+            "trigger": "WP_Block_Pattern_Categories_Registry-get_all_registered\tWP Class Method",
+            "contents": "${1:WP_Block_Pattern_Categories_Registry}->get_all_registered();"
+        },
+        {
+            "trigger": "WP_Block_Pattern_Categories_Registry-get_instance\tWP Class Method",
+            "contents": "${1:WP_Block_Pattern_Categories_Registry}::get_instance();"
+        },
+        {
+            "trigger": "WP_Block_Pattern_Categories_Registry-get_registered\tWP Class Method",
+            "contents": "${1:WP_Block_Pattern_Categories_Registry}->get_registered( ${2:\\$category_name} );"
+        },
+        {
+            "trigger": "WP_Block_Pattern_Categories_Registry-is_registered\tWP Class Method",
+            "contents": "${1:WP_Block_Pattern_Categories_Registry}->is_registered( ${2:\\$category_name} );"
+        },
+        {
+            "trigger": "WP_Block_Pattern_Categories_Registry-register\tWP Class Method",
+            "contents": "${1:WP_Block_Pattern_Categories_Registry}->register( ${2:\\$category_name}, ${3:\\$category_properties} );"
+        },
+        {
+            "trigger": "WP_Block_Pattern_Categories_Registry-unregister\tWP Class Method",
+            "contents": "${1:WP_Block_Pattern_Categories_Registry}->unregister( ${2:\\$category_name} );"
+        },
+        {
+            "trigger": "WP_Block_Patterns_Registry-get_all_registered\tWP Class Method",
+            "contents": "${1:WP_Block_Patterns_Registry}->get_all_registered();"
+        },
+        {
+            "trigger": "WP_Block_Patterns_Registry-get_instance\tWP Class Method",
+            "contents": "${1:WP_Block_Patterns_Registry}::get_instance();"
+        },
+        {
+            "trigger": "WP_Block_Patterns_Registry-get_registered\tWP Class Method",
+            "contents": "${1:WP_Block_Patterns_Registry}->get_registered( ${2:\\$pattern_name} );"
+        },
+        {
+            "trigger": "WP_Block_Patterns_Registry-is_registered\tWP Class Method",
+            "contents": "${1:WP_Block_Patterns_Registry}->is_registered( ${2:\\$pattern_name} );"
+        },
+        {
+            "trigger": "WP_Block_Patterns_Registry-register\tWP Class Method",
+            "contents": "${1:WP_Block_Patterns_Registry}->register( ${2:\\$pattern_name}, ${3:\\$pattern_properties} );"
+        },
+        {
+            "trigger": "WP_Block_Patterns_Registry-unregister\tWP Class Method",
+            "contents": "${1:WP_Block_Patterns_Registry}->unregister( ${2:\\$pattern_name} );"
         },
         {
             "trigger": "WP_Block_Styles_Registry-get_all_registered\tWP Class Method",
@@ -6037,6 +6265,18 @@
         {
             "trigger": "WP_Block_Type-set_props\tWP Class Method",
             "contents": "${1:WP_Block_Type}->set_props( ${2:\\$args} );"
+        },
+        {
+            "trigger": "WP_Block-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Block( ${3:\\$block}, ${4:\\$available_context}, ${5:\\$registry} );"
+        },
+        {
+            "trigger": "WP_Block-__get\tWP Class Method",
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:WP_Block}->__get( ${2:\\$name} );"
+        },
+        {
+            "trigger": "WP_Block-render\tWP Class Method",
+            "contents": "${1:WP_Block}->render( ${2:\\$options} );"
         },
         {
             "trigger": "WP_Comment_Query-__call\tWP Class Method",
@@ -7552,7 +7792,7 @@
         },
         {
             "trigger": "WP_Dependencies-do_item\tWP Class Method",
-            "contents": "${1:WP_Dependencies}->do_item( ${2:\\$handle} );"
+            "contents": "${1:WP_Dependencies}->do_item( ${2:\\$handle}, ${3:\\$group} );"
         },
         {
             "trigger": "WP_Dependencies-do_items\tWP Class Method",
@@ -7601,6 +7841,10 @@
         {
             "trigger": "WP_Embed-find_oembed_post_id\tWP Class Method",
             "contents": "${1:WP_Embed}->find_oembed_post_id( ${2:\\$cache_key} );"
+        },
+        {
+            "trigger": "WP_Embed-get_embed_handler_html\tWP Class Method",
+            "contents": "${1:WP_Embed}->get_embed_handler_html( ${2:\\$attr}, ${3:\\$url} );"
         },
         {
             "trigger": "WP_Embed-maybe_make_link\tWP Class Method",
@@ -8432,7 +8676,7 @@
         },
         {
             "trigger": "WP_HTTP_IXR_Client-query\tWP Class Method",
-            "contents": "${1:WP_HTTP_IXR_Client}->query();"
+            "contents": "${1:WP_HTTP_IXR_Client}->query( ${2:\\$args} );"
         },
         {
             "trigger": "WP_HTTP_Proxy-authentication\tWP Class Method",
@@ -9359,6 +9603,10 @@
             "contents": "${1:WP_MS_Themes_List_Table}->ajax_user_can();"
         },
         {
+            "trigger": "WP_MS_Themes_List_Table-column_autoupdates\tWP Class Method",
+            "contents": "${1:WP_MS_Themes_List_Table}->column_autoupdates( ${2:\\$theme} );"
+        },
+        {
             "trigger": "WP_MS_Themes_List_Table-column_cb\tWP Class Method",
             "contents": "${1:WP_MS_Themes_List_Table}->column_cb( ${2:\\$theme} );"
         },
@@ -9549,6 +9797,10 @@
         {
             "trigger": "WP_Object_Cache-get\tWP Class Method",
             "contents": "${1:WP_Object_Cache}->get( ${2:\\$key}, ${3:\\$group}, ${4:\\$force}, ${5:\\$found} );"
+        },
+        {
+            "trigger": "WP_Object_Cache-get_multiple\tWP Class Method",
+            "contents": "${1:WP_Object_Cache}->get_multiple( ${2:\\$keys}, ${3:\\$group}, ${4:\\$force} );"
         },
         {
             "trigger": "WP_Object_Cache-incr\tWP Class Method",
@@ -10303,6 +10555,14 @@
             "contents": "${1:WP_REST_Attachments_Controller}->create_item_permissions_check( ${2:\\$request} );"
         },
         {
+            "trigger": "WP_REST_Attachments_Controller-edit_media_item\tWP Class Method",
+            "contents": "${1:WP_REST_Attachments_Controller}->edit_media_item( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Attachments_Controller-edit_media_item_permissions_check\tWP Class Method",
+            "contents": "${1:WP_REST_Attachments_Controller}->edit_media_item_permissions_check( ${2:\\$request} );"
+        },
+        {
             "trigger": "WP_REST_Attachments_Controller-get_collection_params\tWP Class Method",
             "contents": "${1:WP_REST_Attachments_Controller}->get_collection_params();"
         },
@@ -10379,6 +10639,34 @@
             "contents": "${1:WP_REST_Autosaves_Controller}->register_routes();"
         },
         {
+            "trigger": "WP_REST_Block_Directory_Controller-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_REST_Block_Directory_Controller();"
+        },
+        {
+            "trigger": "WP_REST_Block_Directory_Controller-get_collection_params\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Directory_Controller}->get_collection_params();"
+        },
+        {
+            "trigger": "WP_REST_Block_Directory_Controller-get_item_schema\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Directory_Controller}->get_item_schema();"
+        },
+        {
+            "trigger": "WP_REST_Block_Directory_Controller-get_items\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Directory_Controller}->get_items( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Block_Directory_Controller-get_items_permissions_check\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Directory_Controller}->get_items_permissions_check( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Block_Directory_Controller-prepare_item_for_response\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Directory_Controller}->prepare_item_for_response( ${2:\\$plugin}, ${3:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Block_Directory_Controller-register_routes\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Directory_Controller}->register_routes();"
+        },
+        {
             "trigger": "WP_REST_Block_Renderer_Controller-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_REST_Block_Renderer_Controller();"
         },
@@ -10397,6 +10685,42 @@
         {
             "trigger": "WP_REST_Block_Renderer_Controller-register_routes\tWP Class Method",
             "contents": "${1:WP_REST_Block_Renderer_Controller}->register_routes();"
+        },
+        {
+            "trigger": "WP_REST_Block_Types_Controller-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_REST_Block_Types_Controller();"
+        },
+        {
+            "trigger": "WP_REST_Block_Types_Controller-get_collection_params\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Types_Controller}->get_collection_params();"
+        },
+        {
+            "trigger": "WP_REST_Block_Types_Controller-get_item\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Types_Controller}->get_item( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Block_Types_Controller-get_item_permissions_check\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Types_Controller}->get_item_permissions_check( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Block_Types_Controller-get_item_schema\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Types_Controller}->get_item_schema();"
+        },
+        {
+            "trigger": "WP_REST_Block_Types_Controller-get_items\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Types_Controller}->get_items( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Block_Types_Controller-get_items_permissions_check\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Types_Controller}->get_items_permissions_check( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Block_Types_Controller-prepare_item_for_response\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Types_Controller}->prepare_item_for_response( ${2:\\$block_type}, ${3:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Block_Types_Controller-register_routes\tWP Class Method",
+            "contents": "${1:WP_REST_Block_Types_Controller}->register_routes();"
         },
         {
             "trigger": "WP_REST_Blocks_Controller-check_read_permission\tWP Class Method",
@@ -10585,6 +10909,74 @@
         {
             "trigger": "WP_REST_Meta_Fields-update_value\tWP Class Method",
             "contents": "${1:WP_REST_Meta_Fields}->update_value( ${2:\\$meta}, ${3:\\$object_id} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_REST_Plugins_Controller();"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-create_item\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->create_item( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-create_item_permissions_check\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->create_item_permissions_check( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-delete_item\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->delete_item( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-delete_item_permissions_check\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->delete_item_permissions_check( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-get_collection_params\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->get_collection_params();"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-get_item\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->get_item( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-get_item_permissions_check\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->get_item_permissions_check( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-get_item_schema\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->get_item_schema();"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-get_items\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->get_items( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-get_items_permissions_check\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->get_items_permissions_check( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-prepare_item_for_response\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->prepare_item_for_response( ${2:\\$item}, ${3:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-register_routes\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->register_routes();"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-sanitize_plugin_param\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->sanitize_plugin_param( ${2:\\$file} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-update_item\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->update_item( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-update_item_permissions_check\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->update_item_permissions_check( ${2:\\$request} );"
+        },
+        {
+            "trigger": "WP_REST_Plugins_Controller-validate_plugin_param\tWP Class Method",
+            "contents": "${1:WP_REST_Plugins_Controller}->validate_plugin_param( ${2:\\$file} );"
         },
         {
             "trigger": "WP_REST_Post_Meta_Fields-__construct\tWP Class Method",
@@ -11939,6 +12331,10 @@
             "contents": "${1:WP_Site_Health}->check_wp_version_check_exists();"
         },
         {
+            "trigger": "WP_Site_Health-detect_plugin_theme_auto_update_issues\tWP Class Method",
+            "contents": "${1:WP_Site_Health}->detect_plugin_theme_auto_update_issues();"
+        },
+        {
             "trigger": "WP_Site_Health-enqueue_scripts\tWP Class Method",
             "contents": "${1:WP_Site_Health}->enqueue_scripts();"
         },
@@ -11953,6 +12349,10 @@
         {
             "trigger": "WP_Site_Health-get_test_dotorg_communication\tWP Class Method",
             "contents": "${1:WP_Site_Health}->get_test_dotorg_communication();"
+        },
+        {
+            "trigger": "WP_Site_Health-get_test_file_uploads\tWP Class Method",
+            "contents": "${1:WP_Site_Health}->get_test_file_uploads();"
         },
         {
             "trigger": "WP_Site_Health-get_test_http_requests\tWP Class Method",
@@ -11979,8 +12379,16 @@
             "contents": "${1:WP_Site_Health}->get_test_php_extensions();"
         },
         {
+            "trigger": "WP_Site_Health-get_test_php_sessions\tWP Class Method",
+            "contents": "${1:WP_Site_Health}->get_test_php_sessions();"
+        },
+        {
             "trigger": "WP_Site_Health-get_test_php_version\tWP Class Method",
             "contents": "${1:WP_Site_Health}->get_test_php_version();"
+        },
+        {
+            "trigger": "WP_Site_Health-get_test_plugin_theme_auto_updates\tWP Class Method",
+            "contents": "${1:WP_Site_Health}->get_test_plugin_theme_auto_updates();"
         },
         {
             "trigger": "WP_Site_Health-get_test_plugin_version\tWP Class Method",
@@ -12103,6 +12511,174 @@
             "contents": "${1:WP_Site}->to_array();"
         },
         {
+            "trigger": "WP_Sitemaps_Index-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Sitemaps_Index( ${3:\\$registry} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Index-get_index_url\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Index}->get_index_url();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Index-get_sitemap_list\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Index}->get_sitemap_list();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Posts-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Sitemaps_Posts();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Posts-get_max_num_pages\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Posts}->get_max_num_pages( ${2:\\$post_type} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Posts-get_object_subtypes\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Posts}->get_object_subtypes();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Posts-get_url_list\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Posts}->get_url_list( ${2:\\$page_num}, ${3:\\$post_type} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Provider-get_max_num_pages\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Provider}->get_max_num_pages( ${2:\\$object_subtype} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Provider-get_object_subtypes\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Provider}->get_object_subtypes();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Provider-get_sitemap_entries\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Provider}->get_sitemap_entries();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Provider-get_sitemap_type_data\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Provider}->get_sitemap_type_data();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Provider-get_sitemap_url\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Provider}->get_sitemap_url( ${2:\\$name}, ${3:\\$page} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Provider-get_url_list\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Provider}->get_url_list( ${2:\\$page_num}, ${3:\\$object_subtype} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Registry-add_provider\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Registry}->add_provider( ${2:\\$name}, ${3:\\$provider} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Registry-get_provider\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Registry}->get_provider( ${2:\\$name} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Registry-get_providers\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Registry}->get_providers();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Renderer-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Sitemaps_Renderer();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Renderer-get_sitemap_index_stylesheet_url\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Renderer}->get_sitemap_index_stylesheet_url();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Renderer-get_sitemap_index_xml\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Renderer}->get_sitemap_index_xml( ${2:\\$sitemaps} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Renderer-get_sitemap_stylesheet_url\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Renderer}->get_sitemap_stylesheet_url();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Renderer-get_sitemap_xml\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Renderer}->get_sitemap_xml( ${2:\\$url_list} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Renderer-render_index\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Renderer}->render_index( ${2:\\$sitemaps} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Renderer-render_sitemap\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Renderer}->render_sitemap( ${2:\\$url_list} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Stylesheet-get_sitemap_index_stylesheet\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Stylesheet}->get_sitemap_index_stylesheet();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Stylesheet-get_sitemap_stylesheet\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Stylesheet}->get_sitemap_stylesheet();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Stylesheet-get_stylesheet_css\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Stylesheet}->get_stylesheet_css();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Stylesheet-render_stylesheet\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Stylesheet}->render_stylesheet( ${2:\\$type} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Taxonomies-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Sitemaps_Taxonomies();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Taxonomies-get_max_num_pages\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Taxonomies}->get_max_num_pages( ${2:\\$taxonomy} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Taxonomies-get_object_subtypes\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Taxonomies}->get_object_subtypes();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Taxonomies-get_url_list\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Taxonomies}->get_url_list( ${2:\\$page_num}, ${3:\\$taxonomy} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Users-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Sitemaps_Users();"
+        },
+        {
+            "trigger": "WP_Sitemaps_Users-get_max_num_pages\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Users}->get_max_num_pages( ${2:\\$object_subtype} );"
+        },
+        {
+            "trigger": "WP_Sitemaps_Users-get_url_list\tWP Class Method",
+            "contents": "${1:WP_Sitemaps_Users}->get_url_list( ${2:\\$page_num}, ${3:\\$object_subtype} );"
+        },
+        {
+            "trigger": "WP_Sitemaps-__construct\tWP Class Method",
+            "contents": "${1:\\$${2:class} = }new WP_Sitemaps();"
+        },
+        {
+            "trigger": "WP_Sitemaps-add_robots\tWP Class Method",
+            "contents": "${1:WP_Sitemaps}->add_robots( ${2:\\$output}, ${3:\\$public} );"
+        },
+        {
+            "trigger": "WP_Sitemaps-init\tWP Class Method",
+            "contents": "${1:WP_Sitemaps}->init();"
+        },
+        {
+            "trigger": "WP_Sitemaps-redirect_sitemapxml\tWP Class Method",
+            "contents": "${1:WP_Sitemaps}->redirect_sitemapxml( ${2:\\$bypass}, ${3:\\$query} );"
+        },
+        {
+            "trigger": "WP_Sitemaps-register_rewrites\tWP Class Method",
+            "contents": "${1:WP_Sitemaps}->register_rewrites();"
+        },
+        {
+            "trigger": "WP_Sitemaps-register_sitemaps\tWP Class Method",
+            "contents": "${1:WP_Sitemaps}->register_sitemaps();"
+        },
+        {
+            "trigger": "WP_Sitemaps-render_sitemaps\tWP Class Method",
+            "contents": "${1:WP_Sitemaps}->render_sitemaps();"
+        },
+        {
+            "trigger": "WP_Sitemaps-sitemaps_enabled\tWP Class Method",
+            "contents": "${1:WP_Sitemaps}->sitemaps_enabled();"
+        },
+        {
             "trigger": "WP_Styles-__construct\tWP Class Method",
             "contents": "${1:\\$${2:class} = }new WP_Styles();"
         },
@@ -12124,7 +12700,7 @@
         },
         {
             "trigger": "WP_Styles-do_item\tWP Class Method",
-            "contents": "${1:WP_Styles}->do_item( ${2:\\$handle} );"
+            "contents": "${1:WP_Styles}->do_item( ${2:\\$handle}, ${3:\\$group} );"
         },
         {
             "trigger": "WP_Styles-in_default_dir\tWP Class Method",
@@ -12173,6 +12749,10 @@
         {
             "trigger": "WP_Taxonomy-add_rewrite_rules\tWP Class Method",
             "contents": "${1:WP_Taxonomy}->add_rewrite_rules();"
+        },
+        {
+            "trigger": "WP_Taxonomy-get_rest_controller\tWP Class Method",
+            "contents": "${1:WP_Taxonomy}->get_rest_controller();"
         },
         {
             "trigger": "WP_Taxonomy-remove_hooks\tWP Class Method",
@@ -12587,6 +13167,10 @@
             "contents": "${1:WP_Upgrader_Skin}->header();"
         },
         {
+            "trigger": "WP_Upgrader_Skin-hide_process_failed\tWP Class Method",
+            "contents": "${1:WP_Upgrader_Skin}->hide_process_failed( ${2:\\$wp_error} );"
+        },
+        {
             "trigger": "WP_Upgrader_Skin-request_filesystem_credentials\tWP Class Method",
             "contents": "${1:WP_Upgrader_Skin}->request_filesystem_credentials( ${2:\\$error}, ${3:\\$context}, ${4:\\$allow_relaxed_file_ownership} );"
         },
@@ -12612,7 +13196,7 @@
         },
         {
             "trigger": "WP_Upgrader-download_package\tWP Class Method",
-            "contents": "${1:WP_Upgrader}->download_package( ${2:\\$package}, ${3:\\$check_signatures} );"
+            "contents": "${1:WP_Upgrader}->download_package( ${2:\\$package}, ${3:\\$check_signatures}, ${4:\\$hook_extra} );"
         },
         {
             "trigger": "WP_Upgrader-fs_connect\tWP Class Method",
@@ -13793,6 +14377,10 @@
         {
             "trigger": "wpdb-db_connect\tWP Class Method",
             "contents": "${1:wpdb}->db_connect( ${2:\\$allow_bail} );"
+        },
+        {
+            "trigger": "wpdb-db_server_info\tWP Class Method",
+            "contents": "${1:wpdb}->db_server_info();"
         },
         {
             "trigger": "wpdb-db_version\tWP Class Method",

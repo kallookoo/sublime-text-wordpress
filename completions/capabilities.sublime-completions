@@ -1,10 +1,46 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "68 WordPress - Capabilities",
+    "comment": "124 WordPress - Capabilities",
     "completions": [
+        {
+            "trigger": "activate_plugin\tWP Capability",
+            "contents": "activate_plugin"
+        },
         {
             "trigger": "activate_plugins\tWP Capability",
             "contents": "activate_plugins"
+        },
+        {
+            "trigger": "add_comment_meta\tWP Capability",
+            "contents": "add_comment_meta"
+        },
+        {
+            "trigger": "add_post_meta\tWP Capability",
+            "contents": "add_post_meta"
+        },
+        {
+            "trigger": "add_term_meta\tWP Capability",
+            "contents": "add_term_meta"
+        },
+        {
+            "trigger": "add_user_meta\tWP Capability",
+            "contents": "add_user_meta"
+        },
+        {
+            "trigger": "add_users\tWP Capability",
+            "contents": "add_users"
+        },
+        {
+            "trigger": "assign_categories\tWP Capability",
+            "contents": "assign_categories"
+        },
+        {
+            "trigger": "assign_post_tags\tWP Capability",
+            "contents": "assign_post_tags"
+        },
+        {
+            "trigger": "assign_term\tWP Capability",
+            "contents": "assign_term"
         },
         {
             "trigger": "create_sites\tWP Capability",
@@ -19,12 +55,40 @@
             "contents": "customize"
         },
         {
+            "trigger": "deactivate_plugin\tWP Capability",
+            "contents": "deactivate_plugin"
+        },
+        {
+            "trigger": "deactivate_plugins\tWP Capability",
+            "contents": "deactivate_plugins"
+        },
+        {
+            "trigger": "delete_blocks\tWP Capability",
+            "contents": "delete_blocks"
+        },
+        {
+            "trigger": "delete_categories\tWP Capability",
+            "contents": "delete_categories"
+        },
+        {
+            "trigger": "delete_comment_meta\tWP Capability",
+            "contents": "delete_comment_meta"
+        },
+        {
+            "trigger": "delete_others_blocks\tWP Capability",
+            "contents": "delete_others_blocks"
+        },
+        {
             "trigger": "delete_others_pages\tWP Capability",
             "contents": "delete_others_pages"
         },
         {
             "trigger": "delete_others_posts\tWP Capability",
             "contents": "delete_others_posts"
+        },
+        {
+            "trigger": "delete_page\tWP Capability",
+            "contents": "delete_page"
         },
         {
             "trigger": "delete_pages\tWP Capability",
@@ -35,8 +99,24 @@
             "contents": "delete_plugins"
         },
         {
+            "trigger": "delete_post\tWP Capability",
+            "contents": "delete_post"
+        },
+        {
+            "trigger": "delete_post_meta\tWP Capability",
+            "contents": "delete_post_meta"
+        },
+        {
+            "trigger": "delete_post_tags\tWP Capability",
+            "contents": "delete_post_tags"
+        },
+        {
             "trigger": "delete_posts\tWP Capability",
             "contents": "delete_posts"
+        },
+        {
+            "trigger": "delete_private_blocks\tWP Capability",
+            "contents": "delete_private_blocks"
         },
         {
             "trigger": "delete_private_pages\tWP Capability",
@@ -45,6 +125,10 @@
         {
             "trigger": "delete_private_posts\tWP Capability",
             "contents": "delete_private_posts"
+        },
+        {
+            "trigger": "delete_published_blocks\tWP Capability",
+            "contents": "delete_published_blocks"
         },
         {
             "trigger": "delete_published_pages\tWP Capability",
@@ -63,12 +147,48 @@
             "contents": "delete_sites"
         },
         {
+            "trigger": "delete_term\tWP Capability",
+            "contents": "delete_term"
+        },
+        {
+            "trigger": "delete_term_meta\tWP Capability",
+            "contents": "delete_term_meta"
+        },
+        {
             "trigger": "delete_themes\tWP Capability",
             "contents": "delete_themes"
         },
         {
+            "trigger": "delete_user\tWP Capability",
+            "contents": "delete_user"
+        },
+        {
+            "trigger": "delete_user_meta\tWP Capability",
+            "contents": "delete_user_meta"
+        },
+        {
             "trigger": "delete_users\tWP Capability",
             "contents": "delete_users"
+        },
+        {
+            "trigger": "edit_blocks\tWP Capability",
+            "contents": "edit_blocks"
+        },
+        {
+            "trigger": "edit_categories\tWP Capability",
+            "contents": "edit_categories"
+        },
+        {
+            "trigger": "edit_comment\tWP Capability",
+            "contents": "edit_comment"
+        },
+        {
+            "trigger": "edit_comment_meta\tWP Capability",
+            "contents": "edit_comment_meta"
+        },
+        {
+            "trigger": "edit_css\tWP Capability",
+            "contents": "edit_css"
         },
         {
             "trigger": "edit_dashboard\tWP Capability",
@@ -79,12 +199,20 @@
             "contents": "edit_files"
         },
         {
+            "trigger": "edit_others_blocks\tWP Capability",
+            "contents": "edit_others_blocks"
+        },
+        {
             "trigger": "edit_others_pages\tWP Capability",
             "contents": "edit_others_pages"
         },
         {
             "trigger": "edit_others_posts\tWP Capability",
             "contents": "edit_others_posts"
+        },
+        {
+            "trigger": "edit_page\tWP Capability",
+            "contents": "edit_page"
         },
         {
             "trigger": "edit_pages\tWP Capability",
@@ -95,8 +223,24 @@
             "contents": "edit_plugins"
         },
         {
+            "trigger": "edit_post\tWP Capability",
+            "contents": "edit_post"
+        },
+        {
+            "trigger": "edit_post_meta\tWP Capability",
+            "contents": "edit_post_meta"
+        },
+        {
+            "trigger": "edit_post_tags\tWP Capability",
+            "contents": "edit_post_tags"
+        },
+        {
             "trigger": "edit_posts\tWP Capability",
             "contents": "edit_posts"
+        },
+        {
+            "trigger": "edit_private_blocks\tWP Capability",
+            "contents": "edit_private_blocks"
         },
         {
             "trigger": "edit_private_pages\tWP Capability",
@@ -107,12 +251,24 @@
             "contents": "edit_private_posts"
         },
         {
+            "trigger": "edit_published_blocks\tWP Capability",
+            "contents": "edit_published_blocks"
+        },
+        {
             "trigger": "edit_published_pages\tWP Capability",
             "contents": "edit_published_pages"
         },
         {
             "trigger": "edit_published_posts\tWP Capability",
             "contents": "edit_published_posts"
+        },
+        {
+            "trigger": "edit_term\tWP Capability",
+            "contents": "edit_term"
+        },
+        {
+            "trigger": "edit_term_meta\tWP Capability",
+            "contents": "edit_term_meta"
         },
         {
             "trigger": "edit_theme_options\tWP Capability",
@@ -123,12 +279,28 @@
             "contents": "edit_themes"
         },
         {
+            "trigger": "edit_user\tWP Capability",
+            "contents": "edit_user"
+        },
+        {
+            "trigger": "edit_user_meta\tWP Capability",
+            "contents": "edit_user_meta"
+        },
+        {
             "trigger": "edit_users\tWP Capability",
             "contents": "edit_users"
         },
         {
+            "trigger": "erase_others_personal_data\tWP Capability",
+            "contents": "erase_others_personal_data"
+        },
+        {
             "trigger": "export\tWP Capability",
             "contents": "export"
+        },
+        {
+            "trigger": "export_others_personal_data\tWP Capability",
+            "contents": "export_others_personal_data"
         },
         {
             "trigger": "import\tWP Capability",
@@ -183,6 +355,14 @@
             "contents": "manage_options"
         },
         {
+            "trigger": "manage_post_tags\tWP Capability",
+            "contents": "manage_post_tags"
+        },
+        {
+            "trigger": "manage_privacy_options\tWP Capability",
+            "contents": "manage_privacy_options"
+        },
+        {
             "trigger": "manage_sites\tWP Capability",
             "contents": "manage_sites"
         },
@@ -191,12 +371,24 @@
             "contents": "moderate_comments"
         },
         {
+            "trigger": "promote_user\tWP Capability",
+            "contents": "promote_user"
+        },
+        {
             "trigger": "promote_users\tWP Capability",
             "contents": "promote_users"
         },
         {
+            "trigger": "publish_blocks\tWP Capability",
+            "contents": "publish_blocks"
+        },
+        {
             "trigger": "publish_pages\tWP Capability",
             "contents": "publish_pages"
+        },
+        {
+            "trigger": "publish_post\tWP Capability",
+            "contents": "publish_post"
         },
         {
             "trigger": "publish_posts\tWP Capability",
@@ -207,6 +399,18 @@
             "contents": "read"
         },
         {
+            "trigger": "read_page\tWP Capability",
+            "contents": "read_page"
+        },
+        {
+            "trigger": "read_post\tWP Capability",
+            "contents": "read_post"
+        },
+        {
+            "trigger": "read_private_blocks\tWP Capability",
+            "contents": "read_private_blocks"
+        },
+        {
             "trigger": "read_private_pages\tWP Capability",
             "contents": "read_private_pages"
         },
@@ -215,12 +419,24 @@
             "contents": "read_private_posts"
         },
         {
+            "trigger": "remove_user\tWP Capability",
+            "contents": "remove_user"
+        },
+        {
             "trigger": "remove_users\tWP Capability",
             "contents": "remove_users"
         },
         {
+            "trigger": "resume_plugin\tWP Capability",
+            "contents": "resume_plugin"
+        },
+        {
             "trigger": "resume_plugins\tWP Capability",
             "contents": "resume_plugins"
+        },
+        {
+            "trigger": "resume_theme\tWP Capability",
+            "contents": "resume_theme"
         },
         {
             "trigger": "resume_themes\tWP Capability",
@@ -245,6 +461,14 @@
         {
             "trigger": "update_core\tWP Capability",
             "contents": "update_core"
+        },
+        {
+            "trigger": "update_languages\tWP Capability",
+            "contents": "update_languages"
+        },
+        {
+            "trigger": "update_php\tWP Capability",
+            "contents": "update_php"
         },
         {
             "trigger": "update_plugins\tWP Capability",
