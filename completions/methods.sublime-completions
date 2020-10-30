@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "3635 WordPress - Methods",
+    "comment": "3638 WordPress - Methods",
     "completions": [
         {
             "trigger": "_WP_Dependency-__construct\tWP Class Method",
@@ -3659,8 +3659,20 @@
             "contents": "${1:\\$${2:class} = }new Requests_Utility_FilteredIterator( ${3:\\$data}, ${4:\\$callback} );"
         },
         {
+            "trigger": "Requests_Utility_FilteredIterator-__unserialize\tWP Class Method",
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_Utility_FilteredIterator}->__unserialize( ${2:\\$serialized} );"
+        },
+        {
+            "trigger": "Requests_Utility_FilteredIterator-__wakeup\tWP Class Method",
+            "contents": "${0:\/** This method seems not public, check it. *\/}${1:Requests_Utility_FilteredIterator}->__wakeup();"
+        },
+        {
             "trigger": "Requests_Utility_FilteredIterator-current\tWP Class Method",
             "contents": "${1:Requests_Utility_FilteredIterator}->current();"
+        },
+        {
+            "trigger": "Requests_Utility_FilteredIterator-unserialize\tWP Class Method",
+            "contents": "${1:Requests_Utility_FilteredIterator}->unserialize( ${2:\\$serialized} );"
         },
         {
             "trigger": "Requests-add_transport\tWP Class Method",

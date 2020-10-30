@@ -1,6 +1,0 @@
-Version 4.6.1+1.2
------------------------------------------
-
-- functions, load_plugin_textdomain and load_theme_textdomain set default directory; use example in the WordPress codex
-- classes, wpdb class return "global $wpdb;"
-- methods, wpdb class return "$wpdb->method_name", this $wpdb variable not use format snippet

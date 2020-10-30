@@ -1,4 +1,0 @@
-Version 4.7.2+1.0
------------------------------------------
-
-Update WordPress Version to 4.7.2

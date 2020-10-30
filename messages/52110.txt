@@ -1,5 +1,0 @@
-Version 5.2.1+1.0
------------------------------------------
-
-WordPress 5.2.1
-Added info when a method may not be public.

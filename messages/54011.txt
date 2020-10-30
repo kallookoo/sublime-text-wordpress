@@ -1,8 +1,0 @@
-Version 5.4.0+1.1
------------------------------------------
-
-- Constants:
-	- Remove PHP_INT_MIN because not is WordPress constant.
-
-- Functions:
-	- Fix add_option completions.
