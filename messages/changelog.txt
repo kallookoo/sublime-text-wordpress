@@ -1,275 +1,218 @@
 ### INFO ###
- Package control add the random packages inside of ingored_packages, please check if not working.
- See issue https://github.com/wbond/package_control/issues/1379
+ Package control add the random packages inside of ingored_packages,
+ please check if not working.
+ See the issue https://github.com/wbond/package_control/issues/1379
 
 ### CHANGELOG ###
 
-Version 5.5.2+1.0
------------------------------------------
-WordPress 5.5.2
+Version 5.5.3+1.0 --------------------------------------------------------------
 
-
-
-Version 5.5.1+1.0
------------------------------------------
-WordPress 5.5.1
-
-- Add all capabilities names.
-
-
-
-Version 5.4.2+1.0
------------------------------------------
-WordPress 5.4.2
-
-
-
-Version 5.4.1+1.0
------------------------------------------
-WordPress 5.4.1
-
-
-
-Version 5.4.0+1.1
------------------------------------------
+- WordPress 5.5.3
 - Constants:
-	- Remove PHP_INT_MIN because not is WordPress constant.
+ - Add missing.
+- Capabilities:
+  - Find, check and add assign_terms name.
+
+Version 5.5.2+1.0 --------------------------------------------------------------
+
+- WordPress 5.5.2
+
+Version 5.5.1+1.0 --------------------------------------------------------------
+
+- WordPress 5.5.1
+- Capabilities:
+  - Find, check and add all possibles capabilities.
+
+Version 5.4.2+1.0 --------------------------------------------------------------
+
+- WordPress 5.4.2
+
+Version 5.4.1+1.0 --------------------------------------------------------------
+
+- WordPress 5.4.1
+
+Version 5.4.0+1.1 --------------------------------------------------------------
+
+- Constants:
+  - Remove PHP_INT_MIN because not is WordPress constant.
+- Functions:
+  - Fix add_option completions.
+
+Version 5.4.0+1.0 --------------------------------------------------------------
+
+- WordPress 5.4
+
+Version 5.3.2+1.0 --------------------------------------------------------------
+
+- WordPress 5.3.2
+
+Version 5.2.2+1.0 --------------------------------------------------------------
+
+- WordPress 5.2.2
+
+Version 5.2.1+1.0 --------------------------------------------------------------
+
+- WordPress 5.2.1
+- Added info when a method may not be public.
+
+Version 5.2.0+1.1 --------------------------------------------------------------
+
+- Fix `wp-taxonomy` snippet issue.
+
+Version 5.2.0+1.0 --------------------------------------------------------------
+
+- WordPress 5.2
+
+Version 5.1.1+1.0 --------------------------------------------------------------
+
+- WordPress 5.1.1
+
+Version 5.1.0+1.0 --------------------------------------------------------------
+
+- WordPress 5.1
+
+Version 5.0.3+1.0 --------------------------------------------------------------
+
+- WordPress 5.0.3
+
+Version 5.0.1+1.0 --------------------------------------------------------------
+
+- WordPress 5.0.1
+
+Version 5.0.0+1.0 --------------------------------------------------------------
+
+- WordPress 5.0
+
+Version 4.9.8+1.2 --------------------------------------------------------------
+
+- Remove WordPress Coding Standards errors on wp-secure-file.sublime-snippet.
+- Change scope:
+  - wp-secure-file.sublime-snippet for trigger inside PHP open tag '<?php'
+
+Version 4.9.8+1.2.1 ------------------------------------------------------------
+
+- Change all references, because not pass WordPress Coding Standards:
+  From: 'defined( 'ABSPATH' ) or exit;'
+  To:   'defined( 'ABSPATH' ) || exit;'
+
+Version 4.9.8+1.1 --------------------------------------------------------------
+
+ - Update completions
+
+Version 4.9.8+1.0 --------------------------------------------------------------
+
+ - WordPress 4.9.8
+
+Version 4.9.7+1.0 --------------------------------------------------------------
+
+- WordPress 4.9.7
+
+Version 4.9.6+1.0 --------------------------------------------------------------
+
+- WordPress 4.9.6
+
+Version 4.9.4+1.0 --------------------------------------------------------------
+
+- WordPress 4.9.4
+
+Version 4.9.2+1.0 --------------------------------------------------------------
+
+- WordPress 4.9.2
+
+Version 4.9.1+1.0 --------------------------------------------------------------
+
+- WordPress 4.9.1
+
+Version 4.9.0+1.1 --------------------------------------------------------------
+
+- Capabilities:
+  - Add missing.
+
+Version 4.9.0+1.0 --------------------------------------------------------------
+
+- WordPress 4.9
+
+Version 4.8.1+1.0 --------------------------------------------------------------
+
+- WordPress 4.8.1
+
+Version 4.8.0+1.1 --------------------------------------------------------------
+
+- Remove Themes and Plugins, in future versions are included as subpackages.
+
+Version 4.8+1.0 ----------------------------------------------------------------
+
+- WordPress 4.8
+
+Version 4.7.4+1.0 --------------------------------------------------------------
+
+- WordPress 4.7.4
+
+Version 4.7.3+1.0 --------------------------------------------------------------
+
+- WordPress 4.7.3
+
+Version 4.7.2+1.0 --------------------------------------------------------------
+
+WordPress 4.7.2
+
+Version 4.7.2+1.0.1 ------------------------------------------------------------
+
+- Change Snippets folders only.
+
+Version 4.7.0+1.0 --------------------------------------------------------------
+
+- WordPress 4.7
+
+Version 4.6.1+1.2 --------------------------------------------------------------
 
 - Functions:
-	- Fix add_option completions.
+  - load_plugin_textdomain and load_theme_textdomain set default directory.
+    Use example in the WordPress codex.
+- Classes:
+  - wpdb class return "global $wpdb;".
+- Methods:
+  - wpdb class return "$wpdb->method_name",
+    this $wpdb variable not use format snippet
+
+Version 4.6.1+1.2.3 ------------------------------------------------------------
 
-
-
-Version 5.4.0+1.0
------------------------------------------
-WordPress 5.4
-
-
-
-Version 5.3.2+1.0
------------------------------------------
-WordPress 5.3.2
-
-
-
-Version 5.2.2+1.0
------------------------------------------
-WordPress 5.2.2
-
-
-
-Version 5.2.1+1.0
------------------------------------------
-WordPress 5.2.1
-Added info when a method may not be public.
-
-
-
-Version 5.2.0+1.1
------------------------------------------
-Fix `wp-taxonomy` snippet issue.
-
-
-
-Version 5.2.0+1.0
------------------------------------------
-WordPress 5.2
-
-
-
-Version 5.1.1+1.0
------------------------------------------
-WordPress 5.1.1
-
-
-
-Version 5.1.0+1.0
------------------------------------------
-WordPress 5.1
-
-
-
-Version 5.0.3+1.0
------------------------------------------
-WordPress 5.0.3
-
-
-
-Version 5.0.1+1.0
------------------------------------------
-WordPress 5.0.1
-
-
-
-Version 5.0.0+1.0
------------------------------------------
-WordPress 5.0
-
-
-
-Version 4.9.8+1.2
------------------------------------------
-- Remove WordPress Coding Standards error on wp-secure-file.sublime-snippet
-- Change scope on wp-secure-file.sublime-snippet for trigger inside PHP open tag '<?php'
-
-
-
-Version 4.9.8+1.2.1
------------------------------------------
-- Change all references of 'defined( 'ABSPATH' ) or exit;' to 'defined( 'ABSPATH' ) || exit;'
-  because not pass WordPress Coding Standards
-
-
-
-Version 4.9.8+1.1
------------------------------------------
-Update completions
-
-
-
-Version 4.9.8+1.0
------------------------------------------
-WordPress 4.9.8
-
-
-
-Version 4.9.7+1.0
------------------------------------------
-WordPress 4.9.7
-
-
-
-Version 4.9.6+1.0
------------------------------------------
-WordPress 4.9.6
-
-
-
-Version 4.9.4+1.0
------------------------------------------
-WordPress 4.9.4
-
-
-
-Version 4.9.2+1.0
------------------------------------------
-WordPress 4.9.2
-
-
-
-Version 4.9.1+1.0
------------------------------------------
-WordPress 4.9.1
-
-
-
-Version 4.9.0+1.1
------------------------------------------
-Add missing capabilities
-
-
-
-Version 4.9.0+1.0
------------------------------------------
-WordPress 4.9
-
-
-
-Version 4.8.1+1.0
------------------------------------------
-WordPress 4.8.1
-
-
-
-Version 4.8.0+1.1
------------------------------------------
-* Remove Themes and Plugins, in future versions are included as subpackages.
-
-
-
-Version 4.8+1.0
------------------------------------------
-WordPress 4.8
-
-
-
-Version 4.7.4+1.0
------------------------------------------
-WordPress 4.7.4
-
-
-
-Version 4.7.3+1.0
------------------------------------------
-WordPress 4.7.3
-
-
-
-Version 4.7.2+1.0
------------------------------------------
-Update WordPress Version to 4.7.2
-
-
-
-Version 4.7.2+1.0.1
------------------------------------------
-Change Snippets folders only.
-
-
-
-Version 4.7.0+1.0
------------------------------------------
-Update WordPress Version to 4.7
-
-
-
-Version 4.6.1+1.2
------------------------------------------
-- functions, load_plugin_textdomain and load_theme_textdomain set default directory; use example in the WordPress codex
-- classes, wpdb class return "global $wpdb;"
-- methods, wpdb class return "$wpdb->method_name", this $wpdb variable not use format snippet
-
-
-
-Version 4.6.1+1.2.3
------------------------------------------
 - Constants:
-	- Add other missing WordPress Core Constants
+    - Add other missing WordPress Core Constants.
 
+Version 4.6.1+1.2.2 ------------------------------------------------------------
 
-
-Version 4.6.1+1.2.2
------------------------------------------
-- Update Sublime parser plugin for various issues
-
+- Update Sublime parser plugin for various issues.
 - Functions:
-	- fix load_plugin_textdomain and load_theme_textdomain function arguments
-	- fix functions with any argument is "array()" change to "${number_of_index:array( ${number_of_index:'${number_of_index:}'} )}"
-  		Example of the post_class function:
-			Old: "post_class(${1: ${2:array( ${3:} )}${4:, ${5:null}} });"
-			New: "post_class(${1: ${2:array( ${3:'${4:}'} )}${5:, ${6:null}} });"
-	- fix indexing
-	- fix functions with argument name is '$deprecated' already return default value
+  - Fix indexing.
+  - Fix load_plugin_textdomain and load_theme_textdomain function arguments.
+  - Fix functions with any argument is "array()" change to
+    "${number_of_index:array( ${number_of_index:'${number_of_index:}'} )}".
+
+    Example of the post_class function snippet.
+      Before: "post_class(${1: ${2:array( ${3:} )}${4:, ${5:null}} });"
+      Now: "post_class(${1: ${2:array( ${3:'${4:}'} )}${5:, ${6:null}} });"
+
+  - Fix functions with argument name is '$deprecated' already
+    return default value.
+- Hooks:
+  - Add missing because error on sublime parser plugin.
+
+
+Version 4.6.1+1.2.1 ------------------------------------------------------------
+
+- Classes:
+  - Fix $ on $wpdb.
+
+Version 4.6.1+1.1 --------------------------------------------------------------
 
 - Hooks:
-	- fix missing because error on sublime parser plugin
+  - Restore single name completions.
 
+Version 4.6.1+1.0 --------------------------------------------------------------
 
-
-Version 4.6.1+1.2.1
------------------------------------------
-- classes, fix $ on $wpdb;
-
-
-
-Version 4.6.1+1.1
------------------------------------------
-- hooks, restore single name completions
-
-
-
-Version 4.6.1+1.0
------------------------------------------
-- hooks, now priority and accepted arguments they are not optional
-- Change function, if it returns any results of the semicolon it is now possible to remove
-- Complete Register Taxonomy snippet
+- Hooks:
+  - Now priority and accepted arguments they are not optional.
+- Functions:
+  - If it returns any results of the semicolon it is now possible to remove.
+- Complete Register Taxonomy snippet.

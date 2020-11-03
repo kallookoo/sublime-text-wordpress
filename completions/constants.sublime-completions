@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "508 WordPress - Constants",
+    "comment": "527 WordPress - Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -31,6 +31,10 @@
             "contents": "AUTH_KEY"
         },
         {
+            "trigger": "AUTH_SALT\tWP Constant",
+            "contents": "AUTH_SALT"
+        },
+        {
             "trigger": "AUTOMATIC_UPDATER_DISABLED\tWP Constant",
             "contents": "AUTOMATIC_UPDATER_DISABLED"
         },
@@ -47,12 +51,28 @@
             "contents": "BACKGROUND_IMAGE"
         },
         {
+            "trigger": "BLOG_ID_CURRENT_SITE\tWP Constant",
+            "contents": "BLOG_ID_CURRENT_SITE"
+        },
+        {
             "trigger": "BLOGUPLOADDIR\tWP Constant",
             "contents": "BLOGUPLOADDIR"
         },
         {
             "trigger": "COMMENTS_TEMPLATE\tWP Constant",
             "contents": "COMMENTS_TEMPLATE"
+        },
+        {
+            "trigger": "COMPRESS_CSS\tWP Constant",
+            "contents": "COMPRESS_CSS"
+        },
+        {
+            "trigger": "COMPRESS_SCRIPTS\tWP Constant",
+            "contents": "COMPRESS_SCRIPTS"
+        },
+        {
+            "trigger": "CONCATENATE_SCRIPTS\tWP Constant",
+            "contents": "CONCATENATE_SCRIPTS"
         },
         {
             "trigger": "COOKIE_DOMAIN\tWP Constant",
@@ -133,6 +153,10 @@
         {
             "trigger": "DOING_CRON\tWP Constant",
             "contents": "DOING_CRON"
+        },
+        {
+            "trigger": "DOMAIN_CURRENT_SITE\tWP Constant",
+            "contents": "DOMAIN_CURRENT_SITE"
         },
         {
             "trigger": "EBML_ID_ASPECTRATIOTYPE\tWP Constant",
@@ -899,6 +923,10 @@
             "contents": "EMPTY_TRASH_DAYS"
         },
         {
+            "trigger": "ENFORCE_GZIP\tWP Constant",
+            "contents": "ENFORCE_GZIP"
+        },
+        {
             "trigger": "ENT_SUBSTITUTE\tWP Constant",
             "contents": "ENT_SUBSTITUTE"
         },
@@ -1203,6 +1231,14 @@
             "contents": "LOGGED_IN_COOKIE"
         },
         {
+            "trigger": "LOGGED_IN_KEY\tWP Constant",
+            "contents": "LOGGED_IN_KEY"
+        },
+        {
+            "trigger": "LOGGED_IN_SALT\tWP Constant",
+            "contents": "LOGGED_IN_SALT"
+        },
+        {
             "trigger": "MB_IN_BYTES\tWP Constant",
             "contents": "MB_IN_BYTES"
         },
@@ -1235,6 +1271,10 @@
             "contents": "NONCE_KEY"
         },
         {
+            "trigger": "NONCE_SALT\tWP Constant",
+            "contents": "NONCE_SALT"
+        },
+        {
             "trigger": "OBJECT\tWP Constant",
             "contents": "OBJECT"
         },
@@ -1245,6 +1285,10 @@
         {
             "trigger": "PASS_COOKIE\tWP Constant",
             "contents": "PASS_COOKIE"
+        },
+        {
+            "trigger": "PATH_CURRENT_SITE\tWP Constant",
+            "contents": "PATH_CURRENT_SITE"
         },
         {
             "trigger": "PCLZIP_ATT_FILE_COMMENT\tWP Constant",
@@ -1531,6 +1575,14 @@
             "contents": "SECURE_AUTH_COOKIE"
         },
         {
+            "trigger": "SECURE_AUTH_KEY\tWP Constant",
+            "contents": "SECURE_AUTH_KEY"
+        },
+        {
+            "trigger": "SECURE_AUTH_SALT\tWP Constant",
+            "contents": "SECURE_AUTH_SALT"
+        },
+        {
             "trigger": "SHORTINIT\tWP Constant",
             "contents": "SHORTINIT"
         },
@@ -1815,6 +1867,10 @@
             "contents": "SIMPLEPIE_VERSION"
         },
         {
+            "trigger": "SITE_ID_CURRENT_SITE\tWP Constant",
+            "contents": "SITE_ID_CURRENT_SITE"
+        },
+        {
             "trigger": "SITECOOKIEPATH\tWP Constant",
             "contents": "SITECOOKIEPATH"
         },
@@ -1867,6 +1923,10 @@
             "contents": "WP_ADMIN"
         },
         {
+            "trigger": "WP_ALLOW_MULTISITE\tWP Constant",
+            "contents": "WP_ALLOW_MULTISITE"
+        },
+        {
             "trigger": "WP_ALLOW_REPAIR\tWP Constant",
             "contents": "WP_ALLOW_REPAIR"
         },
@@ -1909,6 +1969,10 @@
         {
             "trigger": "WP_DEFAULT_THEME\tWP Constant",
             "contents": "WP_DEFAULT_THEME"
+        },
+        {
+            "trigger": "WP_DISABLE_FATAL_ERROR_HANDLER\tWP Constant",
+            "contents": "WP_DISABLE_FATAL_ERROR_HANDLER"
         },
         {
             "trigger": "WP_FEATURE_BETTER_PASSWORDS\tWP Constant",
@@ -1969,6 +2033,18 @@
         {
             "trigger": "WP_POST_REVISIONS\tWP Constant",
             "contents": "WP_POST_REVISIONS"
+        },
+        {
+            "trigger": "WP_PROXY_BYPASS_HOSTS\tWP Constant",
+            "contents": "WP_PROXY_BYPASS_HOSTS"
+        },
+        {
+            "trigger": "WP_PROXY_HOST\tWP Constant",
+            "contents": "WP_PROXY_HOST"
+        },
+        {
+            "trigger": "WP_PROXY_PORT\tWP Constant",
+            "contents": "WP_PROXY_PORT"
         },
         {
             "trigger": "WP_REPAIRING\tWP Constant",

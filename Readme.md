@@ -11,8 +11,8 @@ Is a collection of the completions and some snippets for Sublime Text
 | Filters      | **1596**    |
 | Classes      | **398**     |
 | Methods      | **3638**    |
-| Constants    | **508**     |
-| Capabilities | **124**     |
+| Constants    | **527**     |
+| Capabilities | **125**     |
 
 ### How to use
 

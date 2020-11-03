@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "124 WordPress - Capabilities",
+    "comment": "125 WordPress - Capabilities",
     "completions": [
         {
             "trigger": "activate_plugin\tWP Capability",
@@ -41,6 +41,10 @@
         {
             "trigger": "assign_term\tWP Capability",
             "contents": "assign_term"
+        },
+        {
+            "trigger": "assign_terms\tWP Capability",
+            "contents": "assign_terms"
         },
         {
             "trigger": "create_sites\tWP Capability",
