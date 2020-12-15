@@ -2,6 +2,8 @@
 
 Is a collection of the completions and some snippets for Sublime Text
 
+**It will no longer be updated. If someone wants to keep updating it, contact me.**
+
 ### Completions List
 
 | Type         | Completions |
