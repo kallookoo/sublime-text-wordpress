@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2816 WordPress - Functions",
+    "comment": "2901 WordPress - Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -360,7 +360,7 @@
         },
         {
             "trigger": "_media_states\tWP Function",
-            "contents": "_media_states( ${1:\\$post} );"
+            "contents": "_media_states( ${1:\\$post}${2:, ${3:true}} )${4:;}"
         },
         {
             "trigger": "_n\tWP Function",
@@ -504,7 +504,7 @@
         },
         {
             "trigger": "_set_cron_array\tWP Function",
-            "contents": "_set_cron_array( ${1:\\$cron} )${2:;}"
+            "contents": "_set_cron_array( ${1:\\$cron}${2:, ${3:false}} )${4:;}"
         },
         {
             "trigger": "_set_preview\tWP Function",
@@ -615,6 +615,10 @@
             "contents": "_wp_ajax_menu_quick_search(${1: ${2:array( ${3:'${4:}'} )} });"
         },
         {
+            "trigger": "_wp_array_get\tWP Function",
+            "contents": "_wp_array_get( ${1:\\$array}, ${2:\\$path}${3:, ${4:null}} )${5:;}"
+        },
+        {
             "trigger": "_wp_auto_add_pages_to_menu\tWP Function",
             "contents": "_wp_auto_add_pages_to_menu( ${1:\\$new_status}, ${2:\\$old_status}, ${3:\\$post} );"
         },
@@ -641,6 +645,10 @@
         {
             "trigger": "_wp_credits_build_object_link\tWP Function",
             "contents": "_wp_credits_build_object_link( ${1:\\$data} );"
+        },
+        {
+            "trigger": "_wp_cron\tWP Function",
+            "contents": "_wp_cron()${1:;}"
         },
         {
             "trigger": "_wp_customize_changeset_filter_insert_post_data\tWP Function",
@@ -1143,10 +1151,6 @@
             "contents": "addslashes_gpc( ${1:\\$gpc} )${2:;}"
         },
         {
-            "trigger": "addslashes_strings_only\tWP Function",
-            "contents": "addslashes_strings_only( ${1:\\$value} )${2:;}"
-        },
-        {
             "trigger": "adjacent_image_link\tWP Function",
             "contents": "adjacent_image_link(${1: ${2:true}${3:, ${4:'${5:thumbnail}'}${6:, ${7:false}}} });"
         },
@@ -1277,6 +1281,10 @@
         {
             "trigger": "block_core_latest_posts_migrate_categories\tWP Function",
             "contents": "block_core_latest_posts_migrate_categories( ${1:\\$block} )${2:;}"
+        },
+        {
+            "trigger": "block_core_social_link_get_color_styles\tWP Function",
+            "contents": "block_core_social_link_get_color_styles( ${1:\\$context} )${2:;}"
         },
         {
             "trigger": "block_core_social_link_get_icon\tWP Function",
@@ -1411,6 +1419,10 @@
             "contents": "choose_primary_blog();"
         },
         {
+            "trigger": "classnames_for_block_core_search\tWP Function",
+            "contents": "classnames_for_block_core_search( ${1:\\$attributes} )${2:;}"
+        },
+        {
             "trigger": "clean_attachment_cache\tWP Function",
             "contents": "clean_attachment_cache( ${1:\\$id}${2:, ${3:false}} );"
         },
@@ -1429,6 +1441,10 @@
         {
             "trigger": "clean_comment_cache\tWP Function",
             "contents": "clean_comment_cache( ${1:\\$ids} );"
+        },
+        {
+            "trigger": "clean_dirsize_cache\tWP Function",
+            "contents": "clean_dirsize_cache( ${1:\\$path} );"
         },
         {
             "trigger": "clean_network_cache\tWP Function",
@@ -1621,6 +1637,10 @@
         {
             "trigger": "copy_dir\tWP Function",
             "contents": "copy_dir( ${1:\\$from}, ${2:\\$to}${3:, ${4:array( ${5:'${6:}'} )}} )${7:;}"
+        },
+        {
+            "trigger": "core_auto_updates_settings\tWP Function",
+            "contents": "core_auto_updates_settings();"
         },
         {
             "trigger": "core_update_footer\tWP Function",
@@ -1903,8 +1923,20 @@
             "contents": "do_activate_header();"
         },
         {
+            "trigger": "do_all_enclosures\tWP Function",
+            "contents": "do_all_enclosures();"
+        },
+        {
+            "trigger": "do_all_pingbacks\tWP Function",
+            "contents": "do_all_pingbacks();"
+        },
+        {
             "trigger": "do_all_pings\tWP Function",
             "contents": "do_all_pings();"
+        },
+        {
+            "trigger": "do_all_trackbacks\tWP Function",
+            "contents": "do_all_trackbacks();"
         },
         {
             "trigger": "do_block_editor_incompatible_meta_box\tWP Function",
@@ -1924,7 +1956,7 @@
         },
         {
             "trigger": "do_enclose\tWP Function",
-            "contents": "do_enclose( ${1:null}, ${2:\\$post} )${3:;}"
+            "contents": "do_enclose( ${1:\\$content}, ${2:\\$post} )${3:;}"
         },
         {
             "trigger": "do_favicon\tWP Function",
@@ -2427,6 +2459,10 @@
             "contents": "get_block_editor_server_block_settings()${1:;}"
         },
         {
+            "trigger": "get_block_wrapper_attributes\tWP Function",
+            "contents": "get_block_wrapper_attributes(${1: ${2:array( ${3:'${4:}'} )} })${5:;}"
+        },
+        {
             "trigger": "get_blog_count\tWP Function",
             "contents": "get_blog_count(${1: ${2:null} })${3:;}"
         },
@@ -2612,7 +2648,7 @@
         },
         {
             "trigger": "get_comment_delimited_block_content\tWP Function",
-            "contents": "get_comment_delimited_block_content( ${1:null}, ${2:\\$block_attributes}, ${3:\\$block_content} )${4:;}"
+            "contents": "get_comment_delimited_block_content( ${1:\\$block_name}, ${2:\\$block_attributes}, ${3:\\$block_content} )${4:;}"
         },
         {
             "trigger": "get_comment_excerpt\tWP Function",
@@ -2991,6 +3027,10 @@
             "contents": "get_media_items( ${1:\\$post_id}, ${2:\\$errors} )${3:;}"
         },
         {
+            "trigger": "get_media_states\tWP Function",
+            "contents": "get_media_states( ${1:\\$post} )${2:;}"
+        },
+        {
             "trigger": "get_meta_keys\tWP Function",
             "contents": "get_meta_keys()${1:;}"
         },
@@ -3301,6 +3341,10 @@
         {
             "trigger": "get_post_modified_time\tWP Function",
             "contents": "get_post_modified_time(${1: ${2:'${3:U}'}${4:, ${5:false}${6:, ${7:null}${8:, ${9:false}}}} })${10:;}"
+        },
+        {
+            "trigger": "get_post_parent\tWP Function",
+            "contents": "get_post_parent(${1: ${2:null} })${3:;}"
         },
         {
             "trigger": "get_post_permalink\tWP Function",
@@ -4131,6 +4175,10 @@
             "contents": "has_post_format(${1: ${2:array( ${3:'${4:}'} )}${5:, ${6:null}} })${7:;}"
         },
         {
+            "trigger": "has_post_parent\tWP Function",
+            "contents": "has_post_parent(${1: ${2:null} })${3:;}"
+        },
+        {
             "trigger": "has_post_thumbnail\tWP Function",
             "contents": "has_post_thumbnail(${1: ${2:null} })${3:;}"
         },
@@ -4455,6 +4503,10 @@
             "contents": "is_front_page()${1:;}"
         },
         {
+            "trigger": "is_gd_image\tWP Function",
+            "contents": "is_gd_image( ${1:\\$image} )${2:;}"
+        },
+        {
             "trigger": "is_header_video_active\tWP Function",
             "contents": "is_header_video_active()${1:;}"
         },
@@ -4557,6 +4609,14 @@
         {
             "trigger": "is_plugin_paused\tWP Function",
             "contents": "is_plugin_paused( ${1:\\$plugin} )${2:;}"
+        },
+        {
+            "trigger": "is_post_publicly_viewable\tWP Function",
+            "contents": "is_post_publicly_viewable(${1: ${2:null} })${3:;}"
+        },
+        {
+            "trigger": "is_post_status_viewable\tWP Function",
+            "contents": "is_post_status_viewable( ${1:\\$post_status} )${2:;}"
         },
         {
             "trigger": "is_post_type_archive\tWP Function",
@@ -5159,10 +5219,6 @@
             "contents": "nocache_headers();"
         },
         {
-            "trigger": "noindex\tWP Function",
-            "contents": "noindex();"
-        },
-        {
             "trigger": "normalize_whitespace\tWP Function",
             "contents": "normalize_whitespace( ${1:\\$str} )${2:;}"
         },
@@ -5552,7 +5608,7 @@
         },
         {
             "trigger": "recurse_dirsize\tWP Function",
-            "contents": "recurse_dirsize( ${1:\\$directory}${2:, ${3:null}${4:, ${5:null}}} )${6:;}"
+            "contents": "recurse_dirsize( ${1:\\$directory}${2:, ${3:null}${4:, ${5:null}${6:, ${7:null}}}} )${8:;}"
         },
         {
             "trigger": "redirect_canonical\tWP Function",
@@ -5904,7 +5960,7 @@
         },
         {
             "trigger": "render_block_core_social_link\tWP Function",
-            "contents": "render_block_core_social_link( ${1:\\$attributes} )${2:;}"
+            "contents": "render_block_core_social_link( ${1:\\$attributes}, ${2:\\$content}, ${3:\\$block} )${4:;}"
         },
         {
             "trigger": "render_block_core_tag_cloud\tWP Function",
@@ -5931,6 +5987,10 @@
             "contents": "reset_password( ${1:\\$user}, ${2:\\$new_pass} );"
         },
         {
+            "trigger": "rest_add_application_passwords_to_index\tWP Function",
+            "contents": "rest_add_application_passwords_to_index( ${1:\\$response} )${2:;}"
+        },
+        {
             "trigger": "rest_api_default_filters\tWP Function",
             "contents": "rest_api_default_filters();"
         },
@@ -5947,8 +6007,24 @@
             "contents": "rest_api_register_rewrites();"
         },
         {
+            "trigger": "rest_application_password_check_errors\tWP Function",
+            "contents": "rest_application_password_check_errors( ${1:\\$result} )${2:;}"
+        },
+        {
+            "trigger": "rest_application_password_collect_status\tWP Function",
+            "contents": "rest_application_password_collect_status( ${1:\\$user_or_error}${2:, ${3:array( ${4:'${5:}'} )}} );"
+        },
+        {
+            "trigger": "rest_are_values_equal\tWP Function",
+            "contents": "rest_are_values_equal( ${1:\\$value1}, ${2:\\$value2} )${3:;}"
+        },
+        {
             "trigger": "rest_authorization_required_code\tWP Function",
             "contents": "rest_authorization_required_code()${1:;}"
+        },
+        {
+            "trigger": "rest_convert_error_to_response\tWP Function",
+            "contents": "rest_convert_error_to_response( ${1:\\$error} )${2:;}"
         },
         {
             "trigger": "rest_cookie_check_errors\tWP Function",
@@ -5983,6 +6059,30 @@
             "contents": "rest_filter_response_fields( ${1:\\$response}, ${2:\\$server}, ${3:\\$request} )${4:;}"
         },
         {
+            "trigger": "rest_find_any_matching_schema\tWP Function",
+            "contents": "rest_find_any_matching_schema( ${1:\\$value}, ${2:\\$args}, ${3:\\$param} )${4:;}"
+        },
+        {
+            "trigger": "rest_find_matching_pattern_property_schema\tWP Function",
+            "contents": "rest_find_matching_pattern_property_schema( ${1:\\$property}, ${2:\\$args} )${3:;}"
+        },
+        {
+            "trigger": "rest_find_one_matching_schema\tWP Function",
+            "contents": "rest_find_one_matching_schema( ${1:\\$value}, ${2:\\$args}, ${3:\\$param}${4:, ${5:false}} )${6:;}"
+        },
+        {
+            "trigger": "rest_format_combining_operation_error\tWP Function",
+            "contents": "rest_format_combining_operation_error( ${1:\\$param}, ${2:\\$error} )${3:;}"
+        },
+        {
+            "trigger": "rest_get_allowed_schema_keywords\tWP Function",
+            "contents": "rest_get_allowed_schema_keywords()${1:;}"
+        },
+        {
+            "trigger": "rest_get_authenticated_app_password\tWP Function",
+            "contents": "rest_get_authenticated_app_password()${1:;}"
+        },
+        {
             "trigger": "rest_get_avatar_sizes\tWP Function",
             "contents": "rest_get_avatar_sizes()${1:;}"
         },
@@ -5995,8 +6095,16 @@
             "contents": "rest_get_best_type_for_value( ${1:\\$value}, ${2:\\$types} )${3:;}"
         },
         {
+            "trigger": "rest_get_combining_operation_error\tWP Function",
+            "contents": "rest_get_combining_operation_error( ${1:\\$value}, ${2:\\$param}, ${3:\\$errors} )${4:;}"
+        },
+        {
             "trigger": "rest_get_date_with_gmt\tWP Function",
             "contents": "rest_get_date_with_gmt( ${1:\\$date}${2:, ${3:false}} )${4:;}"
+        },
+        {
+            "trigger": "rest_get_endpoint_args_for_schema\tWP Function",
+            "contents": "rest_get_endpoint_args_for_schema( ${1:\\$schema}${2:, ${3:WP_REST_Server::CREATABLE}} )${4:;}"
         },
         {
             "trigger": "rest_get_queried_resource_route\tWP Function",
@@ -6135,8 +6243,44 @@
             "contents": "rest_validate_array_contains_unique_items( ${1:\\$array} )${2:;}"
         },
         {
+            "trigger": "rest_validate_array_value_from_schema\tWP Function",
+            "contents": "rest_validate_array_value_from_schema( ${1:\\$value}, ${2:\\$args}, ${3:\\$param} )${4:;}"
+        },
+        {
+            "trigger": "rest_validate_boolean_value_from_schema\tWP Function",
+            "contents": "rest_validate_boolean_value_from_schema( ${1:\\$value}, ${2:\\$param} )${3:;}"
+        },
+        {
+            "trigger": "rest_validate_enum\tWP Function",
+            "contents": "rest_validate_enum( ${1:\\$value}, ${2:\\$args}, ${3:\\$param} )${4:;}"
+        },
+        {
+            "trigger": "rest_validate_integer_value_from_schema\tWP Function",
+            "contents": "rest_validate_integer_value_from_schema( ${1:\\$value}, ${2:\\$args}, ${3:\\$param} )${4:;}"
+        },
+        {
+            "trigger": "rest_validate_json_schema_pattern\tWP Function",
+            "contents": "rest_validate_json_schema_pattern( ${1:\\$pattern}, ${2:\\$value} )${3:;}"
+        },
+        {
+            "trigger": "rest_validate_null_value_from_schema\tWP Function",
+            "contents": "rest_validate_null_value_from_schema( ${1:\\$value}, ${2:\\$param} )${3:;}"
+        },
+        {
+            "trigger": "rest_validate_number_value_from_schema\tWP Function",
+            "contents": "rest_validate_number_value_from_schema( ${1:\\$value}, ${2:\\$args}, ${3:\\$param} )${4:;}"
+        },
+        {
+            "trigger": "rest_validate_object_value_from_schema\tWP Function",
+            "contents": "rest_validate_object_value_from_schema( ${1:\\$value}, ${2:\\$args}, ${3:\\$param} )${4:;}"
+        },
+        {
             "trigger": "rest_validate_request_arg\tWP Function",
             "contents": "rest_validate_request_arg( ${1:\\$value}, ${2:\\$request}, ${3:\\$param} )${4:;}"
+        },
+        {
+            "trigger": "rest_validate_string_value_from_schema\tWP Function",
+            "contents": "rest_validate_string_value_from_schema( ${1:\\$value}, ${2:\\$args}, ${3:\\$param} )${4:;}"
         },
         {
             "trigger": "rest_validate_value_from_schema\tWP Function",
@@ -6164,7 +6308,7 @@
         },
         {
             "trigger": "retrieve_password\tWP Function",
-            "contents": "retrieve_password()${1:;}"
+            "contents": "retrieve_password(${1: ${2:null} })${3:;}"
         },
         {
             "trigger": "retrieve_widgets\tWP Function",
@@ -6400,7 +6544,7 @@
         },
         {
             "trigger": "set_theme_mod\tWP Function",
-            "contents": "set_theme_mod( ${1:\\$name}, ${2:\\$value} );"
+            "contents": "set_theme_mod( ${1:\\$name}, ${2:\\$value} )${3:;}"
         },
         {
             "trigger": "set_transient\tWP Function",
@@ -7376,7 +7520,7 @@
         },
         {
             "trigger": "wp_add_dashboard_widget\tWP Function",
-            "contents": "wp_add_dashboard_widget( ${1:\\$widget_id}, ${2:\\$widget_name}, ${3:\\$callback}${4:, ${5:null}${6:, ${7:null}}} );"
+            "contents": "wp_add_dashboard_widget( ${1:\\$widget_id}, ${2:\\$widget_name}, ${3:\\$callback}${4:, ${5:null}${6:, ${7:null}${8:, ${9:'${10:normal}'}${11:, ${12:'${13:core}'}}}}} );"
         },
         {
             "trigger": "wp_add_id3_tag_data\tWP Function",
@@ -7505,6 +7649,10 @@
         {
             "trigger": "wp_admin_viewport_meta\tWP Function",
             "contents": "wp_admin_viewport_meta();"
+        },
+        {
+            "trigger": "wp_after_insert_post\tWP Function",
+            "contents": "wp_after_insert_post( ${1:\\$post}, ${2:\\$update}, ${3:\\$post_before} );"
         },
         {
             "trigger": "wp_ajax_add_link_category\tWP Function",
@@ -7647,26 +7795,6 @@
             "contents": "wp_ajax_get_tagcloud();"
         },
         {
-            "trigger": "wp_ajax_health_check_background_updates\tWP Function",
-            "contents": "wp_ajax_health_check_background_updates();"
-        },
-        {
-            "trigger": "wp_ajax_health_check_dotorg_communication\tWP Function",
-            "contents": "wp_ajax_health_check_dotorg_communication();"
-        },
-        {
-            "trigger": "wp_ajax_health_check_get_sizes\tWP Function",
-            "contents": "wp_ajax_health_check_get_sizes();"
-        },
-        {
-            "trigger": "wp_ajax_health_check_is_in_debug_mode\tWP Function",
-            "contents": "wp_ajax_health_check_is_in_debug_mode();"
-        },
-        {
-            "trigger": "wp_ajax_health_check_loopback_requests\tWP Function",
-            "contents": "wp_ajax_health_check_loopback_requests();"
-        },
-        {
             "trigger": "wp_ajax_health_check_site_status_result\tWP Function",
             "contents": "wp_ajax_health_check_site_status_result();"
         },
@@ -7725,6 +7853,10 @@
         {
             "trigger": "wp_ajax_meta_box_order\tWP Function",
             "contents": "wp_ajax_meta_box_order();"
+        },
+        {
+            "trigger": "wp_ajax_nopriv_generate_password\tWP Function",
+            "contents": "wp_ajax_nopriv_generate_password();"
         },
         {
             "trigger": "wp_ajax_nopriv_heartbeat\tWP Function",
@@ -7803,6 +7935,10 @@
             "contents": "wp_ajax_send_link_to_editor();"
         },
         {
+            "trigger": "wp_ajax_send_password_reset\tWP Function",
+            "contents": "wp_ajax_send_password_reset();"
+        },
+        {
             "trigger": "wp_ajax_set_attachment_thumbnail\tWP Function",
             "contents": "wp_ajax_set_attachment_thumbnail();"
         },
@@ -7879,6 +8015,26 @@
             "contents": "wp_allowed_protocols()${1:;}"
         },
         {
+            "trigger": "wp_apply_alignment_support\tWP Function",
+            "contents": "wp_apply_alignment_support( ${1:\\$block_type}, ${2:\\$block_attributes} )${3:;}"
+        },
+        {
+            "trigger": "wp_apply_colors_support\tWP Function",
+            "contents": "wp_apply_colors_support( ${1:\\$block_type}, ${2:\\$block_attributes} )${3:;}"
+        },
+        {
+            "trigger": "wp_apply_custom_classname_support\tWP Function",
+            "contents": "wp_apply_custom_classname_support( ${1:\\$block_type}, ${2:\\$block_attributes} )${3:;}"
+        },
+        {
+            "trigger": "wp_apply_generated_classname_support\tWP Function",
+            "contents": "wp_apply_generated_classname_support( ${1:\\$block_type}, ${2:\\$block_attributes} )${3:;}"
+        },
+        {
+            "trigger": "wp_apply_typography_support\tWP Function",
+            "contents": "wp_apply_typography_support( ${1:\\$block_type}, ${2:\\$block_attributes} )${3:;}"
+        },
+        {
             "trigger": "wp_array_slice_assoc\tWP Function",
             "contents": "wp_array_slice_assoc( ${1:\\$array}, ${2:\\$keys} )${3:;}"
         },
@@ -7909,6 +8065,10 @@
         {
             "trigger": "wp_authenticate\tWP Function",
             "contents": "wp_authenticate( ${1:\\$username}, ${2:\\$password} )${3:;}"
+        },
+        {
+            "trigger": "wp_authenticate_application_password\tWP Function",
+            "contents": "wp_authenticate_application_password( ${1:\\$input_user}, ${2:\\$username}, ${3:\\$password} )${4:;}"
         },
         {
             "trigger": "wp_authenticate_cookie\tWP Function",
@@ -8136,7 +8296,7 @@
         },
         {
             "trigger": "wp_clear_scheduled_hook\tWP Function",
-            "contents": "wp_clear_scheduled_hook( ${1:\\$hook}${2:, ${3:array( ${4:'${5:}'} )}} )${6:;}"
+            "contents": "wp_clear_scheduled_hook( ${1:\\$hook}${2:, ${3:array( ${4:'${5:}'} )}${6:, ${7:false}}} )${8:;}"
         },
         {
             "trigger": "wp_color_scheme_settings\tWP Function",
@@ -8200,7 +8360,7 @@
         },
         {
             "trigger": "wp_count_terms\tWP Function",
-            "contents": "wp_count_terms( ${1:\\$taxonomy}${2:, ${3:array( ${4:'${5:}'} )}} )${6:;}"
+            "contents": "wp_count_terms(${1: ${2:array( ${3:'${4:}'} )} })${5:;}"
         },
         {
             "trigger": "wp_create_categories\tWP Function",
@@ -8240,11 +8400,11 @@
         },
         {
             "trigger": "wp_create_user_request\tWP Function",
-            "contents": "wp_create_user_request(${1: ${2:'${3:}'}${4:, ${5:'${6:}'}${7:, ${8:array( ${9:'${10:}'} )}}} })${11:;}"
+            "contents": "wp_create_user_request(${1: ${2:'${3:}'}${4:, ${5:'${6:}'}${7:, ${8:array( ${9:'${10:}'} )}${11:, ${12:'${13:pending}'}}}} })${14:;}"
         },
         {
             "trigger": "wp_credits\tWP Function",
-            "contents": "wp_credits()${1:;}"
+            "contents": "wp_credits(${1: ${2:'${3:}'}${4:, ${5:'${6:}'}} })${7:;}"
         },
         {
             "trigger": "wp_credits_section_list\tWP Function",
@@ -8257,6 +8417,10 @@
         {
             "trigger": "wp_cron\tWP Function",
             "contents": "wp_cron()${1:;}"
+        },
+        {
+            "trigger": "wp_cron_conditionally_prevent_sslverify\tWP Function",
+            "contents": "wp_cron_conditionally_prevent_sslverify( ${1:\\$request} )${2:;}"
         },
         {
             "trigger": "wp_crop_image\tWP Function",
@@ -8711,6 +8875,10 @@
             "contents": "wp_footer();"
         },
         {
+            "trigger": "wp_force_plain_post_permalink\tWP Function",
+            "contents": "wp_force_plain_post_permalink(${1: ${2:null}${3:, ${4:null}} })${5:;}"
+        },
+        {
             "trigger": "wp_functionality_constants\tWP Function",
             "contents": "wp_functionality_constants();"
         },
@@ -8772,7 +8940,7 @@
         },
         {
             "trigger": "wp_get_associated_nav_menu_items\tWP Function",
-            "contents": "wp_get_associated_nav_menu_items( ${1:\\$object_id}${2:, ${3:'${4:post_type}'}${5:, ${6:'${7:}'}}} )${8:;}"
+            "contents": "wp_get_associated_nav_menu_items(${1: ${2:\\$object_id}${3:, ${4:'${5:post_type}'}${6:, ${7:'${8:}'}}} })${9:;}"
         },
         {
             "trigger": "wp_get_attachment_caption\tWP Function",
@@ -8835,6 +9003,10 @@
             "contents": "wp_get_available_translations()${1:;}"
         },
         {
+            "trigger": "wp_get_block_default_classname\tWP Function",
+            "contents": "wp_get_block_default_classname( ${1:\\$block_name} )${2:;}"
+        },
+        {
             "trigger": "wp_get_canonical_url\tWP Function",
             "contents": "wp_get_canonical_url(${1: ${2:null} })${3:;}"
         },
@@ -8871,12 +9043,20 @@
             "contents": "wp_get_db_schema(${1: ${2:'${3:all}'}${4:, ${5:null}} })${6:;}"
         },
         {
+            "trigger": "wp_get_default_update_https_url\tWP Function",
+            "contents": "wp_get_default_update_https_url()${1:;}"
+        },
+        {
             "trigger": "wp_get_default_update_php_url\tWP Function",
             "contents": "wp_get_default_update_php_url()${1:;}"
         },
         {
             "trigger": "wp_get_direct_php_update_url\tWP Function",
             "contents": "wp_get_direct_php_update_url()${1:;}"
+        },
+        {
+            "trigger": "wp_get_direct_update_https_url\tWP Function",
+            "contents": "wp_get_direct_update_https_url()${1:;}"
         },
         {
             "trigger": "wp_get_document_title\tWP Function",
@@ -8905,6 +9085,10 @@
         {
             "trigger": "wp_get_image_mime\tWP Function",
             "contents": "wp_get_image_mime( ${1:\\$file} )${2:;}"
+        },
+        {
+            "trigger": "wp_get_inline_script_tag\tWP Function",
+            "contents": "wp_get_inline_script_tag( ${1:\\$javascript}${2:, ${3:array( ${4:'${5:}'} )}} )${6:;}"
         },
         {
             "trigger": "wp_get_installed_translations\tWP Function",
@@ -9059,6 +9243,10 @@
             "contents": "wp_get_script_polyfill( ${1:\\$scripts}, ${2:\\$tests} )${3:;}"
         },
         {
+            "trigger": "wp_get_script_tag\tWP Function",
+            "contents": "wp_get_script_tag( ${1:\\$attributes} )${2:;}"
+        },
+        {
             "trigger": "wp_get_server_protocol\tWP Function",
             "contents": "wp_get_server_protocol()${1:;}"
         },
@@ -9119,6 +9307,10 @@
             "contents": "wp_get_update_data()${1:;}"
         },
         {
+            "trigger": "wp_get_update_https_url\tWP Function",
+            "contents": "wp_get_update_https_url()${1:;}"
+        },
+        {
             "trigger": "wp_get_update_php_annotation\tWP Function",
             "contents": "wp_get_update_php_annotation()${1:;}"
         },
@@ -9149,6 +9341,10 @@
         {
             "trigger": "wp_get_widget_defaults\tWP Function",
             "contents": "wp_get_widget_defaults()${1:;}"
+        },
+        {
+            "trigger": "wp_getimagesize\tWP Function",
+            "contents": "wp_getimagesize( ${1:\\$filename}${2:, ${3:array( ${4:'${5:}'} )}} )${6:;}"
         },
         {
             "trigger": "wp_guess_url\tWP Function",
@@ -9209,6 +9405,10 @@
         {
             "trigger": "wp_iframe\tWP Function",
             "contents": "wp_iframe( ${1:\\$content_func}${2:, ${3:\\$args}} );"
+        },
+        {
+            "trigger": "wp_iframe_tag_add_loading_attr\tWP Function",
+            "contents": "wp_iframe_tag_add_loading_attr( ${1:\\$iframe}, ${2:\\$context} )${3:;}"
         },
         {
             "trigger": "wp_image_add_srcset_and_sizes\tWP Function",
@@ -9280,7 +9480,7 @@
         },
         {
             "trigger": "wp_insert_attachment\tWP Function",
-            "contents": "wp_insert_attachment( ${1:\\$args}${2:, ${3:false}${4:, ${5:\\$parent}${6:, ${7:false}}}} )${8:;}"
+            "contents": "wp_insert_attachment( ${1:\\$args}${2:, ${3:false}${4:, ${5:\\$parent}${6:, ${7:false}${8:, ${9:true}}}}} )${10:;}"
         },
         {
             "trigger": "wp_insert_category\tWP Function",
@@ -9296,7 +9496,7 @@
         },
         {
             "trigger": "wp_insert_post\tWP Function",
-            "contents": "wp_insert_post( ${1:\\$postarr}${2:, ${3:false}} )${4:;}"
+            "contents": "wp_insert_post( ${1:\\$postarr}${2:, ${3:false}${4:, ${5:true}}} )${6:;}"
         },
         {
             "trigger": "wp_insert_site\tWP Function",
@@ -9331,8 +9531,24 @@
             "contents": "wp_installing(${1: ${2:null} })${3:;}"
         },
         {
+            "trigger": "wp_is_application_passwords_available\tWP Function",
+            "contents": "wp_is_application_passwords_available()${1:;}"
+        },
+        {
+            "trigger": "wp_is_application_passwords_available_for_user\tWP Function",
+            "contents": "wp_is_application_passwords_available_for_user( ${1:\\$user} )${2:;}"
+        },
+        {
+            "trigger": "wp_is_authorize_application_password_request_valid\tWP Function",
+            "contents": "wp_is_authorize_application_password_request_valid( ${1:\\$request}, ${2:\\$user} )${3:;}"
+        },
+        {
             "trigger": "wp_is_auto_update_enabled_for_type\tWP Function",
             "contents": "wp_is_auto_update_enabled_for_type( ${1:\\$type} )${2:;}"
+        },
+        {
+            "trigger": "wp_is_auto_update_forced_for_item\tWP Function",
+            "contents": "wp_is_auto_update_forced_for_item( ${1:\\$type}, ${2:\\$update}, ${3:\\$item} )${4:;}"
         },
         {
             "trigger": "wp_is_fatal_error_handler_enabled\tWP Function",
@@ -9343,8 +9559,20 @@
             "contents": "wp_is_file_mod_allowed( ${1:\\$context} )${2:;}"
         },
         {
+            "trigger": "wp_is_home_url_using_https\tWP Function",
+            "contents": "wp_is_home_url_using_https()${1:;}"
+        },
+        {
+            "trigger": "wp_is_https_supported\tWP Function",
+            "contents": "wp_is_https_supported()${1:;}"
+        },
+        {
             "trigger": "wp_is_ini_value_changeable\tWP Function",
             "contents": "wp_is_ini_value_changeable( ${1:\\$setting} )${2:;}"
+        },
+        {
+            "trigger": "wp_is_json_media_type\tWP Function",
+            "contents": "wp_is_json_media_type( ${1:\\$media_type} )${2:;}"
         },
         {
             "trigger": "wp_is_json_request\tWP Function",
@@ -9357,6 +9585,10 @@
         {
             "trigger": "wp_is_large_network\tWP Function",
             "contents": "wp_is_large_network(${1: ${2:'${3:sites}'}${4:, ${5:null}} })${6:;}"
+        },
+        {
+            "trigger": "wp_is_local_html_output\tWP Function",
+            "contents": "wp_is_local_html_output( ${1:\\$html} )${2:;}"
         },
         {
             "trigger": "wp_is_maintenance_mode\tWP Function",
@@ -9387,8 +9619,20 @@
             "contents": "wp_is_site_initialized( ${1:\\$site_id} )${2:;}"
         },
         {
+            "trigger": "wp_is_site_protected_by_basic_auth\tWP Function",
+            "contents": "wp_is_site_protected_by_basic_auth(${1: ${2:'${3:}'} })${4:;}"
+        },
+        {
+            "trigger": "wp_is_site_url_using_https\tWP Function",
+            "contents": "wp_is_site_url_using_https()${1:;}"
+        },
+        {
             "trigger": "wp_is_stream\tWP Function",
             "contents": "wp_is_stream( ${1:\\$path} )${2:;}"
+        },
+        {
+            "trigger": "wp_is_using_https\tWP Function",
+            "contents": "wp_is_using_https()${1:;}"
         },
         {
             "trigger": "wp_is_uuid\tWP Function",
@@ -9847,10 +10091,6 @@
             "contents": "wp_next_scheduled( ${1:\\$hook}${2:, ${3:array( ${4:'${5:}'} )}} )${6:;}"
         },
         {
-            "trigger": "wp_no_robots\tWP Function",
-            "contents": "wp_no_robots();"
-        },
-        {
             "trigger": "wp_nonce_ays\tWP Function",
             "contents": "wp_nonce_ays( ${1:\\$action} );"
         },
@@ -10007,6 +10247,10 @@
             "contents": "wp_popular_terms_checklist( ${1:\\$taxonomy}, ${2:\\$default}${3:, ${4:10}${5:, ${6:true}}} )${7:;}"
         },
         {
+            "trigger": "wp_populate_basic_auth_from_authorization_header\tWP Function",
+            "contents": "wp_populate_basic_auth_from_authorization_header();"
+        },
+        {
             "trigger": "wp_post_mime_type_where\tWP Function",
             "contents": "wp_post_mime_type_where( ${1:\\$post_mime_types}${2:, ${3:'${4:}'}} )${5:;}"
         },
@@ -10075,6 +10319,10 @@
             "contents": "wp_print_head_scripts()${1:;}"
         },
         {
+            "trigger": "wp_print_inline_script_tag\tWP Function",
+            "contents": "wp_print_inline_script_tag( ${1:\\$javascript}${2:, ${3:array( ${4:'${5:}'} )}} );"
+        },
+        {
             "trigger": "wp_print_media_templates\tWP Function",
             "contents": "wp_print_media_templates();"
         },
@@ -10089,6 +10337,10 @@
         {
             "trigger": "wp_print_revision_templates\tWP Function",
             "contents": "wp_print_revision_templates();"
+        },
+        {
+            "trigger": "wp_print_script_tag\tWP Function",
+            "contents": "wp_print_script_tag( ${1:\\$attributes} );"
         },
         {
             "trigger": "wp_print_scripts\tWP Function",
@@ -10223,12 +10475,24 @@
             "contents": "wp_register(${1: ${2:'${3:<li>}'}${4:, ${5:'${6:<\/li>}'}${7:, ${8:true}}} })${9:;}"
         },
         {
+            "trigger": "wp_register_alignment_support\tWP Function",
+            "contents": "wp_register_alignment_support( ${1:\\$block_type} );"
+        },
+        {
+            "trigger": "wp_register_colors_support\tWP Function",
+            "contents": "wp_register_colors_support( ${1:\\$block_type} );"
+        },
+        {
             "trigger": "wp_register_comment_personal_data_eraser\tWP Function",
             "contents": "wp_register_comment_personal_data_eraser( ${1:\\$erasers} )${2:;}"
         },
         {
             "trigger": "wp_register_comment_personal_data_exporter\tWP Function",
             "contents": "wp_register_comment_personal_data_exporter( ${1:\\$exporters} )${2:;}"
+        },
+        {
+            "trigger": "wp_register_custom_classname_support\tWP Function",
+            "contents": "wp_register_custom_classname_support( ${1:\\$block_type} );"
         },
         {
             "trigger": "wp_register_fatal_error_handler\tWP Function",
@@ -10261,6 +10525,10 @@
         {
             "trigger": "wp_register_tinymce_scripts\tWP Function",
             "contents": "wp_register_tinymce_scripts( ${1:\\$scripts}${2:, ${3:false}} );"
+        },
+        {
+            "trigger": "wp_register_typography_support\tWP Function",
+            "contents": "wp_register_typography_support( ${1:\\$block_type} );"
         },
         {
             "trigger": "wp_register_user_personal_data_exporter\tWP Function",
@@ -10355,8 +10623,12 @@
             "contents": "wp_replace_in_html_tags( ${1:\\$haystack}, ${2:\\$replace_pairs} )${3:;}"
         },
         {
+            "trigger": "wp_replace_insecure_home_url\tWP Function",
+            "contents": "wp_replace_insecure_home_url( ${1:\\$content} )${2:;}"
+        },
+        {
             "trigger": "wp_reschedule_event\tWP Function",
-            "contents": "wp_reschedule_event( ${1:\\$timestamp}, ${2:\\$recurrence}, ${3:\\$hook}${4:, ${5:array( ${6:'${7:}'} )}} )${8:;}"
+            "contents": "wp_reschedule_event( ${1:\\$timestamp}, ${2:\\$recurrence}, ${3:\\$hook}${4:, ${5:array( ${6:'${7:}'} )}${8:, ${9:false}}} )${10:;}"
         },
         {
             "trigger": "wp_reset_postdata\tWP Function",
@@ -10373,6 +10645,10 @@
         {
             "trigger": "wp_resolve_numeric_slug_conflicts\tWP Function",
             "contents": "wp_resolve_numeric_slug_conflicts(${1: ${2:array( ${3:'${4:}'} )} })${5:;}"
+        },
+        {
+            "trigger": "wp_resolve_post_date\tWP Function",
+            "contents": "wp_resolve_post_date(${1: ${2:'${3:}'}${4:, ${5:'${6:}'}} })${7:;}"
         },
         {
             "trigger": "wp_resource_hints\tWP Function",
@@ -10397,6 +10673,34 @@
         {
             "trigger": "wp_revoke_user\tWP Function",
             "contents": "wp_revoke_user( ${1:\\$id} );"
+        },
+        {
+            "trigger": "wp_robots\tWP Function",
+            "contents": "wp_robots();"
+        },
+        {
+            "trigger": "wp_robots_max_image_preview_large\tWP Function",
+            "contents": "wp_robots_max_image_preview_large( ${1:\\$robots} )${2:;}"
+        },
+        {
+            "trigger": "wp_robots_no_robots\tWP Function",
+            "contents": "wp_robots_no_robots( ${1:\\$robots} )${2:;}"
+        },
+        {
+            "trigger": "wp_robots_noindex\tWP Function",
+            "contents": "wp_robots_noindex( ${1:\\$robots} )${2:;}"
+        },
+        {
+            "trigger": "wp_robots_noindex_embeds\tWP Function",
+            "contents": "wp_robots_noindex_embeds( ${1:\\$robots} )${2:;}"
+        },
+        {
+            "trigger": "wp_robots_noindex_search\tWP Function",
+            "contents": "wp_robots_noindex_search( ${1:\\$robots} )${2:;}"
+        },
+        {
+            "trigger": "wp_robots_sensitive_page\tWP Function",
+            "contents": "wp_robots_sensitive_page( ${1:\\$robots} )${2:;}"
         },
         {
             "trigger": "wp_roles\tWP Function",
@@ -10431,6 +10735,10 @@
             "contents": "wp_sanitize_redirect( ${1:\\$location} )${2:;}"
         },
         {
+            "trigger": "wp_sanitize_script_attributes\tWP Function",
+            "contents": "wp_sanitize_script_attributes( ${1:\\$attributes} )${2:;}"
+        },
+        {
             "trigger": "wp_save_image\tWP Function",
             "contents": "wp_save_image( ${1:\\$post_id} )${2:;}"
         },
@@ -10452,11 +10760,15 @@
         },
         {
             "trigger": "wp_schedule_event\tWP Function",
-            "contents": "wp_schedule_event( ${1:\\$timestamp}, ${2:\\$recurrence}, ${3:\\$hook}${4:, ${5:array( ${6:'${7:}'} )}} )${8:;}"
+            "contents": "wp_schedule_event( ${1:\\$timestamp}, ${2:\\$recurrence}, ${3:\\$hook}${4:, ${5:array( ${6:'${7:}'} )}${8:, ${9:false}}} )${10:;}"
+        },
+        {
+            "trigger": "wp_schedule_https_detection\tWP Function",
+            "contents": "wp_schedule_https_detection();"
         },
         {
             "trigger": "wp_schedule_single_event\tWP Function",
-            "contents": "wp_schedule_single_event( ${1:\\$timestamp}, ${2:\\$hook}${3:, ${4:array( ${5:'${6:}'} )}} )${7:;}"
+            "contents": "wp_schedule_single_event( ${1:\\$timestamp}, ${2:\\$hook}${3:, ${4:array( ${5:'${6:}'} )}${7:, ${8:false}}} )${9:;}"
         },
         {
             "trigger": "wp_schedule_update_checks\tWP Function",
@@ -10488,15 +10800,15 @@
         },
         {
             "trigger": "wp_send_json\tWP Function",
-            "contents": "wp_send_json( ${1:\\$response}${2:, ${3:null}} );"
+            "contents": "wp_send_json( ${1:\\$response}${2:, ${3:null}${4:, ${5:\\$options}}} );"
         },
         {
             "trigger": "wp_send_json_error\tWP Function",
-            "contents": "wp_send_json_error(${1: ${2:null}${3:, ${4:null}} });"
+            "contents": "wp_send_json_error(${1: ${2:null}${3:, ${4:null}${5:, ${6:\\$options}}} });"
         },
         {
             "trigger": "wp_send_json_success\tWP Function",
-            "contents": "wp_send_json_success(${1: ${2:null}${3:, ${4:null}} });"
+            "contents": "wp_send_json_success(${1: ${2:null}${3:, ${4:null}${5:, ${6:\\$options}}} });"
         },
         {
             "trigger": "wp_send_new_user_notifications\tWP Function",
@@ -10505,10 +10817,6 @@
         {
             "trigger": "wp_send_user_request\tWP Function",
             "contents": "wp_send_user_request( ${1:\\$request_id} )${2:;}"
-        },
-        {
-            "trigger": "wp_sensitive_page_meta\tWP Function",
-            "contents": "wp_sensitive_page_meta();"
         },
         {
             "trigger": "wp_set_all_user_settings\tWP Function",
@@ -10595,6 +10903,14 @@
             "contents": "wp_shortlink_wp_head();"
         },
         {
+            "trigger": "wp_should_load_block_editor_scripts_and_styles\tWP Function",
+            "contents": "wp_should_load_block_editor_scripts_and_styles()${1:;}"
+        },
+        {
+            "trigger": "wp_should_replace_insecure_home_url\tWP Function",
+            "contents": "wp_should_replace_insecure_home_url()${1:;}"
+        },
+        {
             "trigger": "wp_should_upgrade_global_tables\tWP Function",
             "contents": "wp_should_upgrade_global_tables()${1:;}"
         },
@@ -10643,10 +10959,6 @@
             "contents": "wp_slash( ${1:\\$value} )${2:;}"
         },
         {
-            "trigger": "wp_slash_strings_only\tWP Function",
-            "contents": "wp_slash_strings_only( ${1:\\$value} )${2:;}"
-        },
-        {
             "trigger": "wp_spaces_regexp\tWP Function",
             "contents": "wp_spaces_regexp()${1:;}"
         },
@@ -10693,6 +11005,10 @@
         {
             "trigger": "wp_stream_image\tWP Function",
             "contents": "wp_stream_image( ${1:\\$image}, ${2:\\$mime_type}, ${3:\\$attachment_id} )${4:;}"
+        },
+        {
+            "trigger": "wp_strict_cross_origin_referrer\tWP Function",
+            "contents": "wp_strict_cross_origin_referrer();"
         },
         {
             "trigger": "wp_strip_all_tags\tWP Function",
@@ -10876,11 +11192,11 @@
         },
         {
             "trigger": "wp_unschedule_event\tWP Function",
-            "contents": "wp_unschedule_event( ${1:\\$timestamp}, ${2:\\$hook}${3:, ${4:array( ${5:'${6:}'} )}} )${7:;}"
+            "contents": "wp_unschedule_event( ${1:\\$timestamp}, ${2:\\$hook}${3:, ${4:array( ${5:'${6:}'} )}${7:, ${8:false}}} )${9:;}"
         },
         {
             "trigger": "wp_unschedule_hook\tWP Function",
-            "contents": "wp_unschedule_hook( ${1:\\$hook} )${2:;}"
+            "contents": "wp_unschedule_hook( ${1:\\$hook}${2:, ${3:false}} )${4:;}"
         },
         {
             "trigger": "wp_unslash\tWP Function",
@@ -10901,6 +11217,10 @@
         {
             "trigger": "wp_untrash_post_comments\tWP Function",
             "contents": "wp_untrash_post_comments(${1: ${2:null} })${3:;}"
+        },
+        {
+            "trigger": "wp_untrash_post_set_previous_status\tWP Function",
+            "contents": "wp_untrash_post_set_previous_status( ${1:\\$new_status}, ${2:\\$post_id}, ${3:\\$previous_status} )${4:;}"
         },
         {
             "trigger": "wp_update_attachment_metadata\tWP Function",
@@ -10929,6 +11249,14 @@
         {
             "trigger": "wp_update_custom_css_post\tWP Function",
             "contents": "wp_update_custom_css_post( ${1:\\$css}${2:, ${3:array( ${4:'${5:}'} )}} )${6:;}"
+        },
+        {
+            "trigger": "wp_update_https_detection_errors\tWP Function",
+            "contents": "wp_update_https_detection_errors();"
+        },
+        {
+            "trigger": "wp_update_https_migration_required\tWP Function",
+            "contents": "wp_update_https_migration_required( ${1:\\$old_url}, ${2:\\$new_url} );"
         },
         {
             "trigger": "wp_update_image_subsizes\tWP Function",
@@ -10968,7 +11296,7 @@
         },
         {
             "trigger": "wp_update_post\tWP Function",
-            "contents": "wp_update_post(${1: ${2:array( ${3:'${4:}'} )}${5:, ${6:false}} })${7:;}"
+            "contents": "wp_update_post(${1: ${2:array( ${3:'${4:}'} )}${5:, ${6:false}${7:, ${8:true}}} })${9:;}"
         },
         {
             "trigger": "wp_update_site\tWP Function",
@@ -10989,6 +11317,10 @@
         {
             "trigger": "wp_update_themes\tWP Function",
             "contents": "wp_update_themes(${1: ${2:array( ${3:'${4:}'} )} });"
+        },
+        {
+            "trigger": "wp_update_urls_to_https\tWP Function",
+            "contents": "wp_update_urls_to_https()${1:;}"
         },
         {
             "trigger": "wp_update_user\tWP Function",
@@ -11025,6 +11357,10 @@
         {
             "trigger": "wp_using_themes\tWP Function",
             "contents": "wp_using_themes()${1:;}"
+        },
+        {
+            "trigger": "wp_validate_application_password\tWP Function",
+            "contents": "wp_validate_application_password( ${1:\\$input_user} )${2:;}"
         },
         {
             "trigger": "wp_validate_auth_cookie\tWP Function",
@@ -11133,6 +11469,10 @@
         {
             "trigger": "wpmu_log_new_registrations\tWP Function",
             "contents": "wpmu_log_new_registrations( ${1:\\$blog_id}, ${2:\\$user_id} );"
+        },
+        {
+            "trigger": "wpmu_new_site_admin_notification\tWP Function",
+            "contents": "wpmu_new_site_admin_notification( ${1:\\$site_id}, ${2:\\$user_id} )${3:;}"
         },
         {
             "trigger": "wpmu_signup_blog\tWP Function",

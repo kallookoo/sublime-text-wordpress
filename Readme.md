@@ -2,17 +2,15 @@
 
 Is a collection of the completions and some snippets for Sublime Text
 
-**It will no longer be updated. If someone wants to keep updating it, contact me.**
-
 ### Completions List
 
 | Type         | Completions |
 | ------------ | ----------- |
-| Functions    | **2816**    |
-| Actions      | **665**     |
-| Filters      | **1596**    |
-| Classes      | **398**     |
-| Methods      | **3638**    |
+| Functions    | **2901**    |
+| Actions      | **684**     |
+| Filters      | **1640**    |
+| Classes      | **404**     |
+| Methods      | **3705**    |
 | Constants    | **527**     |
 | Capabilities | **125**     |
 

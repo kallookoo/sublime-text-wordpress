@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "398 WordPress - Classes",
+    "comment": "404 WordPress - Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\tWP Class Name",
@@ -755,6 +755,14 @@
             "contents": "WP_Ajax_Upgrader_Skin"
         },
         {
+            "trigger": "WP_Application_Passwords\tWP Class Name",
+            "contents": "WP_Application_Passwords"
+        },
+        {
+            "trigger": "WP_Application_Passwords_List_Table\tWP Class Name",
+            "contents": "WP_Application_Passwords_List_Table"
+        },
+        {
             "trigger": "WP_Automatic_Updater\tWP Class Name",
             "contents": "WP_Automatic_Updater"
         },
@@ -789,6 +797,10 @@
         {
             "trigger": "WP_Block_Styles_Registry\tWP Class Name",
             "contents": "WP_Block_Styles_Registry"
+        },
+        {
+            "trigger": "WP_Block_Supports\tWP Class Name",
+            "contents": "WP_Block_Supports"
         },
         {
             "trigger": "WP_Block_Type\tWP Class Name",
@@ -989,10 +1001,6 @@
         {
             "trigger": "WP_Fatal_Error_Handler\tWP Class Name",
             "contents": "WP_Fatal_Error_Handler"
-        },
-        {
-            "trigger": "WP_Feed_Cache\tWP Class Name",
-            "contents": "WP_Feed_Cache"
         },
         {
             "trigger": "WP_Feed_Cache_Transient\tWP Class Name",
@@ -1223,6 +1231,10 @@
             "contents": "WP_Recovery_Mode_Link_Service"
         },
         {
+            "trigger": "WP_REST_Application_Passwords_Controller\tWP Class Name",
+            "contents": "WP_REST_Application_Passwords_Controller"
+        },
+        {
             "trigger": "WP_REST_Attachments_Controller\tWP Class Name",
             "contents": "WP_REST_Attachments_Controller"
         },
@@ -1265,6 +1277,10 @@
         {
             "trigger": "WP_REST_Plugins_Controller\tWP Class Name",
             "contents": "WP_REST_Plugins_Controller"
+        },
+        {
+            "trigger": "WP_REST_Post_Format_Search_Handler\tWP Class Name",
+            "contents": "WP_REST_Post_Format_Search_Handler"
         },
         {
             "trigger": "WP_REST_Post_Meta_Fields\tWP Class Name",
@@ -1315,12 +1331,20 @@
             "contents": "WP_REST_Settings_Controller"
         },
         {
+            "trigger": "WP_REST_Site_Health_Controller\tWP Class Name",
+            "contents": "WP_REST_Site_Health_Controller"
+        },
+        {
             "trigger": "WP_REST_Taxonomies_Controller\tWP Class Name",
             "contents": "WP_REST_Taxonomies_Controller"
         },
         {
             "trigger": "WP_REST_Term_Meta_Fields\tWP Class Name",
             "contents": "WP_REST_Term_Meta_Fields"
+        },
+        {
+            "trigger": "WP_REST_Term_Search_Handler\tWP Class Name",
+            "contents": "WP_REST_Term_Search_Handler"
         },
         {
             "trigger": "WP_REST_Terms_Controller\tWP Class Name",

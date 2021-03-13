@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "665 WordPress - Actions",
+    "comment": "684 WordPress - Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -495,6 +495,14 @@
             "contents": "adminmenu"
         },
         {
+            "trigger": "add_action-after_core_auto_updates_settings\tWP Action",
+            "contents": "add_action( 'after_core_auto_updates_settings', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "after_core_auto_updates_settings\tWP Action Name",
+            "contents": "after_core_auto_updates_settings"
+        },
+        {
             "trigger": "add_action-after_db_upgrade\tWP Action",
             "contents": "add_action( 'after_db_upgrade', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -617,6 +625,22 @@
         {
             "trigger": "all_admin_notices\tWP Action Name",
             "contents": "all_admin_notices"
+        },
+        {
+            "trigger": "add_action-application_password_did_authenticate\tWP Action",
+            "contents": "add_action( 'application_password_did_authenticate', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "application_password_did_authenticate\tWP Action Name",
+            "contents": "application_password_did_authenticate"
+        },
+        {
+            "trigger": "add_action-application_password_failed_authentication\tWP Action",
+            "contents": "add_action( 'application_password_failed_authentication', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "application_password_failed_authentication\tWP Action Name",
+            "contents": "application_password_failed_authentication"
         },
         {
             "trigger": "add_action-archive_blog\tWP Action",
@@ -1643,6 +1667,14 @@
             "contents": "deprecated_hook_run"
         },
         {
+            "trigger": "add_action-do_all_pings\tWP Action",
+            "contents": "add_action( 'do_all_pings', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "do_all_pings\tWP Action Name",
+            "contents": "do_all_pings"
+        },
+        {
             "trigger": "add_action-do_favicon\tWP Action",
             "contents": "add_action( 'do_favicon', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -2127,6 +2159,14 @@
             "contents": "invite_user"
         },
         {
+            "trigger": "add_action-is_wp_error_instance\tWP Action",
+            "contents": "add_action( 'is_wp_error_instance', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "is_wp_error_instance\tWP Action Name",
+            "contents": "is_wp_error_instance"
+        },
+        {
             "trigger": "add_action-load_textdomain\tWP Action",
             "contents": "add_action( 'load_textdomain', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -2351,6 +2391,14 @@
             "contents": "add_action( \"manage_${1:\\{${2:\\$post->post_type}\\}}_posts_custom_column\", ${3:\\$function_to_add}, ${4:10}, 2 );"
         },
         {
+            "trigger": "add_action-manage_{$this->screen->id}_custom_column\tWP Action",
+            "contents": "add_action( \"manage_${1:\\{${2:\\$this->screen->id}\\}}_custom_column\", ${3:\\$function_to_add}, ${4:10}, 2 );"
+        },
+        {
+            "trigger": "add_action-manage_{$this->screen->id}_custom_column_js_template\tWP Action",
+            "contents": "add_action( \"manage_${1:\\{${2:\\$this->screen->id}\\}}_custom_column_js_template\", ${3:\\$function_to_add}, ${4:10} );"
+        },
+        {
             "trigger": "add_action-manage_comments_custom_column\tWP Action",
             "contents": "add_action( 'manage_comments_custom_column', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
@@ -2360,7 +2408,7 @@
         },
         {
             "trigger": "add_action-manage_comments_nav\tWP Action",
-            "contents": "add_action( 'manage_comments_nav', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'manage_comments_nav', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "manage_comments_nav\tWP Action Name",
@@ -2569,6 +2617,14 @@
         {
             "trigger": "network_plugin_loaded\tWP Action Name",
             "contents": "network_plugin_loaded"
+        },
+        {
+            "trigger": "add_action-network_site_info_form\tWP Action",
+            "contents": "add_action( 'network_site_info_form', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "network_site_info_form\tWP Action Name",
+            "contents": "network_site_info_form"
         },
         {
             "trigger": "add_action-network_site_new_created_user\tWP Action",
@@ -3229,6 +3285,14 @@
         {
             "trigger": "add_action-rest_after_insert_{$this->taxonomy}\tWP Action",
             "contents": "add_action( \"rest_after_insert_${1:\\{${2:\\$this->taxonomy}\\}}\", ${3:\\$function_to_add}, ${4:10}, 3 );"
+        },
+        {
+            "trigger": "add_action-rest_after_insert_application_password\tWP Action",
+            "contents": "add_action( 'rest_after_insert_application_password', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "rest_after_insert_application_password\tWP Action Name",
+            "contents": "rest_after_insert_application_password"
         },
         {
             "trigger": "add_action-rest_after_insert_attachment\tWP Action",
@@ -3932,7 +3996,7 @@
         },
         {
             "trigger": "add_action-untrash_post\tWP Action",
-            "contents": "add_action( 'untrash_post', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'untrash_post', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "untrash_post\tWP Action Name",
@@ -3956,7 +4020,7 @@
         },
         {
             "trigger": "add_action-untrashed_post\tWP Action",
-            "contents": "add_action( 'untrashed_post', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'untrashed_post', ${1:\\$function_to_add}, ${2:10}, 2 );"
         },
         {
             "trigger": "untrashed_post\tWP Action Name",
@@ -4203,6 +4267,14 @@
             "contents": "wp_after_admin_bar_render"
         },
         {
+            "trigger": "add_action-wp_after_insert_post\tWP Action",
+            "contents": "add_action( 'wp_after_insert_post', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "wp_after_insert_post\tWP Action Name",
+            "contents": "wp_after_insert_post"
+        },
+        {
             "trigger": "add_action-wp_ajax_{$action}\tWP Action",
             "contents": "add_action( \"wp_ajax_${1:\\{${2:\\$action}\\}}\", ${3:\\$function_to_add}, ${4:10} );"
         },
@@ -4227,6 +4299,38 @@
             "contents": "wp_authenticate"
         },
         {
+            "trigger": "add_action-wp_authenticate_application_password_errors\tWP Action",
+            "contents": "add_action( 'wp_authenticate_application_password_errors', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "wp_authenticate_application_password_errors\tWP Action Name",
+            "contents": "wp_authenticate_application_password_errors"
+        },
+        {
+            "trigger": "add_action-wp_authorize_application_password_form\tWP Action",
+            "contents": "add_action( 'wp_authorize_application_password_form', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "wp_authorize_application_password_form\tWP Action Name",
+            "contents": "wp_authorize_application_password_form"
+        },
+        {
+            "trigger": "add_action-wp_authorize_application_password_form_approved_no_js\tWP Action",
+            "contents": "add_action( 'wp_authorize_application_password_form_approved_no_js', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_authorize_application_password_form_approved_no_js\tWP Action Name",
+            "contents": "wp_authorize_application_password_form_approved_no_js"
+        },
+        {
+            "trigger": "add_action-wp_authorize_application_password_request_errors\tWP Action",
+            "contents": "add_action( 'wp_authorize_application_password_request_errors', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_authorize_application_password_request_errors\tWP Action Name",
+            "contents": "wp_authorize_application_password_request_errors"
+        },
+        {
             "trigger": "add_action-wp_before_admin_bar_render\tWP Action",
             "contents": "add_action( 'wp_before_admin_bar_render', ${1:\\$function_to_add}, ${2:10} );"
         },
@@ -4249,6 +4353,22 @@
         {
             "trigger": "wp_check_comment_disallowed_list\tWP Action Name",
             "contents": "wp_check_comment_disallowed_list"
+        },
+        {
+            "trigger": "add_action-wp_create_application_password\tWP Action",
+            "contents": "add_action( 'wp_create_application_password', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "wp_create_application_password\tWP Action Name",
+            "contents": "wp_create_application_password"
+        },
+        {
+            "trigger": "add_action-wp_create_application_password_form\tWP Action",
+            "contents": "add_action( 'wp_create_application_password_form', ${1:\\$function_to_add}, ${2:10} );"
+        },
+        {
+            "trigger": "wp_create_application_password_form\tWP Action Name",
+            "contents": "wp_create_application_password_form"
         },
         {
             "trigger": "add_action-wp_create_file_in_uploads\tWP Action",
@@ -4297,6 +4417,14 @@
         {
             "trigger": "wp_default_styles\tWP Action Name",
             "contents": "wp_default_styles"
+        },
+        {
+            "trigger": "add_action-wp_delete_application_password\tWP Action",
+            "contents": "add_action( 'wp_delete_application_password', ${1:\\$function_to_add}, ${2:10}, 2 );"
+        },
+        {
+            "trigger": "wp_delete_application_password\tWP Action Name",
+            "contents": "wp_delete_application_password"
         },
         {
             "trigger": "add_action-wp_delete_nav_menu\tWP Action",
@@ -4361,6 +4489,14 @@
         {
             "trigger": "wp_enqueue_scripts\tWP Action Name",
             "contents": "wp_enqueue_scripts"
+        },
+        {
+            "trigger": "add_action-wp_error_added\tWP Action",
+            "contents": "add_action( 'wp_error_added', ${1:\\$function_to_add}, ${2:10}, 4 );"
+        },
+        {
+            "trigger": "wp_error_added\tWP Action Name",
+            "contents": "wp_error_added"
         },
         {
             "trigger": "add_action-wp_feed_options\tWP Action",
@@ -4643,6 +4779,14 @@
             "contents": "wp_unregister_sidebar_widget"
         },
         {
+            "trigger": "add_action-wp_update_application_password\tWP Action",
+            "contents": "add_action( 'wp_update_application_password', ${1:\\$function_to_add}, ${2:10}, 3 );"
+        },
+        {
+            "trigger": "wp_update_application_password\tWP Action Name",
+            "contents": "wp_update_application_password"
+        },
+        {
             "trigger": "add_action-wp_update_comment_count\tWP Action",
             "contents": "add_action( 'wp_update_comment_count', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
@@ -4828,7 +4972,7 @@
         },
         {
             "trigger": "add_action-xmlrpc_call\tWP Action",
-            "contents": "add_action( 'xmlrpc_call', ${1:\\$function_to_add}, ${2:10} );"
+            "contents": "add_action( 'xmlrpc_call', ${1:\\$function_to_add}, ${2:10}, 3 );"
         },
         {
             "trigger": "xmlrpc_call\tWP Action Name",
