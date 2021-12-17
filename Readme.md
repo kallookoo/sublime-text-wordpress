@@ -1,5 +1,7 @@
 ## WordPress Completions
 
+**It will no longer be updated. If someone wants to keep updating it, contact me.**
+
 Is a collection of the completions and some snippets for Sublime Text
 
 ### Completions List
